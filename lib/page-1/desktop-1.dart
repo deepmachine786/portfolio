@@ -406,7 +406,7 @@ class Scene extends StatelessWidget {
               // welcomeZAp (22:2)
               margin: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 5 * fem, 80 * fem),
               padding:
-                  EdgeInsets.fromLTRB(2 * fem, 71.5 * fem, 2 * fem, 71.5 * fem),
+                  EdgeInsets.fromLTRB(2 * fem, 90 * fem, 2 * fem, 71.5 * fem),
               width: double.infinity,
               decoration: BoxDecoration(
                 color: Color(0xffffffff),
@@ -419,14 +419,14 @@ class Scene extends StatelessWidget {
                     margin:
                         EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                     padding: EdgeInsets.fromLTRB(
-                        417.5 * fem, 40 * fem, 417.5 * fem, 3 * fem),
+                        50 * fem, 40 * fem, 50 * fem, 3 * fem),
                     width: double.infinity,
                     decoration: BoxDecoration(
                       color: Color(0xffffffff),
                     ),
                     child: Center(
                       child: Text(
-                        'Welcome to the',
+                        'Showcasing Shahid\'s Journey',  // visi google auto the apply those design in your portfolio..
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'Product Sans',
@@ -442,16 +442,16 @@ class Scene extends StatelessWidget {
                   Container(
                     // frame2Fhr (22:4)
                     padding: EdgeInsets.fromLTRB(
-                        234 * fem, 0 * fem, 234 * fem, 18 * fem),
+                        210 * fem, 0 * fem, 210 * fem, 50 * fem),
                     width: double.infinity,
-                    height: 90 * fem,
+                    height: 140 * fem,
                     decoration: BoxDecoration(
                       color: Color(0xffffffff),
                     ),
                     child: Center(
                       child: Text(
                         // 'Creating captivating digital experiences',
-                        'Building experiential digital journeys.',
+                        'A Student Portfolio of Passion and Growth',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'Product Sans',
