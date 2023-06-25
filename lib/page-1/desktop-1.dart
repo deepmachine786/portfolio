@@ -227,16 +227,18 @@ class Scene extends StatelessWidget {
                 children: [
                   Container(
                     margin:
-                        EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 1 * fem),
-                    height: 40 * fem,
-                    width: 20 * fem,
+                        EdgeInsets.fromLTRB(3 * fem, 0 * fem, 0 * fem, 0 * fem),
+                    padding: EdgeInsets.fromLTRB(
+                        5 * fem, 11 * fem, 0 * fem, 0 * fem),
+                    height: 49 * fem,
+                    width: 19 * fem,
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(90 * fem),
-                      // child: Image.asset(
-                      // 'assets/page-1/images/icon.png',
-                      // 'assets/page-1/images/favicon.png',
-                      // fit: BoxFit.cover,
-                      // ),
+                      borderRadius: BorderRadius.circular(80 * fem),
+                      child: Image.asset(
+                        'assets/page-1/images/p_logos.png',
+                        // 'assets/page-1/images/favicon.png',
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
 
@@ -252,7 +254,7 @@ class Scene extends StatelessWidget {
                       children: [
                         Container(
                           child: Text(
-                            'Portfolio',
+                            'ortfolio',
                             style: TextStyle(
                               fontFamily: 'Product Sans',
                               fontSize: 27 * ffem,
@@ -521,29 +523,40 @@ class Scene extends StatelessWidget {
                         // ), // this container for Button ...
                         Container(
                           margin: EdgeInsets.fromLTRB(
-                              350 * fem, 20 * fem, 300 * fem, 0 * fem),
+                              350 * fem, 40 * fem, 300 * fem, 0 * fem),
                           child: InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              launch("https://linkedin.com/in/mdshahidali");
+                            },
                             borderRadius: BorderRadius.circular(
                                 20.0), // Adjust the value to change the shape
                             child: Container(
-                              height:40,
-                              width:130,
+                              height: 48,
+                              width: 130,
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.black),
                                 borderRadius: BorderRadius.circular(
                                     20.0), // Adjust the value to change the shape
                               ),
                               padding: EdgeInsets.all(10.0),
-                              child: Center(child: const Text(
-                                "Know more",
-                                style: TextStyle(
-                                  color: Colors.black,
+                              child: Center(
+                                child: const Text(
+                                  "Know more",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontFamily: 'Product Sans',
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w500,
+                                    height: 1.2,
+                                    letterSpacing: 0.5,
+                                  ),
                                 ),
-                              ),),
+                              ),
                             ),
                             hoverColor: Colors.black,
-                            onHover: (value) {},
+                            onHover: (value) {
+                              Colors.orange;
+                            },
                             splashColor: Colors.transparent,
                           ),
                         ),
@@ -610,9 +623,9 @@ class Scene extends StatelessWidget {
                   Container(
                     // textabout8QG (39:44)
                     margin: EdgeInsets.fromLTRB(
-                        460.5 * fem, 0 * fem, 453.5 * fem, 156 * fem),
-                    padding: EdgeInsets.fromLTRB(
-                        32.5 * fem, 4 * fem, 32.5 * fem, 4 * fem),
+                        240.5 * fem, 0 * fem, 203.5 * fem, 156 * fem),
+                    // padding: EdgeInsets.fromLTRB(
+                    //     0.5 * fem, 4 * fem, 50 * fem, 4 * fem),
                     width: double.infinity,
                     height: 59 * fem,
                     child: SizedBox(
@@ -622,7 +635,7 @@ class Scene extends StatelessWidget {
                       child: Center(
                         child: Center(
                           child: Text(
-                            'Learn About Who am I.',
+                            'Discover more about me, as I am a student.',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontFamily: 'Product Sans',
@@ -659,6 +672,9 @@ class Scene extends StatelessWidget {
                                 topRight: Radius.circular(80 * fem),
                                 bottomRight: Radius.circular(80 * fem),
                               ),
+                            ),
+                            child: Text(
+                              "", // add the customize logo ...
                             ),
                           ),
                         ),
@@ -727,7 +743,7 @@ class Scene extends StatelessWidget {
                                             margin: EdgeInsets.fromLTRB(0 * fem,
                                                 0 * fem, 0 * fem, 10 * fem),
                                             child: Text(
-                                              ' About Us',
+                                              ' About Me',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
                                                 fontSize: 15 * ffem,
