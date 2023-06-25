@@ -523,7 +523,7 @@ class Scene extends StatelessWidget {
                         // ), // this container for Button ...
                         Container(
                           margin: EdgeInsets.fromLTRB(
-                              350 * fem, 40 * fem, 300 * fem, 0 * fem),
+                              350 * fem, 40 * fem, 315 * fem, 0 * fem),
                           child: InkWell(
                             onTap: () {
                               launch("https://linkedin.com/in/mdshahidali");
@@ -850,6 +850,10 @@ class Scene extends StatelessWidget {
                                           ),
                                         ),
                                       ),
+
+                                      /**
+                                       * Here use use the customize logo  to show full education details by using margin ...
+                                       */
                                     ],
                                   ),
                                 ),
