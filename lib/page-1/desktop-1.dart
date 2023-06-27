@@ -6,192 +6,40 @@ import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-final List<LayoutBuilder> getTheContainer = [
-  // Container(
-  //   child: Row(
-  //     /**
-  //      * Here Is use for the image of the container ...
-  //      */
-  //     children:[
-  //       Container(
-  //         margin : EdgeInsets.fromLTRB(0, 0,0,0),
-
-  //       child: ClipRRect(
-  //         borderRadius: BorderRadius.circular(90.0),
-  //         child: Image.asset("assets/page-1/images/whatsapp.png", fit: BoxFit.contain,
-  //         height: 180,
-  //         width: 180,),
-  //       ),),
-
-  //       /**
-  //        * Here is use for text of the experience ...
-  //        */
-  //       Container(
-  //         margin:const  EdgeInsets.fromLTRB(0, 0, 0,0),
-  //         child: Row(
-  //           children: const [
-  //             Text(
-  //               'I have Experience in Software Engineer Intern at CodeClause.',
-  //               textAlign: TextAlign.center,
-  //               style: TextStyle(
-  //                 fontSize: 20,
-  //                 fontWeight: FontWeight.w500,
-  //                 letterSpacing: 0.25,
-  //                 fontFamily: 'Product Sans',
-  //               ),
-
-  //             )
-  //           ],
-  //         ),
-  //       ),
-  //     ],
-  //   ),
-
-  // ), // change the container for the first experience ...
-  // Container(),
-  LayoutBuilder(
-    builder: (BuildContext, BoxConstraints) {
-      if (BoxConstraints.maxWidth < 500) {
-        return const Column();
-      } else if (BoxConstraints.maxWidth > 500 &&
-          BoxConstraints.maxWidth < 900) {
-        return Container(
-          decoration: BoxDecoration(
-            border: Border.all(
-              color: Colors.black,
-            ),
-          ),
-          height: 400,
-          width: MediaQuery.of(BuildContext).size.width,
-          child: Row(children: [
-            FittedBox(
-              child: Container(
-                margin: const EdgeInsets.fromLTRB(20, 0, 0,
-                    0), // chnage the position from the first container ...
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    color: Colors.black,
-                  ),
-                ),
-                height: 400,
-                width: 250,
-                child: Center(
-                  child: ClipRRect(
-                      borderRadius: BorderRadius.circular(90.0),
-                      child: Image.asset(
-                        "assets/page-1/images/gyujbgvems0qhq34sjn7ykhjs8rbertrcja8lhf9gtnc5brd0ac23ietapklcfujkgphmma7icyubsqrlxbvh2jlhw2opyk2f-fctbvd1ytmctad898bw252-rw-e365-v1.png",
-                        fit: BoxFit.cover,
-                      )),
-                ),
-              ),
-            ), // this container for image ...
-
-            const SizedBox(width: 20), // this is for Space ....
-
-            FittedBox(
-              child: Container(
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    color: Colors.black,
-                  ),
-                ),
-                height: 400,
-                // because 20 are used in size box space so...
-                // width: 600,
-                width: MediaQuery.of(BuildContext).size.width - 600,
-                child: Column(children: [
-                  FittedBox(
-                    child: Container(
-                      // height: 500,
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.black,
-                        ),
-                      ),
-                      // width: 500,
-                      // width: MediaQuery.of(BuildContext).size.width,
-
-                      child: const AutoSizeText(
-                        'Hello My name is Md Shahid Ali',
-                        style: TextStyle(
-                          fontFamily: 'Product Sans',
-                          fontSize: 30,
-                          height: 1.5,
-                          letterSpacing: 0.25,
-                        ),
-                        maxLines: 1,
-                        minFontSize: 15,
-                        maxFontSize: 35,
-                        // minFontSize: 12,
-                      ),
-                    ),
-                  ), // this is for actual text ....
-                  const SizedBox(
-                      height:
-                          20), // this is for Space between text and height...
-                  Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.black,
-                        ),
-                      ),
-                      // width : 600,
-                      child: Column(
-                        children: [
-                          const AutoSizeText(
-                            'CodeClause\n\nSoftware Engineer Intern',
-                            style: TextStyle(
-                              fontFamily: 'Product Sans',
-                              fontSize: 10,
-                              height: 1,
-                              letterSpacing: 0.25,
-                              color: Colors.black38,
-                            ),
-                            minFontSize: 5,
-                          ),
-                          const SizedBox(
-                            height: 10,
-                          ),
-                          Container(
-                            height: 50,
-                            width: 150,
-                            decoration: BoxDecoration(
-                              // shape: BoxShape.rectangle,
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(60.0),
-                            ),
-                            child: const Center(
-                              child: AutoSizeText(
-                                'Read More.',
-                                style: TextStyle(
-                                  fontFamily: 'Product Sans',
-                                  fontSize: 15,
-                                  height: 1,
-                                  letterSpacing: 0.25,
-                                  color: Colors.blue,
-                                ),
-                              ),
-                            ), // center th text in the containe ..
-                          ),
-                        ],
-                      )),
-                ]),
-              ),
-            ),
-
-            // this container for text ..
-          ]),
-        );
-      } else {
-        return Container();
-      }
-    },
-  ), // change the container for the second experience ....
+// change the container for the second experience ..
+final urlImages = [
+  "assets/page-1/images/githubprofileimages-1.jpg",
+  "assets/page-1/images/githubprofileimages-3.png",
+  "assets/page-1/images/Md_Shahid_Style.png"
 ];
 
-List<Widget> gettheList() {
-  return getTheContainer.map((element) => element).toList();
-}
+final lpuImages = [
+  "assets/page-1/images/githubprofileimages-2.png",
+  "assets/page-1/images/lpu_logo1.jpeg",
+  "assets/page-1/images/lpu_logo_2.jpeg",
+  "assets/page-1/images/lpu_logo_3.jpeg",
+  "assets/page-1/images/lpu_logo_4.jpeg",
+  "assets/page-1/images/lpu_logo_5.jpeg",
+  "assets/page-1/images/lpu_logo_6.jpeg"
+];
+
+Widget buildImage(String urlImage, int index) => Container(
+        // margin: EdgeInsets.symmetric(horizontal: 12),
+        child: ClipRRect(
+      borderRadius: BorderRadius.circular(100),
+      child: Image.asset(
+        urlImage,
+        fit: BoxFit.cover,
+      ),
+    ));
+
+Widget buildlpuImage(String lpuImage, int index) => Container(
+    child: ClipRRect(
+        borderRadius: BorderRadius.circular(200),
+        child: Image.asset(
+          lpuImage,
+          fit: BoxFit.cover,
+        )));
 
 class Scene extends StatelessWidget {
   const Scene({super.key});
@@ -499,7 +347,7 @@ class Scene extends StatelessWidget {
                       children: [
                         Container(
                             margin: EdgeInsets.fromLTRB(
-                                100 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                60 * fem, 0 * fem, 0 * fem, 0 * fem),
                             child: Image.asset(
                               "assets/page-1/images/first_port_1.png",
                               height: 200,
@@ -523,7 +371,7 @@ class Scene extends StatelessWidget {
                         // ), // this container for Button ...
                         Container(
                           margin: EdgeInsets.fromLTRB(
-                              350 * fem, 40 * fem, 315 * fem, 0 * fem),
+                              370 * fem, 40 * fem, 310 * fem, 0 * fem),
                           child: InkWell(
                             onTap: () {
                               launch("https://linkedin.com/in/mdshahidali");
@@ -790,19 +638,33 @@ class Scene extends StatelessWidget {
                                   // githubprofileimages3hJG (100:3)
                                   margin: EdgeInsets.fromLTRB(
                                       0 * fem, 0 * fem, 0 * fem, 64 * fem),
-                                  width: 279 * fem,
+                                  width: 270 * fem,
                                   height: 496 * fem,
-                                  child: ClipRRect(
-                                    borderRadius:
-                                        BorderRadius.circular(90 * fem),
-                                    child: Image.asset(
-                                      'assets/page-1/images/githubprofileimages-3.png',
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
+                                  // child: ClipRRect(
+                                  //   borderRadius:
+                                  //       BorderRadius.circular(90 * fem),
+                                  //   child: Image.asset(
+                                  //     'assets/page-1/images/githubprofileimages-3.png',
+                                  //     fit: BoxFit.cover,
+                                  //   ),
+                                  // ),
+                                  child: CarouselSlider.builder(
+                                      itemCount: urlImages.length,
+                                      itemBuilder: (context, index, realindex) {
+                                        final urlImage = urlImages[index];
+                                        return buildImage(urlImage, index);
+                                      },
+                                      options: CarouselOptions(
+                                        height: 496 * fem,
+                                        autoPlay: true,
+                                        viewportFraction: 1,
+                                        autoPlayInterval:
+                                            const Duration(seconds: 6),
+                                        // autoPlayAnimationDuration: const Duration(seconds: 1),
+                                      )),
                                 ),
                                 SizedBox(
-                                  // autogroupyxmjoMJ (6kyR9b2NYLppSAFNmMYXMJ)
+                                  // autogroupyxmjoMJ (6kyR9b2NYLppSAFNmMYXMJ)flutter
                                   width: double.infinity,
                                   child: Row(
                                     crossAxisAlignment:
@@ -814,14 +676,30 @@ class Scene extends StatelessWidget {
                                             0 * fem, 37 * fem, 0 * fem),
                                         width: 250 * fem,
                                         height: 250 * fem,
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(100 * fem),
-                                          child: Image.asset(
-                                            'assets/page-1/images/githubprofileimages-2.png',
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
+                                        child: CarouselSlider.builder(
+                                            itemCount: lpuImages.length,
+                                            itemBuilder:
+                                                (context, index, realindex) {
+                                              final urlImage = lpuImages[index];
+                                              return buildlpuImage(
+                                                  urlImage, index);
+                                            },
+                                            options: CarouselOptions(
+                                              height: 250 * fem,
+                                              autoPlay: true,
+                                              viewportFraction: 1,
+                                              autoPlayInterval:
+                                                  const Duration(seconds: 5),
+                                              // autoPlayAnimationDuration: const Duration(seconds: 1),
+                                            )),
+                                        // child: ClipRRect(
+                                        //   borderRadius:
+                                        //       BorderRadius.circular(100 * fem),
+                                        //   child: Image.asset(
+                                        //     'assets/page-1/images/githubprofileimages-2.png',
+                                        //     fit: BoxFit.cover,
+                                        //   ),
+                                        // ),
                                       ),
                                       // Container(
                                       //   // githubprofileimages1qYt (97:5)
@@ -841,14 +719,22 @@ class Scene extends StatelessWidget {
                                             10 * fem, 0 * fem, 0 * fem),
                                         width: 279 * fem,
                                         height: 496 * fem,
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(90 * fem),
-                                          child: Image.asset(
-                                            'assets/page-1/images/githubprofileimages-1.jpg',
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
+                                        child: CarouselSlider.builder(
+                                            itemCount: urlImages.length,
+                                            itemBuilder:
+                                                (context, index, realindex) {
+                                              final urlImage = urlImages[index];
+                                              return buildImage(
+                                                  urlImage, index);
+                                            },
+                                            options: CarouselOptions(
+                                              height: 496 * fem,
+                                              autoPlay: true,
+                                              viewportFraction: 1,
+                                              autoPlayInterval:
+                                                  const Duration(seconds: 4),
+                                              // autoPlayAnimationDuration: const Duration(seconds: 1),
+                                            )),
                                       ),
 
                                       /**
@@ -2378,26 +2264,28 @@ class Scene extends StatelessWidget {
 
             Center(
               child: Container(
-                  height: 500 * fem,
-                  width: 1000 * fem,
+                height: 500 * fem,
+                width: 1000 * fem,
 
-                  // color: Colors.blue,
-                  decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 248, 248, 249),
-                      // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
-                      borderRadius: BorderRadius.circular(65 * fem)),
+                // color: Colors.blue,
+                decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 248, 248, 249),
+                    // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
+                    borderRadius: BorderRadius.circular(65 * fem)),
 
-                  // Here We use the slider and call the function who made in upper ...
-                  child: CarouselSlider(
-                      items: gettheList(),
-                      options: CarouselOptions(
-                        aspectRatio: 18 / 8,
-                        autoPlay: false,
-                        autoPlayAnimationDuration: const Duration(seconds: 30),
-                        autoPlayCurve: Curves.fastOutSlowIn,
-                        enlargeCenterPage: true,
-                        viewportFraction: 1,
-                      ))),
+                // Here We use the slider and call the function who made in upper ...
+                // child: CarouselSlider(
+                //     // items: gettheList(),
+                //     items:[1,2,3,4,5].map((e) => e),
+                //     options: CarouselOptions(
+                //       aspectRatio: 18 / 8,
+                //       autoPlay: false,
+                //       autoPlayAnimationDuration: const Duration(seconds: 30),
+                //       autoPlayCurve: Curves.fastOutSlowIn,
+                //       enlargeCenterPage: true,
+                //       viewportFraction: 1,
+                //     ))),
+              ),
             ),
             /**
              * 
