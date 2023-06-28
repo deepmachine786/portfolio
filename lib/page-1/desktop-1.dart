@@ -471,7 +471,7 @@ class Scene extends StatelessWidget {
                   Container(
                     // textabout8QG (39:44)
                     margin: EdgeInsets.fromLTRB(
-                        240.5 * fem, 0 * fem, 203.5 * fem, 156 * fem),
+                        203.5 * fem, 0 * fem, 203.5 * fem, 156 * fem),
                     // padding: EdgeInsets.fromLTRB(
                     //     0.5 * fem, 4 * fem, 50 * fem, 4 * fem),
                     width: double.infinity,
@@ -512,20 +512,31 @@ class Scene extends StatelessWidget {
                           left: 0 * fem,
                           top: 110 * fem,
                           child: Container(
-                            width: 1350 * fem,
-                            height: 900 * fem,
-                            decoration: BoxDecoration(
-                              color: const Color(0xfffef7e0),
-                              borderRadius: BorderRadius.only(
-                                topRight: Radius.circular(80 * fem),
-                                bottomRight: Radius.circular(80 * fem),
+                              width: 1350 * fem,
+                              height: 900 * fem,
+                              decoration: BoxDecoration(
+                                color: const Color(0xfffef7e0),
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(80 * fem),
+                                  bottomRight: Radius.circular(80 * fem),
+                                ),
                               ),
-                            ),
-                            child: Text(
-                              "", // add the customize logo ...
+                          ),
+                        ),
+
+                        /** for Logo design and dialog box */
+                        Positioned(
+                          left: 150*fem,
+                          top:150*fem,
+                          child: Container(
+                            height:100*fem,
+                            width: 100*fem,
+                            decoration: BoxDecoration(
+
                             ),
                           ),
                         ),
+
                         Positioned(
                           // aboutMZr (83:4)
                           left: 121 * fem,
