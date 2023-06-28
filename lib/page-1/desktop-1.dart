@@ -342,123 +342,79 @@ class Scene extends StatelessWidget {
                   ),
                   Container(
                     width: double.infinity,
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
+                    child: Container(
+                      // frame1rKY (2:5)
+                      padding: EdgeInsets.fromLTRB(
+                          57 * fem, 70 * fem, 66 * fem, 2 * fem),
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                        color: Color(0xffffffff),
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Container(
+                            // rectangle2fRQ (2:7)
                             margin: EdgeInsets.fromLTRB(
-                                60 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                10 * fem, 10 * fem, 345.5 * fem, 0 * fem),
+                            width: 250 * fem,
+                            height: 115 * fem,
                             child: Image.asset(
-                              "assets/page-1/images/first_port_1.png",
-                              height: 200,
-                              width: 200,
-                              alignment: Alignment.centerLeft,
-                            )), // this container for First Style image ..
-                        // Container(
-
-                        //             margin: EdgeInsets.fromLTRB(390*fem, 10*fem, 400*fem,0*fem),
-                        //             child: Center(
-                        //               child: OutlinedButton(
-                        //    child: Text(
-                        //     "Outlined Button",
-                        //     style: TextStyle(
-                        //       color: Colors.black,
-                        //     ),
-                        //   ),
-                        //   onPressed: () {},
-                        // ),
-
-                        // ), // this container for Button ...
-                        Container(
-                          margin: EdgeInsets.fromLTRB(
-                              370 * fem, 40 * fem, 310 * fem, 0 * fem),
-                          child: InkWell(
-                            onTap: () {
-                              launch("https://linkedin.com/in/mdshahidali");
+                              'assets/page-1/images/first_port_1.png',
+                              fit: BoxFit.contain,
+                            ),
+                          ),
+                          InkWell(
+                            onTap: () => {
+                              launch("https://www.linkedin.com/in/mdshahidali/")
                             },
-                            borderRadius: BorderRadius.circular(
-                                20.0), // Adjust the value to change the shape
                             child: Container(
-                              height: 48,
-                              width: 130,
+                              // rectangle4khk (2:11)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 10 * fem, 290.5 * fem, 3 * fem),
+                              width: 140 * fem,
+                              height: 50 * fem,
                               decoration: BoxDecoration(
-                                border: Border.all(color: Colors.black),
-                                borderRadius: BorderRadius.circular(
-                                    20.0), // Adjust the value to change the shape
+                                borderRadius: BorderRadius.circular(30 * fem),
+                                border: Border.all(color: Color(0xff000000)),
+                                // color: Color(0xffffffff),
                               ),
                               padding: EdgeInsets.all(10.0),
                               child: Center(
-                                child: const Text(
+                                child: Text(
                                   "Know more",
+                                  textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontFamily: 'Product Sans',
-                                    fontSize: 16,
+                                    fontSize: 16 * ffem,
                                     fontWeight: FontWeight.w500,
-                                    height: 1.2,
-                                    letterSpacing: 0.5,
+                                    height: 1.4 * ffem / fem,
+                                    letterSpacing: 0.5 * fem,
                                   ),
                                 ),
                               ),
                             ),
-                            hoverColor: Colors.black,
-                            onHover: (value) {
-                              Colors.orange;
-                            },
-                            splashColor: Colors.transparent,
                           ),
-                        ),
-
-                        Container(
+                          Container(
                             margin: EdgeInsets.fromLTRB(
-                                50 * fem, 20 * fem, 0 * fem, 0 * fem),
-                            // padding: EdgeInsets.fromLTRB(0*fem, 0*fem, 50*fem, 0*fem),
+                                0 * fem, 0 * fem, 0 * fem, 0 * fem),
+                            // rectangle3rkn (2:8)
+                            width: 250 * fem,
+                            height: 115 * fem,
                             child: Image.asset(
-                              "assets/page-1/images/new_last.png",
-                              alignment: Alignment.centerRight,
-                              height: 250,
-                              width: 200,
-                            )) // this container for last Style image  ....
-                      ],
+                              'assets/page-1/images/lasts.png',
+                              fit: BoxFit.contain,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
-                    //   padding: EdgeInsets.fromLTRB(
-                    //       1100 * fem, 0 * fem, 0 * fem, 150 * fem),
-                    //     child: Image.asset(
-                    //   "assets/page-1/images/port.png",
-                    //   // fit: BoxFit.cover,
-                    //   height: 150,
-                    //   width: 150,
-                    // )
                   ),
                 ],
               ),
             ),
 
-            // Container(
-            //   // scrollbuttonXQU (39:8)
-            //   margin: EdgeInsets.fromLTRB(4 * fem, 0 * fem, 0 * fem, 226 * fem),
-            //   width: 55 * fem,
-            //   height: 80 * fem,
-            //   child: Center(
-            //     child: GestureDetector(
-            //       onTap: () => {
-            //         // _scrollController.animateTo(
-            //         //         500, // the position to scroll to
-            //         //         duration: Duration(
-            //         //             milliseconds:
-            //         //                 1500), // the duration of the animation
-            //         //         curve: Curves
-            //         //             .easeInOut, // the easing curve of the animation
-            //         //       ),
-            //       },
-            //       child: Image.asset(
-            //         'assets/page-1/images/scrollbutton.png',
-            //         width: 55 * fem,
-            //         height: 80 * fem,
-            //       ),
-            //     ),
-            //   ),
-            // ),
             Container(
               // aboutdivSGY (83:2)
               margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 0 * fem, 184 * fem),
