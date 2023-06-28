@@ -601,12 +601,129 @@ class Scene extends StatelessWidget {
                                     child: InkWell(
                                         onTap: () {
                                           // Dialog Box use here ...
-                                          
+                                          showDialog(
+                                              barrierColor: Color.fromARGB(
+                                                  179, 255, 255, 255),
+                                              context: context,
+                                              builder: (context) => AlertDialog(
+                                                    // Customize your AlertDialog here
+                                                    shape:
+                                                        RoundedRectangleBorder(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              20 * fem),
+                                                    ),
+                                                    contentPadding:
+                                                        EdgeInsets.zero,
+                                                    content: Column(
+                                                      mainAxisSize:
+                                                          MainAxisSize.min,
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        Container(
+                                                          margin: EdgeInsets
+                                                              .fromLTRB(
+                                                                  10 * fem,
+                                                                  20 * fem,
+                                                                  200 * fem,
+                                                                  0 * fem),
+                                                          height: 50 * fem,
+                                                          width: 50 * fem,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            border: Border.all(
+                                                                color: Colors
+                                                                    .black),
+                                                            shape:
+                                                                BoxShape.circle,
+                                                          ),
+                                                          child: InkWell(
+                                                            borderRadius:
+                                                                BorderRadius
+                                                                    .circular(
+                                                                        20 *
+                                                                            fem),
+                                                            child: Icon(
+                                                                size: 25 * fem,
+                                                                Icons.close,
+                                                                color: Colors
+                                                                    .black),
+                                                            onTap: () =>
+                                                                Navigator.pop(
+                                                                    context),
+                                                          ),
+                                                        ),
+                                                        SizedBox(
+                                                            height: 10 * fem),
+                                                        Text(
+                                                          "My Title",
+                                                          style: TextStyle(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold),
+                                                        ),
+                                                        SizedBox(
+                                                            height: 10 * fem),
+                                                        Text(
+                                                            "This is my About us Page ....."),
+                                                      ],
+                                                    ),
+                                                    actions: [], // You can add custom actions if needed
+                                                  ));
+                                          // builder: (context) => AlertDialog(
+                                          //       shape:
+                                          //           RoundedRectangleBorder(
+                                          //         borderRadius:
+                                          //             BorderRadius.circular(
+                                          //                 30 * fem),
+                                          //       ),
+                                          //       contentPadding: EdgeInsets.zero,
+                                          //       icon: Container(
+                                          //         margin:
+                                          //             EdgeInsets.fromLTRB(
+                                          //                 0 * fem,
+                                          //                 0 * fem,
+                                          //                 170 * fem,
+                                          //                 0 * fem),
+                                          //         height: 50 * fem,
+                                          //         width: 50 * fem,
+                                          //         decoration: BoxDecoration(
+                                          //           // color: const Color(0xfffef7e0),
+                                          //           border: Border.all(
+                                          //               color:
+                                          //                   Colors.black),
+                                          //           shape: BoxShape.circle,
+                                          //         ),
+                                          //         child: InkWell(
+                                          //           borderRadius:
+                                          //               BorderRadius
+                                          //                   .circular(
+                                          //                       20 * fem),
+                                          //           child: const Icon(
+                                          //               Icons.close,
+                                          //               color:
+                                          //                   Colors.black),
+                                          //           onTap: () =>
+                                          //               Navigator.pop(
+                                          //                   context),
+                                          //         ),
+                                          //       ),
+                                          //       actions: [],
+                                          //       title:
+                                          //           const Text("My Title"),
+                                          //       content: const Text(
+                                          //           "This is my About us Page ....."),
+                                          //     ));
                                         },
-                                        child: Icon(
-                                          Icons.arrow_forward,
-                                          color: Colors.black,
-                                        )),
+                                        child: Align(
+                                            alignment: Alignment.center,
+                                            child: Icon(
+                                              Icons.arrow_forward,
+                                              size: 25 * fem,
+                                              color: Colors.black,
+                                            ))),
                                     // child: ElevatedButton.icon(
                                     //   onPressed: () {},
                                     //   icon: Icon(
