@@ -468,31 +468,28 @@ class Scene extends StatelessWidget {
                           left: 0 * fem,
                           top: 110 * fem,
                           child: Container(
-                              width: 1350 * fem,
-                              height: 900 * fem,
-                              decoration: BoxDecoration(
-                                color: const Color(0xfffef7e0),
-                                borderRadius: BorderRadius.only(
-                                  topRight: Radius.circular(80 * fem),
-                                  bottomRight: Radius.circular(80 * fem),
-                                ),
+                            width: 1350 * fem,
+                            height: 900 * fem,
+                            decoration: BoxDecoration(
+                              color: const Color(0xfffef7e0),
+                              borderRadius: BorderRadius.only(
+                                topRight: Radius.circular(80 * fem),
+                                bottomRight: Radius.circular(80 * fem),
                               ),
+                            ),
                           ),
                         ),
 
                         /** for Logo design and dialog box */
                         Positioned(
-                          left: 150*fem,
-                          top:150*fem,
+                          left: 150 * fem,
+                          top: 150 * fem,
                           child: Container(
-                            height:100*fem,
-                            width: 100*fem,
-                            decoration: BoxDecoration(
-
-                            ),
+                            height: 100 * fem,
+                            width: 100 * fem,
+                            decoration: BoxDecoration(),
                           ),
                         ),
-
                         Positioned(
                           // aboutMZr (83:4)
                           left: 121 * fem,
@@ -585,6 +582,43 @@ class Scene extends StatelessWidget {
                                         ],
                                       ),
                                     ),
+                                  ),
+                                ),
+                                /**
+                                   * Logo Design and cursor 
+                                   */
+                                Positioned(
+                                  left: 1040 * fem,
+                                  top: 660 * fem,
+                                  child: Container(
+                                    height: 50 * fem,
+                                    width: 50 * fem,
+                                    decoration: BoxDecoration(
+                                      // color: const Color(0xfffef7e0),
+                                      border: Border.all(color: Colors.black),
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: InkWell(
+                                        onTap: () {
+                                          // Dialog Box use here ...
+                                          
+                                        },
+                                        child: Icon(
+                                          Icons.arrow_forward,
+                                          color: Colors.black,
+                                        )),
+                                    // child: ElevatedButton.icon(
+                                    //   onPressed: () {},
+                                    //   icon: Icon(
+                                    //     Icons.arrow_forward,
+                                    //     size: 50*fem,
+                                    //   ),
+                                    //   label: Text(""),
+                                    //   style: ElevatedButton.styleFrom(
+                                    //     primary: const Color(0xfffef7e0),
+                                    //     onPrimary: const Color(0xfffef7e0),
+                                    //   ),
+                                    // ),
                                   ),
                                 ),
                               ],
