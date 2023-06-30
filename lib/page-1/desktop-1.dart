@@ -625,7 +625,7 @@ class Scene extends StatelessWidget {
                                                         Container(
                                                           margin: EdgeInsets
                                                               .fromLTRB(
-                                                                  10 * fem,
+                                                                  50 * fem,
                                                                   20 * fem,
                                                                   200 * fem,
                                                                   0 * fem),
@@ -657,17 +657,150 @@ class Scene extends StatelessWidget {
                                                         ),
                                                         SizedBox(
                                                             height: 10 * fem),
-                                                        Text(
-                                                          "My Title",
+                                                        Center(
+                                                            child: Text(
+                                                          // bacheloroftechnologyEvU (90:6)
+                                                          'About Me',
                                                           style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold),
-                                                        ),
+                                                            fontFamily:
+                                                                'Product Sans',
+                                                            fontSize: 46 * ffem,
+                                                            fontWeight:
+                                                                FontWeight.w400,
+                                                            height:
+                                                                1.2727272727 *
+                                                                    ffem /
+                                                                    fem,
+                                                            letterSpacing:
+                                                                0.25 * fem,
+                                                            color: const Color(
+                                                                0xff000000),
+                                                          ),
+                                                        )),
                                                         SizedBox(
                                                             height: 10 * fem),
-                                                        Text(
-                                                            "This is my About us Page ....."),
+                                                        /**
+                                                         * Here we use for row wise to set the logo and about me page ....
+                                                         */
+                                                        Container(
+                                                            // height: 100*fem,
+                                                            // width: 200*fem,
+                                                            margin: EdgeInsets
+                                                                .fromLTRB(
+                                                                    50 * fem,
+                                                                    50 * fem,
+                                                                    50 * fem,
+                                                                    0 * fem),
+                                                            padding: EdgeInsets
+                                                                .fromLTRB(
+                                                                    10 * fem,
+                                                                    10 * fem,
+                                                                    10 * fem,
+                                                                    10 * fem),
+                                                            decoration:
+                                                                BoxDecoration(
+                                                              borderRadius:
+                                                                  BorderRadius
+                                                                      .circular(
+                                                                          50 *
+                                                                              fem),
+                                                              // color: Colors.black,
+                                                            ),
+                                                            child: Row(
+                                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                                              children: [
+                                                                // for logo
+                                                                Container(
+                                                                    height:
+                                                                        300 *
+                                                                            fem,
+                                                                    width: 300 *
+                                                                        fem,
+                                                                    // padding: EdgeInsets.fromLTRB(
+                                                                    //     1 * fem,
+                                                                    //     1 * fem,
+                                                                    //     1 * fem,
+                                                                    //     1 * fem),
+                                                                    child: Center(child: ClipRRect(
+                                                                        borderRadius: BorderRadius.circular(100 * fem),
+                                                                        child: Image.asset(
+                                                                          "assets/page-1/images/lpu_logo1.jpeg",
+                                                                          fit: BoxFit
+                                                                              .cover,
+                                                                        )))),
+                                                                // for text of logo
+                                                                SizedBox(
+                                                                  width: 10*fem,
+                                                                ),
+                                                                Container(
+                                                                  height:
+                                                                      700 * fem,
+                                                                  width:
+                                                                      700 * fem,
+                                                                  margin: EdgeInsets
+                                                                      .fromLTRB(
+                                                                          30 *
+                                                                              fem,
+                                                                          5 *
+                                                                              fem,
+                                                                          20 *
+                                                                              fem,
+                                                                          0 * fem),
+                                                                  // padding: EdgeInsets.fromLTRB(5*fem, 5*fem ,5*fem, 5*fem),
+                                                                  // alignment: Alignment(1.0, 1.0),
+                                                                  child: Column(
+                                                                    crossAxisAlignment: CrossAxisAlignment.end,
+                                                                      children: [
+                                                                        Text(
+                                                                          "Lovely Professional University",
+                                                                          textAlign: TextAlign.left,
+                                                                          style:
+                                                                              TextStyle(
+                                                                            fontFamily:
+                                                                                'Product Sans',
+                                                                            fontSize:
+                                                                                46 * ffem,
+                                                                            fontWeight:
+                                                                                FontWeight.w400,
+                                                                            height: 1.2727272727 *
+                                                                                ffem /
+                                                                                fem,
+                                                                            letterSpacing:
+                                                                                0.25 * fem,
+                                                                            color:
+                                                                                const Color(0xff000000),
+                                                                          ),
+                                                                        ),
+                                                                        Text(
+                                                                            "Bachelor Of Technology - Punajb,India",
+                                                                            textAlign: TextAlign.left,),
+                                                                        SizedBox(
+                                                                          height:
+                                                                              10 * fem,
+                                                                        ),
+                                                                        Text(
+                                                                          'My name is Md Shahid Ali and I am currently pursuing a Bachelor of Technology  in Computer Science and Engineering from Lovely Professional University.',
+                                                                          style:
+                                                                              TextStyle(
+                                                                            fontFamily:
+                                                                                'Product Sans',
+                                                                            fontSize:
+                                                                                18 * ffem,
+                                                                            fontWeight:
+                                                                                FontWeight.w400,
+                                                                            height: 1.5 *
+                                                                                ffem /
+                                                                                fem,
+                                                                            letterSpacing:
+                                                                                0.25 * fem,
+                                                                            color:
+                                                                                const Color(0xff5f6368),
+                                                                          ),
+                                                                        )
+                                                                      ]),
+                                                                ),
+                                                              ],
+                                                            )),
                                                       ],
                                                     ),
                                                     actions: [], // You can add custom actions if needed
