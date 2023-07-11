@@ -613,196 +613,576 @@ class Scene extends StatelessWidget {
                                                           BorderRadius.circular(
                                                               20 * fem),
                                                     ),
-                                                    contentPadding:
-                                                        EdgeInsets.zero,
-                                                    content: Column(
-                                                      mainAxisSize:
-                                                          MainAxisSize.min,
-                                                      crossAxisAlignment:
-                                                          CrossAxisAlignment
-                                                              .center,
-                                                      children: [
-                                                        Container(
-                                                          margin: EdgeInsets
-                                                              .fromLTRB(
-                                                                  50 * fem,
-                                                                  20 * fem,
-                                                                  200 * fem,
-                                                                  0 * fem),
-                                                          height: 50 * fem,
-                                                          width: 50 * fem,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            border: Border.all(
-                                                                color: Colors
-                                                                    .black),
-                                                            shape:
-                                                                BoxShape.circle,
-                                                          ),
-                                                          child: InkWell(
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        20 *
-                                                                            fem),
-                                                            child: Icon(
-                                                                size: 25 * fem,
-                                                                Icons.close,
-                                                                color: Colors
-                                                                    .black),
-                                                            onTap: () =>
-                                                                Navigator.pop(
-                                                                    context),
-                                                          ),
+                                                    // contentPadding:
+                                                    //     EdgeInsets.zero,
+                                                    content: Container(
+                                                      width: double.infinity,
+                                                      child: Container(
+                                                        // desktop1U6V (1:2)
+                                                        padding:
+                                                            EdgeInsets.fromLTRB(
+                                                                10 * fem,
+                                                                28 * fem,
+                                                                10 * fem,
+                                                                22 * fem),
+                                                        width: double.infinity,
+                                                        decoration:
+                                                            BoxDecoration(
+                                                          color:
+                                                              Color(0xffffffff),
                                                         ),
-                                                        SizedBox(
-                                                            height: 10 * fem),
-                                                        Center(
-                                                            child: Text(
-                                                          // bacheloroftechnologyEvU (90:6)
-                                                          'About Me',
-                                                          style: TextStyle(
-                                                            fontFamily:
-                                                                'Product Sans',
-                                                            fontSize: 46 * ffem,
-                                                            fontWeight:
-                                                                FontWeight.w400,
-                                                            height:
-                                                                1.2727272727 *
-                                                                    ffem /
-                                                                    fem,
-                                                            letterSpacing:
-                                                                0.25 * fem,
-                                                            color: const Color(
-                                                                0xff000000),
-                                                          ),
-                                                        )),
-                                                        SizedBox(
-                                                            height: 10 * fem),
-                                                        /**
-                                                         * Here we use for row wise to set the logo and about me page ....
-                                                         */
-                                                        Container(
-                                                            // height: 100*fem,
-                                                            // width: 200*fem,
-                                                            margin: EdgeInsets
-                                                                .fromLTRB(
-                                                                    50 * fem,
-                                                                    50 * fem,
-                                                                    50 * fem,
-                                                                    0 * fem),
-                                                            padding: EdgeInsets
-                                                                .fromLTRB(
-                                                                    10 * fem,
-                                                                    10 * fem,
-                                                                    10 * fem,
-                                                                    10 * fem),
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              borderRadius:
-                                                                  BorderRadius
-                                                                      .circular(
-                                                                          50 *
-                                                                              fem),
-                                                              // color: Colors.black,
-                                                            ),
-                                                            child: Row(
-                                                              crossAxisAlignment: CrossAxisAlignment.start,
-                                                              children: [
-                                                                // for logo
-                                                                Container(
-                                                                    height:
-                                                                        300 *
+                                                        child: Column(
+                                                          crossAxisAlignment:
+                                                              CrossAxisAlignment
+                                                                  .center,
+                                                          children: [
+                                                            Container(
+                                                              // frame1uLD (3:8)
+                                                              margin: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      0 * fem,
+                                                                      0 * fem,
+                                                                      32 * fem,
+                                                                      19 * fem),
+                                                              padding: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      0 * fem,
+                                                                      0 * fem,
+                                                                      280.5 *
+                                                                          fem,
+                                                                      0 * fem),
+                                                              width: double
+                                                                  .infinity,
+                                                              height: 45 * fem,
+                                                              child: Row(
+                                                                crossAxisAlignment:
+                                                                    CrossAxisAlignment
+                                                                        .center,
+                                                                children: [
+                                                                  Container(
+                                                                    // ellipse3nuo (4:6)
+                                                                    margin: EdgeInsets.fromLTRB(
+                                                                        0 * fem,
+                                                                        0 * fem,
+                                                                        290.5 *
                                                                             fem,
-                                                                    width: 300 *
+                                                                        5 * fem),
+                                                                    width: 40 *
                                                                         fem,
-                                                                    // padding: EdgeInsets.fromLTRB(
-                                                                    //     1 * fem,
-                                                                    //     1 * fem,
-                                                                    //     1 * fem,
-                                                                    //     1 * fem),
-                                                                    child: Center(child: ClipRRect(
-                                                                        borderRadius: BorderRadius.circular(100 * fem),
-                                                                        child: Image.asset(
-                                                                          "assets/page-1/images/lpu_logo1.jpeg",
-                                                                          fit: BoxFit
-                                                                              .cover,
-                                                                        )))),
-                                                                // for text of logo
-                                                                SizedBox(
-                                                                  width: 10*fem,
-                                                                ),
-                                                                Container(
-                                                                  height:
-                                                                      700 * fem,
-                                                                  width:
-                                                                      700 * fem,
-                                                                  margin: EdgeInsets
-                                                                      .fromLTRB(
-                                                                          30 *
+                                                                    height: 40 *
+                                                                        fem,
+                                                                    decoration:
+                                                                        BoxDecoration(
+                                                                      borderRadius:
+                                                                          BorderRadius.circular(20 *
+                                                                              fem),
+                                                                      border: Border.all(
+                                                                          color:
+                                                                              Color(0xff000000)),
+                                                                    ),
+                                                                    child: InkWell(
+                                                                        onTap: () => {
+                                                                              Navigator.pop(context),
+                                                                            },
+                                                                        child: Icon(Icons.close)),
+                                                                  ),
+                                                                  Container(
+                                                                    // frame85tu (4:8)
+                                                                    margin: EdgeInsets.fromLTRB(
+                                                                        0 * fem,
+                                                                        5 * fem,
+                                                                        0 * fem,
+                                                                        8 * fem),
+                                                                    width: 108 *
+                                                                        fem,
+                                                                    height: double
+                                                                        .infinity,
+                                                                    child:
+                                                                        Center(
+                                                                      child:
+                                                                          Text(
+                                                                        'About Me',
+                                                                        textAlign:
+                                                                            TextAlign.center,
+                                                                        style:
+                                                                            TextStyle(
+                                                                          fontFamily:
+                                                                              'Product Sans',
+                                                                          fontSize:
+                                                                              25 * ffem,
+                                                                          fontWeight:
+                                                                              FontWeight.w400,
+                                                                          height: 1.2575 *
+                                                                              ffem /
                                                                               fem,
-                                                                          5 *
-                                                                              fem,
-                                                                          20 *
-                                                                              fem,
-                                                                          0 * fem),
-                                                                  // padding: EdgeInsets.fromLTRB(5*fem, 5*fem ,5*fem, 5*fem),
-                                                                  // alignment: Alignment(1.0, 1.0),
-                                                                  child: Column(
-                                                                    crossAxisAlignment: CrossAxisAlignment.end,
+                                                                          letterSpacing:
+                                                                              0.125 * fem,
+                                                                          color:
+                                                                              Color(0xff000000),
+                                                                        ),
+                                                                      ),
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
+                                                            ),
+                                                            Container(
+                                                              // frame2Hk5 (3:9)
+                                                              margin: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      20.5 *
+                                                                          fem,
+                                                                      0 * fem,
+                                                                      15.5 *
+                                                                          fem,
+                                                                      0 * fem),
+                                                              padding: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      0 * fem,
+                                                                      0 * fem,
+                                                                      0 * fem,
+                                                                      4 * fem),
+                                                              width: double
+                                                                  .infinity,
+                                                              child: Column(
+                                                                crossAxisAlignment:
+                                                                    CrossAxisAlignment
+                                                                        .center,
+                                                                children: [
+                                                                  Container(
+                                                                    // frame3oTX (3:10)
+                                                                    margin: EdgeInsets.fromLTRB(
+                                                                        0 * fem,
+                                                                        0 * fem,
+                                                                        0 * fem,
+                                                                        14 *
+                                                                            fem),
+                                                                    padding: EdgeInsets.fromLTRB(
+                                                                        65 *
+                                                                            fem,
+                                                                        10 *
+                                                                            fem,
+                                                                        8 * fem,
+                                                                        11 *
+                                                                            fem),
+                                                                    width: double
+                                                                        .infinity,
+                                                                    height:
+                                                                        223 *
+                                                                            fem,
+                                                                    child: Row(
+                                                                      crossAxisAlignment:
+                                                                          CrossAxisAlignment
+                                                                              .center,
                                                                       children: [
-                                                                        Text(
-                                                                          "Lovely Professional University",
-                                                                          textAlign: TextAlign.left,
-                                                                          style:
-                                                                              TextStyle(
-                                                                            fontFamily:
-                                                                                'Product Sans',
-                                                                            fontSize:
-                                                                                46 * ffem,
-                                                                            fontWeight:
-                                                                                FontWeight.w400,
-                                                                            height: 1.2727272727 *
-                                                                                ffem /
-                                                                                fem,
-                                                                            letterSpacing:
-                                                                                0.25 * fem,
-                                                                            color:
-                                                                                const Color(0xff000000),
-                                                                          ),
-                                                                        ),
-                                                                        Text(
-                                                                            "Bachelor Of Technology - Punajb,India",
-                                                                            textAlign: TextAlign.left,),
-                                                                        SizedBox(
+                                                                        Container(
+                                                                          // frame6vHF (3:14)
+                                                                          margin: EdgeInsets.fromLTRB(
+                                                                              0 * fem,
+                                                                              26.5 * fem,
+                                                                              75 * fem,
+                                                                              25.5 * fem),
+                                                                          width:
+                                                                              150 * fem,
                                                                           height:
-                                                                              10 * fem,
-                                                                        ),
-                                                                        Text(
-                                                                          'My name is Md Shahid Ali and I am currently pursuing a Bachelor of Technology  in Computer Science and Engineering from Lovely Professional University.',
-                                                                          style:
-                                                                              TextStyle(
-                                                                            fontFamily:
-                                                                                'Product Sans',
-                                                                            fontSize:
-                                                                                18 * ffem,
-                                                                            fontWeight:
-                                                                                FontWeight.w400,
-                                                                            height: 1.5 *
-                                                                                ffem /
-                                                                                fem,
-                                                                            letterSpacing:
-                                                                                0.25 * fem,
-                                                                            color:
-                                                                                const Color(0xff5f6368),
+                                                                              double.infinity,
+                                                                          child:
+                                                                              Center(
+                                                                            // ellipse176q (4:4)
+                                                                            child:
+                                                                                SizedBox(
+                                                                              width: double.infinity,
+                                                                              height: 150 * fem,
+                                                                              child: Container(
+                                                                                decoration: BoxDecoration(
+                                                                                  borderRadius: BorderRadius.circular(75 * fem),
+                                                                                  image: DecorationImage(
+                                                                                    fit: BoxFit.cover,
+                                                                                    image: AssetImage(
+                                                                                      'assets/page-1/images/githubprofileimages-2.png',
+                                                                                    ),
+                                                                                  ),
+                                                                                ),
+                                                                              ),
+                                                                            ),
                                                                           ),
-                                                                        )
-                                                                      ]),
-                                                                ),
-                                                              ],
-                                                            )),
-                                                      ],
+                                                                        ),
+                                                                        Container(
+                                                                          // frame5b21 (3:12)
+                                                                          padding: EdgeInsets.fromLTRB(
+                                                                              0 * fem,
+                                                                              2 * fem,
+                                                                              0 * fem,
+                                                                              0 * fem),
+                                                                          width:
+                                                                              414 * fem,
+                                                                          height:
+                                                                              double.infinity,
+                                                                          child:
+                                                                              Column(
+                                                                            crossAxisAlignment:
+                                                                                CrossAxisAlignment.start,
+                                                                            children: [
+                                                                              Container(
+                                                                                // frame9uoP (4:10)
+                                                                                margin: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 11 * fem),
+                                                                                width: 358 * fem,
+                                                                                height: 36 * fem,
+                                                                                child: Center(
+                                                                                  child: Text(
+                                                                                    'Lovely Professional University',
+                                                                                    textAlign: TextAlign.center,
+                                                                                    style: TextStyle(
+                                                                                      fontFamily: 'Product Sans',
+                                                                                      fontSize: 28 * ffem,
+                                                                                      fontWeight: FontWeight.w400,
+                                                                                      height: 1.2575 * ffem / fem,
+                                                                                      letterSpacing: 0.28 * fem,
+                                                                                      color: Color(0xff000000),
+                                                                                    ),
+                                                                                  ),
+                                                                                ),
+                                                                              ),
+                                                                              Container(
+                                                                                // frame10AzD (4:11)
+                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 56 * fem, 0 * fem),
+                                                                                width: double.infinity,
+                                                                                height: 27 * fem,
+                                                                                child: Row(
+                                                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                                                  children: [
+                                                                                    Container(
+                                                                                      // frame11J4q (4:12)
+                                                                                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 81 * fem, 0 * fem),
+                                                                                      width: 158 * fem,
+                                                                                      height: 19 * fem,
+                                                                                      child: Center(
+                                                                                        child: Text(
+                                                                                          'Bachelor of Engineering',
+                                                                                          style: TextStyle(
+                                                                                            fontFamily: 'Product Sans',
+                                                                                            fontSize: 15 * ffem,
+                                                                                            fontWeight: FontWeight.w400,
+                                                                                            height: 1.2575 * ffem / fem,
+                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            color: Color(0x7f000000),
+                                                                                          ),
+                                                                                        ),
+                                                                                      ),
+                                                                                    ),
+                                                                                    Container(
+                                                                                      // frame12ywf (4:13)
+                                                                                      width: 100 * fem,
+                                                                                      height: 19 * fem,
+                                                                                      child: Center(
+                                                                                        child: Text(
+                                                                                          'Jul 2021 - Jul 2024',
+                                                                                          style: TextStyle(
+                                                                                            fontFamily: 'Product Sans',
+                                                                                            fontSize: 13 * ffem,
+                                                                                            fontWeight: FontWeight.w400,
+                                                                                            height: 1.2575 * ffem / fem,
+                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            color: Color(0x7f000000),
+                                                                                          ),
+                                                                                        ),
+                                                                                      ),
+                                                                                    ),
+                                                                                  ],
+                                                                                ),
+                                                                              ),
+                                                                              Container(
+                                                                                // frame11Gvm (4:14)
+                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                width: 409 * fem,
+                                                                                height: 116 * fem,
+                                                                                child: Text(
+                                                                                  'I\'m studying for a Bachelor of Technology degree at Lovely Professional University. LPU has given me a solid academic base and chances to grow personally and professionally through practical learning and industry exposure. I believe the knowledge and skills I gain at LPU will help me make valuable contributions in the future.\n',
+                                                                                  style: TextStyle(
+                                                                                    fontFamily: 'Product Sans',
+                                                                                    fontSize: 15 * ffem,
+                                                                                    fontWeight: FontWeight.w400,
+                                                                                    height: 1.2575 * ffem / fem,
+                                                                                    letterSpacing: 0.075 * fem,
+                                                                                    color: Color(0xb2000000),
+                                                                                  ),
+                                                                                ),
+                                                                              ),
+                                                                            ],
+                                                                          ),
+                                                                        ),
+                                                                      ],
+                                                                    ),
+                                                                  ),
+                                                                  Container(
+                                                                    // frame4Z9B (3:11)
+                                                                    margin: EdgeInsets.fromLTRB(
+                                                                        16 *
+                                                                            fem,
+                                                                        0 * fem,
+                                                                        16 *
+                                                                            fem,
+                                                                        0 * fem),
+                                                                    padding: EdgeInsets.fromLTRB(
+                                                                        49.5 *
+                                                                            fem,
+                                                                        0.5 *
+                                                                            fem,
+                                                                        0 * fem,
+                                                                        0.5 *
+                                                                            fem),
+                                                                    width: double
+                                                                        .infinity,
+                                                                    height:
+                                                                        224 *
+                                                                            fem,
+                                                                    child: Row(
+                                                                      crossAxisAlignment:
+                                                                          CrossAxisAlignment
+                                                                              .center,
+                                                                      children: [
+                                                                        Container(
+                                                                          // frame74Lq (4:2)
+                                                                          margin: EdgeInsets.fromLTRB(
+                                                                              0 * fem,
+                                                                              42.5 * fem,
+                                                                              65.5 * fem,
+                                                                              42.5 * fem),
+                                                                          width:
+                                                                              138 * fem,
+                                                                          height:
+                                                                              double.infinity,
+                                                                          child:
+                                                                              Center(
+                                                                            // ellipse2Chw (4:5)
+                                                                            child:
+                                                                                SizedBox(
+                                                                              width: double.infinity,
+                                                                              height: 138 * fem,
+                                                                              child: Container(
+                                                                                decoration: BoxDecoration(
+                                                                                  borderRadius: BorderRadius.circular(69 * fem),
+                                                                                  image: DecorationImage(
+                                                                                    image: AssetImage(
+                                                                                      'assets/page-1/images/ellipse-2-bg.png',
+                                                                                    ),
+                                                                                  ),
+                                                                                ),
+                                                                              ),
+                                                                            ),
+                                                                          ),
+                                                                        ),
+                                                                        Container(
+                                                                          // frame7XER (5:4)
+                                                                          padding: EdgeInsets.fromLTRB(
+                                                                              11.5 * fem,
+                                                                              12.5 * fem,
+                                                                              1 * fem,
+                                                                              0 * fem),
+                                                                          width:
+                                                                              427 * fem,
+                                                                          height:
+                                                                              double.infinity,
+                                                                          child:
+                                                                              Column(
+                                                                            crossAxisAlignment:
+                                                                                CrossAxisAlignment.center,
+                                                                            children: [
+                                                                              Container(
+                                                                                // frame93yT (5:5)
+                                                                                margin: EdgeInsets.fromLTRB(11 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
+                                                                                width: 391 * fem,
+                                                                                height: 36 * fem,
+                                                                                child: Center(
+                                                                                  child: Text(
+                                                                                    'Regent Institute Of Science       ',
+                                                                                    style: TextStyle(
+                                                                                      fontFamily: 'Product Sans',
+                                                                                      fontSize: 28 * ffem,
+                                                                                      fontWeight: FontWeight.w400,
+                                                                                      height: 1.2575 * ffem / fem,
+                                                                                      letterSpacing: 0.28 * fem,
+                                                                                      color: Color(0xff000000),
+                                                                                    ),
+                                                                                  ),
+                                                                                ),
+                                                                              ),
+                                                                              // Container(
+                                                                              //   // frame9uoP (4:10)
+                                                                              //   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
+                                                                              //   width: 391 * fem,
+                                                                              //   height: 36 * fem,
+                                                                              //   child: Center(
+                                                                              //     child: Text(
+                                                                              //       'Regent Institute Of Science & Tech',
+                                                                              //       textAlign: TextAlign.center,
+                                                                              //       style: TextStyle(
+                                                                              //         fontFamily: 'Product Sans',
+                                                                              //         fontSize: 28 * ffem,
+                                                                              //         fontWeight: FontWeight.w400,
+                                                                              //         height: 1.2575 * ffem / fem,
+                                                                              //         letterSpacing: 0.28 * fem,
+                                                                              //         color: Color(0xff000000),
+                                                                              //       ),
+                                                                              //     ),
+                                                                              //   ),
+                                                                              // ),
+                                                                              Container(
+                                                                                // frame10vXT (5:7)
+                                                                                margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 2 * fem, 10 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 57 * fem, 0 * fem),
+                                                                                width: double.infinity,
+                                                                                height: 27 * fem,
+                                                                                child: Row(
+                                                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                                                  children: [
+                                                                                    Container(
+                                                                                      // frame11Eo3 (5:8)
+                                                                                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
+                                                                                      padding: EdgeInsets.fromLTRB(8 * fem, 0 * fem, 0 * fem, 0 * fem),
+
+                                                                                      width: 189 * fem,
+                                                                                      height: 19 * fem,
+                                                                                      child: Center(
+                                                                                        child: Text(
+                                                                                          'Diploma of Computer Science',
+                                                                                          style: TextStyle(
+                                                                                            fontFamily: 'Product Sans',
+                                                                                            fontSize: 15 * ffem,
+                                                                                            fontWeight: FontWeight.w400,
+                                                                                            height: 1.2575 * ffem / fem,
+                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            color: Color(0x7f000000),
+                                                                                          ),
+                                                                                        ),
+                                                                                      ),
+                                                                                    ),
+                                                                                    Container(
+                                                                                      // frame12XXF (5:10)
+                                                                                      width: 118 * fem,
+                                                                                      height: 19 * fem,
+                                                                                      child: Center(
+                                                                                        child: Text(
+                                                                                          'Jul 2017 - Jul 2020',
+                                                                                          style: TextStyle(
+                                                                                            fontFamily: 'Product Sans',
+                                                                                            fontSize: 13 * ffem,
+                                                                                            fontWeight: FontWeight.w400,
+                                                                                            height: 1.2575 * ffem / fem,
+                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            color: Color(0x7f000000),
+                                                                                          ),
+                                                                                        ),
+                                                                                      ),
+                                                                                    ),
+                                                                                  ],
+                                                                                ),
+                                                                              ),
+                                                                              // Container(
+                                                                              //   // frame11cob (5:12)
+                                                                              //   margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                              //   padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
+
+                                                                              //   width: double.infinity,
+                                                                              //   height: 128 * fem,
+                                                                              //   child: Text(
+                                                                              //     'I am currently pursuing a Bachelor of Technology degree from Lovely Professional University. My experience at LPU has provided me with a strong academic foundation and opportunities for personal and professional growth through practical learning and industry exposure. I am confident that the knowledge and skills acquired during my time at LPU will enable me to make meaningful contributions in my future endeavors.\n',
+                                                                              //     style: TextStyle(
+                                                                              //       fontFamily: 'Product Sans',
+                                                                              //       fontSize: 15 * ffem,
+                                                                              //       fontWeight: FontWeight.w400,
+                                                                              //       height: 1.2575 * ffem / fem,
+                                                                              //       letterSpacing: 0.075 * fem,
+                                                                              //       color: Color(0xb2000000),
+                                                                              //     ),
+                                                                              //   ),
+                                                                              // ),
+                                                                              Container(
+                                                                                // frame11Gvm (4:14)
+                                                                                padding: EdgeInsets.fromLTRB(10 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                width: 409 * fem,
+                                                                                height: 116 * fem,
+                                                                                child: Text(
+                                                                                  'I\'m studying for a Bachelor of Technology degree at Lovely Professional University. LPU has given me a solid academic base and chances to grow personally and professionally through practical learning and industry exposure. I believe the knowledge and skills I gain at LPU will help me make valuable contributions in the future.\n',
+                                                                                  style: TextStyle(
+                                                                                    fontFamily: 'Product Sans',
+                                                                                    fontSize: 15 * ffem,
+                                                                                    fontWeight: FontWeight.w400,
+                                                                                    height: 1.2575 * ffem / fem,
+                                                                                    letterSpacing: 0.075 * fem,
+                                                                                    color: Color(0xb2000000),
+                                                                                  ),
+                                                                                ),
+                                                                              ),
+                                                                            ],
+                                                                          ),
+                                                                        ),
+                                                                      ],
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
+                                                            ),
+                                                          ],
+                                                        ),
+                                                      ),
                                                     ),
+                                                    // content: Column(
+                                                    //   mainAxisSize:
+                                                    //       MainAxisSize.min,
+                                                    //   crossAxisAlignment:
+                                                    //       CrossAxisAlignment
+                                                    //           .center,
+                                                    //   children: [
+                                                    //     Container(
+                                                    //       margin: EdgeInsets
+                                                    //           .fromLTRB(
+                                                    //               10 * fem,
+                                                    //               20 * fem,
+                                                    //               200 * fem,
+                                                    //               0 * fem),
+                                                    //       height: 50 * fem,
+                                                    //       width: 50 * fem,
+                                                    //       decoration:
+                                                    //           BoxDecoration(
+                                                    //         border: Border.all(
+                                                    //             color: Colors
+                                                    //                 .black),
+                                                    //         shape:
+                                                    //             BoxShape.circle,
+                                                    //       ),
+                                                    //       child: InkWell(
+                                                    //         borderRadius:
+                                                    //             BorderRadius
+                                                    //                 .circular(
+                                                    //                     20 *
+                                                    //                         fem),
+                                                    //         child: Icon(
+                                                    //             size: 25 * fem,
+                                                    //             Icons.close,
+                                                    //             color: Colors
+                                                    //                 .black),
+                                                    //         onTap: () =>
+                                                    //             Navigator.pop(
+                                                    //                 context),
+                                                    //       ),
+                                                    //     ),
+                                                    //     SizedBox(
+                                                    //         height: 10 * fem),
+                                                    //     Text(
+                                                    //       "My Title",
+                                                    //       style: TextStyle(
+                                                    //           fontWeight:
+                                                    //               FontWeight
+                                                    //                   .bold),
+                                                    //     ),
+                                                    //     SizedBox(
+                                                    //         height: 10 * fem),
+                                                    //     Text(
+                                                    //         "This is my About us Page ....."),
+                                                    //   ],
+                                                    // ),
                                                     actions: [], // You can add custom actions if needed
                                                   ));
                                           // builder: (context) => AlertDialog(
