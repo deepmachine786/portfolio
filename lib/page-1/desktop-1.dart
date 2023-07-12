@@ -20,9 +20,8 @@ final lpuImages = [
   "assets/page-1/images/lpu_logo_3.jpeg",
   "assets/page-1/images/lpu_logo_4.jpeg",
   "assets/page-1/images/lpu_logo_5.jpeg",
-  "assets/page-1/images/lpu_logo_6.jpeg"
-      // "assets/page-1/images/regent_1.jpg",
-      "assets/page-1/images/regent_2.jpeg",
+  "assets/page-1/images/lpu_logo_6.jpeg",
+  "assets/page-1/images/regent_2.jpeg",
   "assets/page-1/images/regent_3.jpeg"
 ];
 
@@ -417,7 +416,6 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
-
             Container(
               // aboutdivSGY (83:2)
               margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 0 * fem, 184 * fem),
@@ -446,7 +444,7 @@ class Scene extends StatelessWidget {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontFamily: 'Product Sans',
-                              fontSize: 47 * ffem,
+                              fontSize: 43 * ffem,
                               fontWeight: FontWeight.w400,
                               fontStyle: FontStyle.normal,
                               height: 1.1363636364 * ffem / fem,
@@ -1516,47 +1514,37 @@ class Scene extends StatelessWidget {
                                       ),
                                     ),
                                     Container(
-                                      // downloadmyfitnesspaltoyourdevi (126:3)
-                                      margin: EdgeInsets.fromLTRB(290.77 * fem,
-                                          0 * fem, 294.77 * fem, 0 * fem),
-                                      padding: EdgeInsets.fromLTRB(
-                                          2.5 * fem, 0 * fem, 0 * fem, 3 * fem),
+                                      // findouthowdevicesworkbettertog (126:12)
                                       width: 120 * fem,
                                       height: 44 * fem,
+                                      margin:
+                                          EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
+                                      padding: EdgeInsets.fromLTRB(
+                                          1 * fem, 0 * fem, 0 * fem, 2 * fem),
                                       decoration: BoxDecoration(
-                                        border: Border.all(
-                                            color:
-                                                // Color.fromARGB(141, 0, 0, 0)),
-                                                // const Color.fromARGB(
-                                                //     15, 0, 0, 0)
-                                                Color(0xff1A73E8)),
-                                        // color: const Color(0xffffffff),
                                         color: Color(0xff1A73E8),
+                                        border: Border.all(
+                                            color: Color(0xff1A73E8)),
                                         borderRadius:
                                             BorderRadius.circular(30 * fem),
                                       ),
-
                                       child: Center(
-                                        child: Center(
-                                          child: TextButton(
-                                            onPressed: () {
-                                              launch(
-                                                  "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=sharing");
-                                            },
-                                            style: TextButton.styleFrom(
-                                              foregroundColor:
-                                                  const Color.fromARGB(
-                                                      15, 255, 255, 255),
-                                            ),
+                                        // Here We Suggets to use FloatActionButton is best ... Remove from row..
+
+                                        child: InkWell(
+                                          // onHover: Colors.blue,
+                                          onTap: () => {
+                                            launch(
+                                                "https://linkedin.com/in/mdshahidali/"),
+                                          },
+                                          child: Center(
                                             child: Text(
                                               'Learn more',
-                                              textAlign: TextAlign.start,
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
                                                 fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
-                                                height:
-                                                    1.7142857143 * ffem / fem,
+                                                height: 1.6 * ffem / fem,
                                                 letterSpacing: 0.5 * fem,
                                                 color: Color.fromARGB(
                                                     255, 255, 255, 255),
@@ -1914,7 +1902,7 @@ class Scene extends StatelessWidget {
                               },
                               child: Center(
                                 child: Text(
-                                  'Read more.',
+                                  'Read more',
                                   style: TextStyle(
                                     fontFamily: 'Product Sans',
                                     fontSize: 15 * ffem,
@@ -2073,7 +2061,7 @@ class Scene extends StatelessWidget {
                                               ' Coming Soon.',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 17 * ffem,
+                                                fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 2 * ffem / fem,
                                                 letterSpacing: 0.5 * fem,
@@ -2183,7 +2171,7 @@ class Scene extends StatelessWidget {
                                               'Read more',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 17 * ffem,
+                                                fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 2 * ffem / fem,
                                                 letterSpacing: 0.5 * fem,
@@ -2404,7 +2392,7 @@ class Scene extends StatelessWidget {
                                               'Read more.',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 17 * ffem,
+                                                fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 1.6 * ffem / fem,
                                                 letterSpacing: 0.5 * fem,
@@ -2740,187 +2728,6 @@ class Scene extends StatelessWidget {
             /*
             Here We Use or change the container and design after this line ....
             */
-
-            // Container(
-            //   // divVrp (195:2)
-            //   margin: EdgeInsets.fromLTRB(
-            //       84.5 * fem, 0 * fem, 89.5 * fem, 160 * fem),
-            //   width: double.infinity,
-            //   height: 394 * fem,
-            //   child: Row(
-            //     crossAxisAlignment: CrossAxisAlignment.center,
-            //     children: [
-            //       Container(
-            //         // articlepeC (195:3)
-            //         margin: EdgeInsets.fromLTRB(
-            //             0 * fem, 0 * fem, 44 * fem, 0 * fem),
-            //         padding: EdgeInsets.fromLTRB(
-            //             51 * fem, 29 * fem, 53.91 * fem, 29 * fem),
-            //         height: double.infinity,
-            //         decoration: BoxDecoration(
-            //           border: Border.all(color: Color(0xffe8eaed)),
-            //           borderRadius: BorderRadius.circular(60 * fem),
-            //         ),
-            //         child: Row(
-            //           crossAxisAlignment: CrossAxisAlignment.center,
-            //           children: [
-            //             Container(
-            //               // gyujbgvems0qhq34sjn7ykhjs8rber (195:4)
-            //               margin: EdgeInsets.fromLTRB(
-            //                   0 * fem, 0 * fem, 43.09 * fem, 0 * fem),
-            //               width: 252 * fem,
-            //               height: 336 * fem,
-            //               child: ClipRRect(
-            //                 borderRadius: BorderRadius.circular(60 * fem),
-            //                 child: Image.asset(
-            //                   'assets/page-1/images/gyujbgvems0qhq34sjn7ykhjs8rbertrcja8lhf9gtnc5brd0ac23ietapklcfujkgphmma7icyubsqrlxbvh2jlhw2opyk2f-fctbvd1ytmctad898bw252-rw-e365-v1.png',
-            //                   fit: BoxFit.contain,
-            //                 ),
-            //               ),
-            //             ),
-            //             Container(
-            //               // divmSx (195:5)
-            //               margin: EdgeInsets.fromLTRB(
-            //                   0 * fem, 96 * fem, 0 * fem, 96 * fem),
-            //               height: double.infinity,
-            //               child: Column(
-            //                 crossAxisAlignment: CrossAxisAlignment.center,
-            //                 children: [
-            //                   Center(
-            //                     // softwareengineerinterncodeclau (195:6)
-            //                     child: Container(
-            //                       margin: EdgeInsets.fromLTRB(
-            //                           0 * fem, 0 * fem, 0 * fem, 16 * fem),
-            //                       constraints: BoxConstraints(
-            //                         maxWidth: 185 * fem,
-            //                       ),
-            //                       child: Text(
-            //                         'Software Engineer Intern- CodeClause',
-            //                         textAlign: TextAlign.center,
-            //                         style: TextStyle(
-            //                           fontFamily: 'Product Sans',
-            //                           fontSize: 20 * ffem,
-            //                           fontWeight: FontWeight.w400,
-            //                           height: 1.4 * ffem / fem,
-            //                           color: Color(0xff202124),
-            //                         ),
-            //                       ),
-            //                     ),
-            //                   ),
-            //                   Center(
-            //                     // ihaveexperienceasasoftwareengi (195:7)
-            //                     child: Container(
-            //                       constraints: BoxConstraints(
-            //                         maxWidth: 216 * fem,
-            //                       ),
-            //                       child: Text(
-            //                         'I have experience as a Software Engineering Intern at CodeClause.',
-            //                         textAlign: TextAlign.center,
-            //                         style: TextStyle(
-            //                           fontFamily: 'Product Sans',
-            //                           fontSize: 16 * ffem,
-            //                           fontWeight: FontWeight.w400,
-            //                           height: 1.5 * ffem / fem,
-            //                           color: Color(0xff5f6368),
-            //                         ),
-            //                       ),
-            //                     ),
-            //                   ),
-            //                 ],
-            //               ),
-            //             ),
-            //           ],
-            //         ),
-            //       ),
-
-            //       /*
-            //       And This is a Second Container to change the cintainer with design ...
-
-            //       */
-            //       Container(
-            //         // articlefAx (195:8)
-            //         padding: EdgeInsets.fromLTRB(
-            //             51 * fem, 29 * fem, 54.4 * fem, 29 * fem),
-            //         height: double.infinity,
-            //         decoration: BoxDecoration(
-            //           border: Border.all(color: Color(0xffe8eaed)),
-            //           borderRadius: BorderRadius.circular(60 * fem),
-            //         ),
-            //         child: Row(
-            //           crossAxisAlignment: CrossAxisAlignment.center,
-            //           children: [
-            //             Container(
-            //               // rq6fpwdusahwtmc0eilawwxa2yhjba (195:9)
-            //               margin: EdgeInsets.fromLTRB(
-            //                   0 * fem, 0 * fem, 47.6 * fem, 0 * fem),
-            //               width: 252 * fem,
-            //               height: 336 * fem,
-            //               child: ClipRRect(
-            //                 borderRadius: BorderRadius.circular(60 * fem),
-            //                 child: Image.asset(
-            //                   'assets/page-1/images/rq6fpwdusahwtmc0eila-wwxa2yhjbatidpjvuti5qadkncuhwflyhir8m0zgwis46pkhk7f133lvgt0xw3vlvw72c9yjwpxegbv5yb6m81prd4ii-yw252-rw-e365-v1.png',
-            //                   fit: BoxFit.contain,
-            //                 ),
-            //               ),
-            //             ),
-            //             Container(
-            //               // divE7a (195:10)
-            //               margin: EdgeInsets.fromLTRB(
-            //                   0 * fem, 105 * fem, 0 * fem, 95 * fem),
-            //               height: double.infinity,
-            //               child: Column(
-            //                 crossAxisAlignment: CrossAxisAlignment.center,
-            //                 children: [
-            //                   Center(
-            //                     // researchinternbavchedutech9EY (195:11)
-            //                     child: Container(
-            //                       margin: EdgeInsets.fromLTRB(
-            //                           0 * fem, 0 * fem, 3.83 * fem, 25 * fem),
-            //                       constraints: BoxConstraints(
-            //                         maxWidth: 211 * fem,
-            //                       ),
-            //                       child: Text(
-            //                         'Research Intern\nBavch Edutech',
-            //                         textAlign: TextAlign.center,
-            //                         style: TextStyle(
-            //                           fontFamily: 'Product Sans',
-            //                           fontSize: 19 * ffem,
-            //                           fontWeight: FontWeight.w400,
-            //                           height: 1.4736842105 * ffem / fem,
-            //                           color: Color(0xff202124),
-            //                         ),
-            //                       ),
-            //                     ),
-            //                   ),
-            //                   Center(
-            //                     // ihaveexperienceasasoftwareengi (195:12)
-            //                     child: Container(
-            //                       constraints: BoxConstraints(
-            //                         maxWidth: 180 * fem,
-            //                       ),
-            //                       child: Text(
-            //                         'I have experience as Research Edutech.',
-            //                         textAlign: TextAlign.center,
-            //                         style: TextStyle(
-            //                           fontFamily: 'Product Sans',
-            //                           fontSize: 16 * ffem,
-            //                           fontWeight: FontWeight.w400,
-            //                           height: 1.5 * ffem / fem,
-            //                           color: Color(0xff5f6368),
-            //                         ),
-            //                       ),
-            //                     ),
-            //                   ),
-            //                 ],
-            //               ),
-            //             ),
-            //           ],
-            //         ),
-            //       ),
-            //     ],
-            //   ),
-            // ),
-            // starting the certificate and achivement part ...
 
             Center(
               child: Container(
