@@ -21,6 +21,9 @@ final lpuImages = [
   "assets/page-1/images/lpu_logo_4.jpeg",
   "assets/page-1/images/lpu_logo_5.jpeg",
   "assets/page-1/images/lpu_logo_6.jpeg"
+      // "assets/page-1/images/regent_1.jpg",
+      "assets/page-1/images/regent_2.jpeg",
+  "assets/page-1/images/regent_3.jpeg"
 ];
 
 Widget buildImage(String urlImage, int index) => Container(
@@ -684,7 +687,7 @@ class Scene extends StatelessWidget {
                                                                         onTap: () => {
                                                                               Navigator.pop(context),
                                                                             },
-                                                                        child: Icon(Icons.close)),
+                                                                        child: Icon(Icons.close, fill: double.minPositive)),
                                                                   ),
                                                                   Container(
                                                                     // frame85tu (4:8)
@@ -732,7 +735,7 @@ class Scene extends StatelessWidget {
                                                                   .fromLTRB(
                                                                       20.5 *
                                                                           fem,
-                                                                      0 * fem,
+                                                                      40 * fem,
                                                                       15.5 *
                                                                           fem,
                                                                       0 * fem),
@@ -778,7 +781,7 @@ class Scene extends StatelessWidget {
                                                                         Container(
                                                                           // frame6vHF (3:14)
                                                                           margin: EdgeInsets.fromLTRB(
-                                                                              0 * fem,
+                                                                              13 * fem,
                                                                               26.5 * fem,
                                                                               75 * fem,
                                                                               25.5 * fem),
@@ -806,6 +809,10 @@ class Scene extends StatelessWidget {
                                                                               ),
                                                                             ),
                                                                           ),
+                                                                        ),
+                                                                        SizedBox(
+                                                                          width:
+                                                                              45 * fem,
                                                                         ),
                                                                         Container(
                                                                           // frame5b21 (3:12)
@@ -844,22 +851,24 @@ class Scene extends StatelessWidget {
                                                                                 ),
                                                                               ),
                                                                               Container(
-                                                                                // frame10AzD (4:11)
-                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
-                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 56 * fem, 0 * fem),
+                                                                                // frame10vXT (5:7)
+                                                                                margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 2 * fem, 10 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 40 * fem, 0 * fem),
                                                                                 width: double.infinity,
                                                                                 height: 27 * fem,
                                                                                 child: Row(
                                                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                                                   children: [
                                                                                     Container(
-                                                                                      // frame11J4q (4:12)
-                                                                                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 81 * fem, 0 * fem),
-                                                                                      width: 158 * fem,
+                                                                                      // frame11Eo3 (5:8)
+                                                                                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
+                                                                                      padding: EdgeInsets.fromLTRB(3 * fem, 0 * fem, 0 * fem, 0 * fem),
+
+                                                                                      width: 189 * fem,
                                                                                       height: 19 * fem,
                                                                                       child: Center(
                                                                                         child: Text(
-                                                                                          'Bachelor of Engineering',
+                                                                                          'Bachelor of Computer Engineering',
                                                                                           style: TextStyle(
                                                                                             fontFamily: 'Product Sans',
                                                                                             fontSize: 15 * ffem,
@@ -872,8 +881,8 @@ class Scene extends StatelessWidget {
                                                                                       ),
                                                                                     ),
                                                                                     Container(
-                                                                                      // frame12ywf (4:13)
-                                                                                      width: 100 * fem,
+                                                                                      // frame12XXF (5:10)
+                                                                                      width: 118 * fem,
                                                                                       height: 19 * fem,
                                                                                       child: Center(
                                                                                         child: Text(
@@ -904,7 +913,7 @@ class Scene extends StatelessWidget {
                                                                                     fontSize: 15 * ffem,
                                                                                     fontWeight: FontWeight.w400,
                                                                                     height: 1.2575 * ffem / fem,
-                                                                                    letterSpacing: 0.075 * fem,
+                                                                                    letterSpacing: 0.25 * fem,
                                                                                     color: Color(0xb2000000),
                                                                                   ),
                                                                                 ),
@@ -950,7 +959,7 @@ class Scene extends StatelessWidget {
                                                                               65.5 * fem,
                                                                               42.5 * fem),
                                                                           width:
-                                                                              138 * fem,
+                                                                              200 * fem,
                                                                           height:
                                                                               double.infinity,
                                                                           child:
@@ -965,7 +974,7 @@ class Scene extends StatelessWidget {
                                                                                   borderRadius: BorderRadius.circular(69 * fem),
                                                                                   image: DecorationImage(
                                                                                     image: AssetImage(
-                                                                                      'assets/page-1/images/ellipse-2-bg.png',
+                                                                                      'assets/page-1/images/regent_1.jpg',
                                                                                     ),
                                                                                   ),
                                                                                 ),
@@ -1104,13 +1113,13 @@ class Scene extends StatelessWidget {
                                                                                 width: 409 * fem,
                                                                                 height: 116 * fem,
                                                                                 child: Text(
-                                                                                  'I\'m studying for a Bachelor of Technology degree at Lovely Professional University. LPU has given me a solid academic base and chances to grow personally and professionally through practical learning and industry exposure. I believe the knowledge and skills I gain at LPU will help me make valuable contributions in the future.\n',
+                                                                                  "I have successfully completed a comprehensive Diploma program in Computer Science and Engineering from the esteemed Regent Institute of Science and Technology in the year 2020.\n",
                                                                                   style: TextStyle(
                                                                                     fontFamily: 'Product Sans',
                                                                                     fontSize: 15 * ffem,
                                                                                     fontWeight: FontWeight.w400,
                                                                                     height: 1.2575 * ffem / fem,
-                                                                                    letterSpacing: 0.075 * fem,
+                                                                                    letterSpacing: 0.25 * fem,
                                                                                     color: Color(0xb2000000),
                                                                                   ),
                                                                                 ),
@@ -1450,7 +1459,7 @@ class Scene extends StatelessWidget {
                                     borderRadius:
                                         BorderRadius.circular(41 * fem),
                                     child: Image.asset(
-                                      'assets/page-1/images/rectangle-2.png',
+                                      'assets/page-1/images/new_resume_pic.jpeg',
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -1518,9 +1527,11 @@ class Scene extends StatelessWidget {
                                         border: Border.all(
                                             color:
                                                 // Color.fromARGB(141, 0, 0, 0)),
-                                                const Color.fromARGB(
-                                                    15, 0, 0, 0)),
-                                        color: const Color(0xffffffff),
+                                                // const Color.fromARGB(
+                                                //     15, 0, 0, 0)
+                                                Color(0xff1A73E8)),
+                                        // color: const Color(0xffffffff),
+                                        color: Color(0xff1A73E8),
                                         borderRadius:
                                             BorderRadius.circular(30 * fem),
                                       ),
@@ -1542,12 +1553,13 @@ class Scene extends StatelessWidget {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 16 * ffem,
+                                                fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height:
                                                     1.7142857143 * ffem / fem,
                                                 letterSpacing: 0.5 * fem,
-                                                color: const Color(0xff1a73e8),
+                                                color: Color.fromARGB(
+                                                    255, 255, 255, 255),
                                               ),
                                             ),
                                           ),
@@ -1802,7 +1814,7 @@ class Scene extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(60 * fem),
                                 child: Image.asset(
                                   'assets/page-1/images/rectangle-13.png',
-                                  fit: BoxFit.contain,
+                                  fit: BoxFit.scaleDown,
                                 ),
                               ),
                             ),
@@ -1827,9 +1839,25 @@ class Scene extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
+                            margin: EdgeInsets.fromLTRB(8 * fem, 0, 0, 0),
+                            child: Text(
+                              "Skills",
+                              style: TextStyle(
+                                fontFamily: 'Product Sans',
+                                fontSize: 17 * ffem,
+                                fontWeight: FontWeight.w500,
+                                height: 1.8461538462 * ffem / fem,
+                                letterSpacing: 0.5 * fem,
+                                color: const Color(0xff202124),
+                              ),
+                            )),
+                        SizedBox(
+                          height: 6 * fem,
+                        ),
+                        Container(
                           // technicalmasteryorchestratesbe (126:9)
                           margin: EdgeInsets.fromLTRB(
-                              5 * fem, 0 * fem, 0 * fem, 26 * fem),
+                              5 * fem, 0 * fem, 0 * fem, 0 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
@@ -1848,17 +1876,17 @@ class Scene extends StatelessWidget {
                         Container(
                           // ipossesstechnicalskillsinjavap (126:11)
                           margin: EdgeInsets.fromLTRB(
-                              7 * fem, 0 * fem, 0 * fem, 30 * fem),
+                              7 * fem, 15 * fem, 0 * fem, 10 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
                           child: Text(
-                            'I possess technical skills in Java, Python, Kotlin, JavaScript, and Dart, and am currently working on frameworks such as React and Flutter. I also have knowledge of SQL, MySQL, and MongoDB databases, and am familiar with AWS.',
+                            'I possess technical skills in Java, Python, Kotlin, JavaScript, and Dart, and am currently working on frameworks such as React and Flutter. I also have knowledge of SQL, MySQL, and MongoDB databases, and am familiar with GraphQL and AWS.',
                             style: TextStyle(
                               fontFamily: 'Product Sans',
-                              fontSize: 17.8 * ffem,
-                              fontWeight: FontWeight.w500,
-                              height: 1.6 * ffem / fem,
+                              fontSize: 18 * ffem,
+                              fontWeight: FontWeight.w400,
+                              height: 1.5 * ffem / fem,
                               letterSpacing: 0.1000000015 * fem,
                               color: const Color(0xff5f6368),
                             ),
@@ -1868,11 +1896,12 @@ class Scene extends StatelessWidget {
                           // findouthowdevicesworkbettertog (126:12)
                           width: 120 * fem,
                           height: 44 * fem,
+                          margin: EdgeInsets.fromLTRB(0, 10 * fem, 0, 0),
                           padding: EdgeInsets.fromLTRB(
                               1 * fem, 0 * fem, 0 * fem, 2 * fem),
                           decoration: BoxDecoration(
-                            border: Border.all(
-                                color: const Color.fromARGB(15, 0, 0, 0)),
+                            color: Color(0xff1A73E8),
+                            border: Border.all(color: Color(0xff1A73E8)),
                             borderRadius: BorderRadius.circular(30 * fem),
                           ),
                           child: Center(
@@ -1888,11 +1917,11 @@ class Scene extends StatelessWidget {
                                   'Read more.',
                                   style: TextStyle(
                                     fontFamily: 'Product Sans',
-                                    fontSize: 17 * ffem,
+                                    fontSize: 15 * ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.6 * ffem / fem,
                                     letterSpacing: 0.5 * fem,
-                                    color: const Color(0xff1a73e8),
+                                    color: Color.fromARGB(255, 255, 255, 255),
                                   ),
                                 ),
                               ),
