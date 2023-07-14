@@ -143,8 +143,10 @@ class Scene extends StatelessWidget {
                         10 * fem, 30 * fem, 0 * fem, 0 * fem),
                     decoration: BoxDecoration(
                       // color: Color(0xffd9d9d9),
-                      border: Border.all(color: const Color.fromARGB(255, 0, 0, 0),
-                      style: BorderStyle.solid,),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 0, 0, 0),
+                        style: BorderStyle.solid,
+                      ),
                       borderRadius: BorderRadius.circular(100 * fem),
                     ),
                     // padding: EdgeInsets.fromLTRB(0*fem, 30*fem,0,0),
@@ -2795,7 +2797,7 @@ class Scene extends StatelessWidget {
                               width: 407 * fem,
                               height: double.infinity,
                               decoration: BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color.fromARGB(255, 242, 242, 242),
                                 borderRadius: BorderRadius.circular(24 * fem),
                               ),
                               child: Column(
@@ -2808,8 +2810,8 @@ class Scene extends StatelessWidget {
                                     width: 82 * fem,
                                     height: 82 * fem,
                                     decoration: BoxDecoration(
-                                      // color: Color(0xffd9d9d9),
-                                      border: Border.all(color: Colors.black),
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      // border: Border.all(color: Colors.black),
                                       borderRadius:
                                           BorderRadius.circular(90 * fem),
                                     ),
