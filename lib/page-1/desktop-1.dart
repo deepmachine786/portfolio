@@ -109,7 +109,7 @@ class Scene extends StatelessWidget {
                               fontSize: 27 * ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.3636363636 * ffem / fem,
-                              letterSpacing: 0.25 * fem,
+                              letterSpacing: -0.25 * fem,
                               // color: Color.fromARGB(255, 3, 3, 3),
                               color: const Color(0xff3c4043),
                             ),
@@ -131,12 +131,39 @@ class Scene extends StatelessWidget {
                   //       fontSize: 27 * ffem,
                   //       fontWeight: FontWeight.w600,
                   //       height: 1.3636363636 * ffem / fem,
-                  //       letterSpacing: 0.25 * fem,
+                  //                                       letterSpacing: -0.25 * fem,
                   //       // color: Color.fromARGB(255, 3, 3, 3),
                   //       color: Color(0xff3c4043),
                   //     ),
                   //   ),
                   // ),
+                  Container(
+                    // aboutG3J (4:14)
+                    margin: EdgeInsets.fromLTRB(
+                        10 * fem, 30 * fem, 0 * fem, 0 * fem),
+                    decoration: BoxDecoration(
+                      // color: Color(0xffd9d9d9),
+                      border: Border.all(color: const Color.fromARGB(255, 0, 0, 0),
+                      style: BorderStyle.solid,),
+                      borderRadius: BorderRadius.circular(100 * fem),
+                    ),
+                    // padding: EdgeInsets.fromLTRB(0*fem, 30*fem,0,0),
+                    child: InkWell(
+                      onTap: () {
+                        launch("mailto:alishahidmd127@gmail.com");
+                      },
+                      child: Image.asset(
+                        "assets/page-1/images/email_icon.png",
+                        fit: BoxFit.contain,
+                        alignment: Alignment.center,
+                        height: 35 * fem,
+                        width: 35 * fem,
+                        color: const Color(0xff3c4043),
+
+                        // color: Colors.black,
+                      ),
+                    ),
+                  ),
 
                   Container(
                     // aboutG3J (4:14)
@@ -212,7 +239,7 @@ class Scene extends StatelessWidget {
                     //       fontSize: 14.5 * ffem,
                     //       fontWeight: FontWeight.w500,
                     //       height: 1.2125 * ffem / fem,
-                    //       letterSpacing: 0.42 * fem,
+                    //                                       letterSpacing: -0.25 * fem, 0.42 * fem,
                     //       color: Color(0xff5f6368),
                     //     ),
                     //   ),
@@ -265,6 +292,7 @@ class Scene extends StatelessWidget {
                             "https://developers.google.com/profile/u/deepmachine786");
                       },
                       child: Image.asset(
+                        // "assets/page-1/images/profile.png",
                         "assets/page-1/images/profile.png",
                         // fit: BoxFit.fill,
                         alignment: Alignment.center,
@@ -310,7 +338,7 @@ class Scene extends StatelessWidget {
                           fontSize: 85 * ffem,
                           fontWeight: FontWeight.w700,
                           height: 0.9 * ffem / fem,
-                          letterSpacing: 0.5 * fem,
+                          letterSpacing: -0.25 * fem,
                           color: const Color(0xff3c4043),
                         ),
                       ),
@@ -335,7 +363,7 @@ class Scene extends StatelessWidget {
                           fontSize: 55 * ffem,
                           fontWeight: FontWeight.w700,
                           height: 1.2 * ffem / fem,
-                          letterSpacing: 0.25 * fem,
+                          letterSpacing: -0.25 * fem,
                           color: const Color(0xff188038),
                         ),
                       ),
@@ -357,7 +385,7 @@ class Scene extends StatelessWidget {
                           Container(
                             // rectangle2fRQ (2:7)
                             margin: EdgeInsets.fromLTRB(
-                                10 * fem, 10 * fem, 345.5 * fem, 0 * fem),
+                                10 * fem, 10 * fem, 350.5 * fem, 0 * fem),
                             width: 250 * fem,
                             height: 115 * fem,
                             child: Image.asset(
@@ -376,8 +404,9 @@ class Scene extends StatelessWidget {
                               width: 140 * fem,
                               height: 50 * fem,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(30 * fem),
-                                border: Border.all(color: const Color(0xff000000)),
+                                borderRadius: BorderRadius.circular(24 * fem),
+                                border:
+                                    Border.all(color: const Color(0xff000000)),
                                 // color: Color(0xffffffff),
                               ),
                               padding: const EdgeInsets.all(10.0),
@@ -391,7 +420,7 @@ class Scene extends StatelessWidget {
                                     fontSize: 16 * ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.4 * ffem / fem,
-                                    letterSpacing: 0.5 * fem,
+                                    letterSpacing: -0.25 * fem,
                                   ),
                                 ),
                               ),
@@ -447,7 +476,7 @@ class Scene extends StatelessWidget {
                               fontWeight: FontWeight.w400,
                               fontStyle: FontStyle.normal,
                               height: 1.1363636364 * ffem / fem,
-                              letterSpacing: 0.25 * fem,
+                              letterSpacing: -0.25 * fem,
                               color: const Color(0xff202124),
                             ),
                           ),
@@ -520,7 +549,7 @@ class Scene extends StatelessWidget {
                                           fontSize: 18 * ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.5 * ffem / fem,
-                                          letterSpacing: 0.25 * fem,
+                                          letterSpacing: -0.25 * fem,
                                           color: const Color(0xff5f6368),
                                         ),
                                       ),
@@ -562,7 +591,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w500,
                                                 height:
                                                     1.8461538462 * ffem / fem,
-                                                letterSpacing: 0.25 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
@@ -575,7 +604,7 @@ class Scene extends StatelessWidget {
                                               fontSize: 46 * ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2727272727 * ffem / fem,
-                                              letterSpacing: 0.25 * fem,
+                                              letterSpacing: -0.25 * fem,
                                               color: const Color(0xff000000),
                                             ),
                                           ),
@@ -602,8 +631,9 @@ class Scene extends StatelessWidget {
                                         onTap: () {
                                           // Dialog Box use here ...
                                           showDialog(
-                                              barrierColor: const Color.fromARGB(
-                                                  179, 255, 255, 255),
+                                              barrierColor:
+                                                  const Color.fromARGB(
+                                                      179, 255, 255, 255),
                                               context: context,
                                               builder: (context) => AlertDialog(
                                                     // Customize your AlertDialog here
@@ -716,7 +746,7 @@ class Scene extends StatelessWidget {
                                                                               ffem /
                                                                               fem,
                                                                           letterSpacing:
-                                                                              0.125 * fem,
+                                                                              -0.25 * fem,
                                                                           color:
                                                                               const Color(0xff000000),
                                                                         ),
@@ -841,7 +871,7 @@ class Scene extends StatelessWidget {
                                                                                       fontSize: 28 * ffem,
                                                                                       fontWeight: FontWeight.w400,
                                                                                       height: 1.2575 * ffem / fem,
-                                                                                      letterSpacing: 0.28 * fem,
+                                                                                      letterSpacing: -0.25 * fem,
                                                                                       color: const Color(0xff000000),
                                                                                     ),
                                                                                   ),
@@ -871,7 +901,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 15 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            letterSpacing: -0.25 * fem,
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -889,7 +919,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 13 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            letterSpacing: -0.25 * fem,
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -910,7 +940,7 @@ class Scene extends StatelessWidget {
                                                                                     fontSize: 15 * ffem,
                                                                                     fontWeight: FontWeight.w400,
                                                                                     height: 1.2575 * ffem / fem,
-                                                                                    letterSpacing: 0.25 * fem,
+                                                                                    letterSpacing: -0.25 * fem,
                                                                                     color: const Color(0xb2000000),
                                                                                   ),
                                                                                 ),
@@ -1008,7 +1038,7 @@ class Scene extends StatelessWidget {
                                                                                       fontSize: 28 * ffem,
                                                                                       fontWeight: FontWeight.w400,
                                                                                       height: 1.2575 * ffem / fem,
-                                                                                      letterSpacing: 0.28 * fem,
+                                                                                      letterSpacing: -0.25 * fem,
                                                                                       color: const Color(0xff000000),
                                                                                     ),
                                                                                   ),
@@ -1028,7 +1058,7 @@ class Scene extends StatelessWidget {
                                                                               //         fontSize: 28 * ffem,
                                                                               //         fontWeight: FontWeight.w400,
                                                                               //         height: 1.2575 * ffem / fem,
-                                                                              //         letterSpacing: 0.28 * fem,
+                                                                              //                                         letterSpacing: -0.25 * fem, 0.28 * fem,
                                                                               //         color: Color(0xff000000),
                                                                               //       ),
                                                                               //     ),
@@ -1058,7 +1088,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 15 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            letterSpacing: -0.25 * fem,
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -1076,7 +1106,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 13 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: 0.15 * fem,
+                                                                                            letterSpacing: -0.25 * fem,
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -1099,7 +1129,7 @@ class Scene extends StatelessWidget {
                                                                               //       fontSize: 15 * ffem,
                                                                               //       fontWeight: FontWeight.w400,
                                                                               //       height: 1.2575 * ffem / fem,
-                                                                              //       letterSpacing: 0.075 * fem,
+                                                                              //                                       letterSpacing: -0.25 * fem, 0.075 * fem,
                                                                               //       color: Color(0xb2000000),
                                                                               //     ),
                                                                               //   ),
@@ -1116,7 +1146,7 @@ class Scene extends StatelessWidget {
                                                                                     fontSize: 15 * ffem,
                                                                                     fontWeight: FontWeight.w400,
                                                                                     height: 1.2575 * ffem / fem,
-                                                                                    letterSpacing: 0.25 * fem,
+                                                                                    letterSpacing: -0.25 * fem,
                                                                                     color: const Color(0xb2000000),
                                                                                   ),
                                                                                 ),
@@ -1408,7 +1438,7 @@ class Scene extends StatelessWidget {
                                 fontSize: 34 * ffem,
                                 fontWeight: FontWeight.w400,
                                 height: 1.7058823529 * ffem / fem,
-                                letterSpacing: 0.25 * fem,
+                                letterSpacing: -0.25 * fem,
                                 color: const Color(0xff000000),
                               ),
                             ),
@@ -1486,7 +1516,7 @@ class Scene extends StatelessWidget {
                                             fontSize: 19 * ffem,
                                             fontWeight: FontWeight.w400,
                                             height: 1.4736842105 * ffem / fem,
-                                            letterSpacing: 0.25 * fem,
+                                            letterSpacing: -0.25 * fem,
                                             color: const Color(0xff000000),
                                           ),
                                         ),
@@ -1505,7 +1535,7 @@ class Scene extends StatelessWidget {
                                             fontSize: 18 * ffem,
                                             fontWeight: FontWeight.w400,
                                             height: 1.5 * ffem / fem,
-                                            letterSpacing: 0.25 * fem,
+                                            letterSpacing: -0.25 * fem,
                                             color: const Color.fromARGB(
                                                 211, 95, 99, 104),
                                           ),
@@ -1544,7 +1574,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 1.6 * ffem / fem,
-                                                letterSpacing: 0.5 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color.fromARGB(
                                                     255, 255, 255, 255),
                                               ),
@@ -1834,7 +1864,7 @@ class Scene extends StatelessWidget {
                                 fontSize: 17 * ffem,
                                 fontWeight: FontWeight.w500,
                                 height: 1.8461538462 * ffem / fem,
-                                letterSpacing: 0.5 * fem,
+                                letterSpacing: -0.25 * fem,
                                 color: const Color(0xff202124),
                               ),
                             )),
@@ -1855,8 +1885,9 @@ class Scene extends StatelessWidget {
                               fontSize: 36 * ffem,
                               fontWeight: FontWeight.w500,
                               height: 1.2941176471 * ffem / fem,
-                              letterSpacing: 0.5 * fem,
-                              color: const Color(0xff000000),
+                              letterSpacing: -0.25 * fem,
+                              // color: const Color(0xff000000),
+                              color: Color(0xff000000),
                             ),
                           ),
                         ),
@@ -1874,7 +1905,7 @@ class Scene extends StatelessWidget {
                               fontSize: 18 * ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.5 * ffem / fem,
-                              letterSpacing: 0.1000000015 * fem,
+                              letterSpacing: -0.25 * fem,
                               color: const Color(0xff5f6368),
                             ),
                           ),
@@ -1907,8 +1938,9 @@ class Scene extends StatelessWidget {
                                     fontSize: 15 * ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.6 * ffem / fem,
-                                    letterSpacing: 0.5 * fem,
-                                    color: const Color.fromARGB(255, 255, 255, 255),
+                                    letterSpacing: -0.25 * fem,
+                                    color: const Color.fromARGB(
+                                        255, 255, 255, 255),
                                   ),
                                 ),
                               ),
@@ -1925,7 +1957,7 @@ class Scene extends StatelessWidget {
               // autogroupbx76B5a (6kyNtKTmK9EyMWVBqqBX76)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 4 * fem, 96 * fem),
               width: 1446 * fem,
-              height: 2986 * fem,
+              height: 2800 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -2015,7 +2047,7 @@ class Scene extends StatelessWidget {
                                               fontSize: 34 * ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2941176471 * ffem / fem,
-                                              letterSpacing: 0.25 * fem,
+                                              letterSpacing: -0.25 * fem,
                                               color: const Color(0xff000000),
                                             ),
                                           ),
@@ -2034,8 +2066,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 18 * ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
-                                                letterSpacing:
-                                                    0.1000000015 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff5f6368),
                                               ),
                                             ),
@@ -2063,7 +2094,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 2 * ffem / fem,
-                                                letterSpacing: 0.5 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff1a73e8),
                                               ),
                                             ),
@@ -2130,7 +2161,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height:
                                                     1.2941176471 * ffem / fem,
-                                                letterSpacing: 0.25 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff000000),
                                               ),
                                             ),
@@ -2152,8 +2183,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 18 * ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
-                                                letterSpacing:
-                                                    0.1000000015 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff5f6368),
                                               ),
                                             ),
@@ -2173,7 +2203,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 2 * ffem / fem,
-                                                letterSpacing: 0.5 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff1a73e8),
                                               ),
                                             ),
@@ -2206,7 +2236,7 @@ class Scene extends StatelessWidget {
                                           //           fontSize: 15 * ffem,
                                           //           fontWeight: FontWeight.w500,
                                           //           height: 1.6 * ffem / fem,
-                                          //           letterSpacing: 0.5 * fem,
+                                          //                                           letterSpacing: -0.25 * fem, 0.5 * fem,
                                           //           color: Color(0xff1a73e8),
                                           //         ),
                                           //       ),
@@ -2226,7 +2256,7 @@ class Scene extends StatelessWidget {
                                           //         fontSize: 15 * ffem,
                                           //         fontWeight: FontWeight.w400,
                                           //         height: 1.5 * ffem / fem,
-                                          //         letterSpacing:
+                                          //                                         letterSpacing: -0.25 * fem,
                                           //             0.1000000015 * fem,
                                           //         color: Color(0xff0077c2),
                                           //       ),
@@ -2340,7 +2370,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height:
                                                     1.2941176471 * ffem / fem,
-                                                letterSpacing: 0.25 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff000000),
                                               ),
                                             ),
@@ -2359,8 +2389,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 18 * ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
-                                                letterSpacing:
-                                                    0.1000000015 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff5f6368),
                                               ),
                                             ),
@@ -2394,7 +2423,7 @@ class Scene extends StatelessWidget {
                                                 fontSize: 15 * ffem,
                                                 fontWeight: FontWeight.w500,
                                                 height: 1.6 * ffem / fem,
-                                                letterSpacing: 0.5 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff1a73e8),
                                               ),
                                             ),
@@ -2427,7 +2456,7 @@ class Scene extends StatelessWidget {
                                         fontSize: 38 * ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.2941176471 * ffem / fem,
-                                        letterSpacing: -0.5500000119 * fem,
+                                        letterSpacing: -0.25 * fem,
                                         color: const Color(0xff000000),
                                       ),
                                       children: [
@@ -2442,7 +2471,7 @@ class Scene extends StatelessWidget {
                                             fontSize: 38 * ffem,
                                             fontWeight: FontWeight.w400,
                                             height: 1.2941176471 * ffem / fem,
-                                            letterSpacing: 0.25 * fem,
+                                            letterSpacing: -0.25 * fem,
                                             color: const Color(0xff000000),
                                           ),
                                         ),
@@ -2518,7 +2547,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w500,
                                                 height:
                                                     1.8461538462 * ffem / fem,
-                                                letterSpacing: 0.5 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
@@ -2543,7 +2572,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height:
                                                     1.2727272727 * ffem / fem,
-                                                letterSpacing: -0.5 * fem,
+                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff000000),
                                               ),
                                             ),
@@ -2569,7 +2598,7 @@ class Scene extends StatelessWidget {
                                           fontSize: 18 * ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.5 * ffem / fem,
-                                          letterSpacing: 0.1000000015 * fem,
+                                          letterSpacing: -0.25 * fem,
                                           color: const Color(0xff5f6368),
                                         ),
                                       ),
@@ -2693,34 +2722,285 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Positioned(
-                    // experienceweavesgrowthchalleng (200:6)
-                    left: 278 * fem,
-                    top: 2920 * fem,
-                    child: Center(
-                      child: Align(
-                        child: SizedBox(
-                          width: 880 * fem,
-                          height: 44 * fem,
-                          child: Center(
-                            child: Text(
-                              'Experience weaves growth, challenges, and wisdom.',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontFamily: 'Product Sans',
-                                fontSize: 38 * ffem,
-                                fontWeight: FontWeight.w400,
-                                height: 1.2941176471 * ffem / fem,
-                                letterSpacing: 0.25 * fem,
-                                color: const Color(0xff000000),
-                              ),
-                            ),
+                  // Positioned(
+                  //   // experienceweavesgrowthchalleng (200:6)
+                  //   left: 278 * fem,
+                  //   top: 2920 * fem,
+                  //   child: Center(
+                  //     child: Align(
+                  //       child: SizedBox(
+                  //         width: 880 * fem,
+                  //         height: 44 * fem,
+                  //         child: Center(
+                  //           child: Text(
+                  //             'Experience weaves growth, challenges, and wisdom.',
+                  //             textAlign: TextAlign.center,
+                  //             style: TextStyle(
+                  //               fontFamily: 'Product Sans',
+                  //               fontSize: 38 * ffem,
+                  //               fontWeight: FontWeight.w400,
+                  //               height: 1.2941176471 * ffem / fem,
+                  //                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+                  //               color: const Color(0xff000000),
+                  //             ),
+                  //           ),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
+                ],
+              ),
+            ),
+            Positioned(
+              width: double.infinity,
+              child: Container(
+                width: double.infinity,
+                child: Container(
+                  // divflexsbF (1:250)
+                  width: double.infinity,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        // heading3growyourskillsKLm (1:252)
+                        margin: EdgeInsets.fromLTRB(
+                            45 * fem, 0 * fem, 0 * fem, 32 * fem),
+                        child: Text(
+                          'Grow your skills',
+                          style: TextStyle(
+                            fontFamily: 'Product Sans',
+                            fontSize: 38 * ffem,
+                            fontWeight: FontWeight.w500,
+                            height: 1.1162790698 * ffem / fem,
+                            letterSpacing: -0.25 * fem,
+                            color: Color(0xff000000),
                           ),
                         ),
                       ),
-                    ),
+                      Container(
+                        // divgrid6Vw (1:254)
+                        margin: EdgeInsets.fromLTRB(
+                            21.83 * fem, 0 * fem, 0 * fem, 0 * fem),
+                        height: 248 * fem,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                              // linkoQM (1:255)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 0 * fem, 99.65 * fem, 0 * fem),
+                              padding: EdgeInsets.fromLTRB(
+                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                              width: 407 * fem,
+                              height: double.infinity,
+                              decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(24 * fem),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Container(
+                                    // rectangle15sf (4:55)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                    width: 82 * fem,
+                                    height: 82 * fem,
+                                    decoration: BoxDecoration(
+                                      // color: Color(0xffd9d9d9),
+                                      border: Border.all(color: Colors.black),
+                                      borderRadius:
+                                          BorderRadius.circular(90 * fem),
+                                    ),
+                                    child: Image.asset(
+                                      "assets/page-1/images/firstimage.png",
+                                      fit: BoxFit.fill,
+                                    ),
+                                  ),
+                                  Container(
+                                    // divtextblackpyf (1:267)
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          // heading3codelabsandpathwaysNkH (1:268)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 0 * fem, 12 * fem),
+                                          child: Text(
+                                            'Codelabs and pathways',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 23 * ffem,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.3043478261 * ffem / fem,
+                                              letterSpacing: -0.25 * fem,
+                                              color: Color(0xff000000),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // startbuildingtodaywithselfpace (1:270)
+                                          constraints: BoxConstraints(
+                                            maxWidth: 307 * fem,
+                                          ),
+                                          child: Text(
+                                            'Start building today with self-paced coding\nexercises.',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 15 * ffem,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.6 * ffem / fem,
+                                              color: Color(0xff000000),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              // link98m (1:271)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+                              padding: EdgeInsets.fromLTRB(
+                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                              width: 407 * fem,
+                              height: double.infinity,
+                              decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(24 * fem),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Container(
+                                    // rectangle2EAD (4:56)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                    width: 82 * fem,
+                                    height: 86 * fem,
+                                    decoration: BoxDecoration(
+                                      color: Color(0xffd9d9d9),
+                                    ),
+                                  ),
+                                  Container(
+                                    // divtextblackx6D (1:283)
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          // heading3workshops6TK (1:284)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 0 * fem, 12 * fem),
+                                          child: Text(
+                                            'Workshops',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 23 * ffem,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.3043478261 * ffem / fem,
+                                              letterSpacing: -0.25 * fem,
+                                              color: Color(0xff000000),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // gainskillswithguidedcodelabsle (1:286)
+                                          constraints: BoxConstraints(
+                                            maxWidth: 329 * fem,
+                                          ),
+                                          child: Text(
+                                            'Gain skills with guided codelabs led by Google\nexperts.',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 15 * ffem,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.6 * ffem / fem,
+                                              // color: Color(0xff000000),
+                                              color: Color(0xff000000),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              // link4YZ (1:287)
+                              padding: EdgeInsets.fromLTRB(
+                                  24 * fem, 24 * fem, 32.17 * fem, 48 * fem),
+                              width: 403.17 * fem,
+                              height: double.infinity,
+                              decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(24 * fem),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Container(
+                                    // rectangle3mxm (4:57)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                    width: 82 * fem,
+                                    height: 86 * fem,
+                                    decoration: BoxDecoration(
+                                      color: Color(0xffd9d9d9),
+                                    ),
+                                  ),
+                                  Container(
+                                    // divtextblackup5 (1:300)
+                                    width: double.infinity,
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          // heading3productdemossF7 (1:301)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 0 * fem, 12 * fem),
+                                          child: Text(
+                                            'Product demos',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 23 * ffem,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.3043478261 * ffem / fem,
+                                              letterSpacing: -0.25 * fem,
+                                              color: Color(0xff000000),
+                                            ),
+                                          ),
+                                        ),
+                                        Text(
+                                          // discoverhowgooglesdeveloperpro (1:302)
+                                          'Discover how Google\'s developer products work.',
+                                          style: TextStyle(
+                                            fontFamily: 'Product Sans',
+                                            fontSize: 15 * ffem,
+                                            fontWeight: FontWeight.w400,
+                                            height: 1.6 * ffem / fem,
+                                            color: Color(0xff000000),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
             ),
 
@@ -2728,31 +3008,31 @@ class Scene extends StatelessWidget {
             Here We Use or change the container and design after this line ....
             */
 
-            Center(
-              child: Container(
-                height: 500 * fem,
-                width: 1000 * fem,
+            // Center(
+            //   child: Container(
+            //     height: 500 * fem,
+            //     width: 1000 * fem,
 
-                // color: Colors.blue,
-                decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 248, 248, 249),
-                    // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
-                    borderRadius: BorderRadius.circular(65 * fem)),
+            //     // color: Colors.blue,
+            //     decoration: BoxDecoration(
+            //         color: const Color.fromARGB(255, 248, 248, 249),
+            //         // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
+            //         borderRadius: BorderRadius.circular(65 * fem)),
 
-                // Here We use the slider and call the function who made in upper ...
-                // child: CarouselSlider(
-                //     // items: gettheList(),
-                //     items:[1,2,3,4,5].map((e) => e),
-                //     options: CarouselOptions(
-                //       aspectRatio: 18 / 8,
-                //       autoPlay: false,
-                //       autoPlayAnimationDuration: const Duration(seconds: 30),
-                //       autoPlayCurve: Curves.fastOutSlowIn,
-                //       enlargeCenterPage: true,
-                //       viewportFraction: 1,
-                //     ))),
-              ),
-            ),
+            //     // Here We use the slider and call the function who made in upper ...
+            //     // child: CarouselSlider(
+            //     //     // items: gettheList(),
+            //     //     items:[1,2,3,4,5].map((e) => e),
+            //     //     options: CarouselOptions(
+            //     //       aspectRatio: 18 / 8,
+            //     //       autoPlay: false,
+            //     //       autoPlayAnimationDuration: const Duration(seconds: 30),
+            //     //       autoPlayCurve: Curves.fastOutSlowIn,
+            //     //       enlargeCenterPage: true,
+            //     //       viewportFraction: 1,
+            //     //     ))),
+            //   ),
+            // ),
             /**
              * 
              * This is Footer Page ******************************************
@@ -2882,7 +3162,7 @@ class Scene extends StatelessWidget {
                               fontSize: 22 * ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.3636363636 * ffem / fem,
-                              letterSpacing: 0.25 * fem,
+                              letterSpacing: -0.25 * fem,
                               color: const Color(0xbf202124),
                             ),
                           ),
@@ -3137,7 +3417,7 @@ class Scene extends StatelessWidget {
 //                               fontSize: 27 * ffem,
 //                               fontWeight: FontWeight.w600,
 //                               height: 1.3636363636 * ffem / fem,
-//                               letterSpacing: 0.25 * fem,
+//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                               // color: Color.fromARGB(255, 3, 3, 3),
 //                               color: const Color(0xff3c4043),
 //                             ),
@@ -3159,7 +3439,7 @@ class Scene extends StatelessWidget {
 //                   //       fontSize: 27 * ffem,
 //                   //       fontWeight: FontWeight.w600,
 //                   //       height: 1.3636363636 * ffem / fem,
-//                   //       letterSpacing: 0.25 * fem,
+//                   //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                   //       // color: Color.fromARGB(255, 3, 3, 3),
 //                   //       color: Color(0xff3c4043),
 //                   //     ),
@@ -3240,7 +3520,7 @@ class Scene extends StatelessWidget {
 //                     //       fontSize: 14.5 * ffem,
 //                     //       fontWeight: FontWeight.w500,
 //                     //       height: 1.2125 * ffem / fem,
-//                     //       letterSpacing: 0.42 * fem,
+//                     //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.42 * fem,
 //                     //       color: Color(0xff5f6368),
 //                     //     ),
 //                     //   ),
@@ -3338,7 +3618,7 @@ class Scene extends StatelessWidget {
 //                           fontSize: 85 * ffem,
 //                           fontWeight: FontWeight.w700,
 //                           height: 0.9 * ffem / fem,
-//                           letterSpacing: 0.5 * fem,
+//                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                           color: const Color(0xff3c4043),
 //                         ),
 //                       ),
@@ -3363,7 +3643,7 @@ class Scene extends StatelessWidget {
 //                           fontSize: 55 * ffem,
 //                           fontWeight: FontWeight.w700,
 //                           height: 1.2 * ffem / fem,
-//                           letterSpacing: 0.25 * fem,
+//                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                           color: const Color(0xff188038),
 //                         ),
 //                       ),
@@ -3419,7 +3699,7 @@ class Scene extends StatelessWidget {
 //                                     fontSize: 16 * ffem,
 //                                     fontWeight: FontWeight.w500,
 //                                     height: 1.4 * ffem / fem,
-//                                     letterSpacing: 0.5 * fem,
+//                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                   ),
 //                                 ),
 //                               ),
@@ -3476,7 +3756,7 @@ class Scene extends StatelessWidget {
 //                               fontWeight: FontWeight.w400,
 //                               fontStyle: FontStyle.normal,
 //                               height: 1.1363636364 * ffem / fem,
-//                               letterSpacing: 0.25 * fem,
+//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                               color: const Color(0xff202124),
 //                             ),
 //                           ),
@@ -3549,7 +3829,7 @@ class Scene extends StatelessWidget {
 //                                           fontSize: 18 * ffem,
 //                                           fontWeight: FontWeight.w400,
 //                                           height: 1.5 * ffem / fem,
-//                                           letterSpacing: 0.25 * fem,
+//                                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                           color: const Color(0xff5f6368),
 //                                         ),
 //                                       ),
@@ -3591,7 +3871,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height:
 //                                                     1.8461538462 * ffem / fem,
-//                                                 letterSpacing: 0.25 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                                 color: const Color(0xff202124),
 //                                               ),
 //                                             ),
@@ -3604,7 +3884,7 @@ class Scene extends StatelessWidget {
 //                                               fontSize: 46 * ffem,
 //                                               fontWeight: FontWeight.w400,
 //                                               height: 1.2727272727 * ffem / fem,
-//                                               letterSpacing: 0.25 * fem,
+//                                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                               color: const Color(0xff000000),
 //                                             ),
 //                                           ),
@@ -3614,7 +3894,7 @@ class Scene extends StatelessWidget {
 //                                   ),
 //                                 ),
 //                                 /**
-//                                    * Logo Design and cursor 
+//                                    * Logo Design and cursor
 //                                    */
 //                                 Positioned(
 //                                   left: 1040 * fem,
@@ -3744,7 +4024,7 @@ class Scene extends StatelessWidget {
 //                                                                           height: 1.2575 *
 //                                                                               ffem /
 //                                                                               fem,
-//                                                                           letterSpacing:
+//                                                                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem,
 //                                                                               0.125 * fem,
 //                                                                           color:
 //                                                                               Color(0xff000000),
@@ -3866,7 +4146,7 @@ class Scene extends StatelessWidget {
 //                                                                                       fontSize: 28 * ffem,
 //                                                                                       fontWeight: FontWeight.w400,
 //                                                                                       height: 1.2575 * ffem / fem,
-//                                                                                       letterSpacing: 0.28 * fem,
+//                                                                                                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
 //                                                                                       color: Color(0xff000000),
 //                                                                                     ),
 //                                                                                   ),
@@ -3894,7 +4174,7 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 15 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                             letterSpacing: 0.15 * fem,
+//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
 //                                                                                             color: Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
@@ -3912,7 +4192,7 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 13 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                             letterSpacing: 0.15 * fem,
+//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
 //                                                                                             color: Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
@@ -3933,7 +4213,7 @@ class Scene extends StatelessWidget {
 //                                                                                     fontSize: 15 * ffem,
 //                                                                                     fontWeight: FontWeight.w400,
 //                                                                                     height: 1.2575 * ffem / fem,
-//                                                                                     letterSpacing: 0.075 * fem,
+//                                                                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
 //                                                                                     color: Color(0xb2000000),
 //                                                                                   ),
 //                                                                                 ),
@@ -4031,7 +4311,7 @@ class Scene extends StatelessWidget {
 //                                                                                       fontSize: 28 * ffem,
 //                                                                                       fontWeight: FontWeight.w400,
 //                                                                                       height: 1.2575 * ffem / fem,
-//                                                                                       letterSpacing: 0.28 * fem,
+//                                                                                                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
 //                                                                                       color: Color(0xff000000),
 //                                                                                     ),
 //                                                                                   ),
@@ -4051,7 +4331,7 @@ class Scene extends StatelessWidget {
 //                                                                               //         fontSize: 28 * ffem,
 //                                                                               //         fontWeight: FontWeight.w400,
 //                                                                               //         height: 1.2575 * ffem / fem,
-//                                                                               //         letterSpacing: 0.28 * fem,
+//                                                                               //                                                                         letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
 //                                                                               //         color: Color(0xff000000),
 //                                                                               //       ),
 //                                                                               //     ),
@@ -4081,7 +4361,7 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 15 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                             letterSpacing: 0.15 * fem,
+//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
 //                                                                                             color: Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
@@ -4099,7 +4379,7 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 13 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                             letterSpacing: 0.15 * fem,
+//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
 //                                                                                             color: Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
@@ -4122,7 +4402,7 @@ class Scene extends StatelessWidget {
 //                                                                               //       fontSize: 15 * ffem,
 //                                                                               //       fontWeight: FontWeight.w400,
 //                                                                               //       height: 1.2575 * ffem / fem,
-//                                                                               //       letterSpacing: 0.075 * fem,
+//                                                                               //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
 //                                                                               //       color: Color(0xb2000000),
 //                                                                               //     ),
 //                                                                               //   ),
@@ -4139,7 +4419,7 @@ class Scene extends StatelessWidget {
 //                                                                                     fontSize: 15 * ffem,
 //                                                                                     fontWeight: FontWeight.w400,
 //                                                                                     height: 1.2575 * ffem / fem,
-//                                                                                     letterSpacing: 0.075 * fem,
+//                                                                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
 //                                                                                     color: Color(0xb2000000),
 //                                                                                   ),
 //                                                                                 ),
@@ -4431,7 +4711,7 @@ class Scene extends StatelessWidget {
 //                                 fontSize: 34 * ffem,
 //                                 fontWeight: FontWeight.w400,
 //                                 height: 1.7058823529 * ffem / fem,
-//                                 letterSpacing: 0.25 * fem,
+//                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                 color: const Color(0xff000000),
 //                               ),
 //                             ),
@@ -4509,7 +4789,7 @@ class Scene extends StatelessWidget {
 //                                             fontSize: 19 * ffem,
 //                                             fontWeight: FontWeight.w400,
 //                                             height: 1.4736842105 * ffem / fem,
-//                                             letterSpacing: 0.25 * fem,
+//                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                             color: const Color(0xff000000),
 //                                           ),
 //                                         ),
@@ -4528,7 +4808,7 @@ class Scene extends StatelessWidget {
 //                                             fontSize: 18 * ffem,
 //                                             fontWeight: FontWeight.w400,
 //                                             height: 1.5 * ffem / fem,
-//                                             letterSpacing: 0.25 * fem,
+//                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                             color: const Color.fromARGB(
 //                                                 211, 95, 99, 104),
 //                                           ),
@@ -4575,7 +4855,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height:
 //                                                     1.7142857143 * ffem / fem,
-//                                                 letterSpacing: 0.5 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                                 color: const Color(0xff1a73e8),
 //                                               ),
 //                                             ),
@@ -4869,7 +5149,7 @@ class Scene extends StatelessWidget {
 //                               fontSize: 36 * ffem,
 //                               fontWeight: FontWeight.w500,
 //                               height: 1.2941176471 * ffem / fem,
-//                               letterSpacing: 0.5 * fem,
+//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                               color: const Color(0xff000000),
 //                             ),
 //                           ),
@@ -4888,7 +5168,7 @@ class Scene extends StatelessWidget {
 //                               fontSize: 17.8 * ffem,
 //                               fontWeight: FontWeight.w500,
 //                               height: 1.6 * ffem / fem,
-//                               letterSpacing: 0.1000000015 * fem,
+//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.1000000015 * fem,
 //                               color: const Color(0xff5f6368),
 //                             ),
 //                           ),
@@ -4920,7 +5200,7 @@ class Scene extends StatelessWidget {
 //                                     fontSize: 17 * ffem,
 //                                     fontWeight: FontWeight.w500,
 //                                     height: 1.6 * ffem / fem,
-//                                     letterSpacing: 0.5 * fem,
+//                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                     color: const Color(0xff1a73e8),
 //                                   ),
 //                                 ),
@@ -5028,7 +5308,7 @@ class Scene extends StatelessWidget {
 //                                               fontSize: 34 * ffem,
 //                                               fontWeight: FontWeight.w400,
 //                                               height: 1.2941176471 * ffem / fem,
-//                                               letterSpacing: 0.25 * fem,
+//                                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                               color: const Color(0xff000000),
 //                                             ),
 //                                           ),
@@ -5047,7 +5327,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 18 * ffem,
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height: 1.5 * ffem / fem,
-//                                                 letterSpacing:
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem,
 //                                                     0.1000000015 * fem,
 //                                                 color: const Color(0xff5f6368),
 //                                               ),
@@ -5076,7 +5356,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 17 * ffem,
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height: 2 * ffem / fem,
-//                                                 letterSpacing: 0.5 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                                 color: const Color(0xff1a73e8),
 //                                               ),
 //                                             ),
@@ -5143,7 +5423,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height:
 //                                                     1.2941176471 * ffem / fem,
-//                                                 letterSpacing: 0.25 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                                 color: const Color(0xff000000),
 //                                               ),
 //                                             ),
@@ -5165,7 +5445,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 18 * ffem,
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height: 1.5 * ffem / fem,
-//                                                 letterSpacing:
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem,
 //                                                     0.1000000015 * fem,
 //                                                 color: const Color(0xff5f6368),
 //                                               ),
@@ -5186,7 +5466,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 17 * ffem,
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height: 2 * ffem / fem,
-//                                                 letterSpacing: 0.5 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                                 color: const Color(0xff1a73e8),
 //                                               ),
 //                                             ),
@@ -5219,7 +5499,7 @@ class Scene extends StatelessWidget {
 //                                           //           fontSize: 15 * ffem,
 //                                           //           fontWeight: FontWeight.w500,
 //                                           //           height: 1.6 * ffem / fem,
-//                                           //           letterSpacing: 0.5 * fem,
+//                                           //                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                           //           color: Color(0xff1a73e8),
 //                                           //         ),
 //                                           //       ),
@@ -5239,7 +5519,7 @@ class Scene extends StatelessWidget {
 //                                           //         fontSize: 15 * ffem,
 //                                           //         fontWeight: FontWeight.w400,
 //                                           //         height: 1.5 * ffem / fem,
-//                                           //         letterSpacing:
+//                                           //                                                                         letterSpacing: -0.25 * fem, -0.25 * fem,
 //                                           //             0.1000000015 * fem,
 //                                           //         color: Color(0xff0077c2),
 //                                           //       ),
@@ -5353,7 +5633,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height:
 //                                                     1.2941176471 * ffem / fem,
-//                                                 letterSpacing: 0.25 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                                 color: const Color(0xff000000),
 //                                               ),
 //                                             ),
@@ -5372,7 +5652,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 18 * ffem,
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height: 1.5 * ffem / fem,
-//                                                 letterSpacing:
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem,
 //                                                     0.1000000015 * fem,
 //                                                 color: const Color(0xff5f6368),
 //                                               ),
@@ -5407,7 +5687,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 17 * ffem,
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height: 1.6 * ffem / fem,
-//                                                 letterSpacing: 0.5 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                                 color: const Color(0xff1a73e8),
 //                                               ),
 //                                             ),
@@ -5440,7 +5720,7 @@ class Scene extends StatelessWidget {
 //                                         fontSize: 38 * ffem,
 //                                         fontWeight: FontWeight.w400,
 //                                         height: 1.2941176471 * ffem / fem,
-//                                         letterSpacing: -0.5500000119 * fem,
+//                                                                                                         letterSpacing: -0.25 * fem, -0.25 * fem, -0.5500000119 * fem,
 //                                         color: const Color(0xff000000),
 //                                       ),
 //                                       children: [
@@ -5455,7 +5735,7 @@ class Scene extends StatelessWidget {
 //                                             fontSize: 38 * ffem,
 //                                             fontWeight: FontWeight.w400,
 //                                             height: 1.2941176471 * ffem / fem,
-//                                             letterSpacing: 0.25 * fem,
+//                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                             color: const Color(0xff000000),
 //                                           ),
 //                                         ),
@@ -5531,7 +5811,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height:
 //                                                     1.8461538462 * ffem / fem,
-//                                                 letterSpacing: 0.5 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
 //                                                 color: const Color(0xff202124),
 //                                               ),
 //                                             ),
@@ -5556,7 +5836,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height:
 //                                                     1.2727272727 * ffem / fem,
-//                                                 letterSpacing: -0.5 * fem,
+//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, -0.5 * fem,
 //                                                 color: const Color(0xff000000),
 //                                               ),
 //                                             ),
@@ -5582,7 +5862,7 @@ class Scene extends StatelessWidget {
 //                                           fontSize: 18 * ffem,
 //                                           fontWeight: FontWeight.w400,
 //                                           height: 1.5 * ffem / fem,
-//                                           letterSpacing: 0.1000000015 * fem,
+//                                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.1000000015 * fem,
 //                                           color: const Color(0xff5f6368),
 //                                         ),
 //                                       ),
@@ -5724,7 +6004,7 @@ class Scene extends StatelessWidget {
 //                                 fontSize: 38 * ffem,
 //                                 fontWeight: FontWeight.w400,
 //                                 height: 1.2941176471 * ffem / fem,
-//                                 letterSpacing: 0.25 * fem,
+//                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                                 color: const Color(0xff000000),
 //                               ),
 //                             ),
@@ -5948,7 +6228,7 @@ class Scene extends StatelessWidget {
 //               ),
 //             ),
 //             /**
-//              * 
+//              *
 //              * This is Footer Page ******************************************
 //              */
 
@@ -6076,7 +6356,7 @@ class Scene extends StatelessWidget {
 //                               fontSize: 22 * ffem,
 //                               fontWeight: FontWeight.w600,
 //                               height: 1.3636363636 * ffem / fem,
-//                               letterSpacing: 0.25 * fem,
+//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
 //                               color: const Color(0xbf202124),
 //                             ),
 //                           ),
