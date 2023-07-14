@@ -142,11 +142,11 @@ class Scene extends StatelessWidget {
                     margin: EdgeInsets.fromLTRB(
                         10 * fem, 30 * fem, 0 * fem, 0 * fem),
                     decoration: BoxDecoration(
-                      // color: Color(0xffd9d9d9),
-                      border: Border.all(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        style: BorderStyle.solid,
-                      ),
+                      //   // color: Color(0xffd9d9d9),
+                      //   border: Border.all(
+                      //     color: const Color.fromARGB(255, 0, 0, 0),
+                      //     style: BorderStyle.solid,
+                      //   ),
                       borderRadius: BorderRadius.circular(100 * fem),
                     ),
                     // padding: EdgeInsets.fromLTRB(0*fem, 30*fem,0,0),
@@ -155,12 +155,12 @@ class Scene extends StatelessWidget {
                         launch("mailto:alishahidmd127@gmail.com");
                       },
                       child: Image.asset(
-                        "assets/page-1/images/email_icon.png",
-                        fit: BoxFit.contain,
+                        "assets/page-1/images/email_icon.jpg",
+                        fit: BoxFit.fill,
                         alignment: Alignment.center,
                         height: 35 * fem,
                         width: 35 * fem,
-                        color: const Color(0xff3c4043),
+                        // color: const Color(0xff3c4043),
 
                         // color: Colors.black,
                       ),
@@ -861,7 +861,7 @@ class Scene extends StatelessWidget {
                                                                             children: [
                                                                               Container(
                                                                                 // frame9uoP (4:10)
-                                                                                margin: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 11 * fem),
+                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 11 * fem),
                                                                                 width: 358 * fem,
                                                                                 height: 36 * fem,
                                                                                 child: Center(
@@ -891,7 +891,7 @@ class Scene extends StatelessWidget {
                                                                                     Container(
                                                                                       // frame11Eo3 (5:8)
                                                                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
-                                                                                      padding: EdgeInsets.fromLTRB(3 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                      padding: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 0 * fem),
 
                                                                                       width: 189 * fem,
                                                                                       height: 19 * fem,
@@ -932,7 +932,7 @@ class Scene extends StatelessWidget {
                                                                               ),
                                                                               Container(
                                                                                 // frame11Gvm (4:14)
-                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(13 * fem, 0 * fem, 0 * fem, 0 * fem),
                                                                                 width: 409 * fem,
                                                                                 height: 116 * fem,
                                                                                 child: Text(
@@ -1014,7 +1014,7 @@ class Scene extends StatelessWidget {
                                                                         Container(
                                                                           // frame7XER (5:4)
                                                                           padding: EdgeInsets.fromLTRB(
-                                                                              11.5 * fem,
+                                                                              7.5 * fem,
                                                                               12.5 * fem,
                                                                               1 * fem,
                                                                               0 * fem),
@@ -1029,7 +1029,7 @@ class Scene extends StatelessWidget {
                                                                             children: [
                                                                               Container(
                                                                                 // frame93yT (5:5)
-                                                                                margin: EdgeInsets.fromLTRB(11 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
+                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
                                                                                 width: 391 * fem,
                                                                                 height: 36 * fem,
                                                                                 child: Center(
@@ -1078,7 +1078,7 @@ class Scene extends StatelessWidget {
                                                                                     Container(
                                                                                       // frame11Eo3 (5:8)
                                                                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
-                                                                                      padding: EdgeInsets.fromLTRB(8 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                      padding: EdgeInsets.fromLTRB(12 * fem, 0 * fem, 0 * fem, 0 * fem),
 
                                                                                       width: 189 * fem,
                                                                                       height: 19 * fem,
@@ -1138,7 +1138,7 @@ class Scene extends StatelessWidget {
                                                                               // ),
                                                                               Container(
                                                                                 // frame11Gvm (4:14)
-                                                                                padding: EdgeInsets.fromLTRB(10 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(14 * fem, 0 * fem, 0 * fem, 5 * fem),
                                                                                 width: 409 * fem,
                                                                                 height: 116 * fem,
                                                                                 child: Text(
@@ -1896,12 +1896,12 @@ class Scene extends StatelessWidget {
                         Container(
                           // ipossesstechnicalskillsinjavap (126:11)
                           margin: EdgeInsets.fromLTRB(
-                              7 * fem, 15 * fem, 0 * fem, 10 * fem),
+                              7 * fem, 15 * fem, 0 * fem, 0 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
                           child: Text(
-                            'I possess technical skills in Java, Python, Kotlin, JavaScript, and Dart, and am currently working on frameworks such as React and Flutter. I also have knowledge of SQL, MySQL, and MongoDB databases, and am familiar with GraphQL and AWS.',
+                            'I have technical proficiency in Java, Python, Kotlin, JavaScript, and Dart, and I am presently engaged in projects involving React and Flutter frameworks. Additionally, I am well-versed in SQL, MySQL, and MongoDB databases, and I am acquainted with GraphQL and AWS.\n',
                             style: TextStyle(
                               fontFamily: 'Product Sans',
                               fontSize: 18 * ffem,
@@ -1916,7 +1916,7 @@ class Scene extends StatelessWidget {
                           // findouthowdevicesworkbettertog (126:12)
                           width: 120 * fem,
                           height: 44 * fem,
-                          margin: EdgeInsets.fromLTRB(0, 10 * fem, 0, 0),
+                          margin: EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
                           padding: EdgeInsets.fromLTRB(
                               1 * fem, 0 * fem, 0 * fem, 2 * fem),
                           decoration: BoxDecoration(
@@ -2076,28 +2076,60 @@ class Scene extends StatelessWidget {
                                           SizedBox(
                                             height: 15 * fem,
                                           ),
-                                          Container(
-                                            // comingsoonVA8 (177:3)
-                                            margin: EdgeInsets.fromLTRB(1 * fem,
-                                                0 * fem, 0 * fem, 0 * fem),
+                                                       Container(
+                                            // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
+                                            margin: EdgeInsets.fromLTRB(
+                                                3.8 * fem,
+                                                0 * fem,
+                                                0 * fem,
+                                                5 * fem),
+                                            
+                                            width: 115 * fem,
+
                                             // decoration: BoxDecoration(
                                             //   border: Border.all(
                                             //       color: Color(0x33000000)),
-
                                             //   borderRadius:
                                             //       BorderRadius.circular(
                                             //           30 * fem),
                                             // ),
+                                            child: InkWell(
+                                              onTap: () => {
+                                                launch(
+                                                    "https://github.com/deepmachine786/chatbit"),
+                                              },
+                                              child: Container(
+                                                padding: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 2 * fem),
 
-                                            child: Text(
-                                              ' Coming Soon.',
-                                              style: TextStyle(
-                                                fontFamily: 'Product Sans',
-                                                fontSize: 15 * ffem,
-                                                fontWeight: FontWeight.w500,
-                                                height: 2 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                color: const Color(0xff1a73e8),
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                    color: Color.fromARGB(255, 219, 217, 217),
+                                                    width: 0.8,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          6.0),
+                                                ),
+                                                child: Padding(
+                                                  padding: EdgeInsets.all(4.0),
+                                                  child: Center(
+                                                  child: Text(
+                                                    'Read more',
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          'Product Sans',
+                                                      fontSize: 15 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      height: 1.6 * ffem / fem,
+                                                      letterSpacing:
+                                                          -0.25 * fem,
+                                                      color: const Color(
+                                                          0xff1a73e8),
+                                                    ),
+                                                  ),),
+                                                ),
                                               ),
                                             ),
                                           ),
@@ -2190,23 +2222,59 @@ class Scene extends StatelessWidget {
                                               ),
                                             ),
                                           ),
-                                          Container(
-                                            margin: EdgeInsets.fromLTRB(0 * fem,
-                                                12 * fem, 0 * fem, 0 * fem),
-                                            padding: EdgeInsets.fromLTRB(
+                                                        Container(
+                                            // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
+                                            margin: EdgeInsets.fromLTRB(
                                                 0 * fem,
-                                                0 * fem,
+                                                11 * fem,
                                                 0 * fem,
                                                 0 * fem),
-                                            child: Text(
-                                              'Read more',
-                                              style: TextStyle(
-                                                fontFamily: 'Product Sans',
-                                                fontSize: 15 * ffem,
-                                                fontWeight: FontWeight.w500,
-                                                height: 2 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                color: const Color(0xff1a73e8),
+                                            
+                                            width: 115 * fem,
+
+                                            // decoration: BoxDecoration(
+                                            //   border: Border.all(
+                                            //       color: Color(0x33000000)),
+                                            //   borderRadius:
+                                            //       BorderRadius.circular(
+                                            //           30 * fem),
+                                            // ),
+                                            child: InkWell(
+                                              onTap: () => {
+                                                launch(
+                                                    "https://github.com/deepmachine786/101109111106105"),
+                                              },
+                                              child: Container(
+                                                padding: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 2 * fem),
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                    color: Color.fromARGB(255, 219, 217, 217),
+                                                    width: 0.8,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          6.0),
+                                                ),
+                                                child: Padding(
+                                                  padding: EdgeInsets.all(4.0),
+                                                  child: Center(
+                                                  child: Text(
+                                                    'Read more',
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          'Product Sans',
+                                                      fontSize: 15 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      height: 1.6 * ffem / fem,
+                                                      letterSpacing:
+                                                          -0.25 * fem,
+                                                      color: const Color(
+                                                          0xff1a73e8),
+                                                    ),
+                                                  ),),
+                                                ),
                                               ),
                                             ),
                                           ),
@@ -2315,7 +2383,7 @@ class Scene extends StatelessWidget {
                                     margin: EdgeInsets.fromLTRB(
                                         0 * fem, 0 * fem, 92 * fem, 0 * fem),
                                     padding: EdgeInsets.fromLTRB(100 * fem,
-                                        180 * fem, 50 * fem, 80 * fem),
+                                        180 * fem, 0 * fem, 80 * fem),
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
                                       color: Color(0xffffffff),
@@ -2400,15 +2468,11 @@ class Scene extends StatelessWidget {
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(
                                                 3.8 * fem,
-                                                0 * fem,
+                                                11 * fem,
                                                 0 * fem,
                                                 0 * fem),
-                                            padding: EdgeInsets.fromLTRB(
-                                                0 * fem,
-                                                10 * fem,
-                                                0 * fem,
-                                                10 * fem),
-                                            width: 100.2 * fem,
+                                            
+                                            width: 115 * fem,
 
                                             // decoration: BoxDecoration(
                                             //   border: Border.all(
@@ -2417,16 +2481,42 @@ class Scene extends StatelessWidget {
                                             //       BorderRadius.circular(
                                             //           30 * fem),
                                             // ),
-
-                                            child: Text(
-                                              'Read more.',
-                                              style: TextStyle(
-                                                fontFamily: 'Product Sans',
-                                                fontSize: 15 * ffem,
-                                                fontWeight: FontWeight.w500,
-                                                height: 1.6 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                color: const Color(0xff1a73e8),
+                                            child: InkWell(
+                                              onTap: () => {
+                                                launch(
+                                                    "https://github.com/deepmachine786/chatbit"),
+                                              },
+                                              child: Container(
+                                                padding: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 2 * fem),
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                    color: Color.fromARGB(255, 219, 217, 217),
+                                                    width: 0.8,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          6),
+                                                ),
+                                                child: Padding(
+                                                  padding: EdgeInsets.all(4.0),
+                                                  child: Center(
+                                                  child: Text(
+                                                    'Read more',
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          'Product Sans',
+                                                      fontSize: 15 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      height: 1.6 * ffem / fem,
+                                                      letterSpacing:
+                                                          -0.25 * fem,
+                                                      color: const Color(
+                                                          0xff1a73e8),
+                                                    ),
+                                                  ),),
+                                                ),
                                               ),
                                             ),
                                           ),
