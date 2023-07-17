@@ -1955,11 +1955,12 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
+            //Exploring  the Project Deatils....
             Container(
               // autogroupbx76B5a (6kyNtKTmK9EyMWVBqqBX76)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 4 * fem, 96 * fem),
               width: 1446 * fem,
-              height: 2800 * fem,
+              height: 3800 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -1968,10 +1969,12 @@ class Scene extends StatelessWidget {
                     top: 936 * fem,
                     child: Container(
                       width: 1430 * fem,
-                      height: 2050 * fem,
-                      decoration: const BoxDecoration(
-                        color: Color(0xffffffff),
-                      ),
+                      height: 2600 * fem,
+                      decoration: BoxDecoration(
+                          color: Color(0xffffffff),
+                          border: Border.all(
+                            // color: Colors.black,
+                          )),
                       child: Stack(
                         children: [
                           Positioned(
@@ -1989,6 +1992,8 @@ class Scene extends StatelessWidget {
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
+                                  // i think jere we use to slide the image slider ...
+
                                   Container(
                                     // secondimages54U (162:3)
                                     margin: EdgeInsets.fromLTRB(
@@ -2030,9 +2035,9 @@ class Scene extends StatelessWidget {
                                     child: Container(
                                       // frame14cic (167:19)
                                       padding: EdgeInsets.fromLTRB(
-                                          0 * fem, 30 * fem, 0 * fem, 10 * fem),
+                                          0 * fem, 30 * fem, 0 * fem, 5 * fem),
                                       width: 478 * fem,
-                                      height: 700 * fem,
+                                      height: 720 * fem,
                                       decoration: const BoxDecoration(
                                         color: Color(0xffffffff),
                                       ),
@@ -2830,6 +2835,454 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  // Here is use my Google Image Slider to Slide and how my sliding my app ...
+                  Container(
+                    margin:
+                        EdgeInsets.fromLTRB(9 * fem, 2920 * fem, 5 * fem, 0),
+                    width: 1446 * fem,
+                    height: 400 * fem,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          // heading3growyourskillsKLm (1:252)
+                          margin: EdgeInsets.fromLTRB(
+                              38 * fem, 0 * fem, 0 * fem, 36 * fem),
+                          child: Text(
+                            'Exhibit Project Success',
+                            style: TextStyle(
+                              fontFamily: 'Product Sans',
+                              fontSize: 38 * ffem,
+                              fontWeight: FontWeight.w500,
+                              height: 1.1162790698 * ffem / fem,
+                              letterSpacing: -0.25 * fem,
+                              color: const Color(0xff000000),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.fromLTRB(
+                              0 * fem, 0 * fem, 0 * fem, 0 * fem),
+                          padding: EdgeInsets.fromLTRB(31.83 * fem, 0, 0, 0),
+                          height: 300 * fem,
+                          child: CarouselSlider(
+                            items: [
+                              Container(
+                                // linkoQM (1:255)
+                                margin: EdgeInsets.fromLTRB(
+                                    0 * fem, 0 * fem, 99.65 * fem, 0 * fem),
+                                padding: EdgeInsets.fromLTRB(
+                                    24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                                width: 407 * fem,
+                                height: double.infinity,
+                                decoration: BoxDecoration(
+                                  color:
+                                      const Color.fromARGB(255, 238, 238, 238),
+                                  borderRadius: BorderRadius.circular(24 * fem),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      // rectangle15sf (4:55)
+                                      margin: EdgeInsets.fromLTRB(
+                                          0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                      width: 82 * fem,
+                                      height: 82 * fem,
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                            255, 255, 255, 255),
+                                        // border: Border.all(color: Colors.black),
+                                        borderRadius:
+                                            BorderRadius.circular(90 * fem),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/page-1/images/firstimage.png",
+                                        fit: BoxFit.fill,
+                                      ),
+                                    ),
+                                    Container(
+                                      // divtextblackpyf (1:267)
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            // heading3codelabsandpathwaysNkH (1:268)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                0 * fem, 0 * fem, 12 * fem),
+                                            child: Text(
+                                              'Chatbit Application',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 23 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height:
+                                                    1.3043478261 * ffem / fem,
+                                                letterSpacing: -0.25 * fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // startbuildingtodaywithselfpace (1:270)
+                                            constraints: BoxConstraints(
+                                              maxWidth: 307 * fem,
+                                            ),
+                                            child: Text(
+                                              'A secure messaging app with advanced features and strong user growth.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 15 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.6 * ffem / fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                // link98m (1:271)
+                                margin: EdgeInsets.fromLTRB(
+                                    0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+                                padding: EdgeInsets.fromLTRB(
+                                    24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                                width: 407 * fem,
+                                height: double.infinity,
+                                decoration: BoxDecoration(
+                                  color:
+                                      const Color.fromARGB(255, 238, 238, 238),
+                                  borderRadius: BorderRadius.circular(24 * fem),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      // rectangle15sf (4:55)
+                                      margin: EdgeInsets.fromLTRB(
+                                          0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                      width: 82 * fem,
+                                      height: 82 * fem,
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                            255, 255, 255, 255),
+                                        // border: Border.all(color: Colors.black),
+                                        borderRadius:
+                                            BorderRadius.circular(90 * fem),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/page-1/images/todo1.png",
+                                        fit: BoxFit.fill,
+                                      ),
+                                    ),
+                                    Container(
+                                      // divtextblackx6D (1:283)
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            // heading3workshops6TK (1:284)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                0 * fem, 0 * fem, 12 * fem),
+                                            child: Text(
+                                              'Automatic Todo',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 23 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height:
+                                                    1.3043478261 * ffem / fem,
+                                                letterSpacing: -0.25 * fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // gainskillswithguidedcodelabsle (1:286)
+                                            constraints: BoxConstraints(
+                                              maxWidth: 329 * fem,
+                                            ),
+                                            child: Text(
+                                              'Python apps for task management, automation, and reminders enhancing productivity.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 15 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.6 * ffem / fem,
+                                                // color: Color(0xff000000),
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                // link98m (1:271)
+                                margin: EdgeInsets.fromLTRB(
+                                    0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+                                padding: EdgeInsets.fromLTRB(
+                                    24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                                width: 407 * fem,
+                                height: double.infinity,
+                                decoration: BoxDecoration(
+                                  color:
+                                      const Color.fromARGB(255, 238, 238, 238),
+                                  borderRadius: BorderRadius.circular(24 * fem),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      // rectangle15sf (4:55)
+                                      margin: EdgeInsets.fromLTRB(
+                                          0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                      width: 82 * fem,
+                                      height: 82 * fem,
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                            255, 255, 255, 255),
+                                        // border: Border.all(color: Colors.black),
+                                        borderRadius:
+                                            BorderRadius.circular(90 * fem),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/page-1/images/todo.png",
+                                        fit: BoxFit.fill,
+                                      ),
+                                    ),
+                                    Container(
+                                      // divtextblackx6D (1:283)
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            // heading3workshops6TK (1:284)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                0 * fem, 0 * fem, 12 * fem),
+                                            child: Text(
+                                              'VoiceChanger',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 23 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height:
+                                                    1.3043478261 * ffem / fem,
+                                                letterSpacing: -0.25 * fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // gainskillswithguidedcodelabsle (1:286)
+                                            constraints: BoxConstraints(
+                                              maxWidth: 329 * fem,
+                                            ),
+                                            child: Text(
+                                              'A high-quality voice manipulation app with real-time audio processing and intuitive UI user experience.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 15 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.6 * ffem / fem,
+                                                // color: Color(0xff000000),
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                // link98m (1:271)
+                                margin: EdgeInsets.fromLTRB(
+                                    0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+                                padding: EdgeInsets.fromLTRB(
+                                    24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                                width: 407 * fem,
+                                height: double.infinity,
+                                decoration: BoxDecoration(
+                                  color:
+                                      const Color.fromARGB(255, 238, 238, 238),
+                                  borderRadius: BorderRadius.circular(24 * fem),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      // rectangle15sf (4:55)
+                                      margin: EdgeInsets.fromLTRB(
+                                          0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                      width: 82 * fem,
+                                      height: 82 * fem,
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                            255, 255, 255, 255),
+                                        // border: Border.all(color: Colors.black),
+                                        borderRadius:
+                                            BorderRadius.circular(90 * fem),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/page-1/images/transare1.png",
+                                        fit: BoxFit.fill,
+                                      ),
+                                    ),
+                                    Container(
+                                      // divtextblackx6D (1:283)
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            // heading3workshops6TK (1:284)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                0 * fem, 0 * fem, 12 * fem),
+                                            child: Text(
+                                              'Transare',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 23 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height:
+                                                    1.3043478261 * ffem / fem,
+                                                letterSpacing: -0.25 * fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // gainskillswithguidedcodelabsle (1:286)
+                                            constraints: BoxConstraints(
+                                              maxWidth: 329 * fem,
+                                            ),
+                                            child: Text(
+                                              'A sleek cross-platform file-sharing app for seamless file sharing across devices and platforms.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 15 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.6 * ffem / fem,
+                                                // color: Color(0xff000000),
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                // link98m (1:271)
+                                margin: EdgeInsets.fromLTRB(
+                                    0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+                                padding: EdgeInsets.fromLTRB(
+                                    24 * fem, 24 * fem, 24 * fem, 24 * fem),
+                                width: 407 * fem,
+                                height: double.infinity,
+                                decoration: BoxDecoration(
+                                  color:
+                                      const Color.fromARGB(255, 238, 238, 238),
+                                  borderRadius: BorderRadius.circular(24 * fem),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      // rectangle15sf (4:55)
+                                      margin: EdgeInsets.fromLTRB(
+                                          0 * fem, 0 * fem, 0 * fem, 24 * fem),
+                                      width: 82 * fem,
+                                      height: 82 * fem,
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                            255, 255, 255, 255),
+                                        // border: Border.all(color: Colors.black),
+                                        borderRadius:
+                                            BorderRadius.circular(90 * fem),
+                                      ),
+                                      child: Image.asset(
+                                        "assets/page-1/images/worksuitkit1.png",
+                                        fit: BoxFit.fill,
+                                      ),
+                                    ),
+                                    Container(
+                                      // divtextblackx6D (1:283)
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            // heading3workshops6TK (1:284)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                0 * fem, 0 * fem, 12 * fem),
+                                            child: Text(
+                                              'Worksuitkit',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 23 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height:
+                                                    1.3043478261 * ffem / fem,
+                                                letterSpacing: -0.25 * fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // gainskillswithguidedcodelabsle (1:286)
+                                            constraints: BoxConstraints(
+                                              maxWidth: 329 * fem,
+                                            ),
+                                            child: Text(
+                                              'A versatile survey administration software integrated with Google\'s suite of productivity tools.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 15 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.6 * ffem / fem,
+                                                // color: Color(0xff000000),
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                            options: CarouselOptions(
+                              height: 265.0,
+                              // Other options...
+                              viewportFraction: 0.38,
+                              autoPlay: true,
+
+                              autoPlayInterval: const Duration(seconds: 7),
+                            ),
+                          ),
+                          //
+                        ),
+                      ],
+                    ),
+                  )
+
                   // Positioned(
                   //   // experienceweavesgrowthchalleng (200:6)
                   //   left: 278 * fem,
