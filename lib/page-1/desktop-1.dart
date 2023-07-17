@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_unnecessary_containers
-
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
@@ -19,9 +17,7 @@ final lpuImages = [
   "assets/page-1/images/lpu_logo_3.jpeg",
   "assets/page-1/images/lpu_logo_4.jpeg",
   "assets/page-1/images/lpu_logo_5.jpeg",
-  "assets/page-1/images/lpu_logo_6.jpeg",
-  "assets/page-1/images/regent_2.jpeg",
-  "assets/page-1/images/regent_3.jpeg"
+  "assets/page-1/images/lpu_logo_6.jpeg"
 ];
 
 Widget buildImage(String urlImage, int index) => Container(
@@ -109,7 +105,7 @@ class Scene extends StatelessWidget {
                               fontSize: 27 * ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.3636363636 * ffem / fem,
-                              letterSpacing: -0.25 * fem,
+                                                                                              letterSpacing: -0.25 * fem,
                               // color: Color.fromARGB(255, 3, 3, 3),
                               color: const Color(0xff3c4043),
                             ),
@@ -131,41 +127,12 @@ class Scene extends StatelessWidget {
                   //       fontSize: 27 * ffem,
                   //       fontWeight: FontWeight.w600,
                   //       height: 1.3636363636 * ffem / fem,
-                  //                                       letterSpacing: -0.25 * fem,
+                  //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
                   //       // color: Color.fromARGB(255, 3, 3, 3),
                   //       color: Color(0xff3c4043),
                   //     ),
                   //   ),
                   // ),
-                  Container(
-                    // aboutG3J (4:14)
-                    margin: EdgeInsets.fromLTRB(
-                        10 * fem, 30 * fem, 0 * fem, 0 * fem),
-                    decoration: BoxDecoration(
-                      //   // color: Color(0xffd9d9d9),
-                      //   border: Border.all(
-                      //     color: const Color.fromARGB(255, 0, 0, 0),
-                      //     style: BorderStyle.solid,
-                      //   ),
-                      borderRadius: BorderRadius.circular(100 * fem),
-                    ),
-                    // padding: EdgeInsets.fromLTRB(0*fem, 30*fem,0,0),
-                    child: InkWell(
-                      onTap: () {
-                        launch("mailto:alishahidmd127@gmail.com");
-                      },
-                      child: Image.asset(
-                        "assets/page-1/images/email_icon.jpg",
-                        fit: BoxFit.fill,
-                        alignment: Alignment.center,
-                        height: 35 * fem,
-                        width: 35 * fem,
-                        // color: const Color(0xff3c4043),
-
-                        // color: Colors.black,
-                      ),
-                    ),
-                  ),
 
                   Container(
                     // aboutG3J (4:14)
@@ -241,7 +208,7 @@ class Scene extends StatelessWidget {
                     //       fontSize: 14.5 * ffem,
                     //       fontWeight: FontWeight.w500,
                     //       height: 1.2125 * ffem / fem,
-                    //                                       letterSpacing: -0.25 * fem, 0.42 * fem,
+                    //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.42 * fem,
                     //       color: Color(0xff5f6368),
                     //     ),
                     //   ),
@@ -294,7 +261,6 @@ class Scene extends StatelessWidget {
                             "https://developers.google.com/profile/u/deepmachine786");
                       },
                       child: Image.asset(
-                        // "assets/page-1/images/profile.png",
                         "assets/page-1/images/profile.png",
                         // fit: BoxFit.fill,
                         alignment: Alignment.center,
@@ -340,7 +306,7 @@ class Scene extends StatelessWidget {
                           fontSize: 85 * ffem,
                           fontWeight: FontWeight.w700,
                           height: 0.9 * ffem / fem,
-                          letterSpacing: -0.25 * fem,
+                                                                                          letterSpacing: -0.25 * fem,
                           color: const Color(0xff3c4043),
                         ),
                       ),
@@ -365,7 +331,7 @@ class Scene extends StatelessWidget {
                           fontSize: 55 * ffem,
                           fontWeight: FontWeight.w700,
                           height: 1.2 * ffem / fem,
-                          letterSpacing: -0.25 * fem,
+                                                                                          letterSpacing: -0.25 * fem,
                           color: const Color(0xff188038),
                         ),
                       ),
@@ -387,7 +353,7 @@ class Scene extends StatelessWidget {
                           Container(
                             // rectangle2fRQ (2:7)
                             margin: EdgeInsets.fromLTRB(
-                                10 * fem, 10 * fem, 350.5 * fem, 0 * fem),
+                                10 * fem, 10 * fem, 345.5 * fem, 0 * fem),
                             width: 250 * fem,
                             height: 115 * fem,
                             child: Image.asset(
@@ -406,9 +372,8 @@ class Scene extends StatelessWidget {
                               width: 140 * fem,
                               height: 50 * fem,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(24 * fem),
-                                border:
-                                    Border.all(color: const Color(0xff000000)),
+                                borderRadius: BorderRadius.circular(30 * fem),
+                                border: Border.all(color: const Color(0xff000000)),
                                 // color: Color(0xffffffff),
                               ),
                               padding: const EdgeInsets.all(10.0),
@@ -422,7 +387,7 @@ class Scene extends StatelessWidget {
                                     fontSize: 16 * ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.4 * ffem / fem,
-                                    letterSpacing: -0.25 * fem,
+                                                                                                    letterSpacing: -0.25 * fem,
                                   ),
                                 ),
                               ),
@@ -446,6 +411,7 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
+
             Container(
               // aboutdivSGY (83:2)
               margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 0 * fem, 184 * fem),
@@ -474,11 +440,11 @@ class Scene extends StatelessWidget {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontFamily: 'Product Sans',
-                              fontSize: 43 * ffem,
+                              fontSize: 47 * ffem,
                               fontWeight: FontWeight.w400,
                               fontStyle: FontStyle.normal,
                               height: 1.1363636364 * ffem / fem,
-                              letterSpacing: -0.25 * fem,
+                                                                                              letterSpacing: -0.25 * fem,
                               color: const Color(0xff202124),
                             ),
                           ),
@@ -551,7 +517,7 @@ class Scene extends StatelessWidget {
                                           fontSize: 18 * ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.5 * ffem / fem,
-                                          letterSpacing: -0.25 * fem,
+                                                                                                          letterSpacing: -0.25 * fem,
                                           color: const Color(0xff5f6368),
                                         ),
                                       ),
@@ -593,7 +559,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w500,
                                                 height:
                                                     1.8461538462 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
@@ -606,7 +572,7 @@ class Scene extends StatelessWidget {
                                               fontSize: 46 * ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2727272727 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
+                                                                                                              letterSpacing: -0.25 * fem, 
                                               color: const Color(0xff000000),
                                             ),
                                           ),
@@ -616,7 +582,7 @@ class Scene extends StatelessWidget {
                                   ),
                                 ),
                                 /**
-                                   * Logo Design and cursor 
+                                   * Logo Design and cursor
                                    */
                                 Positioned(
                                   left: 1040 * fem,
@@ -633,9 +599,8 @@ class Scene extends StatelessWidget {
                                         onTap: () {
                                           // Dialog Box use here ...
                                           showDialog(
-                                              barrierColor:
-                                                  const Color.fromARGB(
-                                                      179, 255, 255, 255),
+                                              barrierColor: const Color.fromARGB(
+                                                  179, 255, 255, 255),
                                               context: context,
                                               builder: (context) => AlertDialog(
                                                     // Customize your AlertDialog here
@@ -716,7 +681,7 @@ class Scene extends StatelessWidget {
                                                                         onTap: () => {
                                                                               Navigator.pop(context),
                                                                             },
-                                                                        child: const Icon(Icons.close, fill: double.minPositive)),
+                                                                        child: const Icon(Icons.close)),
                                                                   ),
                                                                   Container(
                                                                     // frame85tu (4:8)
@@ -747,8 +712,7 @@ class Scene extends StatelessWidget {
                                                                           height: 1.2575 *
                                                                               ffem /
                                                                               fem,
-                                                                          letterSpacing:
-                                                                              -0.25 * fem,
+                                                                              letterSpacing: -0.25 * fem,
                                                                           color:
                                                                               const Color(0xff000000),
                                                                         ),
@@ -764,7 +728,7 @@ class Scene extends StatelessWidget {
                                                                   .fromLTRB(
                                                                       20.5 *
                                                                           fem,
-                                                                      40 * fem,
+                                                                      0 * fem,
                                                                       15.5 *
                                                                           fem,
                                                                       0 * fem),
@@ -810,7 +774,7 @@ class Scene extends StatelessWidget {
                                                                         Container(
                                                                           // frame6vHF (3:14)
                                                                           margin: EdgeInsets.fromLTRB(
-                                                                              13 * fem,
+                                                                              0 * fem,
                                                                               26.5 * fem,
                                                                               75 * fem,
                                                                               25.5 * fem),
@@ -839,10 +803,6 @@ class Scene extends StatelessWidget {
                                                                             ),
                                                                           ),
                                                                         ),
-                                                                        SizedBox(
-                                                                          width:
-                                                                              45 * fem,
-                                                                        ),
                                                                         Container(
                                                                           // frame5b21 (3:12)
                                                                           padding: EdgeInsets.fromLTRB(
@@ -861,7 +821,7 @@ class Scene extends StatelessWidget {
                                                                             children: [
                                                                               Container(
                                                                                 // frame9uoP (4:10)
-                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 11 * fem),
+                                                                                margin: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 11 * fem),
                                                                                 width: 358 * fem,
                                                                                 height: 36 * fem,
                                                                                 child: Center(
@@ -873,45 +833,43 @@ class Scene extends StatelessWidget {
                                                                                       fontSize: 28 * ffem,
                                                                                       fontWeight: FontWeight.w400,
                                                                                       height: 1.2575 * ffem / fem,
-                                                                                      letterSpacing: -0.25 * fem,
+                                                                                                                                                      letterSpacing: -0.25 * fem, 
                                                                                       color: const Color(0xff000000),
                                                                                     ),
                                                                                   ),
                                                                                 ),
                                                                               ),
                                                                               Container(
-                                                                                // frame10vXT (5:7)
-                                                                                margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 2 * fem, 10 * fem),
-                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 40 * fem, 0 * fem),
+                                                                                // frame10AzD (4:11)
+                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 56 * fem, 0 * fem),
                                                                                 width: double.infinity,
                                                                                 height: 27 * fem,
                                                                                 child: Row(
                                                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                                                   children: [
                                                                                     Container(
-                                                                                      // frame11Eo3 (5:8)
-                                                                                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
-                                                                                      padding: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 0 * fem),
-
-                                                                                      width: 189 * fem,
+                                                                                      // frame11J4q (4:12)
+                                                                                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 81 * fem, 0 * fem),
+                                                                                      width: 158 * fem,
                                                                                       height: 19 * fem,
                                                                                       child: Center(
                                                                                         child: Text(
-                                                                                          'Bachelor of Computer Engineering',
+                                                                                          'Bachelor of Engineering',
                                                                                           style: TextStyle(
                                                                                             fontFamily: 'Product Sans',
                                                                                             fontSize: 15 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: -0.25 * fem,
+                                                                                                                                                            letterSpacing: -0.25 * fem,
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
                                                                                       ),
                                                                                     ),
                                                                                     SizedBox(
-                                                                                      // frame12XXF (5:10)
-                                                                                      width: 118 * fem,
+                                                                                      // frame12ywf (4:13)
+                                                                                      width: 100 * fem,
                                                                                       height: 19 * fem,
                                                                                       child: Center(
                                                                                         child: Text(
@@ -921,7 +879,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 13 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: -0.25 * fem,
+                                                                                                                                                            letterSpacing: -0.25 * fem,
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -932,7 +890,7 @@ class Scene extends StatelessWidget {
                                                                               ),
                                                                               Container(
                                                                                 // frame11Gvm (4:14)
-                                                                                padding: EdgeInsets.fromLTRB(13 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
                                                                                 width: 409 * fem,
                                                                                 height: 116 * fem,
                                                                                 child: Text(
@@ -942,7 +900,7 @@ class Scene extends StatelessWidget {
                                                                                     fontSize: 15 * ffem,
                                                                                     fontWeight: FontWeight.w400,
                                                                                     height: 1.2575 * ffem / fem,
-                                                                                    letterSpacing: -0.25 * fem,
+                                                                                                                                                    letterSpacing: -0.25 * fem, 
                                                                                     color: const Color(0xb2000000),
                                                                                   ),
                                                                                 ),
@@ -988,7 +946,7 @@ class Scene extends StatelessWidget {
                                                                               65.5 * fem,
                                                                               42.5 * fem),
                                                                           width:
-                                                                              200 * fem,
+                                                                              138 * fem,
                                                                           height:
                                                                               double.infinity,
                                                                           child:
@@ -1003,7 +961,7 @@ class Scene extends StatelessWidget {
                                                                                   borderRadius: BorderRadius.circular(69 * fem),
                                                                                   image: const DecorationImage(
                                                                                     image: AssetImage(
-                                                                                      'assets/page-1/images/regent_1.jpg',
+                                                                                      'assets/page-1/images/ellipse-2-bg.png',
                                                                                     ),
                                                                                   ),
                                                                                 ),
@@ -1014,7 +972,7 @@ class Scene extends StatelessWidget {
                                                                         Container(
                                                                           // frame7XER (5:4)
                                                                           padding: EdgeInsets.fromLTRB(
-                                                                              7.5 * fem,
+                                                                              11.5 * fem,
                                                                               12.5 * fem,
                                                                               1 * fem,
                                                                               0 * fem),
@@ -1029,7 +987,7 @@ class Scene extends StatelessWidget {
                                                                             children: [
                                                                               Container(
                                                                                 // frame93yT (5:5)
-                                                                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
+                                                                                margin: EdgeInsets.fromLTRB(11 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
                                                                                 width: 391 * fem,
                                                                                 height: 36 * fem,
                                                                                 child: Center(
@@ -1040,7 +998,7 @@ class Scene extends StatelessWidget {
                                                                                       fontSize: 28 * ffem,
                                                                                       fontWeight: FontWeight.w400,
                                                                                       height: 1.2575 * ffem / fem,
-                                                                                      letterSpacing: -0.25 * fem,
+                                                                                                                                                      letterSpacing: -0.25 * fem, 
                                                                                       color: const Color(0xff000000),
                                                                                     ),
                                                                                   ),
@@ -1060,7 +1018,7 @@ class Scene extends StatelessWidget {
                                                                               //         fontSize: 28 * ffem,
                                                                               //         fontWeight: FontWeight.w400,
                                                                               //         height: 1.2575 * ffem / fem,
-                                                                              //                                         letterSpacing: -0.25 * fem, 0.28 * fem,
+                                                                              //                                                                         letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
                                                                               //         color: Color(0xff000000),
                                                                               //       ),
                                                                               //     ),
@@ -1078,7 +1036,7 @@ class Scene extends StatelessWidget {
                                                                                     Container(
                                                                                       // frame11Eo3 (5:8)
                                                                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
-                                                                                      padding: EdgeInsets.fromLTRB(12 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                                                                      padding: EdgeInsets.fromLTRB(8 * fem, 0 * fem, 0 * fem, 0 * fem),
 
                                                                                       width: 189 * fem,
                                                                                       height: 19 * fem,
@@ -1090,7 +1048,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 15 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: -0.25 * fem,
+                                                                                                                                                            letterSpacing: -0.25 * fem, 
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -1108,7 +1066,7 @@ class Scene extends StatelessWidget {
                                                                                             fontSize: 13 * ffem,
                                                                                             fontWeight: FontWeight.w400,
                                                                                             height: 1.2575 * ffem / fem,
-                                                                                            letterSpacing: -0.25 * fem,
+                                                                                                                                                            letterSpacing: -0.25 * fem, 
                                                                                             color: const Color(0x7f000000),
                                                                                           ),
                                                                                         ),
@@ -1131,24 +1089,24 @@ class Scene extends StatelessWidget {
                                                                               //       fontSize: 15 * ffem,
                                                                               //       fontWeight: FontWeight.w400,
                                                                               //       height: 1.2575 * ffem / fem,
-                                                                              //                                       letterSpacing: -0.25 * fem, 0.075 * fem,
+                                                                              //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
                                                                               //       color: Color(0xb2000000),
                                                                               //     ),
                                                                               //   ),
                                                                               // ),
                                                                               Container(
                                                                                 // frame11Gvm (4:14)
-                                                                                padding: EdgeInsets.fromLTRB(14 * fem, 0 * fem, 0 * fem, 5 * fem),
+                                                                                padding: EdgeInsets.fromLTRB(10 * fem, 0 * fem, 0 * fem, 0 * fem),
                                                                                 width: 409 * fem,
                                                                                 height: 116 * fem,
                                                                                 child: Text(
-                                                                                  "I have successfully completed a comprehensive Diploma program in Computer Science and Engineering from the esteemed Regent Institute of Science and Technology in the year 2020.\n",
+                                                                                  'I\'m studying for a Bachelor of Technology degree at Lovely Professional University. LPU has given me a solid academic base and chances to grow personally and professionally through practical learning and industry exposure. I believe the knowledge and skills I gain at LPU will help me make valuable contributions in the future.\n',
                                                                                   style: TextStyle(
                                                                                     fontFamily: 'Product Sans',
                                                                                     fontSize: 15 * ffem,
                                                                                     fontWeight: FontWeight.w400,
                                                                                     height: 1.2575 * ffem / fem,
-                                                                                    letterSpacing: -0.25 * fem,
+                                                                                                                                                    letterSpacing: -0.25 * fem,
                                                                                     color: const Color(0xb2000000),
                                                                                   ),
                                                                                 ),
@@ -1440,7 +1398,7 @@ class Scene extends StatelessWidget {
                                 fontSize: 34 * ffem,
                                 fontWeight: FontWeight.w400,
                                 height: 1.7058823529 * ffem / fem,
-                                letterSpacing: -0.25 * fem,
+                                                                                                letterSpacing: -0.25 * fem, 
                                 color: const Color(0xff000000),
                               ),
                             ),
@@ -1488,7 +1446,7 @@ class Scene extends StatelessWidget {
                                     borderRadius:
                                         BorderRadius.circular(41 * fem),
                                     child: Image.asset(
-                                      'assets/page-1/images/new_resume_pic.jpeg',
+                                      'assets/page-1/images/rectangle-2.png',
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -1518,7 +1476,7 @@ class Scene extends StatelessWidget {
                                             fontSize: 19 * ffem,
                                             fontWeight: FontWeight.w400,
                                             height: 1.4736842105 * ffem / fem,
-                                            letterSpacing: -0.25 * fem,
+                                                                                                            letterSpacing: -0.25 * fem, 
                                             color: const Color(0xff000000),
                                           ),
                                         ),
@@ -1537,7 +1495,7 @@ class Scene extends StatelessWidget {
                                             fontSize: 18 * ffem,
                                             fontWeight: FontWeight.w400,
                                             height: 1.5 * ffem / fem,
-                                            letterSpacing: -0.25 * fem,
+                                                                                                            letterSpacing: -0.25 * fem,
                                             color: const Color.fromARGB(
                                                 211, 95, 99, 104),
                                           ),
@@ -1545,40 +1503,47 @@ class Scene extends StatelessWidget {
                                       ),
                                     ),
                                     Container(
-                                      // findouthowdevicesworkbettertog (126:12)
+                                      // downloadmyfitnesspaltoyourdevi (126:3)
+                                      margin: EdgeInsets.fromLTRB(290.77 * fem,
+                                          0 * fem, 294.77 * fem, 0 * fem),
+                                      padding: EdgeInsets.fromLTRB(
+                                          2.5 * fem, 0 * fem, 0 * fem, 3 * fem),
                                       width: 120 * fem,
                                       height: 44 * fem,
-                                      margin:
-                                          EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
-                                      padding: EdgeInsets.fromLTRB(
-                                          1 * fem, 0 * fem, 0 * fem, 2 * fem),
                                       decoration: BoxDecoration(
-                                        color: const Color(0xff1A73E8),
                                         border: Border.all(
-                                            color: const Color(0xff1A73E8)),
+                                            color:
+                                                // Color.fromARGB(141, 0, 0, 0)),
+                                                const Color.fromARGB(
+                                                    15, 0, 0, 0)),
+                                        color: const Color(0xffffffff),
                                         borderRadius:
                                             BorderRadius.circular(30 * fem),
                                       ),
-                                      child: Center(
-                                        // Here We Suggets to use FloatActionButton is best ... Remove from row..
 
-                                        child: InkWell(
-                                          // onHover: Colors.blue,
-                                          onTap: () => {
-                                            launch(
-                                                "https://linkedin.com/in/mdshahidali/"),
-                                          },
-                                          child: Center(
+                                      child: Center(
+                                        child: Center(
+                                          child: TextButton(
+                                            onPressed: () {
+                                              launch(
+                                                  "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=sharing");
+                                            },
+                                            style: TextButton.styleFrom(
+                                              foregroundColor:
+                                                  const Color.fromARGB(
+                                                      15, 255, 255, 255),
+                                            ),
                                             child: Text(
                                               'Learn more',
+                                              textAlign: TextAlign.start,
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 15 * ffem,
+                                                fontSize: 16 * ffem,
                                                 fontWeight: FontWeight.w500,
-                                                height: 1.6 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                color: const Color.fromARGB(
-                                                    255, 255, 255, 255),
+                                                height:
+                                                    1.7142857143 * ffem / fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
+                                                color: const Color(0xff1a73e8),
                                               ),
                                             ),
                                           ),
@@ -1833,7 +1798,7 @@ class Scene extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(60 * fem),
                                 child: Image.asset(
                                   'assets/page-1/images/rectangle-13.png',
-                                  fit: BoxFit.scaleDown,
+                                  fit: BoxFit.contain,
                                 ),
                               ),
                             ),
@@ -1858,25 +1823,9 @@ class Scene extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                            margin: EdgeInsets.fromLTRB(8 * fem, 0, 0, 0),
-                            child: Text(
-                              "Skills",
-                              style: TextStyle(
-                                fontFamily: 'Product Sans',
-                                fontSize: 17 * ffem,
-                                fontWeight: FontWeight.w500,
-                                height: 1.8461538462 * ffem / fem,
-                                letterSpacing: -0.25 * fem,
-                                color: const Color(0xff202124),
-                              ),
-                            )),
-                        SizedBox(
-                          height: 6 * fem,
-                        ),
-                        Container(
                           // technicalmasteryorchestratesbe (126:9)
                           margin: EdgeInsets.fromLTRB(
-                              5 * fem, 0 * fem, 0 * fem, 0 * fem),
+                              5 * fem, 0 * fem, 0 * fem, 26 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
@@ -1887,8 +1836,7 @@ class Scene extends StatelessWidget {
                               fontSize: 36 * ffem,
                               fontWeight: FontWeight.w500,
                               height: 1.2941176471 * ffem / fem,
-                              letterSpacing: -0.25 * fem,
-                              // color: const Color(0xff000000),
+                                                                                              letterSpacing: -0.25 * fem, 
                               color: const Color(0xff000000),
                             ),
                           ),
@@ -1896,18 +1844,18 @@ class Scene extends StatelessWidget {
                         Container(
                           // ipossesstechnicalskillsinjavap (126:11)
                           margin: EdgeInsets.fromLTRB(
-                              7 * fem, 15 * fem, 0 * fem, 0 * fem),
+                              7 * fem, 0 * fem, 0 * fem, 30 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
                           child: Text(
-                            'I have technical proficiency in Java, Python, Kotlin, JavaScript, and Dart, and I am presently engaged in projects involving React and Flutter frameworks. Additionally, I am well-versed in SQL, MySQL, and MongoDB databases, and I am acquainted with GraphQL and AWS.\n',
+                            'I possess technical skills in Java, Python, Kotlin, JavaScript, and Dart, and am currently working on frameworks such as React and Flutter. I also have knowledge of SQL, MySQL, and MongoDB databases, and am familiar with AWS.',
                             style: TextStyle(
                               fontFamily: 'Product Sans',
-                              fontSize: 18 * ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.5 * ffem / fem,
-                              letterSpacing: -0.25 * fem,
+                              fontSize: 17.8 * ffem,
+                              fontWeight: FontWeight.w500,
+                              height: 1.6 * ffem / fem,
+                                                                                              letterSpacing: -0.25 * fem, 
                               color: const Color(0xff5f6368),
                             ),
                           ),
@@ -1916,12 +1864,11 @@ class Scene extends StatelessWidget {
                           // findouthowdevicesworkbettertog (126:12)
                           width: 120 * fem,
                           height: 44 * fem,
-                          margin: EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
                           padding: EdgeInsets.fromLTRB(
                               1 * fem, 0 * fem, 0 * fem, 2 * fem),
                           decoration: BoxDecoration(
-                            color: const Color(0xff1A73E8),
-                            border: Border.all(color: const Color(0xff1A73E8)),
+                            border: Border.all(
+                                color: const Color.fromARGB(15, 0, 0, 0)),
                             borderRadius: BorderRadius.circular(30 * fem),
                           ),
                           child: Center(
@@ -1934,15 +1881,14 @@ class Scene extends StatelessWidget {
                               },
                               child: Center(
                                 child: Text(
-                                  'Read more',
+                                  'Read more.',
                                   style: TextStyle(
                                     fontFamily: 'Product Sans',
-                                    fontSize: 15 * ffem,
+                                    fontSize: 17 * ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.6 * ffem / fem,
-                                    letterSpacing: -0.25 * fem,
-                                    color: const Color.fromARGB(
-                                        255, 255, 255, 255),
+                                                                                                    letterSpacing: -0.25 * fem, 
+                                    color: const Color(0xff1a73e8),
                                   ),
                                 ),
                               ),
@@ -1959,7 +1905,7 @@ class Scene extends StatelessWidget {
               // autogroupbx76B5a (6kyNtKTmK9EyMWVBqqBX76)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 4 * fem, 96 * fem),
               width: 1446 * fem,
-              height: 2800 * fem,
+              height: 2986 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -2049,7 +1995,7 @@ class Scene extends StatelessWidget {
                                               fontSize: 34 * ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2941176471 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
+                                                                                                              letterSpacing: -0.25 * fem, 
                                               color: const Color(0xff000000),
                                             ),
                                           ),
@@ -2068,7 +2014,8 @@ class Scene extends StatelessWidget {
                                                 fontSize: 18 * ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
+                                                    // 0.1000000015 * fem,
                                                 color: const Color(0xff5f6368),
                                               ),
                                             ),
@@ -2077,65 +2024,27 @@ class Scene extends StatelessWidget {
                                             height: 15 * fem,
                                           ),
                                           Container(
-                                            // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
-                                            margin: EdgeInsets.fromLTRB(
-                                                3.8 * fem,
-                                                0 * fem,
-                                                0 * fem,
-                                                5 * fem),
-
-                                            width: 115 * fem,
-
+                                            // comingsoonVA8 (177:3)
+                                            margin: EdgeInsets.fromLTRB(1 * fem,
+                                                0 * fem, 0 * fem, 0 * fem),
                                             // decoration: BoxDecoration(
                                             //   border: Border.all(
                                             //       color: Color(0x33000000)),
+
                                             //   borderRadius:
                                             //       BorderRadius.circular(
                                             //           30 * fem),
                                             // ),
-                                            child: InkWell(
-                                              onTap: () => {
-                                                launch(
-                                                    "https://github.com/deepmachine786/chatbit"),
-                                              },
-                                              child: Container(
-                                                padding: EdgeInsets.fromLTRB(
-                                                    1 * fem,
-                                                    0 * fem,
-                                                    0 * fem,
-                                                    2 * fem),
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: const Color.fromARGB(
-                                                        255, 219, 217, 217),
-                                                    width: 0.8,
-                                                  ),
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          6.0),
-                                                ),
-                                                child: Padding(
-                                                  padding:
-                                                      const EdgeInsets.all(4.0),
-                                                  child: Center(
-                                                    child: Text(
-                                                      'Read more',
-                                                      style: TextStyle(
-                                                        fontFamily:
-                                                            'Product Sans',
-                                                        fontSize: 15 * ffem,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                        height:
-                                                            1.6 * ffem / fem,
-                                                        letterSpacing:
-                                                            -0.25 * fem,
-                                                        color: const Color(
-                                                            0xff1a73e8),
-                                                      ),
-                                                    ),
-                                                  ),
-                                                ),
+
+                                            child: Text(
+                                              ' Coming Soon.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 17 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height: 2 * ffem / fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
+                                                color: const Color(0xff1a73e8),
                                               ),
                                             ),
                                           ),
@@ -2201,7 +2110,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height:
                                                     1.2941176471 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
                                                 color: const Color(0xff000000),
                                               ),
                                             ),
@@ -2223,68 +2132,29 @@ class Scene extends StatelessWidget {
                                                 fontSize: 18 * ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
+                                                    // 0.1000000015 * fem,
                                                 color: const Color(0xff5f6368),
                                               ),
                                             ),
                                           ),
                                           Container(
-                                            // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(0 * fem,
-                                                11 * fem, 0 * fem, 0 * fem),
-
-                                            width: 115 * fem,
-
-                                            // decoration: BoxDecoration(
-                                            //   border: Border.all(
-                                            //       color: Color(0x33000000)),
-                                            //   borderRadius:
-                                            //       BorderRadius.circular(
-                                            //           30 * fem),
-                                            // ),
-                                            child: InkWell(
-                                              onTap: () => {
-                                                launch(
-                                                    "https://github.com/deepmachine786/101109111106105"),
-                                              },
-                                              child: Container(
-                                                padding: EdgeInsets.fromLTRB(
-                                                    1 * fem,
-                                                    0 * fem,
-                                                    0 * fem,
-                                                    2 * fem),
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: const Color.fromARGB(
-                                                        255, 219, 217, 217),
-                                                    width: 0.8,
-                                                  ),
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          6.0),
-                                                ),
-                                                child: Padding(
-                                                  padding:
-                                                      const EdgeInsets.all(4.0),
-                                                  child: Center(
-                                                    child: Text(
-                                                      'Read more',
-                                                      style: TextStyle(
-                                                        fontFamily:
-                                                            'Product Sans',
-                                                        fontSize: 15 * ffem,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                        height:
-                                                            1.6 * ffem / fem,
-                                                        letterSpacing:
-                                                            -0.25 * fem,
-                                                        color: const Color(
-                                                            0xff1a73e8),
-                                                      ),
-                                                    ),
-                                                  ),
-                                                ),
+                                                12 * fem, 0 * fem, 0 * fem),
+                                            padding: EdgeInsets.fromLTRB(
+                                                0 * fem,
+                                                0 * fem,
+                                                0 * fem,
+                                                0 * fem),
+                                            child: Text(
+                                              'Read more',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 17 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height: 2 * ffem / fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
+                                                color: const Color(0xff1a73e8),
                                               ),
                                             ),
                                           ),
@@ -2316,7 +2186,7 @@ class Scene extends StatelessWidget {
                                           //           fontSize: 15 * ffem,
                                           //           fontWeight: FontWeight.w500,
                                           //           height: 1.6 * ffem / fem,
-                                          //                                           letterSpacing: -0.25 * fem, 0.5 * fem,
+                                          //                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
                                           //           color: Color(0xff1a73e8),
                                           //         ),
                                           //       ),
@@ -2336,7 +2206,7 @@ class Scene extends StatelessWidget {
                                           //         fontSize: 15 * ffem,
                                           //         fontWeight: FontWeight.w400,
                                           //         height: 1.5 * ffem / fem,
-                                          //                                         letterSpacing: -0.25 * fem,
+                                          //                                                                         letterSpacing: -0.25 * fem, -0.25 * fem,
                                           //             0.1000000015 * fem,
                                           //         color: Color(0xff0077c2),
                                           //       ),
@@ -2393,7 +2263,7 @@ class Scene extends StatelessWidget {
                                     margin: EdgeInsets.fromLTRB(
                                         0 * fem, 0 * fem, 92 * fem, 0 * fem),
                                     padding: EdgeInsets.fromLTRB(100 * fem,
-                                        180 * fem, 0 * fem, 80 * fem),
+                                        180 * fem, 50 * fem, 80 * fem),
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
                                       color: Color(0xffffffff),
@@ -2450,7 +2320,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height:
                                                     1.2941176471 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem,
                                                 color: const Color(0xff000000),
                                               ),
                                             ),
@@ -2469,7 +2339,8 @@ class Scene extends StatelessWidget {
                                                 fontSize: 18 * ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem,
+                                                    // 0.1000000015 * fem,
                                                 color: const Color(0xff5f6368),
                                               ),
                                             ),
@@ -2478,11 +2349,15 @@ class Scene extends StatelessWidget {
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(
                                                 3.8 * fem,
-                                                11 * fem,
+                                                0 * fem,
                                                 0 * fem,
                                                 0 * fem),
-
-                                            width: 115 * fem,
+                                            padding: EdgeInsets.fromLTRB(
+                                                0 * fem,
+                                                10 * fem,
+                                                0 * fem,
+                                                10 * fem),
+                                            width: 100.2 * fem,
 
                                             // decoration: BoxDecoration(
                                             //   border: Border.all(
@@ -2491,48 +2366,16 @@ class Scene extends StatelessWidget {
                                             //       BorderRadius.circular(
                                             //           30 * fem),
                                             // ),
-                                            child: InkWell(
-                                              onTap: () => {
-                                                launch(
-                                                    "https://github.com/deepmachine786/chatbit"),
-                                              },
-                                              child: Container(
-                                                padding: EdgeInsets.fromLTRB(
-                                                    1 * fem,
-                                                    0 * fem,
-                                                    0 * fem,
-                                                    2 * fem),
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: const Color.fromARGB(
-                                                        255, 219, 217, 217),
-                                                    width: 0.8,
-                                                  ),
-                                                  borderRadius:
-                                                      BorderRadius.circular(6),
-                                                ),
-                                                child: Padding(
-                                                  padding:
-                                                      const EdgeInsets.all(4.0),
-                                                  child: Center(
-                                                    child: Text(
-                                                      'Read more',
-                                                      style: TextStyle(
-                                                        fontFamily:
-                                                            'Product Sans',
-                                                        fontSize: 15 * ffem,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                        height:
-                                                            1.6 * ffem / fem,
-                                                        letterSpacing:
-                                                            -0.25 * fem,
-                                                        color: const Color(
-                                                            0xff1a73e8),
-                                                      ),
-                                                    ),
-                                                  ),
-                                                ),
+
+                                            child: Text(
+                                              'Read more.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 17 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height: 1.6 * ffem / fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
+                                                color: const Color(0xff1a73e8),
                                               ),
                                             ),
                                           ),
@@ -2564,7 +2407,7 @@ class Scene extends StatelessWidget {
                                         fontSize: 38 * ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.2941176471 * ffem / fem,
-                                        letterSpacing: -0.25 * fem,
+                                                                                                        letterSpacing: -0.25 * fem, 
                                         color: const Color(0xff000000),
                                       ),
                                       children: [
@@ -2579,7 +2422,7 @@ class Scene extends StatelessWidget {
                                             fontSize: 38 * ffem,
                                             fontWeight: FontWeight.w400,
                                             height: 1.2941176471 * ffem / fem,
-                                            letterSpacing: -0.25 * fem,
+                                                                                                            letterSpacing: -0.25 * fem, 
                                             color: const Color(0xff000000),
                                           ),
                                         ),
@@ -2655,7 +2498,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w500,
                                                 height:
                                                     1.8461538462 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
@@ -2680,7 +2523,7 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height:
                                                     1.2727272727 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
+                                                                                                                letterSpacing: -0.25 * fem, 
                                                 color: const Color(0xff000000),
                                               ),
                                             ),
@@ -2706,7 +2549,7 @@ class Scene extends StatelessWidget {
                                           fontSize: 18 * ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.5 * ffem / fem,
-                                          letterSpacing: -0.25 * fem,
+                                                                                                          letterSpacing: -0.25 * fem, 
                                           color: const Color(0xff5f6368),
                                         ),
                                       ),
@@ -2830,470 +2673,34 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                   ),
-                  // Positioned(
-                  //   // experienceweavesgrowthchalleng (200:6)
-                  //   left: 278 * fem,
-                  //   top: 2920 * fem,
-                  //   child: Center(
-                  //     child: Align(
-                  //       child: SizedBox(
-                  //         width: 880 * fem,
-                  //         height: 44 * fem,
-                  //         child: Center(
-                  //           child: Text(
-                  //             'Experience weaves growth, challenges, and wisdom.',
-                  //             textAlign: TextAlign.center,
-                  //             style: TextStyle(
-                  //               fontFamily: 'Product Sans',
-                  //               fontSize: 38 * ffem,
-                  //               fontWeight: FontWeight.w400,
-                  //               height: 1.2941176471 * ffem / fem,
-                  //                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
-                  //               color: const Color(0xff000000),
-                  //             ),
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
-                ],
-              ),
-            ),
-            Positioned(
-              width: double.infinity,
-              child: SizedBox(
-                width: double.infinity,
-                child: SizedBox(
-                  // divflexsbF (1:250)
-                  width: double.infinity,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Container(
-                        // heading3growyourskillsKLm (1:252)
-                        margin: EdgeInsets.fromLTRB(
-                            45 * fem, 0 * fem, 0 * fem, 32 * fem),
-                        child: Text(
-                          'Exhibit Project Success',
-                          style: TextStyle(
-                            fontFamily: 'Product Sans',
-                            fontSize: 38 * ffem,
-                            fontWeight: FontWeight.w500,
-                            height: 1.1162790698 * ffem / fem,
-                            letterSpacing: -0.25 * fem,
-                            color: const Color(0xff000000),
+                  Positioned(
+                    // experienceweavesgrowthchalleng (200:6)
+                    left: 278 * fem,
+                    top: 2920 * fem,
+                    child: Center(
+                      child: Align(
+                        child: SizedBox(
+                          width: 880 * fem,
+                          height: 44 * fem,
+                          child: Center(
+                            child: Text(
+                              'Experience weaves growth, challenges, and wisdom.',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontFamily: 'Product Sans',
+                                fontSize: 38 * ffem,
+                                fontWeight: FontWeight.w400,
+                                height: 1.2941176471 * ffem / fem,
+                                                                                                letterSpacing: -0.25 * fem,
+                                color: const Color(0xff000000),
+                              ),
+                            ),
                           ),
                         ),
                       ),
-                      Container(
-                        margin: EdgeInsets.fromLTRB(
-                            21.83 * fem, 0 * fem, 0 * fem, 0 * fem),
-                        height: 300 * fem,
-                        child: CarouselSlider(
-                          items: [
-                            Container(
-                              // linkoQM (1:255)
-                              margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 99.65 * fem, 0 * fem),
-                              padding: EdgeInsets.fromLTRB(
-                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
-                              width: 407 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 238, 238, 238),
-                                borderRadius: BorderRadius.circular(24 * fem),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Container(
-                                    // rectangle15sf (4:55)
-                                    margin: EdgeInsets.fromLTRB(
-                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
-                                    width: 82 * fem,
-                                    height: 82 * fem,
-                                    decoration: BoxDecoration(
-                                      color: const Color.fromARGB(
-                                          255, 255, 255, 255),
-                                      // border: Border.all(color: Colors.black),
-                                      borderRadius:
-                                          BorderRadius.circular(90 * fem),
-                                    ),
-                                    child: Image.asset(
-                                      "assets/page-1/images/firstimage.png",
-                                      fit: BoxFit.fill,
-                                    ),
-                                  ),
-                                  Container(
-                                    // divtextblackpyf (1:267)
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Container(
-                                          // heading3codelabsandpathwaysNkH (1:268)
-                                          margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 12 * fem),
-                                          child: Text(
-                                            'Chatbit Application',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 23 * ffem,
-                                              fontWeight: FontWeight.w500,
-                                              height: 1.3043478261 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                        Container(
-                                          // startbuildingtodaywithselfpace (1:270)
-                                          constraints: BoxConstraints(
-                                            maxWidth: 307 * fem,
-                                          ),
-                                          child: Text(
-                                            'A secure messaging app with advanced features and strong user growth.',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 15 * ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.6 * ffem / fem,
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              // link98m (1:271)
-                              margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-                              padding: EdgeInsets.fromLTRB(
-                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
-                              width: 407 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 238, 238, 238),
-                                borderRadius: BorderRadius.circular(24 * fem),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Container(
-                                    // rectangle15sf (4:55)
-                                    margin: EdgeInsets.fromLTRB(
-                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
-                                    width: 82 * fem,
-                                    height: 82 * fem,
-                                    decoration: BoxDecoration(
-                                      color: const Color.fromARGB(
-                                          255, 255, 255, 255),
-                                      // border: Border.all(color: Colors.black),
-                                      borderRadius:
-                                          BorderRadius.circular(90 * fem),
-                                    ),
-                                    child: Image.asset(
-                                      "assets/page-1/images/todo1.png",
-                                      fit: BoxFit.fill,
-                                    ),
-                                  ),
-                                  Container(
-                                    // divtextblackx6D (1:283)
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Container(
-                                          // heading3workshops6TK (1:284)
-                                          margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 12 * fem),
-                                          child: Text(
-                                            'Automatic Todo',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 23 * ffem,
-                                              fontWeight: FontWeight.w500,
-                                              height: 1.3043478261 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                        Container(
-                                          // gainskillswithguidedcodelabsle (1:286)
-                                          constraints: BoxConstraints(
-                                            maxWidth: 329 * fem,
-                                          ),
-                                          child: Text(
-                                            'Python apps for task management, automation, and reminders enhancing productivity.',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 15 * ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.6 * ffem / fem,
-                                              // color: Color(0xff000000),
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              // link98m (1:271)
-                              margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-                              padding: EdgeInsets.fromLTRB(
-                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
-                              width: 407 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 238, 238, 238),
-                                borderRadius: BorderRadius.circular(24 * fem),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Container(
-                                    // rectangle15sf (4:55)
-                                    margin: EdgeInsets.fromLTRB(
-                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
-                                    width: 82 * fem,
-                                    height: 82 * fem,
-                                    decoration: BoxDecoration(
-                                      color: const Color.fromARGB(
-                                          255, 255, 255, 255),
-                                      // border: Border.all(color: Colors.black),
-                                      borderRadius:
-                                          BorderRadius.circular(90 * fem),
-                                    ),
-                                    child: Image.asset(
-                                      "assets/page-1/images/todo.png",
-                                      fit: BoxFit.fill,
-                                    ),
-                                  ),
-                                  Container(
-                                    // divtextblackx6D (1:283)
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Container(
-                                          // heading3workshops6TK (1:284)
-                                          margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 12 * fem),
-                                          child: Text(
-                                            'VoiceChanger',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 23 * ffem,
-                                              fontWeight: FontWeight.w500,
-                                              height: 1.3043478261 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                        Container(
-                                          // gainskillswithguidedcodelabsle (1:286)
-                                          constraints: BoxConstraints(
-                                            maxWidth: 329 * fem,
-                                          ),
-                                          child: Text(
-                                            'A high-quality voice manipulation app with real-time audio processing and intuitive UI user experience.',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 15 * ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.6 * ffem / fem,
-                                              // color: Color(0xff000000),
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              // link98m (1:271)
-                              margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-                              padding: EdgeInsets.fromLTRB(
-                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
-                              width: 407 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 238, 238, 238),
-                                borderRadius: BorderRadius.circular(24 * fem),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Container(
-                                    // rectangle15sf (4:55)
-                                    margin: EdgeInsets.fromLTRB(
-                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
-                                    width: 82 * fem,
-                                    height: 82 * fem,
-                                    decoration: BoxDecoration(
-                                      color: const Color.fromARGB(
-                                          255, 255, 255, 255),
-                                      // border: Border.all(color: Colors.black),
-                                      borderRadius:
-                                          BorderRadius.circular(90 * fem),
-                                    ),
-                                    child: Image.asset(
-                                      "assets/page-1/images/transare1.png",
-                                      fit: BoxFit.fill,
-                                    ),
-                                  ),
-                                  Container(
-                                    // divtextblackx6D (1:283)
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Container(
-                                          // heading3workshops6TK (1:284)
-                                          margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 12 * fem),
-                                          child: Text(
-                                            'Transare',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 23 * ffem,
-                                              fontWeight: FontWeight.w500,
-                                              height: 1.3043478261 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                        Container(
-                                          // gainskillswithguidedcodelabsle (1:286)
-                                          constraints: BoxConstraints(
-                                            maxWidth: 329 * fem,
-                                          ),
-                                          child: Text(
-                                            'A sleek cross-platform file-sharing app for seamless file sharing across devices and platforms.',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 15 * ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.6 * ffem / fem,
-                                              // color: Color(0xff000000),
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              // link98m (1:271)
-                              margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-                              padding: EdgeInsets.fromLTRB(
-                                  24 * fem, 24 * fem, 24 * fem, 24 * fem),
-                              width: 407 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 238, 238, 238),
-                                borderRadius: BorderRadius.circular(24 * fem),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Container(
-                                    // rectangle15sf (4:55)
-                                    margin: EdgeInsets.fromLTRB(
-                                        0 * fem, 0 * fem, 0 * fem, 24 * fem),
-                                    width: 82 * fem,
-                                    height: 82 * fem,
-                                    decoration: BoxDecoration(
-                                      color: const Color.fromARGB(
-                                          255, 255, 255, 255),
-                                      // border: Border.all(color: Colors.black),
-                                      borderRadius:
-                                          BorderRadius.circular(90 * fem),
-                                    ),
-                                    child: Image.asset(
-                                      "assets/page-1/images/worksuitkit1.png",
-                                      fit: BoxFit.fill,
-                                    ),
-                                  ),
-                                  Container(
-                                    // divtextblackx6D (1:283)
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Container(
-                                          // heading3workshops6TK (1:284)
-                                          margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 12 * fem),
-                                          child: Text(
-                                            'Worksuitkit',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 23 * ffem,
-                                              fontWeight: FontWeight.w500,
-                                              height: 1.3043478261 * ffem / fem,
-                                              letterSpacing: -0.25 * fem,
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                        Container(
-                                          // gainskillswithguidedcodelabsle (1:286)
-                                          constraints: BoxConstraints(
-                                            maxWidth: 329 * fem,
-                                          ),
-                                          child: Text(
-                                            'A versatile survey administration software integrated with Google\'s suite of productivity tools.',
-                                            style: TextStyle(
-                                              fontFamily: 'Product Sans',
-                                              fontSize: 15 * ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.6 * ffem / fem,
-                                              // color: Color(0xff000000),
-                                              color: const Color(0xff000000),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                          options: CarouselOptions(
-                            height: 265.0,
-                            // Other options...
-                            viewportFraction: 0.38,
-                            autoPlay: true,
-                          ),
-                        ),
-                        //
-                      ),
-                    ],
+                    ),
                   ),
-                ),
+                ],
               ),
             ),
 
@@ -3301,33 +2708,214 @@ class Scene extends StatelessWidget {
             Here We Use or change the container and design after this line ....
             */
 
-            // Center(
-            //   child: Container(
-            //     height: 500 * fem,
-            //     width: 1000 * fem,
+            // Container(
+            //   // divVrp (195:2)
+            //   margin: EdgeInsets.fromLTRB(
+            //       84.5 * fem, 0 * fem, 89.5 * fem, 160 * fem),
+            //   width: double.infinity,
+            //   height: 394 * fem,
+            //   child: Row(
+            //     crossAxisAlignment: CrossAxisAlignment.center,
+            //     children: [
+            //       Container(
+            //         // articlepeC (195:3)
+            //         margin: EdgeInsets.fromLTRB(
+            //             0 * fem, 0 * fem, 44 * fem, 0 * fem),
+            //         padding: EdgeInsets.fromLTRB(
+            //             51 * fem, 29 * fem, 53.91 * fem, 29 * fem),
+            //         height: double.infinity,
+            //         decoration: BoxDecoration(
+            //           border: Border.all(color: Color(0xffe8eaed)),
+            //           borderRadius: BorderRadius.circular(60 * fem),
+            //         ),
+            //         child: Row(
+            //           crossAxisAlignment: CrossAxisAlignment.center,
+            //           children: [
+            //             Container(
+            //               // gyujbgvems0qhq34sjn7ykhjs8rber (195:4)
+            //               margin: EdgeInsets.fromLTRB(
+            //                   0 * fem, 0 * fem, 43.09 * fem, 0 * fem),
+            //               width: 252 * fem,
+            //               height: 336 * fem,
+            //               child: ClipRRect(
+            //                 borderRadius: BorderRadius.circular(60 * fem),
+            //                 child: Image.asset(
+            //                   'assets/page-1/images/gyujbgvems0qhq34sjn7ykhjs8rbertrcja8lhf9gtnc5brd0ac23ietapklcfujkgphmma7icyubsqrlxbvh2jlhw2opyk2f-fctbvd1ytmctad898bw252-rw-e365-v1.png',
+            //                   fit: BoxFit.contain,
+            //                 ),
+            //               ),
+            //             ),
+            //             Container(
+            //               // divmSx (195:5)
+            //               margin: EdgeInsets.fromLTRB(
+            //                   0 * fem, 96 * fem, 0 * fem, 96 * fem),
+            //               height: double.infinity,
+            //               child: Column(
+            //                 crossAxisAlignment: CrossAxisAlignment.center,
+            //                 children: [
+            //                   Center(
+            //                     // softwareengineerinterncodeclau (195:6)
+            //                     child: Container(
+            //                       margin: EdgeInsets.fromLTRB(
+            //                           0 * fem, 0 * fem, 0 * fem, 16 * fem),
+            //                       constraints: BoxConstraints(
+            //                         maxWidth: 185 * fem,
+            //                       ),
+            //                       child: Text(
+            //                         'Software Engineer Intern- CodeClause',
+            //                         textAlign: TextAlign.center,
+            //                         style: TextStyle(
+            //                           fontFamily: 'Product Sans',
+            //                           fontSize: 20 * ffem,
+            //                           fontWeight: FontWeight.w400,
+            //                           height: 1.4 * ffem / fem,
+            //                           color: Color(0xff202124),
+            //                         ),
+            //                       ),
+            //                     ),
+            //                   ),
+            //                   Center(
+            //                     // ihaveexperienceasasoftwareengi (195:7)
+            //                     child: Container(
+            //                       constraints: BoxConstraints(
+            //                         maxWidth: 216 * fem,
+            //                       ),
+            //                       child: Text(
+            //                         'I have experience as a Software Engineering Intern at CodeClause.',
+            //                         textAlign: TextAlign.center,
+            //                         style: TextStyle(
+            //                           fontFamily: 'Product Sans',
+            //                           fontSize: 16 * ffem,
+            //                           fontWeight: FontWeight.w400,
+            //                           height: 1.5 * ffem / fem,
+            //                           color: Color(0xff5f6368),
+            //                         ),
+            //                       ),
+            //                     ),
+            //                   ),
+            //                 ],
+            //               ),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
 
-            //     // color: Colors.blue,
-            //     decoration: BoxDecoration(
-            //         color: const Color.fromARGB(255, 248, 248, 249),
-            //         // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
-            //         borderRadius: BorderRadius.circular(65 * fem)),
+            //       /*
+            //       And This is a Second Container to change the cintainer with design ...
 
-            //     // Here We use the slider and call the function who made in upper ...
-            //     // child: CarouselSlider(
-            //     //     // items: gettheList(),
-            //     //     items:[1,2,3,4,5].map((e) => e),
-            //     //     options: CarouselOptions(
-            //     //       aspectRatio: 18 / 8,
-            //     //       autoPlay: false,
-            //     //       autoPlayAnimationDuration: const Duration(seconds: 30),
-            //     //       autoPlayCurve: Curves.fastOutSlowIn,
-            //     //       enlargeCenterPage: true,
-            //     //       viewportFraction: 1,
-            //     //     ))),
+            //       */
+            //       Container(
+            //         // articlefAx (195:8)
+            //         padding: EdgeInsets.fromLTRB(
+            //             51 * fem, 29 * fem, 54.4 * fem, 29 * fem),
+            //         height: double.infinity,
+            //         decoration: BoxDecoration(
+            //           border: Border.all(color: Color(0xffe8eaed)),
+            //           borderRadius: BorderRadius.circular(60 * fem),
+            //         ),
+            //         child: Row(
+            //           crossAxisAlignment: CrossAxisAlignment.center,
+            //           children: [
+            //             Container(
+            //               // rq6fpwdusahwtmc0eilawwxa2yhjba (195:9)
+            //               margin: EdgeInsets.fromLTRB(
+            //                   0 * fem, 0 * fem, 47.6 * fem, 0 * fem),
+            //               width: 252 * fem,
+            //               height: 336 * fem,
+            //               child: ClipRRect(
+            //                 borderRadius: BorderRadius.circular(60 * fem),
+            //                 child: Image.asset(
+            //                   'assets/page-1/images/rq6fpwdusahwtmc0eila-wwxa2yhjbatidpjvuti5qadkncuhwflyhir8m0zgwis46pkhk7f133lvgt0xw3vlvw72c9yjwpxegbv5yb6m81prd4ii-yw252-rw-e365-v1.png',
+            //                   fit: BoxFit.contain,
+            //                 ),
+            //               ),
+            //             ),
+            //             Container(
+            //               // divE7a (195:10)
+            //               margin: EdgeInsets.fromLTRB(
+            //                   0 * fem, 105 * fem, 0 * fem, 95 * fem),
+            //               height: double.infinity,
+            //               child: Column(
+            //                 crossAxisAlignment: CrossAxisAlignment.center,
+            //                 children: [
+            //                   Center(
+            //                     // researchinternbavchedutech9EY (195:11)
+            //                     child: Container(
+            //                       margin: EdgeInsets.fromLTRB(
+            //                           0 * fem, 0 * fem, 3.83 * fem, 25 * fem),
+            //                       constraints: BoxConstraints(
+            //                         maxWidth: 211 * fem,
+            //                       ),
+            //                       child: Text(
+            //                         'Research Intern\nBavch Edutech',
+            //                         textAlign: TextAlign.center,
+            //                         style: TextStyle(
+            //                           fontFamily: 'Product Sans',
+            //                           fontSize: 19 * ffem,
+            //                           fontWeight: FontWeight.w400,
+            //                           height: 1.4736842105 * ffem / fem,
+            //                           color: Color(0xff202124),
+            //                         ),
+            //                       ),
+            //                     ),
+            //                   ),
+            //                   Center(
+            //                     // ihaveexperienceasasoftwareengi (195:12)
+            //                     child: Container(
+            //                       constraints: BoxConstraints(
+            //                         maxWidth: 180 * fem,
+            //                       ),
+            //                       child: Text(
+            //                         'I have experience as Research Edutech.',
+            //                         textAlign: TextAlign.center,
+            //                         style: TextStyle(
+            //                           fontFamily: 'Product Sans',
+            //                           fontSize: 16 * ffem,
+            //                           fontWeight: FontWeight.w400,
+            //                           height: 1.5 * ffem / fem,
+            //                           color: Color(0xff5f6368),
+            //                         ),
+            //                       ),
+            //                     ),
+            //                   ),
+            //                 ],
+            //               ),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+            //     ],
             //   ),
             // ),
+            // starting the certificate and achivement part ...
+
+            Center(
+              child: Container(
+                height: 500 * fem,
+                width: 1000 * fem,
+
+                // color: Colors.blue,
+                decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 248, 248, 249),
+                    // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
+                    borderRadius: BorderRadius.circular(65 * fem)),
+
+                // Here We use the slider and call the function who made in upper ...
+                // child: CarouselSlider(
+                //     // items: gettheList(),
+                //     items:[1,2,3,4,5].map((e) => e),
+                //     options: CarouselOptions(
+                //       aspectRatio: 18 / 8,
+                //       autoPlay: false,
+                //       autoPlayAnimationDuration: const Duration(seconds: 30),
+                //       autoPlayCurve: Curves.fastOutSlowIn,
+                //       enlargeCenterPage: true,
+                //       viewportFraction: 1,
+                //     ))),
+              ),
+            ),
             /**
-             * 
+             *
              * This is Footer Page ******************************************
              */
 
@@ -3455,7 +3043,7 @@ class Scene extends StatelessWidget {
                               fontSize: 22 * ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.3636363636 * ffem / fem,
-                              letterSpacing: -0.25 * fem,
+                                                                                              letterSpacing: -0.25 * fem, 
                               color: const Color(0xbf202124),
                             ),
                           ),
@@ -3600,9 +3188,15 @@ class Scene extends StatelessWidget {
     );
   }
 }
-// // ignore_for_file: avoid_unnecessary_containers
 
-// import 'package:auto_size_text/auto_size_text.dart';
+
+
+
+
+
+
+// ignore_for_file: avoid_unnecessary_containers
+
 // import 'package:carousel_slider/carousel_slider.dart';
 // import 'package:flutter/material.dart';
 // // import 'package:google_fonts/google_fonts.dart';
@@ -3622,7 +3216,9 @@ class Scene extends StatelessWidget {
 //   "assets/page-1/images/lpu_logo_3.jpeg",
 //   "assets/page-1/images/lpu_logo_4.jpeg",
 //   "assets/page-1/images/lpu_logo_5.jpeg",
-//   "assets/page-1/images/lpu_logo_6.jpeg"
+//   "assets/page-1/images/lpu_logo_6.jpeg",
+//   "assets/page-1/images/regent_2.jpeg",
+//   "assets/page-1/images/regent_3.jpeg"
 // ];
 
 // Widget buildImage(String urlImage, int index) => Container(
@@ -3710,7 +3306,7 @@ class Scene extends StatelessWidget {
 //                               fontSize: 27 * ffem,
 //                               fontWeight: FontWeight.w600,
 //                               height: 1.3636363636 * ffem / fem,
-//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                               letterSpacing: -0.25 * fem,
 //                               // color: Color.fromARGB(255, 3, 3, 3),
 //                               color: const Color(0xff3c4043),
 //                             ),
@@ -3732,12 +3328,41 @@ class Scene extends StatelessWidget {
 //                   //       fontSize: 27 * ffem,
 //                   //       fontWeight: FontWeight.w600,
 //                   //       height: 1.3636363636 * ffem / fem,
-//                   //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                   //                                       letterSpacing: -0.25 * fem,
 //                   //       // color: Color.fromARGB(255, 3, 3, 3),
 //                   //       color: Color(0xff3c4043),
 //                   //     ),
 //                   //   ),
 //                   // ),
+//                   Container(
+//                     // aboutG3J (4:14)
+//                     margin: EdgeInsets.fromLTRB(
+//                         10 * fem, 30 * fem, 0 * fem, 0 * fem),
+//                     decoration: BoxDecoration(
+//                       //   // color: Color(0xffd9d9d9),
+//                       //   border: Border.all(
+//                       //     color: const Color.fromARGB(255, 0, 0, 0),
+//                       //     style: BorderStyle.solid,
+//                       //   ),
+//                       borderRadius: BorderRadius.circular(100 * fem),
+//                     ),
+//                     // padding: EdgeInsets.fromLTRB(0*fem, 30*fem,0,0),
+//                     child: InkWell(
+//                       onTap: () {
+//                         launch("mailto:alishahidmd127@gmail.com");
+//                       },
+//                       child: Image.asset(
+//                         "assets/page-1/images/email_icon.jpg",
+//                         fit: BoxFit.fill,
+//                         alignment: Alignment.center,
+//                         height: 35 * fem,
+//                         width: 35 * fem,
+//                         // color: const Color(0xff3c4043),
+
+//                         // color: Colors.black,
+//                       ),
+//                     ),
+//                   ),
 
 //                   Container(
 //                     // aboutG3J (4:14)
@@ -3813,7 +3438,7 @@ class Scene extends StatelessWidget {
 //                     //       fontSize: 14.5 * ffem,
 //                     //       fontWeight: FontWeight.w500,
 //                     //       height: 1.2125 * ffem / fem,
-//                     //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.42 * fem,
+//                     //                                       letterSpacing: -0.25 * fem, 0.42 * fem,
 //                     //       color: Color(0xff5f6368),
 //                     //     ),
 //                     //   ),
@@ -3866,6 +3491,7 @@ class Scene extends StatelessWidget {
 //                             "https://developers.google.com/profile/u/deepmachine786");
 //                       },
 //                       child: Image.asset(
+//                         // "assets/page-1/images/profile.png",
 //                         "assets/page-1/images/profile.png",
 //                         // fit: BoxFit.fill,
 //                         alignment: Alignment.center,
@@ -3911,7 +3537,7 @@ class Scene extends StatelessWidget {
 //                           fontSize: 85 * ffem,
 //                           fontWeight: FontWeight.w700,
 //                           height: 0.9 * ffem / fem,
-//                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
+//                           letterSpacing: -0.25 * fem,
 //                           color: const Color(0xff3c4043),
 //                         ),
 //                       ),
@@ -3936,20 +3562,20 @@ class Scene extends StatelessWidget {
 //                           fontSize: 55 * ffem,
 //                           fontWeight: FontWeight.w700,
 //                           height: 1.2 * ffem / fem,
-//                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                           letterSpacing: -0.25 * fem,
 //                           color: const Color(0xff188038),
 //                         ),
 //                       ),
 //                     ),
 //                   ),
-//                   Container(
+//                   SizedBox(
 //                     width: double.infinity,
 //                     child: Container(
 //                       // frame1rKY (2:5)
 //                       padding: EdgeInsets.fromLTRB(
 //                           57 * fem, 70 * fem, 66 * fem, 2 * fem),
 //                       width: double.infinity,
-//                       decoration: BoxDecoration(
+//                       decoration: const BoxDecoration(
 //                         color: Color(0xffffffff),
 //                       ),
 //                       child: Row(
@@ -3958,7 +3584,7 @@ class Scene extends StatelessWidget {
 //                           Container(
 //                             // rectangle2fRQ (2:7)
 //                             margin: EdgeInsets.fromLTRB(
-//                                 10 * fem, 10 * fem, 345.5 * fem, 0 * fem),
+//                                 10 * fem, 10 * fem, 350.5 * fem, 0 * fem),
 //                             width: 250 * fem,
 //                             height: 115 * fem,
 //                             child: Image.asset(
@@ -3977,11 +3603,12 @@ class Scene extends StatelessWidget {
 //                               width: 140 * fem,
 //                               height: 50 * fem,
 //                               decoration: BoxDecoration(
-//                                 borderRadius: BorderRadius.circular(30 * fem),
-//                                 border: Border.all(color: Color(0xff000000)),
+//                                 borderRadius: BorderRadius.circular(24 * fem),
+//                                 border:
+//                                     Border.all(color: const Color(0xff000000)),
 //                                 // color: Color(0xffffffff),
 //                               ),
-//                               padding: EdgeInsets.all(10.0),
+//                               padding: const EdgeInsets.all(10.0),
 //                               child: Center(
 //                                 child: Text(
 //                                   "Know more",
@@ -3992,7 +3619,7 @@ class Scene extends StatelessWidget {
 //                                     fontSize: 16 * ffem,
 //                                     fontWeight: FontWeight.w500,
 //                                     height: 1.4 * ffem / fem,
-//                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
+//                                     letterSpacing: -0.25 * fem,
 //                                   ),
 //                                 ),
 //                               ),
@@ -4016,7 +3643,6 @@ class Scene extends StatelessWidget {
 //                 ],
 //               ),
 //             ),
-
 //             Container(
 //               // aboutdivSGY (83:2)
 //               margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 0 * fem, 184 * fem),
@@ -4045,11 +3671,11 @@ class Scene extends StatelessWidget {
 //                             textAlign: TextAlign.center,
 //                             style: TextStyle(
 //                               fontFamily: 'Product Sans',
-//                               fontSize: 47 * ffem,
+//                               fontSize: 43 * ffem,
 //                               fontWeight: FontWeight.w400,
 //                               fontStyle: FontStyle.normal,
 //                               height: 1.1363636364 * ffem / fem,
-//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                               letterSpacing: -0.25 * fem,
 //                               color: const Color(0xff202124),
 //                             ),
 //                           ),
@@ -4089,7 +3715,7 @@ class Scene extends StatelessWidget {
 //                           child: Container(
 //                             height: 100 * fem,
 //                             width: 100 * fem,
-//                             decoration: BoxDecoration(),
+//                             decoration: const BoxDecoration(),
 //                           ),
 //                         ),
 //                         Positioned(
@@ -4122,7 +3748,7 @@ class Scene extends StatelessWidget {
 //                                           fontSize: 18 * ffem,
 //                                           fontWeight: FontWeight.w400,
 //                                           height: 1.5 * ffem / fem,
-//                                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                           letterSpacing: -0.25 * fem,
 //                                           color: const Color(0xff5f6368),
 //                                         ),
 //                                       ),
@@ -4164,7 +3790,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height:
 //                                                     1.8461538462 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff202124),
 //                                               ),
 //                                             ),
@@ -4177,7 +3803,7 @@ class Scene extends StatelessWidget {
 //                                               fontSize: 46 * ffem,
 //                                               fontWeight: FontWeight.w400,
 //                                               height: 1.2727272727 * ffem / fem,
-//                                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                               letterSpacing: -0.25 * fem,
 //                                               color: const Color(0xff000000),
 //                                             ),
 //                                           ),
@@ -4187,7 +3813,7 @@ class Scene extends StatelessWidget {
 //                                   ),
 //                                 ),
 //                                 /**
-//                                    * Logo Design and cursor
+//                                    * Logo Design and cursor 
 //                                    */
 //                                 Positioned(
 //                                   left: 1040 * fem,
@@ -4204,8 +3830,9 @@ class Scene extends StatelessWidget {
 //                                         onTap: () {
 //                                           // Dialog Box use here ...
 //                                           showDialog(
-//                                               barrierColor: Color.fromARGB(
-//                                                   179, 255, 255, 255),
+//                                               barrierColor:
+//                                                   const Color.fromARGB(
+//                                                       179, 255, 255, 255),
 //                                               context: context,
 //                                               builder: (context) => AlertDialog(
 //                                                     // Customize your AlertDialog here
@@ -4217,7 +3844,7 @@ class Scene extends StatelessWidget {
 //                                                     ),
 //                                                     // contentPadding:
 //                                                     //     EdgeInsets.zero,
-//                                                     content: Container(
+//                                                     content: SizedBox(
 //                                                       width: double.infinity,
 //                                                       child: Container(
 //                                                         // desktop1U6V (1:2)
@@ -4229,7 +3856,7 @@ class Scene extends StatelessWidget {
 //                                                                 22 * fem),
 //                                                         width: double.infinity,
 //                                                         decoration:
-//                                                             BoxDecoration(
+//                                                             const BoxDecoration(
 //                                                           color:
 //                                                               Color(0xffffffff),
 //                                                         ),
@@ -4280,13 +3907,13 @@ class Scene extends StatelessWidget {
 //                                                                               fem),
 //                                                                       border: Border.all(
 //                                                                           color:
-//                                                                               Color(0xff000000)),
+//                                                                               const Color(0xff000000)),
 //                                                                     ),
 //                                                                     child: InkWell(
 //                                                                         onTap: () => {
 //                                                                               Navigator.pop(context),
 //                                                                             },
-//                                                                         child: Icon(Icons.close)),
+//                                                                         child: const Icon(Icons.close, fill: double.minPositive)),
 //                                                                   ),
 //                                                                   Container(
 //                                                                     // frame85tu (4:8)
@@ -4317,10 +3944,10 @@ class Scene extends StatelessWidget {
 //                                                                           height: 1.2575 *
 //                                                                               ffem /
 //                                                                               fem,
-//                                                                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem,
-//                                                                               0.125 * fem,
+//                                                                           letterSpacing:
+//                                                                               -0.25 * fem,
 //                                                                           color:
-//                                                                               Color(0xff000000),
+//                                                                               const Color(0xff000000),
 //                                                                         ),
 //                                                                       ),
 //                                                                     ),
@@ -4334,7 +3961,7 @@ class Scene extends StatelessWidget {
 //                                                                   .fromLTRB(
 //                                                                       20.5 *
 //                                                                           fem,
-//                                                                       0 * fem,
+//                                                                       40 * fem,
 //                                                                       15.5 *
 //                                                                           fem,
 //                                                                       0 * fem),
@@ -4380,7 +4007,7 @@ class Scene extends StatelessWidget {
 //                                                                         Container(
 //                                                                           // frame6vHF (3:14)
 //                                                                           margin: EdgeInsets.fromLTRB(
-//                                                                               0 * fem,
+//                                                                               13 * fem,
 //                                                                               26.5 * fem,
 //                                                                               75 * fem,
 //                                                                               25.5 * fem),
@@ -4398,7 +4025,7 @@ class Scene extends StatelessWidget {
 //                                                                               child: Container(
 //                                                                                 decoration: BoxDecoration(
 //                                                                                   borderRadius: BorderRadius.circular(75 * fem),
-//                                                                                   image: DecorationImage(
+//                                                                                   image: const DecorationImage(
 //                                                                                     fit: BoxFit.cover,
 //                                                                                     image: AssetImage(
 //                                                                                       'assets/page-1/images/githubprofileimages-2.png',
@@ -4408,6 +4035,10 @@ class Scene extends StatelessWidget {
 //                                                                               ),
 //                                                                             ),
 //                                                                           ),
+//                                                                         ),
+//                                                                         SizedBox(
+//                                                                           width:
+//                                                                               45 * fem,
 //                                                                         ),
 //                                                                         Container(
 //                                                                           // frame5b21 (3:12)
@@ -4427,7 +4058,7 @@ class Scene extends StatelessWidget {
 //                                                                             children: [
 //                                                                               Container(
 //                                                                                 // frame9uoP (4:10)
-//                                                                                 margin: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 11 * fem),
+//                                                                                 margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 11 * fem),
 //                                                                                 width: 358 * fem,
 //                                                                                 height: 36 * fem,
 //                                                                                 child: Center(
@@ -4439,43 +4070,45 @@ class Scene extends StatelessWidget {
 //                                                                                       fontSize: 28 * ffem,
 //                                                                                       fontWeight: FontWeight.w400,
 //                                                                                       height: 1.2575 * ffem / fem,
-//                                                                                                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
-//                                                                                       color: Color(0xff000000),
+//                                                                                       letterSpacing: -0.25 * fem,
+//                                                                                       color: const Color(0xff000000),
 //                                                                                     ),
 //                                                                                   ),
 //                                                                                 ),
 //                                                                               ),
 //                                                                               Container(
-//                                                                                 // frame10AzD (4:11)
-//                                                                                 margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
-//                                                                                 padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 56 * fem, 0 * fem),
+//                                                                                 // frame10vXT (5:7)
+//                                                                                 margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 2 * fem, 10 * fem),
+//                                                                                 padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 40 * fem, 0 * fem),
 //                                                                                 width: double.infinity,
 //                                                                                 height: 27 * fem,
 //                                                                                 child: Row(
 //                                                                                   crossAxisAlignment: CrossAxisAlignment.start,
 //                                                                                   children: [
 //                                                                                     Container(
-//                                                                                       // frame11J4q (4:12)
-//                                                                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 81 * fem, 0 * fem),
-//                                                                                       width: 158 * fem,
+//                                                                                       // frame11Eo3 (5:8)
+//                                                                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
+//                                                                                       padding: EdgeInsets.fromLTRB(6 * fem, 0 * fem, 0 * fem, 0 * fem),
+
+//                                                                                       width: 189 * fem,
 //                                                                                       height: 19 * fem,
 //                                                                                       child: Center(
 //                                                                                         child: Text(
-//                                                                                           'Bachelor of Engineering',
+//                                                                                           'Bachelor of Computer Engineering',
 //                                                                                           style: TextStyle(
 //                                                                                             fontFamily: 'Product Sans',
 //                                                                                             fontSize: 15 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
-//                                                                                             color: Color(0x7f000000),
+//                                                                                             letterSpacing: -0.25 * fem,
+//                                                                                             color: const Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
 //                                                                                       ),
 //                                                                                     ),
-//                                                                                     Container(
-//                                                                                       // frame12ywf (4:13)
-//                                                                                       width: 100 * fem,
+//                                                                                     SizedBox(
+//                                                                                       // frame12XXF (5:10)
+//                                                                                       width: 118 * fem,
 //                                                                                       height: 19 * fem,
 //                                                                                       child: Center(
 //                                                                                         child: Text(
@@ -4485,8 +4118,8 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 13 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
-//                                                                                             color: Color(0x7f000000),
+//                                                                                             letterSpacing: -0.25 * fem,
+//                                                                                             color: const Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
 //                                                                                       ),
@@ -4496,7 +4129,7 @@ class Scene extends StatelessWidget {
 //                                                                               ),
 //                                                                               Container(
 //                                                                                 // frame11Gvm (4:14)
-//                                                                                 padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
+//                                                                                 padding: EdgeInsets.fromLTRB(13 * fem, 0 * fem, 0 * fem, 0 * fem),
 //                                                                                 width: 409 * fem,
 //                                                                                 height: 116 * fem,
 //                                                                                 child: Text(
@@ -4506,8 +4139,8 @@ class Scene extends StatelessWidget {
 //                                                                                     fontSize: 15 * ffem,
 //                                                                                     fontWeight: FontWeight.w400,
 //                                                                                     height: 1.2575 * ffem / fem,
-//                                                                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
-//                                                                                     color: Color(0xb2000000),
+//                                                                                     letterSpacing: -0.25 * fem,
+//                                                                                     color: const Color(0xb2000000),
 //                                                                                   ),
 //                                                                                 ),
 //                                                                               ),
@@ -4552,7 +4185,7 @@ class Scene extends StatelessWidget {
 //                                                                               65.5 * fem,
 //                                                                               42.5 * fem),
 //                                                                           width:
-//                                                                               138 * fem,
+//                                                                               200 * fem,
 //                                                                           height:
 //                                                                               double.infinity,
 //                                                                           child:
@@ -4565,9 +4198,9 @@ class Scene extends StatelessWidget {
 //                                                                               child: Container(
 //                                                                                 decoration: BoxDecoration(
 //                                                                                   borderRadius: BorderRadius.circular(69 * fem),
-//                                                                                   image: DecorationImage(
+//                                                                                   image: const DecorationImage(
 //                                                                                     image: AssetImage(
-//                                                                                       'assets/page-1/images/ellipse-2-bg.png',
+//                                                                                       'assets/page-1/images/regent_1.jpg',
 //                                                                                     ),
 //                                                                                   ),
 //                                                                                 ),
@@ -4578,7 +4211,7 @@ class Scene extends StatelessWidget {
 //                                                                         Container(
 //                                                                           // frame7XER (5:4)
 //                                                                           padding: EdgeInsets.fromLTRB(
-//                                                                               11.5 * fem,
+//                                                                               7.5 * fem,
 //                                                                               12.5 * fem,
 //                                                                               1 * fem,
 //                                                                               0 * fem),
@@ -4593,7 +4226,7 @@ class Scene extends StatelessWidget {
 //                                                                             children: [
 //                                                                               Container(
 //                                                                                 // frame93yT (5:5)
-//                                                                                 margin: EdgeInsets.fromLTRB(11 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
+//                                                                                 margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 25.5 * fem, 10.5 * fem),
 //                                                                                 width: 391 * fem,
 //                                                                                 height: 36 * fem,
 //                                                                                 child: Center(
@@ -4604,8 +4237,8 @@ class Scene extends StatelessWidget {
 //                                                                                       fontSize: 28 * ffem,
 //                                                                                       fontWeight: FontWeight.w400,
 //                                                                                       height: 1.2575 * ffem / fem,
-//                                                                                                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
-//                                                                                       color: Color(0xff000000),
+//                                                                                       letterSpacing: -0.25 * fem,
+//                                                                                       color: const Color(0xff000000),
 //                                                                                     ),
 //                                                                                   ),
 //                                                                                 ),
@@ -4624,7 +4257,7 @@ class Scene extends StatelessWidget {
 //                                                                               //         fontSize: 28 * ffem,
 //                                                                               //         fontWeight: FontWeight.w400,
 //                                                                               //         height: 1.2575 * ffem / fem,
-//                                                                               //                                                                         letterSpacing: -0.25 * fem, -0.25 * fem, 0.28 * fem,
+//                                                                               //                                         letterSpacing: -0.25 * fem, 0.28 * fem,
 //                                                                               //         color: Color(0xff000000),
 //                                                                               //       ),
 //                                                                               //     ),
@@ -4642,7 +4275,7 @@ class Scene extends StatelessWidget {
 //                                                                                     Container(
 //                                                                                       // frame11Eo3 (5:8)
 //                                                                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 43 * fem, 0 * fem),
-//                                                                                       padding: EdgeInsets.fromLTRB(8 * fem, 0 * fem, 0 * fem, 0 * fem),
+//                                                                                       padding: EdgeInsets.fromLTRB(12 * fem, 0 * fem, 0 * fem, 0 * fem),
 
 //                                                                                       width: 189 * fem,
 //                                                                                       height: 19 * fem,
@@ -4654,13 +4287,13 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 15 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
-//                                                                                             color: Color(0x7f000000),
+//                                                                                             letterSpacing: -0.25 * fem,
+//                                                                                             color: const Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
 //                                                                                       ),
 //                                                                                     ),
-//                                                                                     Container(
+//                                                                                     SizedBox(
 //                                                                                       // frame12XXF (5:10)
 //                                                                                       width: 118 * fem,
 //                                                                                       height: 19 * fem,
@@ -4672,8 +4305,8 @@ class Scene extends StatelessWidget {
 //                                                                                             fontSize: 13 * ffem,
 //                                                                                             fontWeight: FontWeight.w400,
 //                                                                                             height: 1.2575 * ffem / fem,
-//                                                                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.15 * fem,
-//                                                                                             color: Color(0x7f000000),
+//                                                                                             letterSpacing: -0.25 * fem,
+//                                                                                             color: const Color(0x7f000000),
 //                                                                                           ),
 //                                                                                         ),
 //                                                                                       ),
@@ -4695,25 +4328,25 @@ class Scene extends StatelessWidget {
 //                                                                               //       fontSize: 15 * ffem,
 //                                                                               //       fontWeight: FontWeight.w400,
 //                                                                               //       height: 1.2575 * ffem / fem,
-//                                                                               //                                                                       letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
+//                                                                               //                                       letterSpacing: -0.25 * fem, 0.075 * fem,
 //                                                                               //       color: Color(0xb2000000),
 //                                                                               //     ),
 //                                                                               //   ),
 //                                                                               // ),
 //                                                                               Container(
 //                                                                                 // frame11Gvm (4:14)
-//                                                                                 padding: EdgeInsets.fromLTRB(10 * fem, 0 * fem, 0 * fem, 0 * fem),
+//                                                                                 padding: EdgeInsets.fromLTRB(14 * fem, 0 * fem, 0 * fem, 5 * fem),
 //                                                                                 width: 409 * fem,
 //                                                                                 height: 116 * fem,
 //                                                                                 child: Text(
-//                                                                                   'I\'m studying for a Bachelor of Technology degree at Lovely Professional University. LPU has given me a solid academic base and chances to grow personally and professionally through practical learning and industry exposure. I believe the knowledge and skills I gain at LPU will help me make valuable contributions in the future.\n',
+//                                                                                   "I have successfully completed a comprehensive Diploma program in Computer Science and Engineering from the esteemed Regent Institute of Science and Technology in the year 2020.\n",
 //                                                                                   style: TextStyle(
 //                                                                                     fontFamily: 'Product Sans',
 //                                                                                     fontSize: 15 * ffem,
 //                                                                                     fontWeight: FontWeight.w400,
 //                                                                                     height: 1.2575 * ffem / fem,
-//                                                                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.075 * fem,
-//                                                                                     color: Color(0xb2000000),
+//                                                                                     letterSpacing: -0.25 * fem,
+//                                                                                     color: const Color(0xb2000000),
 //                                                                                   ),
 //                                                                                 ),
 //                                                                               ),
@@ -4785,7 +4418,7 @@ class Scene extends StatelessWidget {
 //                                                     //         "This is my About us Page ....."),
 //                                                     //   ],
 //                                                     // ),
-//                                                     actions: [], // You can add custom actions if needed
+//                                                     actions: const [], // You can add custom actions if needed
 //                                                   ));
 //                                           // builder: (context) => AlertDialog(
 //                                           //       shape:
@@ -5004,7 +4637,7 @@ class Scene extends StatelessWidget {
 //                                 fontSize: 34 * ffem,
 //                                 fontWeight: FontWeight.w400,
 //                                 height: 1.7058823529 * ffem / fem,
-//                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                 letterSpacing: -0.25 * fem,
 //                                 color: const Color(0xff000000),
 //                               ),
 //                             ),
@@ -5052,7 +4685,7 @@ class Scene extends StatelessWidget {
 //                                     borderRadius:
 //                                         BorderRadius.circular(41 * fem),
 //                                     child: Image.asset(
-//                                       'assets/page-1/images/rectangle-2.png',
+//                                       'assets/page-1/images/new_resume_pic.jpeg',
 //                                       fit: BoxFit.cover,
 //                                     ),
 //                                   ),
@@ -5082,7 +4715,7 @@ class Scene extends StatelessWidget {
 //                                             fontSize: 19 * ffem,
 //                                             fontWeight: FontWeight.w400,
 //                                             height: 1.4736842105 * ffem / fem,
-//                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                             letterSpacing: -0.25 * fem,
 //                                             color: const Color(0xff000000),
 //                                           ),
 //                                         ),
@@ -5101,7 +4734,7 @@ class Scene extends StatelessWidget {
 //                                             fontSize: 18 * ffem,
 //                                             fontWeight: FontWeight.w400,
 //                                             height: 1.5 * ffem / fem,
-//                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                             letterSpacing: -0.25 * fem,
 //                                             color: const Color.fromARGB(
 //                                                 211, 95, 99, 104),
 //                                           ),
@@ -5109,47 +4742,40 @@ class Scene extends StatelessWidget {
 //                                       ),
 //                                     ),
 //                                     Container(
-//                                       // downloadmyfitnesspaltoyourdevi (126:3)
-//                                       margin: EdgeInsets.fromLTRB(290.77 * fem,
-//                                           0 * fem, 294.77 * fem, 0 * fem),
-//                                       padding: EdgeInsets.fromLTRB(
-//                                           2.5 * fem, 0 * fem, 0 * fem, 3 * fem),
+//                                       // findouthowdevicesworkbettertog (126:12)
 //                                       width: 120 * fem,
 //                                       height: 44 * fem,
+//                                       margin:
+//                                           EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
+//                                       padding: EdgeInsets.fromLTRB(
+//                                           1 * fem, 0 * fem, 0 * fem, 2 * fem),
 //                                       decoration: BoxDecoration(
+//                                         color: const Color(0xff1A73E8),
 //                                         border: Border.all(
-//                                             color:
-//                                                 // Color.fromARGB(141, 0, 0, 0)),
-//                                                 const Color.fromARGB(
-//                                                     15, 0, 0, 0)),
-//                                         color: const Color(0xffffffff),
+//                                             color: const Color(0xff1A73E8)),
 //                                         borderRadius:
 //                                             BorderRadius.circular(30 * fem),
 //                                       ),
-
 //                                       child: Center(
-//                                         child: Center(
-//                                           child: TextButton(
-//                                             onPressed: () {
-//                                               launch(
-//                                                   "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=sharing");
-//                                             },
-//                                             style: TextButton.styleFrom(
-//                                               foregroundColor:
-//                                                   const Color.fromARGB(
-//                                                       15, 255, 255, 255),
-//                                             ),
+//                                         // Here We Suggets to use FloatActionButton is best ... Remove from row..
+
+//                                         child: InkWell(
+//                                           // onHover: Colors.blue,
+//                                           onTap: () => {
+//                                             launch(
+//                                                 "https://linkedin.com/in/mdshahidali/"),
+//                                           },
+//                                           child: Center(
 //                                             child: Text(
 //                                               'Learn more',
-//                                               textAlign: TextAlign.start,
 //                                               style: TextStyle(
 //                                                 fontFamily: 'Product Sans',
-//                                                 fontSize: 16 * ffem,
+//                                                 fontSize: 15 * ffem,
 //                                                 fontWeight: FontWeight.w500,
-//                                                 height:
-//                                                     1.7142857143 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
-//                                                 color: const Color(0xff1a73e8),
+//                                                 height: 1.6 * ffem / fem,
+//                                                 letterSpacing: -0.25 * fem,
+//                                                 color: const Color.fromARGB(
+//                                                     255, 255, 255, 255),
 //                                               ),
 //                                             ),
 //                                           ),
@@ -5404,7 +5030,7 @@ class Scene extends StatelessWidget {
 //                                 borderRadius: BorderRadius.circular(60 * fem),
 //                                 child: Image.asset(
 //                                   'assets/page-1/images/rectangle-13.png',
-//                                   fit: BoxFit.contain,
+//                                   fit: BoxFit.scaleDown,
 //                                 ),
 //                               ),
 //                             ),
@@ -5429,9 +5055,25 @@ class Scene extends StatelessWidget {
 //                       crossAxisAlignment: CrossAxisAlignment.start,
 //                       children: [
 //                         Container(
+//                             margin: EdgeInsets.fromLTRB(8 * fem, 0, 0, 0),
+//                             child: Text(
+//                               "Skills",
+//                               style: TextStyle(
+//                                 fontFamily: 'Product Sans',
+//                                 fontSize: 17 * ffem,
+//                                 fontWeight: FontWeight.w500,
+//                                 height: 1.8461538462 * ffem / fem,
+//                                 letterSpacing: -0.25 * fem,
+//                                 color: const Color(0xff202124),
+//                               ),
+//                             )),
+//                         SizedBox(
+//                           height: 6 * fem,
+//                         ),
+//                         Container(
 //                           // technicalmasteryorchestratesbe (126:9)
 //                           margin: EdgeInsets.fromLTRB(
-//                               5 * fem, 0 * fem, 0 * fem, 26 * fem),
+//                               5 * fem, 0 * fem, 0 * fem, 0 * fem),
 //                           constraints: BoxConstraints(
 //                             maxWidth: 600 * fem,
 //                           ),
@@ -5442,7 +5084,8 @@ class Scene extends StatelessWidget {
 //                               fontSize: 36 * ffem,
 //                               fontWeight: FontWeight.w500,
 //                               height: 1.2941176471 * ffem / fem,
-//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
+//                               letterSpacing: -0.25 * fem,
+//                               // color: const Color(0xff000000),
 //                               color: const Color(0xff000000),
 //                             ),
 //                           ),
@@ -5450,18 +5093,18 @@ class Scene extends StatelessWidget {
 //                         Container(
 //                           // ipossesstechnicalskillsinjavap (126:11)
 //                           margin: EdgeInsets.fromLTRB(
-//                               7 * fem, 0 * fem, 0 * fem, 30 * fem),
+//                               7 * fem, 15 * fem, 0 * fem, 0 * fem),
 //                           constraints: BoxConstraints(
 //                             maxWidth: 600 * fem,
 //                           ),
 //                           child: Text(
-//                             'I possess technical skills in Java, Python, Kotlin, JavaScript, and Dart, and am currently working on frameworks such as React and Flutter. I also have knowledge of SQL, MySQL, and MongoDB databases, and am familiar with AWS.',
+//                             'I have technical proficiency in Java, Python, Kotlin, JavaScript, and Dart, and I am presently engaged in projects involving React and Flutter frameworks. Additionally, I am well-versed in SQL, MySQL, and MongoDB databases, and I am acquainted with GraphQL and AWS.\n',
 //                             style: TextStyle(
 //                               fontFamily: 'Product Sans',
-//                               fontSize: 17.8 * ffem,
-//                               fontWeight: FontWeight.w500,
-//                               height: 1.6 * ffem / fem,
-//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.1000000015 * fem,
+//                               fontSize: 18 * ffem,
+//                               fontWeight: FontWeight.w400,
+//                               height: 1.5 * ffem / fem,
+//                               letterSpacing: -0.25 * fem,
 //                               color: const Color(0xff5f6368),
 //                             ),
 //                           ),
@@ -5470,11 +5113,12 @@ class Scene extends StatelessWidget {
 //                           // findouthowdevicesworkbettertog (126:12)
 //                           width: 120 * fem,
 //                           height: 44 * fem,
+//                           margin: EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
 //                           padding: EdgeInsets.fromLTRB(
 //                               1 * fem, 0 * fem, 0 * fem, 2 * fem),
 //                           decoration: BoxDecoration(
-//                             border: Border.all(
-//                                 color: const Color.fromARGB(15, 0, 0, 0)),
+//                             color: const Color(0xff1A73E8),
+//                             border: Border.all(color: const Color(0xff1A73E8)),
 //                             borderRadius: BorderRadius.circular(30 * fem),
 //                           ),
 //                           child: Center(
@@ -5487,14 +5131,15 @@ class Scene extends StatelessWidget {
 //                               },
 //                               child: Center(
 //                                 child: Text(
-//                                   'Read more.',
+//                                   'Read more',
 //                                   style: TextStyle(
 //                                     fontFamily: 'Product Sans',
-//                                     fontSize: 17 * ffem,
+//                                     fontSize: 15 * ffem,
 //                                     fontWeight: FontWeight.w500,
 //                                     height: 1.6 * ffem / fem,
-//                                                                                                     letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
-//                                     color: const Color(0xff1a73e8),
+//                                     letterSpacing: -0.25 * fem,
+//                                     color: const Color.fromARGB(
+//                                         255, 255, 255, 255),
 //                                   ),
 //                                 ),
 //                               ),
@@ -5511,7 +5156,7 @@ class Scene extends StatelessWidget {
 //               // autogroupbx76B5a (6kyNtKTmK9EyMWVBqqBX76)
 //               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 4 * fem, 96 * fem),
 //               width: 1446 * fem,
-//               height: 2986 * fem,
+//               height: 2800 * fem,
 //               child: Stack(
 //                 children: [
 //                   Positioned(
@@ -5601,7 +5246,7 @@ class Scene extends StatelessWidget {
 //                                               fontSize: 34 * ffem,
 //                                               fontWeight: FontWeight.w400,
 //                                               height: 1.2941176471 * ffem / fem,
-//                                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                               letterSpacing: -0.25 * fem,
 //                                               color: const Color(0xff000000),
 //                                             ),
 //                                           ),
@@ -5620,8 +5265,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 18 * ffem,
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height: 1.5 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem,
-//                                                     0.1000000015 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff5f6368),
 //                                               ),
 //                                             ),
@@ -5630,27 +5274,65 @@ class Scene extends StatelessWidget {
 //                                             height: 15 * fem,
 //                                           ),
 //                                           Container(
-//                                             // comingsoonVA8 (177:3)
-//                                             margin: EdgeInsets.fromLTRB(1 * fem,
-//                                                 0 * fem, 0 * fem, 0 * fem),
+//                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
+//                                             margin: EdgeInsets.fromLTRB(
+//                                                 3.8 * fem,
+//                                                 0 * fem,
+//                                                 0 * fem,
+//                                                 5 * fem),
+
+//                                             width: 115 * fem,
+
 //                                             // decoration: BoxDecoration(
 //                                             //   border: Border.all(
 //                                             //       color: Color(0x33000000)),
-
 //                                             //   borderRadius:
 //                                             //       BorderRadius.circular(
 //                                             //           30 * fem),
 //                                             // ),
-
-//                                             child: Text(
-//                                               ' Coming Soon.',
-//                                               style: TextStyle(
-//                                                 fontFamily: 'Product Sans',
-//                                                 fontSize: 17 * ffem,
-//                                                 fontWeight: FontWeight.w500,
-//                                                 height: 2 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
-//                                                 color: const Color(0xff1a73e8),
+//                                             child: InkWell(
+//                                               onTap: () => {
+//                                                 launch(
+//                                                     "https://github.com/deepmachine786/chatbit"),
+//                                               },
+//                                               child: Container(
+//                                                 padding: EdgeInsets.fromLTRB(
+//                                                     1 * fem,
+//                                                     0 * fem,
+//                                                     0 * fem,
+//                                                     2 * fem),
+//                                                 decoration: BoxDecoration(
+//                                                   border: Border.all(
+//                                                     color: const Color.fromARGB(
+//                                                         255, 219, 217, 217),
+//                                                     width: 0.8,
+//                                                   ),
+//                                                   borderRadius:
+//                                                       BorderRadius.circular(
+//                                                           6.0),
+//                                                 ),
+//                                                 child: Padding(
+//                                                   padding:
+//                                                       const EdgeInsets.all(4.0),
+//                                                   child: Center(
+//                                                     child: Text(
+//                                                       'Read more',
+//                                                       style: TextStyle(
+//                                                         fontFamily:
+//                                                             'Product Sans',
+//                                                         fontSize: 15 * ffem,
+//                                                         fontWeight:
+//                                                             FontWeight.w500,
+//                                                         height:
+//                                                             1.6 * ffem / fem,
+//                                                         letterSpacing:
+//                                                             -0.25 * fem,
+//                                                         color: const Color(
+//                                                             0xff1a73e8),
+//                                                       ),
+//                                                     ),
+//                                                   ),
+//                                                 ),
 //                                               ),
 //                                             ),
 //                                           ),
@@ -5716,7 +5398,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height:
 //                                                     1.2941176471 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff000000),
 //                                               ),
 //                                             ),
@@ -5738,29 +5420,68 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 18 * ffem,
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height: 1.5 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem,
-//                                                     0.1000000015 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff5f6368),
 //                                               ),
 //                                             ),
 //                                           ),
 //                                           Container(
+//                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
 //                                             margin: EdgeInsets.fromLTRB(0 * fem,
-//                                                 12 * fem, 0 * fem, 0 * fem),
-//                                             padding: EdgeInsets.fromLTRB(
-//                                                 0 * fem,
-//                                                 0 * fem,
-//                                                 0 * fem,
-//                                                 0 * fem),
-//                                             child: Text(
-//                                               'Read more',
-//                                               style: TextStyle(
-//                                                 fontFamily: 'Product Sans',
-//                                                 fontSize: 17 * ffem,
-//                                                 fontWeight: FontWeight.w500,
-//                                                 height: 2 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
-//                                                 color: const Color(0xff1a73e8),
+//                                                 11 * fem, 0 * fem, 0 * fem),
+
+//                                             width: 115 * fem,
+
+//                                             // decoration: BoxDecoration(
+//                                             //   border: Border.all(
+//                                             //       color: Color(0x33000000)),
+//                                             //   borderRadius:
+//                                             //       BorderRadius.circular(
+//                                             //           30 * fem),
+//                                             // ),
+//                                             child: InkWell(
+//                                               onTap: () => {
+//                                                 launch(
+//                                                     "https://github.com/deepmachine786/101109111106105"),
+//                                               },
+//                                               child: Container(
+//                                                 padding: EdgeInsets.fromLTRB(
+//                                                     1 * fem,
+//                                                     0 * fem,
+//                                                     0 * fem,
+//                                                     2 * fem),
+//                                                 decoration: BoxDecoration(
+//                                                   border: Border.all(
+//                                                     color: const Color.fromARGB(
+//                                                         255, 219, 217, 217),
+//                                                     width: 0.8,
+//                                                   ),
+//                                                   borderRadius:
+//                                                       BorderRadius.circular(
+//                                                           6.0),
+//                                                 ),
+//                                                 child: Padding(
+//                                                   padding:
+//                                                       const EdgeInsets.all(4.0),
+//                                                   child: Center(
+//                                                     child: Text(
+//                                                       'Read more',
+//                                                       style: TextStyle(
+//                                                         fontFamily:
+//                                                             'Product Sans',
+//                                                         fontSize: 15 * ffem,
+//                                                         fontWeight:
+//                                                             FontWeight.w500,
+//                                                         height:
+//                                                             1.6 * ffem / fem,
+//                                                         letterSpacing:
+//                                                             -0.25 * fem,
+//                                                         color: const Color(
+//                                                             0xff1a73e8),
+//                                                       ),
+//                                                     ),
+//                                                   ),
+//                                                 ),
 //                                               ),
 //                                             ),
 //                                           ),
@@ -5792,7 +5513,7 @@ class Scene extends StatelessWidget {
 //                                           //           fontSize: 15 * ffem,
 //                                           //           fontWeight: FontWeight.w500,
 //                                           //           height: 1.6 * ffem / fem,
-//                                           //                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
+//                                           //                                           letterSpacing: -0.25 * fem, 0.5 * fem,
 //                                           //           color: Color(0xff1a73e8),
 //                                           //         ),
 //                                           //       ),
@@ -5812,7 +5533,7 @@ class Scene extends StatelessWidget {
 //                                           //         fontSize: 15 * ffem,
 //                                           //         fontWeight: FontWeight.w400,
 //                                           //         height: 1.5 * ffem / fem,
-//                                           //                                                                         letterSpacing: -0.25 * fem, -0.25 * fem,
+//                                           //                                         letterSpacing: -0.25 * fem,
 //                                           //             0.1000000015 * fem,
 //                                           //         color: Color(0xff0077c2),
 //                                           //       ),
@@ -5869,7 +5590,7 @@ class Scene extends StatelessWidget {
 //                                     margin: EdgeInsets.fromLTRB(
 //                                         0 * fem, 0 * fem, 92 * fem, 0 * fem),
 //                                     padding: EdgeInsets.fromLTRB(100 * fem,
-//                                         180 * fem, 50 * fem, 80 * fem),
+//                                         180 * fem, 0 * fem, 80 * fem),
 //                                     height: double.infinity,
 //                                     decoration: const BoxDecoration(
 //                                       color: Color(0xffffffff),
@@ -5926,7 +5647,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height:
 //                                                     1.2941176471 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff000000),
 //                                               ),
 //                                             ),
@@ -5945,8 +5666,7 @@ class Scene extends StatelessWidget {
 //                                                 fontSize: 18 * ffem,
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height: 1.5 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem,
-//                                                     0.1000000015 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff5f6368),
 //                                               ),
 //                                             ),
@@ -5955,15 +5675,11 @@ class Scene extends StatelessWidget {
 //                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
 //                                             margin: EdgeInsets.fromLTRB(
 //                                                 3.8 * fem,
-//                                                 0 * fem,
+//                                                 11 * fem,
 //                                                 0 * fem,
 //                                                 0 * fem),
-//                                             padding: EdgeInsets.fromLTRB(
-//                                                 0 * fem,
-//                                                 10 * fem,
-//                                                 0 * fem,
-//                                                 10 * fem),
-//                                             width: 100.2 * fem,
+
+//                                             width: 115 * fem,
 
 //                                             // decoration: BoxDecoration(
 //                                             //   border: Border.all(
@@ -5972,16 +5688,48 @@ class Scene extends StatelessWidget {
 //                                             //       BorderRadius.circular(
 //                                             //           30 * fem),
 //                                             // ),
-
-//                                             child: Text(
-//                                               'Read more.',
-//                                               style: TextStyle(
-//                                                 fontFamily: 'Product Sans',
-//                                                 fontSize: 17 * ffem,
-//                                                 fontWeight: FontWeight.w500,
-//                                                 height: 1.6 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
-//                                                 color: const Color(0xff1a73e8),
+//                                             child: InkWell(
+//                                               onTap: () => {
+//                                                 launch(
+//                                                     "https://github.com/deepmachine786/chatbit"),
+//                                               },
+//                                               child: Container(
+//                                                 padding: EdgeInsets.fromLTRB(
+//                                                     1 * fem,
+//                                                     0 * fem,
+//                                                     0 * fem,
+//                                                     2 * fem),
+//                                                 decoration: BoxDecoration(
+//                                                   border: Border.all(
+//                                                     color: const Color.fromARGB(
+//                                                         255, 219, 217, 217),
+//                                                     width: 0.8,
+//                                                   ),
+//                                                   borderRadius:
+//                                                       BorderRadius.circular(6),
+//                                                 ),
+//                                                 child: Padding(
+//                                                   padding:
+//                                                       const EdgeInsets.all(4.0),
+//                                                   child: Center(
+//                                                     child: Text(
+//                                                       'Read more',
+//                                                       style: TextStyle(
+//                                                         fontFamily:
+//                                                             'Product Sans',
+//                                                         fontSize: 15 * ffem,
+//                                                         fontWeight:
+//                                                             FontWeight.w500,
+//                                                         height:
+//                                                             1.6 * ffem / fem,
+//                                                         letterSpacing:
+//                                                             -0.25 * fem,
+//                                                         color: const Color(
+//                                                             0xff1a73e8),
+//                                                       ),
+//                                                     ),
+//                                                   ),
+//                                                 ),
 //                                               ),
 //                                             ),
 //                                           ),
@@ -6013,7 +5761,7 @@ class Scene extends StatelessWidget {
 //                                         fontSize: 38 * ffem,
 //                                         fontWeight: FontWeight.w400,
 //                                         height: 1.2941176471 * ffem / fem,
-//                                                                                                         letterSpacing: -0.25 * fem, -0.25 * fem, -0.5500000119 * fem,
+//                                         letterSpacing: -0.25 * fem,
 //                                         color: const Color(0xff000000),
 //                                       ),
 //                                       children: [
@@ -6028,7 +5776,7 @@ class Scene extends StatelessWidget {
 //                                             fontSize: 38 * ffem,
 //                                             fontWeight: FontWeight.w400,
 //                                             height: 1.2941176471 * ffem / fem,
-//                                                                                                             letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                                             letterSpacing: -0.25 * fem,
 //                                             color: const Color(0xff000000),
 //                                           ),
 //                                         ),
@@ -6104,7 +5852,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w500,
 //                                                 height:
 //                                                     1.8461538462 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.5 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff202124),
 //                                               ),
 //                                             ),
@@ -6129,7 +5877,7 @@ class Scene extends StatelessWidget {
 //                                                 fontWeight: FontWeight.w400,
 //                                                 height:
 //                                                     1.2727272727 * ffem / fem,
-//                                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, -0.5 * fem,
+//                                                 letterSpacing: -0.25 * fem,
 //                                                 color: const Color(0xff000000),
 //                                               ),
 //                                             ),
@@ -6155,7 +5903,7 @@ class Scene extends StatelessWidget {
 //                                           fontSize: 18 * ffem,
 //                                           fontWeight: FontWeight.w400,
 //                                           height: 1.5 * ffem / fem,
-//                                                                                                           letterSpacing: -0.25 * fem, -0.25 * fem, 0.1000000015 * fem,
+//                                           letterSpacing: -0.25 * fem,
 //                                           color: const Color(0xff5f6368),
 //                                         ),
 //                                       ),
@@ -6279,34 +6027,470 @@ class Scene extends StatelessWidget {
 //                       ),
 //                     ),
 //                   ),
-//                   Positioned(
-//                     // experienceweavesgrowthchalleng (200:6)
-//                     left: 278 * fem,
-//                     top: 2920 * fem,
-//                     child: Center(
-//                       child: Align(
-//                         child: SizedBox(
-//                           width: 880 * fem,
-//                           height: 44 * fem,
-//                           child: Center(
-//                             child: Text(
-//                               'Experience weaves growth, challenges, and wisdom.',
-//                               textAlign: TextAlign.center,
-//                               style: TextStyle(
-//                                 fontFamily: 'Product Sans',
-//                                 fontSize: 38 * ffem,
-//                                 fontWeight: FontWeight.w400,
-//                                 height: 1.2941176471 * ffem / fem,
-//                                                                                                 letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
-//                                 color: const Color(0xff000000),
-//                               ),
-//                             ),
+//                   // Positioned(
+//                   //   // experienceweavesgrowthchalleng (200:6)
+//                   //   left: 278 * fem,
+//                   //   top: 2920 * fem,
+//                   //   child: Center(
+//                   //     child: Align(
+//                   //       child: SizedBox(
+//                   //         width: 880 * fem,
+//                   //         height: 44 * fem,
+//                   //         child: Center(
+//                   //           child: Text(
+//                   //             'Experience weaves growth, challenges, and wisdom.',
+//                   //             textAlign: TextAlign.center,
+//                   //             style: TextStyle(
+//                   //               fontFamily: 'Product Sans',
+//                   //               fontSize: 38 * ffem,
+//                   //               fontWeight: FontWeight.w400,
+//                   //               height: 1.2941176471 * ffem / fem,
+//                   //                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                   //               color: const Color(0xff000000),
+//                   //             ),
+//                   //           ),
+//                   //         ),
+//                   //       ),
+//                   //     ),
+//                   //   ),
+//                   // ),
+//                 ],
+//               ),
+//             ),
+//             Positioned(
+//               width: double.infinity,
+//               child: SizedBox(
+//                 width: double.infinity,
+//                 child: SizedBox(
+//                   // divflexsbF (1:250)
+//                   width: double.infinity,
+//                   child: Column(
+//                     crossAxisAlignment: CrossAxisAlignment.start,
+//                     children: [
+//                       Container(
+//                         // heading3growyourskillsKLm (1:252)
+//                         margin: EdgeInsets.fromLTRB(
+//                             45 * fem, 0 * fem, 0 * fem, 32 * fem),
+//                         child: Text(
+//                           'Exhibit Project Success',
+//                           style: TextStyle(
+//                             fontFamily: 'Product Sans',
+//                             fontSize: 38 * ffem,
+//                             fontWeight: FontWeight.w500,
+//                             height: 1.1162790698 * ffem / fem,
+//                             letterSpacing: -0.25 * fem,
+//                             color: const Color(0xff000000),
 //                           ),
 //                         ),
 //                       ),
-//                     ),
+//                       Container(
+//                         margin: EdgeInsets.fromLTRB(
+//                             21.83 * fem, 0 * fem, 0 * fem, 0 * fem),
+//                         height: 300 * fem,
+//                         child: CarouselSlider(
+//                           items: [
+//                             Container(
+//                               // linkoQM (1:255)
+//                               margin: EdgeInsets.fromLTRB(
+//                                   0 * fem, 0 * fem, 99.65 * fem, 0 * fem),
+//                               padding: EdgeInsets.fromLTRB(
+//                                   24 * fem, 24 * fem, 24 * fem, 24 * fem),
+//                               width: 407 * fem,
+//                               height: double.infinity,
+//                               decoration: BoxDecoration(
+//                                 color: const Color.fromARGB(255, 238, 238, 238),
+//                                 borderRadius: BorderRadius.circular(24 * fem),
+//                               ),
+//                               child: Column(
+//                                 crossAxisAlignment: CrossAxisAlignment.start,
+//                                 children: [
+//                                   Container(
+//                                     // rectangle15sf (4:55)
+//                                     margin: EdgeInsets.fromLTRB(
+//                                         0 * fem, 0 * fem, 0 * fem, 24 * fem),
+//                                     width: 82 * fem,
+//                                     height: 82 * fem,
+//                                     decoration: BoxDecoration(
+//                                       color: const Color.fromARGB(
+//                                           255, 255, 255, 255),
+//                                       // border: Border.all(color: Colors.black),
+//                                       borderRadius:
+//                                           BorderRadius.circular(90 * fem),
+//                                     ),
+//                                     child: Image.asset(
+//                                       "assets/page-1/images/firstimage.png",
+//                                       fit: BoxFit.fill,
+//                                     ),
+//                                   ),
+//                                   Container(
+//                                     // divtextblackpyf (1:267)
+//                                     child: Column(
+//                                       crossAxisAlignment:
+//                                           CrossAxisAlignment.start,
+//                                       children: [
+//                                         Container(
+//                                           // heading3codelabsandpathwaysNkH (1:268)
+//                                           margin: EdgeInsets.fromLTRB(0 * fem,
+//                                               0 * fem, 0 * fem, 12 * fem),
+//                                           child: Text(
+//                                             'Chatbit Application',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 23 * ffem,
+//                                               fontWeight: FontWeight.w500,
+//                                               height: 1.3043478261 * ffem / fem,
+//                                               letterSpacing: -0.25 * fem,
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                         Container(
+//                                           // startbuildingtodaywithselfpace (1:270)
+//                                           constraints: BoxConstraints(
+//                                             maxWidth: 307 * fem,
+//                                           ),
+//                                           child: Text(
+//                                             'A secure messaging app with advanced features and strong user growth.',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 15 * ffem,
+//                                               fontWeight: FontWeight.w400,
+//                                               height: 1.6 * ffem / fem,
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                       ],
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ),
+//                             Container(
+//                               // link98m (1:271)
+//                               margin: EdgeInsets.fromLTRB(
+//                                   0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+//                               padding: EdgeInsets.fromLTRB(
+//                                   24 * fem, 24 * fem, 24 * fem, 24 * fem),
+//                               width: 407 * fem,
+//                               height: double.infinity,
+//                               decoration: BoxDecoration(
+//                                 color: const Color.fromARGB(255, 238, 238, 238),
+//                                 borderRadius: BorderRadius.circular(24 * fem),
+//                               ),
+//                               child: Column(
+//                                 crossAxisAlignment: CrossAxisAlignment.start,
+//                                 children: [
+//                                   Container(
+//                                     // rectangle15sf (4:55)
+//                                     margin: EdgeInsets.fromLTRB(
+//                                         0 * fem, 0 * fem, 0 * fem, 24 * fem),
+//                                     width: 82 * fem,
+//                                     height: 82 * fem,
+//                                     decoration: BoxDecoration(
+//                                       color: const Color.fromARGB(
+//                                           255, 255, 255, 255),
+//                                       // border: Border.all(color: Colors.black),
+//                                       borderRadius:
+//                                           BorderRadius.circular(90 * fem),
+//                                     ),
+//                                     child: Image.asset(
+//                                       "assets/page-1/images/todo1.png",
+//                                       fit: BoxFit.fill,
+//                                     ),
+//                                   ),
+//                                   Container(
+//                                     // divtextblackx6D (1:283)
+//                                     child: Column(
+//                                       crossAxisAlignment:
+//                                           CrossAxisAlignment.start,
+//                                       children: [
+//                                         Container(
+//                                           // heading3workshops6TK (1:284)
+//                                           margin: EdgeInsets.fromLTRB(0 * fem,
+//                                               0 * fem, 0 * fem, 12 * fem),
+//                                           child: Text(
+//                                             'Automatic Todo',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 23 * ffem,
+//                                               fontWeight: FontWeight.w500,
+//                                               height: 1.3043478261 * ffem / fem,
+//                                               letterSpacing: -0.25 * fem,
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                         Container(
+//                                           // gainskillswithguidedcodelabsle (1:286)
+//                                           constraints: BoxConstraints(
+//                                             maxWidth: 329 * fem,
+//                                           ),
+//                                           child: Text(
+//                                             'Python apps for task management, automation, and reminders enhancing productivity.',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 15 * ffem,
+//                                               fontWeight: FontWeight.w400,
+//                                               height: 1.6 * ffem / fem,
+//                                               // color: Color(0xff000000),
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                       ],
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ),
+//                             Container(
+//                               // link98m (1:271)
+//                               margin: EdgeInsets.fromLTRB(
+//                                   0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+//                               padding: EdgeInsets.fromLTRB(
+//                                   24 * fem, 24 * fem, 24 * fem, 24 * fem),
+//                               width: 407 * fem,
+//                               height: double.infinity,
+//                               decoration: BoxDecoration(
+//                                 color: const Color.fromARGB(255, 238, 238, 238),
+//                                 borderRadius: BorderRadius.circular(24 * fem),
+//                               ),
+//                               child: Column(
+//                                 crossAxisAlignment: CrossAxisAlignment.start,
+//                                 children: [
+//                                   Container(
+//                                     // rectangle15sf (4:55)
+//                                     margin: EdgeInsets.fromLTRB(
+//                                         0 * fem, 0 * fem, 0 * fem, 24 * fem),
+//                                     width: 82 * fem,
+//                                     height: 82 * fem,
+//                                     decoration: BoxDecoration(
+//                                       color: const Color.fromARGB(
+//                                           255, 255, 255, 255),
+//                                       // border: Border.all(color: Colors.black),
+//                                       borderRadius:
+//                                           BorderRadius.circular(90 * fem),
+//                                     ),
+//                                     child: Image.asset(
+//                                       "assets/page-1/images/todo.png",
+//                                       fit: BoxFit.fill,
+//                                     ),
+//                                   ),
+//                                   Container(
+//                                     // divtextblackx6D (1:283)
+//                                     child: Column(
+//                                       crossAxisAlignment:
+//                                           CrossAxisAlignment.start,
+//                                       children: [
+//                                         Container(
+//                                           // heading3workshops6TK (1:284)
+//                                           margin: EdgeInsets.fromLTRB(0 * fem,
+//                                               0 * fem, 0 * fem, 12 * fem),
+//                                           child: Text(
+//                                             'VoiceChanger',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 23 * ffem,
+//                                               fontWeight: FontWeight.w500,
+//                                               height: 1.3043478261 * ffem / fem,
+//                                               letterSpacing: -0.25 * fem,
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                         Container(
+//                                           // gainskillswithguidedcodelabsle (1:286)
+//                                           constraints: BoxConstraints(
+//                                             maxWidth: 329 * fem,
+//                                           ),
+//                                           child: Text(
+//                                             'A high-quality voice manipulation app with real-time audio processing and intuitive UI user experience.',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 15 * ffem,
+//                                               fontWeight: FontWeight.w400,
+//                                               height: 1.6 * ffem / fem,
+//                                               // color: Color(0xff000000),
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                       ],
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ),
+//                             Container(
+//                               // link98m (1:271)
+//                               margin: EdgeInsets.fromLTRB(
+//                                   0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+//                               padding: EdgeInsets.fromLTRB(
+//                                   24 * fem, 24 * fem, 24 * fem, 24 * fem),
+//                               width: 407 * fem,
+//                               height: double.infinity,
+//                               decoration: BoxDecoration(
+//                                 color: const Color.fromARGB(255, 238, 238, 238),
+//                                 borderRadius: BorderRadius.circular(24 * fem),
+//                               ),
+//                               child: Column(
+//                                 crossAxisAlignment: CrossAxisAlignment.start,
+//                                 children: [
+//                                   Container(
+//                                     // rectangle15sf (4:55)
+//                                     margin: EdgeInsets.fromLTRB(
+//                                         0 * fem, 0 * fem, 0 * fem, 24 * fem),
+//                                     width: 82 * fem,
+//                                     height: 82 * fem,
+//                                     decoration: BoxDecoration(
+//                                       color: const Color.fromARGB(
+//                                           255, 255, 255, 255),
+//                                       // border: Border.all(color: Colors.black),
+//                                       borderRadius:
+//                                           BorderRadius.circular(90 * fem),
+//                                     ),
+//                                     child: Image.asset(
+//                                       "assets/page-1/images/transare1.png",
+//                                       fit: BoxFit.fill,
+//                                     ),
+//                                   ),
+//                                   Container(
+//                                     // divtextblackx6D (1:283)
+//                                     child: Column(
+//                                       crossAxisAlignment:
+//                                           CrossAxisAlignment.start,
+//                                       children: [
+//                                         Container(
+//                                           // heading3workshops6TK (1:284)
+//                                           margin: EdgeInsets.fromLTRB(0 * fem,
+//                                               0 * fem, 0 * fem, 12 * fem),
+//                                           child: Text(
+//                                             'Transare',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 23 * ffem,
+//                                               fontWeight: FontWeight.w500,
+//                                               height: 1.3043478261 * ffem / fem,
+//                                               letterSpacing: -0.25 * fem,
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                         Container(
+//                                           // gainskillswithguidedcodelabsle (1:286)
+//                                           constraints: BoxConstraints(
+//                                             maxWidth: 329 * fem,
+//                                           ),
+//                                           child: Text(
+//                                             'A sleek cross-platform file-sharing app for seamless file sharing across devices and platforms.',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 15 * ffem,
+//                                               fontWeight: FontWeight.w400,
+//                                               height: 1.6 * ffem / fem,
+//                                               // color: Color(0xff000000),
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                       ],
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ),
+//                             Container(
+//                               // link98m (1:271)
+//                               margin: EdgeInsets.fromLTRB(
+//                                   0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
+//                               padding: EdgeInsets.fromLTRB(
+//                                   24 * fem, 24 * fem, 24 * fem, 24 * fem),
+//                               width: 407 * fem,
+//                               height: double.infinity,
+//                               decoration: BoxDecoration(
+//                                 color: const Color.fromARGB(255, 238, 238, 238),
+//                                 borderRadius: BorderRadius.circular(24 * fem),
+//                               ),
+//                               child: Column(
+//                                 crossAxisAlignment: CrossAxisAlignment.start,
+//                                 children: [
+//                                   Container(
+//                                     // rectangle15sf (4:55)
+//                                     margin: EdgeInsets.fromLTRB(
+//                                         0 * fem, 0 * fem, 0 * fem, 24 * fem),
+//                                     width: 82 * fem,
+//                                     height: 82 * fem,
+//                                     decoration: BoxDecoration(
+//                                       color: const Color.fromARGB(
+//                                           255, 255, 255, 255),
+//                                       // border: Border.all(color: Colors.black),
+//                                       borderRadius:
+//                                           BorderRadius.circular(90 * fem),
+//                                     ),
+//                                     child: Image.asset(
+//                                       "assets/page-1/images/worksuitkit1.png",
+//                                       fit: BoxFit.fill,
+//                                     ),
+//                                   ),
+//                                   Container(
+//                                     // divtextblackx6D (1:283)
+//                                     child: Column(
+//                                       crossAxisAlignment:
+//                                           CrossAxisAlignment.start,
+//                                       children: [
+//                                         Container(
+//                                           // heading3workshops6TK (1:284)
+//                                           margin: EdgeInsets.fromLTRB(0 * fem,
+//                                               0 * fem, 0 * fem, 12 * fem),
+//                                           child: Text(
+//                                             'Worksuitkit',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 23 * ffem,
+//                                               fontWeight: FontWeight.w500,
+//                                               height: 1.3043478261 * ffem / fem,
+//                                               letterSpacing: -0.25 * fem,
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                         Container(
+//                                           // gainskillswithguidedcodelabsle (1:286)
+//                                           constraints: BoxConstraints(
+//                                             maxWidth: 329 * fem,
+//                                           ),
+//                                           child: Text(
+//                                             'A versatile survey administration software integrated with Google\'s suite of productivity tools.',
+//                                             style: TextStyle(
+//                                               fontFamily: 'Product Sans',
+//                                               fontSize: 15 * ffem,
+//                                               fontWeight: FontWeight.w400,
+//                                               height: 1.6 * ffem / fem,
+//                                               // color: Color(0xff000000),
+//                                               color: const Color(0xff000000),
+//                                             ),
+//                                           ),
+//                                         ),
+//                                       ],
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ),
+//                           ],
+//                           options: CarouselOptions(
+//                             height: 265.0,
+//                             // Other options...
+//                             viewportFraction: 0.38,
+//                             autoPlay: true,
+//                           ),
+//                         ),
+//                         //
+//                       ),
+//                     ],
 //                   ),
-//                 ],
+//                 ),
 //               ),
 //             ),
 
@@ -6314,214 +6498,33 @@ class Scene extends StatelessWidget {
 //             Here We Use or change the container and design after this line ....
 //             */
 
-//             // Container(
-//             //   // divVrp (195:2)
-//             //   margin: EdgeInsets.fromLTRB(
-//             //       84.5 * fem, 0 * fem, 89.5 * fem, 160 * fem),
-//             //   width: double.infinity,
-//             //   height: 394 * fem,
-//             //   child: Row(
-//             //     crossAxisAlignment: CrossAxisAlignment.center,
-//             //     children: [
-//             //       Container(
-//             //         // articlepeC (195:3)
-//             //         margin: EdgeInsets.fromLTRB(
-//             //             0 * fem, 0 * fem, 44 * fem, 0 * fem),
-//             //         padding: EdgeInsets.fromLTRB(
-//             //             51 * fem, 29 * fem, 53.91 * fem, 29 * fem),
-//             //         height: double.infinity,
-//             //         decoration: BoxDecoration(
-//             //           border: Border.all(color: Color(0xffe8eaed)),
-//             //           borderRadius: BorderRadius.circular(60 * fem),
-//             //         ),
-//             //         child: Row(
-//             //           crossAxisAlignment: CrossAxisAlignment.center,
-//             //           children: [
-//             //             Container(
-//             //               // gyujbgvems0qhq34sjn7ykhjs8rber (195:4)
-//             //               margin: EdgeInsets.fromLTRB(
-//             //                   0 * fem, 0 * fem, 43.09 * fem, 0 * fem),
-//             //               width: 252 * fem,
-//             //               height: 336 * fem,
-//             //               child: ClipRRect(
-//             //                 borderRadius: BorderRadius.circular(60 * fem),
-//             //                 child: Image.asset(
-//             //                   'assets/page-1/images/gyujbgvems0qhq34sjn7ykhjs8rbertrcja8lhf9gtnc5brd0ac23ietapklcfujkgphmma7icyubsqrlxbvh2jlhw2opyk2f-fctbvd1ytmctad898bw252-rw-e365-v1.png',
-//             //                   fit: BoxFit.contain,
-//             //                 ),
-//             //               ),
-//             //             ),
-//             //             Container(
-//             //               // divmSx (195:5)
-//             //               margin: EdgeInsets.fromLTRB(
-//             //                   0 * fem, 96 * fem, 0 * fem, 96 * fem),
-//             //               height: double.infinity,
-//             //               child: Column(
-//             //                 crossAxisAlignment: CrossAxisAlignment.center,
-//             //                 children: [
-//             //                   Center(
-//             //                     // softwareengineerinterncodeclau (195:6)
-//             //                     child: Container(
-//             //                       margin: EdgeInsets.fromLTRB(
-//             //                           0 * fem, 0 * fem, 0 * fem, 16 * fem),
-//             //                       constraints: BoxConstraints(
-//             //                         maxWidth: 185 * fem,
-//             //                       ),
-//             //                       child: Text(
-//             //                         'Software Engineer Intern- CodeClause',
-//             //                         textAlign: TextAlign.center,
-//             //                         style: TextStyle(
-//             //                           fontFamily: 'Product Sans',
-//             //                           fontSize: 20 * ffem,
-//             //                           fontWeight: FontWeight.w400,
-//             //                           height: 1.4 * ffem / fem,
-//             //                           color: Color(0xff202124),
-//             //                         ),
-//             //                       ),
-//             //                     ),
-//             //                   ),
-//             //                   Center(
-//             //                     // ihaveexperienceasasoftwareengi (195:7)
-//             //                     child: Container(
-//             //                       constraints: BoxConstraints(
-//             //                         maxWidth: 216 * fem,
-//             //                       ),
-//             //                       child: Text(
-//             //                         'I have experience as a Software Engineering Intern at CodeClause.',
-//             //                         textAlign: TextAlign.center,
-//             //                         style: TextStyle(
-//             //                           fontFamily: 'Product Sans',
-//             //                           fontSize: 16 * ffem,
-//             //                           fontWeight: FontWeight.w400,
-//             //                           height: 1.5 * ffem / fem,
-//             //                           color: Color(0xff5f6368),
-//             //                         ),
-//             //                       ),
-//             //                     ),
-//             //                   ),
-//             //                 ],
-//             //               ),
-//             //             ),
-//             //           ],
-//             //         ),
-//             //       ),
+//             // Center(
+//             //   child: Container(
+//             //     height: 500 * fem,
+//             //     width: 1000 * fem,
 
-//             //       /*
-//             //       And This is a Second Container to change the cintainer with design ...
+//             //     // color: Colors.blue,
+//             //     decoration: BoxDecoration(
+//             //         color: const Color.fromARGB(255, 248, 248, 249),
+//             //         // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
+//             //         borderRadius: BorderRadius.circular(65 * fem)),
 
-//             //       */
-//             //       Container(
-//             //         // articlefAx (195:8)
-//             //         padding: EdgeInsets.fromLTRB(
-//             //             51 * fem, 29 * fem, 54.4 * fem, 29 * fem),
-//             //         height: double.infinity,
-//             //         decoration: BoxDecoration(
-//             //           border: Border.all(color: Color(0xffe8eaed)),
-//             //           borderRadius: BorderRadius.circular(60 * fem),
-//             //         ),
-//             //         child: Row(
-//             //           crossAxisAlignment: CrossAxisAlignment.center,
-//             //           children: [
-//             //             Container(
-//             //               // rq6fpwdusahwtmc0eilawwxa2yhjba (195:9)
-//             //               margin: EdgeInsets.fromLTRB(
-//             //                   0 * fem, 0 * fem, 47.6 * fem, 0 * fem),
-//             //               width: 252 * fem,
-//             //               height: 336 * fem,
-//             //               child: ClipRRect(
-//             //                 borderRadius: BorderRadius.circular(60 * fem),
-//             //                 child: Image.asset(
-//             //                   'assets/page-1/images/rq6fpwdusahwtmc0eila-wwxa2yhjbatidpjvuti5qadkncuhwflyhir8m0zgwis46pkhk7f133lvgt0xw3vlvw72c9yjwpxegbv5yb6m81prd4ii-yw252-rw-e365-v1.png',
-//             //                   fit: BoxFit.contain,
-//             //                 ),
-//             //               ),
-//             //             ),
-//             //             Container(
-//             //               // divE7a (195:10)
-//             //               margin: EdgeInsets.fromLTRB(
-//             //                   0 * fem, 105 * fem, 0 * fem, 95 * fem),
-//             //               height: double.infinity,
-//             //               child: Column(
-//             //                 crossAxisAlignment: CrossAxisAlignment.center,
-//             //                 children: [
-//             //                   Center(
-//             //                     // researchinternbavchedutech9EY (195:11)
-//             //                     child: Container(
-//             //                       margin: EdgeInsets.fromLTRB(
-//             //                           0 * fem, 0 * fem, 3.83 * fem, 25 * fem),
-//             //                       constraints: BoxConstraints(
-//             //                         maxWidth: 211 * fem,
-//             //                       ),
-//             //                       child: Text(
-//             //                         'Research Intern\nBavch Edutech',
-//             //                         textAlign: TextAlign.center,
-//             //                         style: TextStyle(
-//             //                           fontFamily: 'Product Sans',
-//             //                           fontSize: 19 * ffem,
-//             //                           fontWeight: FontWeight.w400,
-//             //                           height: 1.4736842105 * ffem / fem,
-//             //                           color: Color(0xff202124),
-//             //                         ),
-//             //                       ),
-//             //                     ),
-//             //                   ),
-//             //                   Center(
-//             //                     // ihaveexperienceasasoftwareengi (195:12)
-//             //                     child: Container(
-//             //                       constraints: BoxConstraints(
-//             //                         maxWidth: 180 * fem,
-//             //                       ),
-//             //                       child: Text(
-//             //                         'I have experience as Research Edutech.',
-//             //                         textAlign: TextAlign.center,
-//             //                         style: TextStyle(
-//             //                           fontFamily: 'Product Sans',
-//             //                           fontSize: 16 * ffem,
-//             //                           fontWeight: FontWeight.w400,
-//             //                           height: 1.5 * ffem / fem,
-//             //                           color: Color(0xff5f6368),
-//             //                         ),
-//             //                       ),
-//             //                     ),
-//             //                   ),
-//             //                 ],
-//             //               ),
-//             //             ),
-//             //           ],
-//             //         ),
-//             //       ),
-//             //     ],
+//             //     // Here We use the slider and call the function who made in upper ...
+//             //     // child: CarouselSlider(
+//             //     //     // items: gettheList(),
+//             //     //     items:[1,2,3,4,5].map((e) => e),
+//             //     //     options: CarouselOptions(
+//             //     //       aspectRatio: 18 / 8,
+//             //     //       autoPlay: false,
+//             //     //       autoPlayAnimationDuration: const Duration(seconds: 30),
+//             //     //       autoPlayCurve: Curves.fastOutSlowIn,
+//             //     //       enlargeCenterPage: true,
+//             //     //       viewportFraction: 1,
+//             //     //     ))),
 //             //   ),
 //             // ),
-//             // starting the certificate and achivement part ...
-
-//             Center(
-//               child: Container(
-//                 height: 500 * fem,
-//                 width: 1000 * fem,
-
-//                 // color: Colors.blue,
-//                 decoration: BoxDecoration(
-//                     color: const Color.fromARGB(255, 248, 248, 249),
-//                     // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
-//                     borderRadius: BorderRadius.circular(65 * fem)),
-
-//                 // Here We use the slider and call the function who made in upper ...
-//                 // child: CarouselSlider(
-//                 //     // items: gettheList(),
-//                 //     items:[1,2,3,4,5].map((e) => e),
-//                 //     options: CarouselOptions(
-//                 //       aspectRatio: 18 / 8,
-//                 //       autoPlay: false,
-//                 //       autoPlayAnimationDuration: const Duration(seconds: 30),
-//                 //       autoPlayCurve: Curves.fastOutSlowIn,
-//                 //       enlargeCenterPage: true,
-//                 //       viewportFraction: 1,
-//                 //     ))),
-//               ),
-//             ),
 //             /**
-//              *
+//              * 
 //              * This is Footer Page ******************************************
 //              */
 
@@ -6649,7 +6652,7 @@ class Scene extends StatelessWidget {
 //                               fontSize: 22 * ffem,
 //                               fontWeight: FontWeight.w600,
 //                               height: 1.3636363636 * ffem / fem,
-//                                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
+//                               letterSpacing: -0.25 * fem,
 //                               color: const Color(0xbf202124),
 //                             ),
 //                           ),
@@ -6794,4 +6797,7 @@ class Scene extends StatelessWidget {
 //     );
 //   }
 // }
+// // ignore_for_file: avoid_unnecessary_containers
+
+
 // >>>>>>> 32d6b6ec6bfd33faad4cde145100aacf413b4789
