@@ -2600,6 +2600,7 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                   ),
+                  // Text("Hello Sir , Welcome ..."),
                   Positioned(
                     // detailsprojectpet (137:5)
                     left: 0 * fem,
@@ -2703,7 +2704,7 @@ class Scene extends StatelessWidget {
                                       ),
 
                                       child: Text(
-                                        'I completed a project that involved developing two applications, ChatBit and Advance ToDo, which allowed me to acquire skills in Android and Web development and gain experience  as a Software Engineer.',
+                                        'I completed a project that involved developing many applications, which allowed me to acquire skills in Android and Web development and gain experience  as a Software Engineer.',
                                         style: TextStyle(
                                           fontFamily: 'Product Sans',
                                           fontSize: 18 * ffem,
@@ -2814,8 +2815,9 @@ class Scene extends StatelessWidget {
                                                       BorderRadius.circular(
                                                           66 * fem),
                                                   child: Image.asset(
-                                                    'assets/page-1/images/rectangle-16-rtG.png',
+                                                    'assets/page-1/images/Transare.png',
                                                     fit: BoxFit.cover,
+                                                    // this is a white image background color
                                                   ),
                                                 ),
                                               ),
@@ -2837,7 +2839,7 @@ class Scene extends StatelessWidget {
                   // Here is use my Google Image Slider to Slide and how my sliding my app ...
                   Container(
                     margin:
-                        EdgeInsets.fromLTRB(9 * fem, 2920 * fem, 5 * fem, 0),
+                        EdgeInsets.fromLTRB(9 * fem, 2900 * fem, 5 * fem, 0),
                     width: 1446 * fem,
                     height: 400 * fem,
                     child: Column(
@@ -2875,8 +2877,11 @@ class Scene extends StatelessWidget {
                                 width: 407 * fem,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromARGB(255, 238, 238, 238),
+                                  // color:
+                                  //     const Color.fromARGB(255, 238, 238, 238),
+                                  border: Border.all(
+                                    color: Color.fromARGB(244, 99, 99, 99),
+                                  ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
                                 child: Column(
@@ -2892,6 +2897,10 @@ class Scene extends StatelessWidget {
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
                                         // border: Border.all(color: Colors.black),
+                                        border: Border.all(
+                                          color:
+                                              Color.fromARGB(244, 99, 99, 99),
+                                        ),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
                                       ),
@@ -2954,8 +2963,11 @@ class Scene extends StatelessWidget {
                                 width: 407 * fem,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromARGB(255, 238, 238, 238),
+                                  // color:
+                                  //     const Color.fromARGB(255, 238, 238, 238),
+                                  border: Border.all(
+                                    color: Color.fromARGB(244, 99, 99, 99),
+                                  ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
                                 child: Column(
@@ -2971,6 +2983,10 @@ class Scene extends StatelessWidget {
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
                                         // border: Border.all(color: Colors.black),
+                                        border: Border.all(
+                                          color:
+                                              Color.fromARGB(244, 99, 99, 99),
+                                        ),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
                                       ),
@@ -3034,8 +3050,11 @@ class Scene extends StatelessWidget {
                                 width: 407 * fem,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromARGB(255, 238, 238, 238),
+                                  // color:
+                                  //     const Color.fromARGB(255, 238, 238, 238),
+                                  border: Border.all(
+                                    color: Color.fromARGB(244, 99, 99, 99),
+                                  ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
                                 child: Column(
@@ -3051,6 +3070,10 @@ class Scene extends StatelessWidget {
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
                                         // border: Border.all(color: Colors.black),
+                                        border: Border.all(
+                                          color:
+                                              Color.fromARGB(244, 99, 99, 99),
+                                        ),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
                                       ),
@@ -3114,8 +3137,11 @@ class Scene extends StatelessWidget {
                                 width: 407 * fem,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromARGB(255, 238, 238, 238),
+                                  // color:
+                                  //     const Color.fromARGB(255, 238, 238, 238),
+                                  border: Border.all(
+                                    color: Color.fromARGB(244, 99, 99, 99),
+                                  ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
                                 child: Column(
@@ -3130,6 +3156,10 @@ class Scene extends StatelessWidget {
                                       decoration: BoxDecoration(
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
+                                        border: Border.all(
+                                          color:
+                                              Color.fromARGB(244, 99, 99, 99),
+                                        ),
                                         // border: Border.all(color: Colors.black),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
@@ -3194,8 +3224,11 @@ class Scene extends StatelessWidget {
                                 width: 407 * fem,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromARGB(255, 238, 238, 238),
+                                  // color:
+                                  //     const Color.fromARGB(255, 238, 238, 238),
+                                  border: Border.all(
+                                    color: Color.fromARGB(244, 99, 99, 99),
+                                  ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
                                 child: Column(
@@ -3210,6 +3243,10 @@ class Scene extends StatelessWidget {
                                       decoration: BoxDecoration(
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
+                                        border: Border.all(
+                                          color:
+                                              Color.fromARGB(244, 99, 99, 99),
+                                        ),
                                         // border: Border.all(color: Colors.black),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
@@ -3280,12 +3317,12 @@ class Scene extends StatelessWidget {
                       ],
                     ),
                   ),
+
+                  // this is sliding chat bit zapplication and after the image slider in the slider inthe gogle docs ...
                   Container(
-                    height: 400*fem,
-                      margin: EdgeInsets.fromLTRB(0 * fem, 3370 * fem, 0, 0),
-                      decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 219, 219, 219)
-                        ))
+                      height: 400 * fem,
+                      margin: EdgeInsets.fromLTRB(0 * fem, 3350 * fem, 0, 0),
+                      decoration: BoxDecoration(color: Color(0xffF1F3F4)))
                   // Positioned(
                   //   // experienceweavesgrowthchalleng (200:6)
                   //   left: 278 * fem,
