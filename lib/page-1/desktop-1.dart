@@ -60,7 +60,7 @@ class Scene extends StatelessWidget {
         padding: EdgeInsets.fromLTRB(0 * fem, 43 * fem, 0 * fem, 0 * fem),
         width: double.infinity,
         decoration: const BoxDecoration(
-          color: Color(0xffffffff),
+          color: Color(0xfffffefa),
         ),
         // child: SingleChildScrollView(
         child: Column(
@@ -119,24 +119,6 @@ class Scene extends StatelessWidget {
                     ),
                   ),
 
-                  // Container(
-                  //   // portfolio71z (1:4)
-                  //   margin: EdgeInsets.fromLTRB(
-                  //       0 * fem, 25 * fem, 800 * fem, 0 * fem),
-
-                  //   child: Text(
-                  //     'Portfolio',
-                  //     style: TextStyle(
-                  //       fontFamily: 'Product Sans',
-                  //       fontSize: 27 * ffem,
-                  //       fontWeight: FontWeight.w600,
-                  //       height: 1.3636363636 * ffem / fem,
-                  //                                       letterSpacing: -0.25 * fem,
-                  //       // color: Color.fromARGB(255, 3, 3, 3),
-                  //       color: Color(0xff3c4043),
-                  //     ),
-                  //   ),
-                  // ),
                   Container(
                     // aboutG3J (4:14)
                     margin: EdgeInsets.fromLTRB(
@@ -228,24 +210,7 @@ class Scene extends StatelessWidget {
                     // aboutG3J (4:14)
                     margin: EdgeInsets.fromLTRB(
                         30 * fem, 0 * fem, 0 * fem, 0 * fem),
-                    // child: TextButton(
-                    //   onPressed: () {},
-                    //   style: TextButton.styleFrom(
-                    //     padding: EdgeInsets.zero,
-                    //     foregroundColor: Color.fromARGB(15, 255, 255, 255),
-                    //   ),
-                    //   child: Text(
-                    //     'Contact',
-                    //     style: TextStyle(
-                    //       fontFamily: 'Product Sans',
-                    //       fontSize: 14.5 * ffem,
-                    //       fontWeight: FontWeight.w500,
-                    //       height: 1.2125 * ffem / fem,
-                    //                                       letterSpacing: -0.25 * fem, 0.42 * fem,
-                    //       color: Color(0xff5f6368),
-                    //     ),
-                    //   ),
-                    // ),
+
                     child: InkWell(
                       onTap: () {
                         launch("https://leetcode.com/technicalproduct786/");
@@ -340,7 +305,7 @@ class Scene extends StatelessWidget {
                           fontSize: 85 * ffem,
                           fontWeight: FontWeight.w700,
                           height: 0.9 * ffem / fem,
-                          letterSpacing: -0.25 * fem,
+                          letterSpacing: 0.25 * fem,
                           color: const Color(0xff3c4043),
                         ),
                       ),
@@ -365,7 +330,7 @@ class Scene extends StatelessWidget {
                           fontSize: 55 * ffem,
                           fontWeight: FontWeight.w700,
                           height: 1.2 * ffem / fem,
-                          letterSpacing: -0.25 * fem,
+                          letterSpacing: 0.25 * fem,
                           color: const Color(0xff188038),
                         ),
                       ),
@@ -552,7 +517,7 @@ class Scene extends StatelessWidget {
                                           fontWeight: FontWeight.w400,
                                           height: 1.5 * ffem / fem,
                                           letterSpacing: -0.25 * fem,
-                                          color: const Color(0xff5f6368),
+                                          color: const Color(0xff202124),
                                         ),
                                       ),
                                     ),
@@ -1046,26 +1011,6 @@ class Scene extends StatelessWidget {
                                                                                   ),
                                                                                 ),
                                                                               ),
-                                                                              // Container(
-                                                                              //   // frame9uoP (4:10)
-                                                                              //   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
-                                                                              //   width: 391 * fem,
-                                                                              //   height: 36 * fem,
-                                                                              //   child: Center(
-                                                                              //     child: Text(
-                                                                              //       'Regent Institute Of Science & Tech',
-                                                                              //       textAlign: TextAlign.center,
-                                                                              //       style: TextStyle(
-                                                                              //         fontFamily: 'Product Sans',
-                                                                              //         fontSize: 28 * ffem,
-                                                                              //         fontWeight: FontWeight.w400,
-                                                                              //         height: 1.2575 * ffem / fem,
-                                                                              //                                         letterSpacing: -0.25 * fem, 0.28 * fem,
-                                                                              //         color: Color(0xff000000),
-                                                                              //       ),
-                                                                              //     ),
-                                                                              //   ),
-                                                                              // ),
                                                                               Container(
                                                                                 // frame10vXT (5:7)
                                                                                 margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 2 * fem, 10 * fem),
@@ -1117,25 +1062,6 @@ class Scene extends StatelessWidget {
                                                                                   ],
                                                                                 ),
                                                                               ),
-                                                                              // Container(
-                                                                              //   // frame11cob (5:12)
-                                                                              //   margin: EdgeInsets.fromLTRB(0.5 * fem, 0 * fem, 0 * fem, 0 * fem),
-                                                                              //   padding: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
-
-                                                                              //   width: double.infinity,
-                                                                              //   height: 128 * fem,
-                                                                              //   child: Text(
-                                                                              //     'I am currently pursuing a Bachelor of Technology degree from Lovely Professional University. My experience at LPU has provided me with a strong academic foundation and opportunities for personal and professional growth through practical learning and industry exposure. I am confident that the knowledge and skills acquired during my time at LPU will enable me to make meaningful contributions in my future endeavors.\n',
-                                                                              //     style: TextStyle(
-                                                                              //       fontFamily: 'Product Sans',
-                                                                              //       fontSize: 15 * ffem,
-                                                                              //       fontWeight: FontWeight.w400,
-                                                                              //       height: 1.2575 * ffem / fem,
-                                                                              //                                       letterSpacing: -0.25 * fem, 0.075 * fem,
-                                                                              //       color: Color(0xb2000000),
-                                                                              //     ),
-                                                                              //   ),
-                                                                              // ),
                                                                               Container(
                                                                                 // frame11Gvm (4:14)
                                                                                 padding: EdgeInsets.fromLTRB(14 * fem, 0 * fem, 0 * fem, 5 * fem),
@@ -1166,107 +1092,9 @@ class Scene extends StatelessWidget {
                                                         ),
                                                       ),
                                                     ),
-                                                    // content: Column(
-                                                    //   mainAxisSize:
-                                                    //       MainAxisSize.min,
-                                                    //   crossAxisAlignment:
-                                                    //       CrossAxisAlignment
-                                                    //           .center,
-                                                    //   children: [
-                                                    //     Container(
-                                                    //       margin: EdgeInsets
-                                                    //           .fromLTRB(
-                                                    //               10 * fem,
-                                                    //               20 * fem,
-                                                    //               200 * fem,
-                                                    //               0 * fem),
-                                                    //       height: 50 * fem,
-                                                    //       width: 50 * fem,
-                                                    //       decoration:
-                                                    //           BoxDecoration(
-                                                    //         border: Border.all(
-                                                    //             color: Colors
-                                                    //                 .black),
-                                                    //         shape:
-                                                    //             BoxShape.circle,
-                                                    //       ),
-                                                    //       child: InkWell(
-                                                    //         borderRadius:
-                                                    //             BorderRadius
-                                                    //                 .circular(
-                                                    //                     20 *
-                                                    //                         fem),
-                                                    //         child: Icon(
-                                                    //             size: 25 * fem,
-                                                    //             Icons.close,
-                                                    //             color: Colors
-                                                    //                 .black),
-                                                    //         onTap: () =>
-                                                    //             Navigator.pop(
-                                                    //                 context),
-                                                    //       ),
-                                                    //     ),
-                                                    //     SizedBox(
-                                                    //         height: 10 * fem),
-                                                    //     Text(
-                                                    //       "My Title",
-                                                    //       style: TextStyle(
-                                                    //           fontWeight:
-                                                    //               FontWeight
-                                                    //                   .bold),
-                                                    //     ),
-                                                    //     SizedBox(
-                                                    //         height: 10 * fem),
-                                                    //     Text(
-                                                    //         "This is my About us Page ....."),
-                                                    //   ],
-                                                    // ),
+
                                                     actions: const [], // You can add custom actions if needed
                                                   ));
-                                          // builder: (context) => AlertDialog(
-                                          //       shape:
-                                          //           RoundedRectangleBorder(
-                                          //         borderRadius:
-                                          //             BorderRadius.circular(
-                                          //                 30 * fem),
-                                          //       ),
-                                          //       contentPadding: EdgeInsets.zero,
-                                          //       icon: Container(
-                                          //         margin:
-                                          //             EdgeInsets.fromLTRB(
-                                          //                 0 * fem,
-                                          //                 0 * fem,
-                                          //                 170 * fem,
-                                          //                 0 * fem),
-                                          //         height: 50 * fem,
-                                          //         width: 50 * fem,
-                                          //         decoration: BoxDecoration(
-                                          //           // color: const Color(0xfffef7e0),
-                                          //           border: Border.all(
-                                          //               color:
-                                          //                   Colors.black),
-                                          //           shape: BoxShape.circle,
-                                          //         ),
-                                          //         child: InkWell(
-                                          //           borderRadius:
-                                          //               BorderRadius
-                                          //                   .circular(
-                                          //                       20 * fem),
-                                          //           child: const Icon(
-                                          //               Icons.close,
-                                          //               color:
-                                          //                   Colors.black),
-                                          //           onTap: () =>
-                                          //               Navigator.pop(
-                                          //                   context),
-                                          //         ),
-                                          //       ),
-                                          //       actions: [],
-                                          //       title:
-                                          //           const Text("My Title"),
-                                          //       content: const Text(
-                                          //           "This is my About us Page ....."),
-                                          //     ));
                                         },
                                         child: Align(
                                             alignment: Alignment.center,
@@ -1538,8 +1366,10 @@ class Scene extends StatelessWidget {
                                             fontWeight: FontWeight.w400,
                                             height: 1.5 * ffem / fem,
                                             letterSpacing: -0.25 * fem,
-                                            color: const Color.fromARGB(
-                                                211, 95, 99, 104),
+                                            color: const Color(0xff202124),
+
+                                            // color: const Color.fromARGB(
+                                            //     211, 95, 99, 104),
                                           ),
                                         ),
                                       ),
@@ -1908,7 +1738,7 @@ class Scene extends StatelessWidget {
                               fontWeight: FontWeight.w400,
                               height: 1.5 * ffem / fem,
                               letterSpacing: -0.25 * fem,
-                              color: const Color(0xff5f6368),
+                              color: const Color(0xff202124),
                             ),
                           ),
                         ),
@@ -1966,11 +1796,11 @@ class Scene extends StatelessWidget {
                   Positioned(
                     // explainproject5we (155:21)
                     left: 10 * fem,
-                    top: 936 * fem,
+                    top: 900 * fem,
                     child: Container(
                       width: 1430 * fem,
                       height: 3000 * fem,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Color(0xffffffff),
                       ),
                       child: Stack(
@@ -1978,12 +1808,12 @@ class Scene extends StatelessWidget {
                           Positioned(
                             // thirdprojectn5N (155:25)
                             left: -5 * fem,
-                            top: 1350 * fem,
+                            top: 1200 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   180 * fem, 0 * fem, 62 * fem, 0 * fem),
                               width: 1440 * fem,
-                              height: 600 * fem,
+                              height: 650 * fem,
                               decoration: const BoxDecoration(
                                 color: Color(0xffffffff),
                               ),
@@ -2035,7 +1865,7 @@ class Scene extends StatelessWidget {
                                       padding: EdgeInsets.fromLTRB(
                                           0 * fem, 30 * fem, 0 * fem, 5 * fem),
                                       width: 478 * fem,
-                                      height: 720 * fem,
+                                      height: 750 * fem,
                                       decoration: const BoxDecoration(
                                         color: Color(0xffffffff),
                                       ),
@@ -2072,18 +1902,17 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
                                                 letterSpacing: -0.25 * fem,
-                                                color: const Color(0xff5f6368),
+                                                // color: const Color(0xff5f6368),
+                                                color: const Color(0xff202124),
                                               ),
                                             ),
                                           ),
-                                          SizedBox(
-                                            height: 15 * fem,
-                                          ),
+                                          
                                           Container(
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(
-                                                3.8 * fem,
                                                 0 * fem,
+                                                18 * fem,
                                                 0 * fem,
                                                 5 * fem),
 
@@ -2107,15 +1936,24 @@ class Scene extends StatelessWidget {
                                                     0 * fem,
                                                     0 * fem,
                                                     2 * fem),
+                                                // decoration: BoxDecoration(
+                                                //   border: Border.all(
+                                                //     color: const Color.fromARGB(
+                                                //         255, 219, 217, 217),
+                                                //     width: 0.8,
+                                                //   ),
+                                                //   borderRadius:
+                                                //       BorderRadius.circular(
+                                                //           6.0),
+                                                width: 118 * fem,
+                                                height: 40 * fem,
                                                 decoration: BoxDecoration(
                                                   border: Border.all(
-                                                    color: const Color.fromARGB(
-                                                        255, 219, 217, 217),
-                                                    width: 0.8,
-                                                  ),
+                                                      color: Color.fromARGB(
+                                                          255, 206, 205, 205)),
                                                   borderRadius:
                                                       BorderRadius.circular(
-                                                          6.0),
+                                                          20 * fem),
                                                 ),
                                                 child: Padding(
                                                   padding:
@@ -2153,7 +1991,7 @@ class Scene extends StatelessWidget {
                           Positioned(
                             // secondprojectbyr (183:4)
                             left: -5 * fem,
-                            top: 860 * fem,
+                            top: 790 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   150 * fem, 0 * fem, 132 * fem, 0 * fem),
@@ -2227,14 +2065,15 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
                                                 letterSpacing: -0.25 * fem,
-                                                color: const Color(0xff5f6368),
+                                                // color: const Color(0xff5f6368),
+                                                color: const Color(0xff202124),
                                               ),
                                             ),
                                           ),
                                           Container(
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(0 * fem,
-                                                11 * fem, 0 * fem, 0 * fem),
+                                                18 * fem, 0 * fem, 0 * fem),
 
                                             width: 115 * fem,
 
@@ -2256,15 +2095,15 @@ class Scene extends StatelessWidget {
                                                     0 * fem,
                                                     0 * fem,
                                                     2 * fem),
+                                                width: 118 * fem,
+                                                height: 40 * fem,
                                                 decoration: BoxDecoration(
                                                   border: Border.all(
-                                                    color: const Color.fromARGB(
-                                                        255, 219, 217, 217),
-                                                    width: 0.8,
-                                                  ),
+                                                      color: Color.fromARGB(
+                                                          255, 206, 205, 205)),
                                                   borderRadius:
                                                       BorderRadius.circular(
-                                                          6.0),
+                                                          20 * fem),
                                                 ),
                                                 child: Padding(
                                                   padding:
@@ -2291,59 +2130,6 @@ class Scene extends StatelessWidget {
                                               ),
                                             ),
                                           ),
-
-                                          // Center(
-                                          //   // readmoreABi (183:11)
-
-                                          //   child: Container(
-                                          //     // findouthowdevicesworkbettertog (126:12)
-                                          //     margin: EdgeInsets.fromLTRB(
-                                          //         0 * fem,
-                                          //         (0 * fem),
-                                          //         360 * fem,
-                                          //         0 * fem),
-                                          //     width: 120 * fem,
-                                          //     height: 40 * fem,
-                                          //     // decoration: BoxDecoration(
-                                          //     //   border: Border.all(
-                                          //     //       color: Color(0x33000000)),
-                                          //     //   borderRadius:
-                                          //     //       BorderRadius.circular(
-                                          //     //           30 * fem),
-                                          //     // ),
-                                          //     child: Center(
-                                          //       child: Text(
-                                          //         'Read more.',
-                                          //         style: TextStyle(
-                                          //           fontFamily: 'Product Sans',
-                                          //           fontSize: 15 * ffem,
-                                          //           fontWeight: FontWeight.w500,
-                                          //           height: 1.6 * ffem / fem,
-                                          //                                           letterSpacing: -0.25 * fem, 0.5 * fem,
-                                          //           color: Color(0xff1a73e8),
-                                          //         ),
-                                          //       ),
-                                          //     ),
-                                          //   ),
-                                          // ),
-
-                                          // InkWell(
-                                          //     onTap: () {
-                                          //       // handle read more button press here
-                                          //     },
-
-                                          //     child: Text(
-                                          //       'Read more',
-                                          //       style: TextStyle(
-                                          //         fontFamily: 'Product Sans',
-                                          //         fontSize: 15 * ffem,
-                                          //         fontWeight: FontWeight.w400,
-                                          //         height: 1.5 * ffem / fem,
-                                          //                                         letterSpacing: -0.25 * fem,
-                                          //             0.1000000015 * fem,
-                                          //         color: Color(0xff0077c2),
-                                          //       ),
-                                          //     )),
                                         ],
                                       ),
                                     ),
@@ -2379,12 +2165,12 @@ class Scene extends StatelessWidget {
                           Positioned(
                             // firstprojecthqr (155:24)
                             left: -5 * fem,
-                            top: 230 * fem,
+                            top: 180 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   100 * fem, 30 * fem, 160 * fem, 15 * fem),
                               width: 1440 * fem,
-                              height: 701 * fem,
+                              height: 711 * fem,
                               decoration: const BoxDecoration(
                                 color: Color(0xffffffff),
                               ),
@@ -2473,15 +2259,16 @@ class Scene extends StatelessWidget {
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.5 * ffem / fem,
                                                 letterSpacing: -0.25 * fem,
-                                                color: const Color(0xff5f6368),
+                                                // color: const Color(0xff5f6368),
+                                                color: const Color(0xff202124),
                                               ),
                                             ),
                                           ),
                                           Container(
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(
-                                                3.8 * fem,
-                                                11 * fem,
+                                                0 * fem,
+                                                18 * fem,
                                                 0 * fem,
                                                 0 * fem),
 
@@ -2505,14 +2292,15 @@ class Scene extends StatelessWidget {
                                                     0 * fem,
                                                     0 * fem,
                                                     2 * fem),
+                                                width: 118 * fem,
+                                                height: 40 * fem,
                                                 decoration: BoxDecoration(
                                                   border: Border.all(
-                                                    color: const Color.fromARGB(
-                                                        255, 219, 217, 217),
-                                                    width: 0.8,
-                                                  ),
+                                                      color: Color.fromARGB(
+                                                          255, 206, 205, 205)),
                                                   borderRadius:
-                                                      BorderRadius.circular(6),
+                                                      BorderRadius.circular(
+                                                          20 * fem),
                                                 ),
                                                 child: Padding(
                                                   padding:
@@ -2711,7 +2499,8 @@ class Scene extends StatelessWidget {
                                           fontWeight: FontWeight.w400,
                                           height: 1.5 * ffem / fem,
                                           letterSpacing: -0.25 * fem,
-                                          color: const Color(0xff5f6368),
+                                          // color: const Color(0xff5f6368),
+                                          color: const Color(0xff202124),
                                         ),
                                       ),
                                     ),
@@ -2839,7 +2628,7 @@ class Scene extends StatelessWidget {
                   // Here is use my Google Image Slider to Slide and how my sliding my app ...
                   Container(
                     margin:
-                        EdgeInsets.fromLTRB(9 * fem, 2900 * fem, 5 * fem, 0),
+                        EdgeInsets.fromLTRB(9 * fem, 2800 * fem, 5 * fem, 0),
                     width: 1446 * fem,
                     height: 400 * fem,
                     child: Column(
@@ -2880,7 +2669,8 @@ class Scene extends StatelessWidget {
                                   // color:
                                   //     const Color.fromARGB(255, 238, 238, 238),
                                   border: Border.all(
-                                    color: Color.fromARGB(244, 99, 99, 99),
+                                    color:
+                                        const Color.fromARGB(255, 29, 29, 29),
                                   ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
@@ -2898,8 +2688,8 @@ class Scene extends StatelessWidget {
                                             255, 255, 255, 255),
                                         // border: Border.all(color: Colors.black),
                                         border: Border.all(
-                                          color:
-                                              Color.fromARGB(244, 99, 99, 99),
+                                          color: const Color.fromARGB(
+                                              255, 29, 29, 29),
                                         ),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
@@ -2966,7 +2756,8 @@ class Scene extends StatelessWidget {
                                   // color:
                                   //     const Color.fromARGB(255, 238, 238, 238),
                                   border: Border.all(
-                                    color: Color.fromARGB(244, 99, 99, 99),
+                                    color:
+                                        const Color.fromARGB(255, 29, 29, 29),
                                   ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
@@ -2984,8 +2775,8 @@ class Scene extends StatelessWidget {
                                             255, 255, 255, 255),
                                         // border: Border.all(color: Colors.black),
                                         border: Border.all(
-                                          color:
-                                              Color.fromARGB(244, 99, 99, 99),
+                                          color: const Color.fromARGB(
+                                              255, 29, 29, 29),
                                         ),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
@@ -3053,7 +2844,8 @@ class Scene extends StatelessWidget {
                                   // color:
                                   //     const Color.fromARGB(255, 238, 238, 238),
                                   border: Border.all(
-                                    color: Color.fromARGB(244, 99, 99, 99),
+                                    color:
+                                        const Color.fromARGB(255, 29, 29, 29),
                                   ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
@@ -3071,8 +2863,8 @@ class Scene extends StatelessWidget {
                                             255, 255, 255, 255),
                                         // border: Border.all(color: Colors.black),
                                         border: Border.all(
-                                          color:
-                                              Color.fromARGB(244, 99, 99, 99),
+                                          color: const Color.fromARGB(
+                                              255, 29, 29, 29),
                                         ),
                                         borderRadius:
                                             BorderRadius.circular(90 * fem),
@@ -3140,7 +2932,8 @@ class Scene extends StatelessWidget {
                                   // color:
                                   //     const Color.fromARGB(255, 238, 238, 238),
                                   border: Border.all(
-                                    color: Color.fromARGB(244, 99, 99, 99),
+                                    color:
+                                        const Color.fromARGB(255, 29, 29, 29),
                                   ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
@@ -3157,8 +2950,8 @@ class Scene extends StatelessWidget {
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
                                         border: Border.all(
-                                          color:
-                                              Color.fromARGB(244, 99, 99, 99),
+                                          color: const Color.fromARGB(
+                                              255, 29, 29, 29),
                                         ),
                                         // border: Border.all(color: Colors.black),
                                         borderRadius:
@@ -3227,7 +3020,8 @@ class Scene extends StatelessWidget {
                                   // color:
                                   //     const Color.fromARGB(255, 238, 238, 238),
                                   border: Border.all(
-                                    color: Color.fromARGB(244, 99, 99, 99),
+                                    color:
+                                        const Color.fromARGB(255, 29, 29, 29),
                                   ),
                                   borderRadius: BorderRadius.circular(24 * fem),
                                 ),
@@ -3244,8 +3038,8 @@ class Scene extends StatelessWidget {
                                         color: const Color.fromARGB(
                                             255, 255, 255, 255),
                                         border: Border.all(
-                                          color:
-                                              Color.fromARGB(244, 99, 99, 99),
+                                          color: const Color.fromARGB(
+                                              255, 29, 29, 29),
                                         ),
                                         // border: Border.all(color: Colors.black),
                                         borderRadius:
@@ -3320,506 +3114,211 @@ class Scene extends StatelessWidget {
 
                   // this is sliding chat bit zapplication and after the image slider in the slider inthe gogle docs ...
                   Container(
-                      height: 400 * fem,
-                      margin: EdgeInsets.fromLTRB(0 * fem, 3350 * fem, 0, 0),
-                      decoration: BoxDecoration(color: Color(0xffF1F3F4)))
-                  // Positioned(
-                  //   // experienceweavesgrowthchalleng (200:6)
-                  //   left: 278 * fem,
-                  //   top: 2920 * fem,
-                  //   child: Center(
-                  //     child: Align(
-                  //       child: SizedBox(
-                  //         width: 880 * fem,
-                  //         height: 44 * fem,
-                  //         child: Center(
-                  //           child: Text(
-                  //             'Experience weaves growth, challenges, and wisdom.',
-                  //             textAlign: TextAlign.center,
-                  //             style: TextStyle(
-                  //               fontFamily: 'Product Sans',
-                  //               fontSize: 38 * ffem,
-                  //               fontWeight: FontWeight.w400,
-                  //               height: 1.2941176471 * ffem / fem,
-                  //                                                                               letterSpacing: -0.25 * fem, -0.25 * fem, 0.25 * fem,
-                  //               color: const Color(0xff000000),
-                  //             ),
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
+                    height: 450 * fem,
+                    margin: EdgeInsets.fromLTRB(0 * fem, 3250 * fem, 0, 0),
+
+                    // here you use the image large slider ...
+                    child: Container(
+                      // sectionqCh (1:251)
+                      padding: EdgeInsets.fromLTRB(
+                          35 * fem, 64 * fem, 0 * fem, 15 * fem),
+                      width: double.infinity,
+                      height: 500 * fem,
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 240, 240, 240),
+                      ),
+                      child: SizedBox(
+                        // divdevsitelandingrowitem7vu (1:252)
+                        width: double.infinity,
+                        height: double.infinity,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                                // figurelinkexplorethelatestinan (1:253)
+                                margin: EdgeInsets.fromLTRB(
+                                    120 * fem, 0 * fem, 0 * fem, 20 * fem),
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(24 * fem),
+                                  // border: Border.all(color: Colors.black),
+                                ),
+                                width: 550 * fem,
+                                height: 328.25 * fem,
+                                // child: ClipRRect(
+                                //     borderRadius: BorderRadius.circular(20 * fem),
+                                //     child: Image.asset(
+                                //         "assets/page-1/images/bit_slider.png",
+                                //         fit: BoxFit.fitWidth)),
+                                child: Row(children: [
+                                  Container(
+                                    padding: EdgeInsets.fromLTRB(
+                                        50 * fem, 30 * fem, 0 * fem, 30 * fem),
+                                    child: Text(
+                                      "New in Chatbit",
+                                      style: TextStyle(
+                                        fontFamily: 'Product Sans',
+                                        fontSize: 38 * ffem,
+                                        fontWeight: FontWeight.w500,
+                                        height: 1.1162790698 * ffem / fem,
+                                        letterSpacing: -0.25 * fem,
+                                        color: const Color(0xff000000),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(width: 35 * fem),
+                                  Container(
+                                    // rectangle15sf (4:55)
+
+                                    width: 202 * fem,
+                                    height: 202 * fem,
+                                    decoration: BoxDecoration(
+                                      color: const Color.fromARGB(
+                                          255, 255, 255, 255),
+                                      // border: Border.all(color: Colors.black),
+                                      border: Border.all(
+                                        color: const Color.fromARGB(
+                                            255, 29, 29, 29),
+                                      ),
+                                      borderRadius:
+                                          BorderRadius.circular(100 * fem),
+                                    ),
+                                    child: Image.asset(
+                                      "assets/page-1/images/firstimage.png",
+                                      fit: BoxFit.fill,
+                                    ),
+                                  ),
+                                ])),
+                            SizedBox(width: 20 * fem),
+                            Container(
+                              // divdevsitelandingrowitembodyXU (1:254)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 57.5 * fem, 0 * fem, 0 * fem),
+                              width: 720 * fem,
+                              height: double.infinity,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Container(
+                                    // whatsnewinchatbitqkR (1:255)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 0 * fem, 0 * fem, 9 * fem),
+                                    child: Text(
+                                      'WHAT\'S NEW IN CHATBIT',
+                                      style: TextStyle(
+                                        fontFamily: 'Product Sans',
+                                        fontSize: 14 * ffem,
+                                        fontWeight: FontWeight.w400,
+                                        height: 1.1725 * ffem / fem,
+                                        letterSpacing: 0.8000000119 * fem,
+                                        color: const Color(0xff202124),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    // heading3linkexplorethelatestin (1:256)
+                                    width: double.infinity,
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          // explorenewchattingapplications (1:257)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 8 * fem, 3 * fem),
+                                          child: Text(
+                                            'Explore new chatting application',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 45 * ffem,
+                                              fontWeight: FontWeight.w700,
+                                              height: 1.2125 * ffem / fem,
+                                              color: const Color(0xff202124),
+                                            ),
+                                          ),
+                                        ),
+                                        Text(
+                                          // interfaceP9f (1:258)
+                                          'Interface',
+                                          style: TextStyle(
+                                            fontFamily: 'Product Sans',
+                                            fontSize: 45 * ffem,
+                                            fontWeight: FontWeight.w700,
+                                            height: 1.2125 * ffem / fem,
+                                            color: const Color(0xff202124),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    // autogroup93obihj (2UKNgHDkd97jS4ng7i93ob)
+                                    padding: EdgeInsets.fromLTRB(
+                                        0 * fem, 26.5 * fem, 0 * fem, 0 * fem),
+                                    width: double.infinity,
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          // explorenewdesignandalsonewdesi (1:260)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 0 * fem, 15 * fem),
+
+                                          child: Text(
+                                            'Explore new Design and  also new design in  chatbit application.',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 18 * ffem,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.3333333333 * ffem / fem,
+                                              color: const Color(0xff202124),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // linkwU1 (1:261)
+                                          margin: EdgeInsets.fromLTRB(
+                                              0, 3 * fem, 0, 0),
+                                          // padding: EdgeInsets.all(10*fem),
+                                          padding: EdgeInsets.fromLTRB(
+                                              0, 0, 0, 10 * fem),
+                                          width: 118 * fem,
+                                          height: 40 * fem,
+                                          decoration: BoxDecoration(
+                                            color: const Color(0xff000000),
+                                            borderRadius:
+                                                BorderRadius.circular(20 * fem),
+                                          ),
+                                          child: Center(
+                                            child: Text(
+                                              'Learn more',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 14 * ffem,
+                                                fontWeight: FontWeight.w500,
+                                                height:
+                                                    2.5714285714 * ffem / fem,
+                                                color: const Color(0xffffffff),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),
-            // Positioned(
-            //   width: double.infinity,
-            //   child: SizedBox(
-            //     width: double.infinity,
-            //     child: SizedBox(
-            //       // divflexsbF (1:250)
-            //       width: double.infinity,
-            //       child: Column(
-            //         crossAxisAlignment: CrossAxisAlignment.start,
-            //         children: [
-            //           Container(
-            //             // heading3growyourskillsKLm (1:252)
-            //             margin: EdgeInsets.fromLTRB(
-            //                 45 * fem, 0 * fem, 0 * fem, 32 * fem),
-            //             child: Text(
-            //               'Exhibit Project Success',
-            //               style: TextStyle(
-            //                 fontFamily: 'Product Sans',
-            //                 fontSize: 38 * ffem,
-            //                 fontWeight: FontWeight.w500,
-            //                 height: 1.1162790698 * ffem / fem,
-            //                 letterSpacing: -0.25 * fem,
-            //                 color: const Color(0xff000000),
-            //               ),
-            //             ),
-            //           ),
-            //           Container(
-            //             margin: EdgeInsets.fromLTRB(
-            //                 21.83 * fem, 0 * fem, 0 * fem, 0 * fem),
-            //             height: 300 * fem,
-            //             child: CarouselSlider(
-            //               items: [
-            //                 Container(
-            //                   // linkoQM (1:255)
-            //                   margin: EdgeInsets.fromLTRB(
-            //                       0 * fem, 0 * fem, 99.65 * fem, 0 * fem),
-            //                   padding: EdgeInsets.fromLTRB(
-            //                       24 * fem, 24 * fem, 24 * fem, 24 * fem),
-            //                   width: 407 * fem,
-            //                   height: double.infinity,
-            //                   decoration: BoxDecoration(
-            //                     color: const Color.fromARGB(255, 238, 238, 238),
-            //                     borderRadius: BorderRadius.circular(24 * fem),
-            //                   ),
-            //                   child: Column(
-            //                     crossAxisAlignment: CrossAxisAlignment.start,
-            //                     children: [
-            //                       Container(
-            //                         // rectangle15sf (4:55)
-            //                         margin: EdgeInsets.fromLTRB(
-            //                             0 * fem, 0 * fem, 0 * fem, 24 * fem),
-            //                         width: 82 * fem,
-            //                         height: 82 * fem,
-            //                         decoration: BoxDecoration(
-            //                           color: const Color.fromARGB(
-            //                               255, 255, 255, 255),
-            //                           // border: Border.all(color: Colors.black),
-            //                           borderRadius:
-            //                               BorderRadius.circular(90 * fem),
-            //                         ),
-            //                         child: Image.asset(
-            //                           "assets/page-1/images/firstimage.png",
-            //                           fit: BoxFit.fill,
-            //                         ),
-            //                       ),
-            //                       Container(
-            //                         // divtextblackpyf (1:267)
-            //                         child: Column(
-            //                           crossAxisAlignment:
-            //                               CrossAxisAlignment.start,
-            //                           children: [
-            //                             Container(
-            //                               // heading3codelabsandpathwaysNkH (1:268)
-            //                               margin: EdgeInsets.fromLTRB(0 * fem,
-            //                                   0 * fem, 0 * fem, 12 * fem),
-            //                               child: Text(
-            //                                 'Chatbit Application',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 23 * ffem,
-            //                                   fontWeight: FontWeight.w500,
-            //                                   height: 1.3043478261 * ffem / fem,
-            //                                   letterSpacing: -0.25 * fem,
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                             Container(
-            //                               // startbuildingtodaywithselfpace (1:270)
-            //                               constraints: BoxConstraints(
-            //                                 maxWidth: 307 * fem,
-            //                               ),
-            //                               child: Text(
-            //                                 'A secure messaging app with advanced features and strong user growth.',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 15 * ffem,
-            //                                   fontWeight: FontWeight.w400,
-            //                                   height: 1.6 * ffem / fem,
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                           ],
-            //                         ),
-            //                       ),
-            //                     ],
-            //                   ),
-            //                 ),
-            //                 Container(
-            //                   // link98m (1:271)
-            //                   margin: EdgeInsets.fromLTRB(
-            //                       0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-            //                   padding: EdgeInsets.fromLTRB(
-            //                       24 * fem, 24 * fem, 24 * fem, 24 * fem),
-            //                   width: 407 * fem,
-            //                   height: double.infinity,
-            //                   decoration: BoxDecoration(
-            //                     color: const Color.fromARGB(255, 238, 238, 238),
-            //                     borderRadius: BorderRadius.circular(24 * fem),
-            //                   ),
-            //                   child: Column(
-            //                     crossAxisAlignment: CrossAxisAlignment.start,
-            //                     children: [
-            //                       Container(
-            //                         // rectangle15sf (4:55)
-            //                         margin: EdgeInsets.fromLTRB(
-            //                             0 * fem, 0 * fem, 0 * fem, 24 * fem),
-            //                         width: 82 * fem,
-            //                         height: 82 * fem,
-            //                         decoration: BoxDecoration(
-            //                           color: const Color.fromARGB(
-            //                               255, 255, 255, 255),
-            //                           // border: Border.all(color: Colors.black),
-            //                           borderRadius:
-            //                               BorderRadius.circular(90 * fem),
-            //                         ),
-            //                         child: Image.asset(
-            //                           "assets/page-1/images/todo1.png",
-            //                           fit: BoxFit.fill,
-            //                         ),
-            //                       ),
-            //                       Container(
-            //                         // divtextblackx6D (1:283)
-            //                         child: Column(
-            //                           crossAxisAlignment:
-            //                               CrossAxisAlignment.start,
-            //                           children: [
-            //                             Container(
-            //                               // heading3workshops6TK (1:284)
-            //                               margin: EdgeInsets.fromLTRB(0 * fem,
-            //                                   0 * fem, 0 * fem, 12 * fem),
-            //                               child: Text(
-            //                                 'Automatic Todo',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 23 * ffem,
-            //                                   fontWeight: FontWeight.w500,
-            //                                   height: 1.3043478261 * ffem / fem,
-            //                                   letterSpacing: -0.25 * fem,
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                             Container(
-            //                               // gainskillswithguidedcodelabsle (1:286)
-            //                               constraints: BoxConstraints(
-            //                                 maxWidth: 329 * fem,
-            //                               ),
-            //                               child: Text(
-            //                                 'Python apps for task management, automation, and reminders enhancing productivity.',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 15 * ffem,
-            //                                   fontWeight: FontWeight.w400,
-            //                                   height: 1.6 * ffem / fem,
-            //                                   // color: Color(0xff000000),
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                           ],
-            //                         ),
-            //                       ),
-            //                     ],
-            //                   ),
-            //                 ),
-            //                 Container(
-            //                   // link98m (1:271)
-            //                   margin: EdgeInsets.fromLTRB(
-            //                       0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-            //                   padding: EdgeInsets.fromLTRB(
-            //                       24 * fem, 24 * fem, 24 * fem, 24 * fem),
-            //                   width: 407 * fem,
-            //                   height: double.infinity,
-            //                   decoration: BoxDecoration(
-            //                     color: const Color.fromARGB(255, 238, 238, 238),
-            //                     borderRadius: BorderRadius.circular(24 * fem),
-            //                   ),
-            //                   child: Column(
-            //                     crossAxisAlignment: CrossAxisAlignment.start,
-            //                     children: [
-            //                       Container(
-            //                         // rectangle15sf (4:55)
-            //                         margin: EdgeInsets.fromLTRB(
-            //                             0 * fem, 0 * fem, 0 * fem, 24 * fem),
-            //                         width: 82 * fem,
-            //                         height: 82 * fem,
-            //                         decoration: BoxDecoration(
-            //                           color: const Color.fromARGB(
-            //                               255, 255, 255, 255),
-            //                           // border: Border.all(color: Colors.black),
-            //                           borderRadius:
-            //                               BorderRadius.circular(90 * fem),
-            //                         ),
-            //                         child: Image.asset(
-            //                           "assets/page-1/images/todo.png",
-            //                           fit: BoxFit.fill,
-            //                         ),
-            //                       ),
-            //                       Container(
-            //                         // divtextblackx6D (1:283)
-            //                         child: Column(
-            //                           crossAxisAlignment:
-            //                               CrossAxisAlignment.start,
-            //                           children: [
-            //                             Container(
-            //                               // heading3workshops6TK (1:284)
-            //                               margin: EdgeInsets.fromLTRB(0 * fem,
-            //                                   0 * fem, 0 * fem, 12 * fem),
-            //                               child: Text(
-            //                                 'VoiceChanger',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 23 * ffem,
-            //                                   fontWeight: FontWeight.w500,
-            //                                   height: 1.3043478261 * ffem / fem,
-            //                                   letterSpacing: -0.25 * fem,
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                             Container(
-            //                               // gainskillswithguidedcodelabsle (1:286)
-            //                               constraints: BoxConstraints(
-            //                                 maxWidth: 329 * fem,
-            //                               ),
-            //                               child: Text(
-            //                                 'A high-quality voice manipulation app with real-time audio processing and intuitive UI user experience.',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 15 * ffem,
-            //                                   fontWeight: FontWeight.w400,
-            //                                   height: 1.6 * ffem / fem,
-            //                                   // color: Color(0xff000000),
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                           ],
-            //                         ),
-            //                       ),
-            //                     ],
-            //                   ),
-            //                 ),
-            //                 Container(
-            //                   // link98m (1:271)
-            //                   margin: EdgeInsets.fromLTRB(
-            //                       0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-            //                   padding: EdgeInsets.fromLTRB(
-            //                       24 * fem, 24 * fem, 24 * fem, 24 * fem),
-            //                   width: 407 * fem,
-            //                   height: double.infinity,
-            //                   decoration: BoxDecoration(
-            //                     color: const Color.fromARGB(255, 238, 238, 238),
-            //                     borderRadius: BorderRadius.circular(24 * fem),
-            //                   ),
-            //                   child: Column(
-            //                     crossAxisAlignment: CrossAxisAlignment.start,
-            //                     children: [
-            //                       Container(
-            //                         // rectangle15sf (4:55)
-            //                         margin: EdgeInsets.fromLTRB(
-            //                             0 * fem, 0 * fem, 0 * fem, 24 * fem),
-            //                         width: 82 * fem,
-            //                         height: 82 * fem,
-            //                         decoration: BoxDecoration(
-            //                           color: const Color.fromARGB(
-            //                               255, 255, 255, 255),
-            //                           // border: Border.all(color: Colors.black),
-            //                           borderRadius:
-            //                               BorderRadius.circular(90 * fem),
-            //                         ),
-            //                         child: Image.asset(
-            //                           "assets/page-1/images/transare1.png",
-            //                           fit: BoxFit.fill,
-            //                         ),
-            //                       ),
-            //                       Container(
-            //                         // divtextblackx6D (1:283)
-            //                         child: Column(
-            //                           crossAxisAlignment:
-            //                               CrossAxisAlignment.start,
-            //                           children: [
-            //                             Container(
-            //                               // heading3workshops6TK (1:284)
-            //                               margin: EdgeInsets.fromLTRB(0 * fem,
-            //                                   0 * fem, 0 * fem, 12 * fem),
-            //                               child: Text(
-            //                                 'Transare',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 23 * ffem,
-            //                                   fontWeight: FontWeight.w500,
-            //                                   height: 1.3043478261 * ffem / fem,
-            //                                   letterSpacing: -0.25 * fem,
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                             Container(
-            //                               // gainskillswithguidedcodelabsle (1:286)
-            //                               constraints: BoxConstraints(
-            //                                 maxWidth: 329 * fem,
-            //                               ),
-            //                               child: Text(
-            //                                 'A sleek cross-platform file-sharing app for seamless file sharing across devices and platforms.',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 15 * ffem,
-            //                                   fontWeight: FontWeight.w400,
-            //                                   height: 1.6 * ffem / fem,
-            //                                   // color: Color(0xff000000),
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                           ],
-            //                         ),
-            //                       ),
-            //                     ],
-            //                   ),
-            //                 ),
-            //                 Container(
-            //                   // link98m (1:271)
-            //                   margin: EdgeInsets.fromLTRB(
-            //                       0 * fem, 0 * fem, 101.6 * fem, 0 * fem),
-            //                   padding: EdgeInsets.fromLTRB(
-            //                       24 * fem, 24 * fem, 24 * fem, 24 * fem),
-            //                   width: 407 * fem,
-            //                   height: double.infinity,
-            //                   decoration: BoxDecoration(
-            //                     color: const Color.fromARGB(255, 238, 238, 238),
-            //                     borderRadius: BorderRadius.circular(24 * fem),
-            //                   ),
-            //                   child: Column(
-            //                     crossAxisAlignment: CrossAxisAlignment.start,
-            //                     children: [
-            //                       Container(
-            //                         // rectangle15sf (4:55)
-            //                         margin: EdgeInsets.fromLTRB(
-            //                             0 * fem, 0 * fem, 0 * fem, 24 * fem),
-            //                         width: 82 * fem,
-            //                         height: 82 * fem,
-            //                         decoration: BoxDecoration(
-            //                           color: const Color.fromARGB(
-            //                               255, 255, 255, 255),
-            //                           // border: Border.all(color: Colors.black),
-            //                           borderRadius:
-            //                               BorderRadius.circular(90 * fem),
-            //                         ),
-            //                         child: Image.asset(
-            //                           "assets/page-1/images/worksuitkit1.png",
-            //                           fit: BoxFit.fill,
-            //                         ),
-            //                       ),
-            //                       Container(
-            //                         // divtextblackx6D (1:283)
-            //                         child: Column(
-            //                           crossAxisAlignment:
-            //                               CrossAxisAlignment.start,
-            //                           children: [
-            //                             Container(
-            //                               // heading3workshops6TK (1:284)
-            //                               margin: EdgeInsets.fromLTRB(0 * fem,
-            //                                   0 * fem, 0 * fem, 12 * fem),
-            //                               child: Text(
-            //                                 'Worksuitkit',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 23 * ffem,
-            //                                   fontWeight: FontWeight.w500,
-            //                                   height: 1.3043478261 * ffem / fem,
-            //                                   letterSpacing: -0.25 * fem,
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                             Container(
-            //                               // gainskillswithguidedcodelabsle (1:286)
-            //                               constraints: BoxConstraints(
-            //                                 maxWidth: 329 * fem,
-            //                               ),
-            //                               child: Text(
-            //                                 'A versatile survey administration software integrated with Google\'s suite of productivity tools.',
-            //                                 style: TextStyle(
-            //                                   fontFamily: 'Product Sans',
-            //                                   fontSize: 15 * ffem,
-            //                                   fontWeight: FontWeight.w400,
-            //                                   height: 1.6 * ffem / fem,
-            //                                   // color: Color(0xff000000),
-            //                                   color: const Color(0xff000000),
-            //                                 ),
-            //                               ),
-            //                             ),
-            //                           ],
-            //                         ),
-            //                       ),
-            //                     ],
-            //                   ),
-            //                 ),
-            //               ],
-            //               options: CarouselOptions(
-            //                 height: 265.0,
-            //                 // Other options...
-            //                 viewportFraction: 0.38,
-            //                 autoPlay: true,
-            //               ),
-            //             ),
-            //             //
-            //           ),
-            //         ],
-            //       ),
-            //     ),
-            //   ),
-            // ),
-            // this is a slider image ....
 
-            /*
-            Here We Use or change the container and design after this line ....
-            */
-
-            // Center(
-            //   child: Container(
-            //     height: 500 * fem,
-            //     width: 1000 * fem,
-
-            //     // color: Colors.blue,
-            //     decoration: BoxDecoration(
-            //         color: const Color.fromARGB(255, 248, 248, 249),
-            //         // border: Border.all(color: Color.fromARGB(255, 220, 222, 226)),
-            //         borderRadius: BorderRadius.circular(65 * fem)),
-
-            //     // Here We use the slider and call the function who made in upper ...
-            //     // child: CarouselSlider(
-            //     //     // items: gettheList(),
-            //     //     items:[1,2,3,4,5].map((e) => e),
-            //     //     options: CarouselOptions(
-            //     //       aspectRatio: 18 / 8,
-            //     //       autoPlay: false,
-            //     //       autoPlayAnimationDuration: const Duration(seconds: 30),
-            //     //       autoPlayCurve: Curves.fastOutSlowIn,
-            //     //       enlargeCenterPage: true,
-            //     //       viewportFraction: 1,
-            //     //     ))),
-            //   ),
-            // ),
             /**
              * 
              * This is Footer Page ******************************************
@@ -4056,28 +3555,6 @@ class Scene extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              // SizedBox(
-                              //   width: 24*fem,
-                              // ),
-                              // Container(
-                              //   // termsWq6 (200:74)
-                              //   width: 96*fem,
-                              //   height: double.infinity,
-                              //   decoration: BoxDecoration (
-                              //     color: Color(0xfff8f9fa),
-                              //     borderRadius: BorderRadius.circular(4*fem),
-                              //   ),
-                              //   child: Text(
-                              //     'Contact Us',
-                              //     style: TextStyle (
-                              //       'Roboto',
-                              //       fontSize: 16*ffem,
-                              //       fontWeight: FontWeight.w500,
-                              //       height: 1.5*ffem/fem,
-                              //       color: Color(0xff5f6368),
-                              //     ),
-                              //   ),
-                              // ),
                             ],
                           ),
                         ),
@@ -4094,4 +3571,3 @@ class Scene extends StatelessWidget {
     );
   }
 }
-// // ignore_for_file: avoid_unnecessary_containers
