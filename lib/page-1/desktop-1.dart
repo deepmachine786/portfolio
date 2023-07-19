@@ -1566,7 +1566,7 @@ class Scene extends StatelessWidget {
                                           // onHover: Colors.blue,
                                           onTap: () => {
                                             launch(
-                                                "https://linkedin.com/in/mdshahidali/"),
+                                                "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=drive_link"),
                                           },
                                           child: Center(
                                             child: Text(
@@ -1960,7 +1960,7 @@ class Scene extends StatelessWidget {
               // autogroupbx76B5a (6kyNtKTmK9EyMWVBqqBX76)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 4 * fem, 96 * fem),
               width: 1446 * fem,
-              height: 3800 * fem,
+              height: 3900 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -1969,12 +1969,10 @@ class Scene extends StatelessWidget {
                     top: 936 * fem,
                     child: Container(
                       width: 1430 * fem,
-                      height: 2600 * fem,
+                      height: 3000 * fem,
                       decoration: BoxDecoration(
-                          color: Color(0xffffffff),
-                          border: Border.all(
-                            // color: Colors.black,
-                          )),
+                        color: Color(0xffffffff),
+                      ),
                       child: Stack(
                         children: [
                           Positioned(
@@ -2865,7 +2863,7 @@ class Scene extends StatelessWidget {
                           margin: EdgeInsets.fromLTRB(
                               0 * fem, 0 * fem, 0 * fem, 0 * fem),
                           padding: EdgeInsets.fromLTRB(31.83 * fem, 0, 0, 0),
-                          height: 300 * fem,
+                          height: 290 * fem,
                           child: CarouselSlider(
                             items: [
                               Container(
@@ -3269,7 +3267,7 @@ class Scene extends StatelessWidget {
                               ),
                             ],
                             options: CarouselOptions(
-                              height: 265.0,
+                              height: 255.0,
                               // Other options...
                               viewportFraction: 0.38,
                               autoPlay: true,
@@ -3281,8 +3279,13 @@ class Scene extends StatelessWidget {
                         ),
                       ],
                     ),
-                  )
-
+                  ),
+                  Container(
+                    height: 400*fem,
+                      margin: EdgeInsets.fromLTRB(0 * fem, 3370 * fem, 0, 0),
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 219, 219, 219)
+                        ))
                   // Positioned(
                   //   // experienceweavesgrowthchalleng (200:6)
                   //   left: 278 * fem,
