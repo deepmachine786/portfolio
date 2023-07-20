@@ -1798,12 +1798,12 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
-            //Exploring  the Project Deatils....
+            //Exploring  the Project Deatils.... This is main to change the size of project ...
             Container(
               // autogroupbx76B5a (6kyNtKTmK9EyMWVBqqBX76)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 4 * fem, 96 * fem),
               width: 1446 * fem,
-              height: 3900 * fem,
+              height: 4900 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -1812,21 +1812,385 @@ class Scene extends StatelessWidget {
                     top: 900 * fem,
                     child: Container(
                       width: 1430 * fem,
-                      height: 3000 * fem,
+                      height: 3900 * fem,
                       decoration: const BoxDecoration(
                         color: Color(0xffffffff),
                       ),
                       child: Stack(
                         children: [
+                          // here I use for Transare ...
                           Positioned(
                             // thirdprojectn5N (155:25)
                             left: -5 * fem,
-                            top: 1200 * fem,
+                            top: 2126 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   180 * fem, 0 * fem, 62 * fem, 0 * fem),
                               width: 1440 * fem,
                               height: 650 * fem,
+                              decoration: const BoxDecoration(
+                                color: Color(0xffffffff),
+                              ),
+                              child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  // i think jere we use to slide the image slider ...
+
+                                  Container(
+                                    // secondimages54U (162:3)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 0 * fem, 112 * fem, 0 * fem),
+                                    padding: EdgeInsets.fromLTRB(50 * fem,
+                                        120 * fem, 50 * fem, 120 * fem),
+                                    width: 508 * fem,
+                                    height: double.infinity,
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xffffffff),
+                                    ),
+                                    child: Container(
+                                      // rectangle17amv (183:12)
+                                      width: double.infinity,
+                                      height: double.infinity,
+                                      decoration: BoxDecoration(
+                                        borderRadius:
+                                            BorderRadius.circular(100 * fem),
+                                        image: const DecorationImage(
+                                          fit: BoxFit.cover,
+                                          image: AssetImage(
+                                            'assets/page-1/images/worksuitkit1.png',
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Container(
+                                    // firstimagesJhv (162:5)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 120 * fem, 0 * fem, 201 * fem),
+                                    padding: EdgeInsets.fromLTRB(
+                                        0 * fem, 50 * fem, 0 * fem, 0 * fem),
+                                    width: 578 * fem,
+                                    height: double.infinity,
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xffffffff),
+                                    ),
+                                    child: Container(
+                                      // frame14cic (167:19)
+                                      padding: EdgeInsets.fromLTRB(
+                                          0 * fem, 30 * fem, 0 * fem, 5 * fem),
+                                      width: 478 * fem,
+                                      height: 750 * fem,
+                                      decoration: const BoxDecoration(
+                                        color: Color(0xffffffff),
+                                      ),
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            // voicechanger8S4 (167:20)
+
+                                            'Worksuitkit',
+                                            style: TextStyle(
+                                              fontFamily: 'Product Sans',
+                                              fontSize: 34 * ffem,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.2941176471 * ffem / fem,
+                                              letterSpacing: -0.25 * fem,
+                                              color: const Color(0xff000000),
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 15 * fem,
+                                          ),
+                                          Container(
+                                            // iamdevelopingavoicechangerappl (167:21)
+                                            constraints: BoxConstraints(
+                                              maxWidth: 580 * fem,
+                                            ),
+                                            child: Text(
+                                              'This versatile survey administration software is seamlessly integrated with Google\'s suite of productivity tools, streamlining the survey creation and data collection process. With user-friendly features and compatibility with Google services, it offers an efficient and effective solution for conducting surveys and analyzing results.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 17.2 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height:
+                                                    1.3333333333 * ffem / fem,
+                                                color: const Color(0xff202124),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                19 * fem, 0 * fem, 5 * fem),
+
+                                            width: 115 * fem,
+
+                                            // decoration: BoxDecoration(
+                                            //   border: Border.all(
+                                            //       color: Color(0x33000000)),
+                                            //   borderRadius:
+                                            //       BorderRadius.circular(
+                                            //           30 * fem),
+                                            // ),
+                                            child: InkWell(
+                                              onTap: () => {
+                                                launch(
+                                                    "https://github.com/deepmachine786/Worksuitkit"),
+                                              },
+                                              child: Container(
+                                                padding: EdgeInsets.fromLTRB(
+                                                    1 * fem,
+                                                    0 * fem,
+                                                    0 * fem,
+                                                    2 * fem),
+                                                // decoration: BoxDecoration(
+                                                //   border: Border.all(
+                                                //     color: const Color.fromARGB(
+                                                //         255, 219, 217, 217),
+                                                //     width: 0.8,
+                                                //   ),
+                                                //   borderRadius:
+                                                //       BorderRadius.circular(
+                                                //           6.0),
+                                                width: 118 * fem,
+                                                height: 40 * fem,
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                      color:
+                                                          const Color.fromARGB(
+                                                              255,
+                                                              206,
+                                                              205,
+                                                              205)),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          20 * fem),
+                                                ),
+                                                child: Padding(
+                                                  padding:
+                                                      const EdgeInsets.all(4.0),
+                                                  child: Center(
+                                                    child: Text(
+                                                      'Read more',
+                                                      style: TextStyle(
+                                                        fontFamily:
+                                                            'Product Sans',
+                                                        fontSize: 15 * ffem,
+                                                        fontWeight:
+                                                            FontWeight.w500,
+                                                        height:
+                                                            1.6 * ffem / fem,
+                                                        letterSpacing:
+                                                            -0.25 * fem,
+                                                        color: const Color(
+                                                            0xff1a73e8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+
+                          // here I use for WorkSuitKit .....
+                          Positioned(
+                            // secondprojectbyr (183:4)
+                            left: -5 * fem,
+                            top: 1662 * fem,
+                            child: Container(
+                              padding: EdgeInsets.fromLTRB(
+                                  150 * fem, 0 * fem, 132 * fem, 0 * fem),
+                              width: 1440 * fem,
+                              height: 600 * fem,
+                              decoration: const BoxDecoration(
+                                color: Color(0xffffffff),
+                              ),
+                              child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.end,
+                                children: [
+                                  Container(
+                                    // firstimagesHrg (183:7)
+                                    margin: EdgeInsets.fromLTRB(
+                                        0 * fem, 50 * fem, 80 * fem, 0 * fem),
+                                    padding: EdgeInsets.fromLTRB(
+                                        80 * fem, 50 * fem, 0 * fem, 00 * fem),
+                                    width: 570 * fem,
+                                    height: 510 * fem,
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xffffffff),
+                                    ),
+                                    child: Container(
+                                      // frame14PPv (183:8)
+                                      padding: EdgeInsets.fromLTRB(9.5 * fem,
+                                          40 * fem, 9.5 * fem, 10 * fem),
+                                      width: double.infinity,
+                                      height: 200 * fem,
+                                      decoration: const BoxDecoration(
+                                        color: Color(0xffffffff),
+                                      ),
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            // automatictodo63S (183:9)
+                                            margin: EdgeInsets.fromLTRB(
+                                                0.5 * fem,
+                                                0 * fem,
+                                                0 * fem,
+                                                21 * fem),
+                                            child: Text(
+                                              'Transare',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 38 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height:
+                                                    1.2941176471 * ffem / fem,
+                                                letterSpacing: -0.25 * fem,
+                                                color: const Color(0xff000000),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // anefficientpythonbasedappwasde (183:10)
+                                            margin: EdgeInsets.fromLTRB(
+                                                0.5 * fem,
+                                                0 * fem,
+                                                0 * fem,
+                                                0 * fem),
+                                            constraints: BoxConstraints(
+                                              maxWidth: 580 * fem,
+                                            ),
+                                            child: Text(
+                                              'Transare revolutionizes file sharing with a modern, user-friendly interface, supporting seamless cross-platform compatibility across Android, iPhone, desktop, and MacOS devices through Java, Dart, and Flutter. Users can conveniently manage their shared files with the web-based interface, ensuring a consistent experience across various screen sizes and devices.',
+                                              style: TextStyle(
+                                                fontFamily: 'Product Sans',
+                                                fontSize: 17.2 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height:
+                                                    1.3333333333 * ffem / fem,
+                                                color: const Color(0xff202124),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                19 * fem, 0 * fem, 0 * fem),
+
+                                            width: 115 * fem,
+
+                                            // decoration: BoxDecoration(
+                                            //   border: Border.all(
+                                            //       color: Color(0x33000000)),
+                                            //   borderRadius:
+                                            //       BorderRadius.circular(
+                                            //           30 * fem),
+                                            // ),
+                                            child: InkWell(
+                                              onTap: () => {
+                                                launch(
+                                                    "https://github.com/deepmachine786/Transare"),
+                                              },
+                                              child: Container(
+                                                padding: EdgeInsets.fromLTRB(
+                                                    1 * fem,
+                                                    0 * fem,
+                                                    0 * fem,
+                                                    2 * fem),
+                                                width: 118 * fem,
+                                                height: 40 * fem,
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                      color:
+                                                          const Color.fromARGB(
+                                                              255,
+                                                              206,
+                                                              205,
+                                                              205)),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          20 * fem),
+                                                ),
+                                                child: Padding(
+                                                  padding:
+                                                      const EdgeInsets.all(4.0),
+                                                  child: Center(
+                                                    child: Text(
+                                                      'Read more',
+                                                      style: TextStyle(
+                                                        fontFamily:
+                                                            'Product Sans',
+                                                        fontSize: 15 * ffem,
+                                                        fontWeight:
+                                                            FontWeight.w500,
+                                                        height:
+                                                            1.6 * ffem / fem,
+                                                        letterSpacing:
+                                                            -0.25 * fem,
+                                                        color: const Color(
+                                                            0xff1a73e8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Container(
+                                    // secondimagesTgc (183:5)
+                                    padding: EdgeInsets.fromLTRB(50 * fem,
+                                        120 * fem, 50 * fem, 140 * fem),
+                                    height: 736 * fem,
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xffffffff),
+                                    ),
+                                    child: Center(
+                                      // rectangle17zRe (183:6)
+                                      child: SizedBox(
+                                        width: 408 * fem,
+                                        height: 496 * fem,
+                                        child: ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(100 * fem),
+                                          child: Image.asset(
+                                            'assets/page-1/images/Transare.png',
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+
+                          //Here I use for VoiceChanger .....
+                          Positioned(
+                            // thirdprojectn5N (155:25)
+                            left: -5 * fem,
+                            top: 1204 * fem,
+                            child: Container(
+                              padding: EdgeInsets.fromLTRB(
+                                  180 * fem, 0 * fem, 62 * fem, 0 * fem),
+                              width: 1440 * fem,
+                              height: 600 * fem,
                               decoration: const BoxDecoration(
                                 color: Color(0xffffffff),
                               ),
@@ -1936,7 +2300,7 @@ class Scene extends StatelessWidget {
                                             child: InkWell(
                                               onTap: () => {
                                                 launch(
-                                                    "https://github.com/deepmachine786/chatbit"),
+                                                    "https://github.com/deepmachine786/VoiceChanger"),
                                               },
                                               child: Container(
                                                 padding: EdgeInsets.fromLTRB(
@@ -1957,8 +2321,12 @@ class Scene extends StatelessWidget {
                                                 height: 40 * fem,
                                                 decoration: BoxDecoration(
                                                   border: Border.all(
-                                                      color: Color.fromARGB(
-                                                          255, 206, 205, 205)),
+                                                      color:
+                                                          const Color.fromARGB(
+                                                              255,
+                                                              206,
+                                                              205,
+                                                              205)),
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           20 * fem),
@@ -1999,7 +2367,7 @@ class Scene extends StatelessWidget {
                           Positioned(
                             // secondprojectbyr (183:4)
                             left: -5 * fem,
-                            top: 790 * fem,
+                            top: 765 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   150 * fem, 0 * fem, 132 * fem, 0 * fem),
@@ -2106,8 +2474,12 @@ class Scene extends StatelessWidget {
                                                 height: 40 * fem,
                                                 decoration: BoxDecoration(
                                                   border: Border.all(
-                                                      color: Color.fromARGB(
-                                                          255, 206, 205, 205)),
+                                                      color:
+                                                          const Color.fromARGB(
+                                                              255,
+                                                              206,
+                                                              205,
+                                                              205)),
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           20 * fem),
@@ -2172,7 +2544,7 @@ class Scene extends StatelessWidget {
                           Positioned(
                             // firstprojecthqr (155:24)
                             left: -5 * fem,
-                            top: 220 * fem,
+                            top: 215 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   100 * fem, 30 * fem, 160 * fem, 15 * fem),
@@ -2188,8 +2560,8 @@ class Scene extends StatelessWidget {
                                     // firstimagesPig (162:4)
                                     margin: EdgeInsets.fromLTRB(
                                         0 * fem, 0 * fem, 92 * fem, 0 * fem),
-                                    padding: EdgeInsets.fromLTRB(100 * fem,
-                                        80 * fem, 0 * fem, 80 * fem),
+                                    padding: EdgeInsets.fromLTRB(
+                                        100 * fem, 80 * fem, 0 * fem, 80 * fem),
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
                                       color: Color(0xffffffff),
@@ -2299,8 +2671,12 @@ class Scene extends StatelessWidget {
                                                 height: 40 * fem,
                                                 decoration: BoxDecoration(
                                                   border: Border.all(
-                                                      color: Color.fromARGB(
-                                                          255, 206, 205, 205)),
+                                                      color:
+                                                          const Color.fromARGB(
+                                                              255,
+                                                              206,
+                                                              205,
+                                                              205)),
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           20 * fem),
@@ -2398,7 +2774,7 @@ class Scene extends StatelessWidget {
                     top: 0 * fem,
                     child: Container(
                       width: 1446 * fem,
-                      height: 1015 * fem,
+                      height: 1030 * fem,
                       decoration: const BoxDecoration(
                         color: Color(0xffffffff),
                       ),
@@ -2629,7 +3005,7 @@ class Scene extends StatelessWidget {
                   // Here is use my Google Image Slider to Slide and how my sliding my app ...
                   Container(
                     margin:
-                        EdgeInsets.fromLTRB(9 * fem, 2750 * fem, 5 * fem, 0),
+                        EdgeInsets.fromLTRB(9 * fem, 3660 * fem, 5 * fem, 0),
                     width: 1446 * fem,
                     height: 400 * fem,
                     child: Column(
@@ -3116,7 +3492,7 @@ class Scene extends StatelessWidget {
                   // this is sliding chat bit zapplication and after the image slider in the slider inthe gogle docs ...
                   Container(
                     height: 450 * fem,
-                    margin: EdgeInsets.fromLTRB(0 * fem, 3250 * fem, 0, 0),
+                    margin: EdgeInsets.fromLTRB(0 * fem, 4050 * fem, 0, 0),
 
                     // here you use the image large slider ...
                     child: Container(
@@ -3125,7 +3501,7 @@ class Scene extends StatelessWidget {
                           35 * fem, 64 * fem, 0 * fem, 15 * fem),
                       width: double.infinity,
                       height: 500 * fem,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Color.fromARGB(255, 240, 240, 240),
                       ),
                       child: SizedBox(
