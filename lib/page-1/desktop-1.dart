@@ -441,8 +441,8 @@ class Scene extends StatelessWidget {
                               fontFamily: 'Product Sans',
                               fontSize: 43 * ffem,
                               fontWeight: FontWeight.w400,
-                              fontStyle: FontStyle.normal,
-                              height: 1.1363636364 * ffem / fem,
+                              // fontStyle: FontStyle.normal,
+                              height: 1.2125 * ffem / fem,
                               letterSpacing: -0.25 * fem,
                               color: const Color(0xff202124),
                             ),
@@ -504,7 +504,7 @@ class Scene extends StatelessWidget {
                                 Positioned(
                                   // mynameismdshahidaliandiamcurre (97:2)
                                   left: 655 * fem,
-                                  top: 450 * fem,
+                                  top: 445 * fem,
                                   child: Align(
                                     child: SizedBox(
                                       width: 485 * fem,
@@ -513,10 +513,9 @@ class Scene extends StatelessWidget {
                                         'My name is Md Shahid Ali and I am currently pursuing a Bachelor of Technology  in Computer Science and Engineering from Lovely Professional University.',
                                         style: TextStyle(
                                           fontFamily: 'Product Sans',
-                                          fontSize: 18 * ffem,
+                                          fontSize: 17 * ffem,
                                           fontWeight: FontWeight.w400,
-                                          height: 1.5 * ffem / fem,
-                                          letterSpacing: -0.25 * fem,
+                                          height: 1.3333333333 * ffem / fem,
                                           color: const Color(0xff202124),
                                         ),
                                       ),
@@ -1265,9 +1264,9 @@ class Scene extends StatelessWidget {
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontFamily: 'Product Sans',
-                                fontSize: 34 * ffem,
+                                fontSize: 38 * ffem,
                                 fontWeight: FontWeight.w400,
-                                height: 1.7058823529 * ffem / fem,
+                                height: 1.2125 * ffem / fem,
                                 letterSpacing: -0.25 * fem,
                                 color: const Color(0xff000000),
                               ),
@@ -1360,16 +1359,23 @@ class Scene extends StatelessWidget {
                                         child: Text(
                                           'Revitalizing my career history by creating a visually compelling display of my expertise and experience.',
                                           textAlign: TextAlign.center,
+                                          // style: TextStyle(
+                                          //   fontFamily: 'Product Sans',
+                                          //   fontSize: 18 * ffem,
+                                          //   fontWeight: FontWeight.w400,
+                                          //   height: 1.5 * ffem / fem,
+                                          //   letterSpacing: -0.25 * fem,
+                                          //   color: const Color(0xff202124),
+
+                                          //   // color: const Color.fromARGB(
+                                          //   //     211, 95, 99, 104),
+                                          // ),
                                           style: TextStyle(
                                             fontFamily: 'Product Sans',
-                                            fontSize: 18 * ffem,
+                                            fontSize: 16.6 * ffem,
                                             fontWeight: FontWeight.w400,
-                                            height: 1.5 * ffem / fem,
-                                            letterSpacing: -0.25 * fem,
+                                            height: 1.2125 * ffem / fem,
                                             color: const Color(0xff202124),
-
-                                            // color: const Color.fromARGB(
-                                            //     211, 95, 99, 104),
                                           ),
                                         ),
                                       ),
@@ -1688,14 +1694,14 @@ class Scene extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                            margin: EdgeInsets.fromLTRB(8 * fem, 0, 0, 0),
+                            margin: EdgeInsets.fromLTRB(8 * fem, 0, 0, 5),
                             child: Text(
                               "Skills",
                               style: TextStyle(
                                 fontFamily: 'Product Sans',
                                 fontSize: 17 * ffem,
                                 fontWeight: FontWeight.w500,
-                                height: 1.8461538462 * ffem / fem,
+                                height: 1.33 * ffem / fem,
                                 letterSpacing: -0.25 * fem,
                                 color: const Color(0xff202124),
                               ),
@@ -1706,7 +1712,7 @@ class Scene extends StatelessWidget {
                         Container(
                           // technicalmasteryorchestratesbe (126:9)
                           margin: EdgeInsets.fromLTRB(
-                              5 * fem, 0 * fem, 0 * fem, 0 * fem),
+                              5 * fem, 3 * fem, 0 * fem, 0 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
@@ -1714,9 +1720,9 @@ class Scene extends StatelessWidget {
                             'Technical mastery orchestrates Beautiful solutions to complexity.',
                             style: TextStyle(
                               fontFamily: 'Product Sans',
-                              fontSize: 36 * ffem,
+                              fontSize: 38 * ffem,
                               fontWeight: FontWeight.w500,
-                              height: 1.2941176471 * ffem / fem,
+                              height: 1.2125 * ffem / fem,
                               letterSpacing: -0.25 * fem,
                               // color: const Color(0xff000000),
                               color: const Color(0xff000000),
@@ -1726,18 +1732,25 @@ class Scene extends StatelessWidget {
                         Container(
                           // ipossesstechnicalskillsinjavap (126:11)
                           margin: EdgeInsets.fromLTRB(
-                              7 * fem, 15 * fem, 0 * fem, 0 * fem),
+                              7 * fem, 19 * fem, 0 * fem, 0 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 600 * fem,
                           ),
                           child: Text(
-                            'I have technical proficiency in Java, Python, Kotlin, JavaScript, and Dart, and I am presently engaged in projects involving React and Flutter frameworks. Additionally, I am well-versed in SQL, MySQL, and MongoDB databases, and I am acquainted with GraphQL and AWS.\n',
+                            'I have technical proficiency in Java, Python, Kotlin, JavaScript, and Dart, and I am presently engaged in projects involving React and Flutter frameworks. Additionally, I am well-versed in Sql, Mysql, and Mongodb databases, and I am acquainted with Graphql and aws.\n',
+                            // style: TextStyle(
+                            //   fontFamily: 'Product Sans',
+                            //   fontSize: 18 * ffem,
+                            //   fontWeight: FontWeight.w400,
+                            //   height: 1.5 * ffem / fem,
+                            //   letterSpacing: -0.25 * fem,
+                            //   color: const Color(0xff202124),
+                            // ),
                             style: TextStyle(
                               fontFamily: 'Product Sans',
-                              fontSize: 18 * ffem,
+                              fontSize: 17.2 * ffem,
                               fontWeight: FontWeight.w400,
-                              height: 1.5 * ffem / fem,
-                              letterSpacing: -0.25 * fem,
+                              height: 1.4333333333 * ffem / fem,
                               color: const Color(0xff202124),
                             ),
                           ),
@@ -1746,7 +1759,7 @@ class Scene extends StatelessWidget {
                           // findouthowdevicesworkbettertog (126:12)
                           width: 120 * fem,
                           height: 44 * fem,
-                          margin: EdgeInsets.fromLTRB(0, 0 * fem, 0, 0),
+                          margin: EdgeInsets.fromLTRB(0, 3 * fem, 0, 0),
                           padding: EdgeInsets.fromLTRB(
                               1 * fem, 0 * fem, 0 * fem, 2 * fem),
                           decoration: BoxDecoration(
@@ -1852,7 +1865,7 @@ class Scene extends StatelessWidget {
                                   Container(
                                     // firstimagesJhv (162:5)
                                     margin: EdgeInsets.fromLTRB(
-                                        0 * fem, 120 * fem, 0 * fem, 200 * fem),
+                                        0 * fem, 120 * fem, 0 * fem, 201 * fem),
                                     padding: EdgeInsets.fromLTRB(
                                         0 * fem, 50 * fem, 0 * fem, 0 * fem),
                                     width: 578 * fem,
@@ -1898,23 +1911,18 @@ class Scene extends StatelessWidget {
                                               ' I am developing a VoiceChanger application using React, JavaScript\n and Flutter with Dart. Additionally, I am developing a machine learning \n model using Python.',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 18 * ffem,
+                                                fontSize: 17.2 * ffem,
                                                 fontWeight: FontWeight.w400,
-                                                height: 1.5 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                // color: const Color(0xff5f6368),
+                                                height:
+                                                    1.3333333333 * ffem / fem,
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
                                           ),
-                                          
                                           Container(
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
-                                            margin: EdgeInsets.fromLTRB(
-                                                0 * fem,
-                                                18 * fem,
-                                                0 * fem,
-                                                5 * fem),
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                19 * fem, 0 * fem, 5 * fem),
 
                                             width: 115 * fem,
 
@@ -2033,7 +2041,7 @@ class Scene extends StatelessWidget {
                                                 0.5 * fem,
                                                 0 * fem,
                                                 0 * fem,
-                                                20 * fem),
+                                                21 * fem),
                                             child: Text(
                                               'Automatic Todo',
                                               style: TextStyle(
@@ -2061,11 +2069,10 @@ class Scene extends StatelessWidget {
                                               'An efficient Python-based app was developed to automate task management, send notifications, and initiate calls, resulting in improved work processes and increased productivity and efficiency. Additionally, an efficient task reminder app was designed using automation, which reduced task completion time by 50% and further boosted productivity.',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 18 * ffem,
+                                                fontSize: 17.2 * ffem,
                                                 fontWeight: FontWeight.w400,
-                                                height: 1.5 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                // color: const Color(0xff5f6368),
+                                                height:
+                                                    1.3333333333 * ffem / fem,
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
@@ -2073,7 +2080,7 @@ class Scene extends StatelessWidget {
                                           Container(
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
                                             margin: EdgeInsets.fromLTRB(0 * fem,
-                                                18 * fem, 0 * fem, 0 * fem),
+                                                19 * fem, 0 * fem, 0 * fem),
 
                                             width: 115 * fem,
 
@@ -2165,7 +2172,7 @@ class Scene extends StatelessWidget {
                           Positioned(
                             // firstprojecthqr (155:24)
                             left: -5 * fem,
-                            top: 180 * fem,
+                            top: 220 * fem,
                             child: Container(
                               padding: EdgeInsets.fromLTRB(
                                   100 * fem, 30 * fem, 160 * fem, 15 * fem),
@@ -2182,7 +2189,7 @@ class Scene extends StatelessWidget {
                                     margin: EdgeInsets.fromLTRB(
                                         0 * fem, 0 * fem, 92 * fem, 0 * fem),
                                     padding: EdgeInsets.fromLTRB(100 * fem,
-                                        180 * fem, 0 * fem, 80 * fem),
+                                        80 * fem, 0 * fem, 80 * fem),
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
                                       color: Color(0xffffffff),
@@ -2230,7 +2237,7 @@ class Scene extends StatelessWidget {
                                           Container(
                                             // chatbitapplicationFPW (162:11)
                                             margin: EdgeInsets.fromLTRB(0 * fem,
-                                                0 * fem, 0 * fem, 16 * fem),
+                                                0 * fem, 0 * fem, 17 * fem),
                                             child: Text(
                                               'Chatbit Application',
                                               style: TextStyle(
@@ -2252,25 +2259,21 @@ class Scene extends StatelessWidget {
                                               maxWidth: 580 * fem,
                                             ),
                                             child: Text(
-                                              'I developed Chatbit, a messaging app with sophisticated animations for end-to-end encryption in any language using Figma & Flutter. This reduced processing time by 60% and improved user experience. The state-of-the-art Flutter-based app incorporates TensorFlow Lite and is hosted on AWS, showcasing expertise in Dart, JS, and Java. It leverages machine learning to deliver cutting-edge features and cross-platform functionality with facial and fingerprint authentication. I introduced customizable automatic replies, leading to 50%  time savings, and improved productivity.',
+                                              'I developed Chatbit, a messaging app with sophisticated animations for end-to-end encryption in any language using Figma & Flutter. This reduced processing time by 60% and improved user experience. The state-of-the-art Flutter-based app incorporates TensorFlow Lite and is hosted on AWS, showcasing expertise in Dart, JS, and Java. It leverages machine learning to deliver cutting-edge features and cross-platform functionality with facial and fingerprint authentication.',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
-                                                fontSize: 18 * ffem,
+                                                fontSize: 17.2 * ffem,
                                                 fontWeight: FontWeight.w400,
-                                                height: 1.5 * ffem / fem,
-                                                letterSpacing: -0.25 * fem,
-                                                // color: const Color(0xff5f6368),
+                                                height:
+                                                    1.3333333333 * ffem / fem,
                                                 color: const Color(0xff202124),
                                               ),
                                             ),
                                           ),
                                           Container(
                                             // autogroupbzetCrU (6kyPQtRATZ2W72QReXBzet)
-                                            margin: EdgeInsets.fromLTRB(
-                                                0 * fem,
-                                                18 * fem,
-                                                0 * fem,
-                                                0 * fem),
+                                            margin: EdgeInsets.fromLTRB(0 * fem,
+                                                19 * fem, 0 * fem, 0 * fem),
 
                                             width: 115 * fem,
 
@@ -2369,7 +2372,7 @@ class Scene extends StatelessWidget {
                                             fontFamily: 'Product Sans',
                                             fontSize: 38 * ffem,
                                             fontWeight: FontWeight.w400,
-                                            height: 1.2941176471 * ffem / fem,
+                                            height: 1.333333 * ffem / fem,
                                             letterSpacing: -0.25 * fem,
                                             color: const Color(0xff000000),
                                           ),
@@ -2430,7 +2433,7 @@ class Scene extends StatelessWidget {
                                     Container(
                                       // frame12nVE (152:17)
                                       margin: EdgeInsets.fromLTRB(
-                                          0 * fem, 0 * fem, 0 * fem, 10 * fem),
+                                          0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
@@ -2438,7 +2441,7 @@ class Scene extends StatelessWidget {
                                           Container(
                                             // projects8JC (152:18)
                                             margin: EdgeInsets.fromLTRB(0 * fem,
-                                                0 * fem, 0 * fem, 10 * fem),
+                                                0 * fem, 0 * fem, 0 * fem),
                                             child: Text(
                                               ' Projects',
                                               style: TextStyle(
@@ -2458,10 +2461,10 @@ class Scene extends StatelessWidget {
                                               maxWidth: 475 * fem,
                                             ),
                                             margin: EdgeInsets.fromLTRB(0 * fem,
-                                                0 * fem, 5 * fem, 0 * fem),
+                                                0 * fem, 0 * fem, 0 * fem),
                                             padding: EdgeInsets.fromLTRB(
                                                 0 * fem,
-                                                15 * fem,
+                                                8.2 * fem,
                                                 0 * fem,
                                                 0 * fem),
                                             child: Text(
@@ -2483,7 +2486,7 @@ class Scene extends StatelessWidget {
                                     Container(
                                       // icompletedaprojectthatinvolved (152:20)
                                       margin: EdgeInsets.fromLTRB(
-                                          2 * fem, 0 * fem, 0 * fem, 0 * fem),
+                                          2 * fem, 10 * fem, 0 * fem, 0 * fem),
                                       padding: EdgeInsets.fromLTRB(
                                           0 * fem, 0 * fem, 0 * fem, 0 * fem),
                                       // height: 600*fem,
@@ -2495,11 +2498,9 @@ class Scene extends StatelessWidget {
                                         'I completed a project that involved developing many applications, which allowed me to acquire skills in Android and Web development and gain experience  as a Software Engineer.',
                                         style: TextStyle(
                                           fontFamily: 'Product Sans',
-                                          fontSize: 18 * ffem,
+                                          fontSize: 17.2 * ffem,
                                           fontWeight: FontWeight.w400,
-                                          height: 1.5 * ffem / fem,
-                                          letterSpacing: -0.25 * fem,
-                                          // color: const Color(0xff5f6368),
+                                          height: 1.3333333333 * ffem / fem,
                                           color: const Color(0xff202124),
                                         ),
                                       ),
@@ -2628,7 +2629,7 @@ class Scene extends StatelessWidget {
                   // Here is use my Google Image Slider to Slide and how my sliding my app ...
                   Container(
                     margin:
-                        EdgeInsets.fromLTRB(9 * fem, 2800 * fem, 5 * fem, 0),
+                        EdgeInsets.fromLTRB(9 * fem, 2750 * fem, 5 * fem, 0),
                     width: 1446 * fem,
                     height: 400 * fem,
                     child: Column(
@@ -3098,7 +3099,7 @@ class Scene extends StatelessWidget {
                               ),
                             ],
                             options: CarouselOptions(
-                              height: 255.0,
+                              height: 260.0,
                               // Other options...
                               viewportFraction: 0.38,
                               autoPlay: true,
@@ -3266,7 +3267,7 @@ class Scene extends StatelessWidget {
                                               0 * fem, 0 * fem, 15 * fem),
 
                                           child: Text(
-                                            'Explore new Design and  also new design in  chatbit application.',
+                                            'Explore new Design and  also new design in chatbit application.',
                                             style: TextStyle(
                                               fontFamily: 'Product Sans',
                                               fontSize: 18 * ffem,
