@@ -3780,7 +3780,7 @@ class Scene extends StatelessWidget {
                                                       BorderRadius.circular(
                                                           100 * fem),
                                                   child: Image.asset(
-                                                      "assets/page-1/images/CodeClause_images.jpeg")),
+                                                      "assets/page-1/images/CodeClause_images.png")),
                                             ),
                                             SizedBox(
                                               // divtextwrapperfaH (1:308)
@@ -3929,7 +3929,7 @@ class Scene extends StatelessWidget {
                                                       BorderRadius.circular(
                                                           100 * fem),
                                                   child: Image.asset(
-                                                      "assets/page-1/images/Bavch_Edutech_images.jpeg")),
+                                                      "assets/page-1/images/Bavch_Edutech_images.png")),
                                             ),
                                             SizedBox(
                                               // divtextwrapperfaH (1:308)
@@ -4056,7 +4056,7 @@ class Scene extends StatelessWidget {
                                     options: CarouselOptions(
                                       viewportFraction: 1,
                                       autoPlay: true,
-                                      autoPlayInterval: Duration(seconds: 1),
+                                      autoPlayInterval: const Duration(seconds: 1),
                                       initialPage: 0,
                                     )),
                               ),

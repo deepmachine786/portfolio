@@ -136,8 +136,8 @@ flutter:
     - assets/page-1/images/todo1.png
     - assets/page-1/images/transare1.png
     - assets/page-1/images/worksuitkit1.png
-    - assets/page-1/images/CodeClause_images.jpeg
-    - assets/page-1/images/Bavch_Edutech_images.jpeg
+    - assets/page-1/images/CodeClause_images.png
+    - assets/page-1/images/Bavch_Edutech_images.png
     - assets/page-1/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
