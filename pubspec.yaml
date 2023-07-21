@@ -40,6 +40,7 @@ dependencies:
   url_launcher: ^6.1.10
   carousel_slider: ^4.2.1
   auto_size_text: ^3.0.0
+  smooth_page_indicator: ^1.1.0
   
 
 dev_dependencies:

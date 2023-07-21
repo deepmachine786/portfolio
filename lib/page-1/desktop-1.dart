@@ -2,6 +2,7 @@
 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 // import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -23,6 +24,9 @@ final lpuImages = [
   "assets/page-1/images/regent_2.jpeg",
   "assets/page-1/images/regent_3.jpeg"
 ];
+int counter = 0;
+Widget cursorBuildSlider() =>
+    AnimatedSmoothIndicator(activeIndex: counter, count: counter++);
 
 Widget buildImage(String urlImage, int index) => Container(
         // margin: EdgeInsets.symmetric(horizontal: 12),
@@ -3697,7 +3701,7 @@ class Scene extends StatelessWidget {
 
                   // here use for Experience ...
                   Container(
-                    height: 700 * fem,
+                    height: 680 * fem,
                     margin: EdgeInsets.fromLTRB(0 * fem, 4680 * fem, 0, 0),
                     // decoration: BoxDecoration(
                     //   border: Border.all(color: Colors.black),
@@ -3743,7 +3747,7 @@ class Scene extends StatelessWidget {
                               child: Container(
                                 // divslidewrapperkph (1:307)
                                 padding: EdgeInsets.fromLTRB(
-                                    80 * fem, 130 * fem, 50.09 * fem, 98 * fem),
+                                    80 * fem, 130 * fem, 50.09 * fem, 80 * fem),
                                 width: double.infinity,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
@@ -3830,7 +3834,7 @@ class Scene extends StatelessWidget {
                                                           // divauthorwrapperKAy (1:311)
                                                           margin: EdgeInsets
                                                               .fromLTRB(
-                                                                  15 * fem,
+                                                                  6 * fem,
                                                                   0 * fem,
                                                                   0 * fem,
                                                                   40 * fem),
@@ -3869,7 +3873,7 @@ class Scene extends StatelessWidget {
                                                                       408 * fem,
                                                                 ),
                                                                 child: Text(
-                                                                  'Software Engineer Intern.\nPune, India',
+                                                                  'Software Engineer Intern.\nPune, India.',
                                                                   style:
                                                                       TextStyle(
                                                                     fontFamily:
@@ -3922,6 +3926,8 @@ class Scene extends StatelessWidget {
                                                   0 * fem,
                                                   60 * fem,
                                                   130 * fem),
+                                              padding: EdgeInsets.fromLTRB(
+                                                  0, 0, 5 * fem, 0),
                                               width: 266.91 * fem,
                                               height: 280.91 * fem,
                                               child: ClipRRect(
@@ -3979,7 +3985,7 @@ class Scene extends StatelessWidget {
                                                           // divauthorwrapperKAy (1:311)
                                                           margin: EdgeInsets
                                                               .fromLTRB(
-                                                                  15 * fem,
+                                                                  6 * fem,
                                                                   0 * fem,
                                                                   0 * fem,
                                                                   40 * fem),
@@ -4018,7 +4024,7 @@ class Scene extends StatelessWidget {
                                                                       408 * fem,
                                                                 ),
                                                                 child: Text(
-                                                                  'Research Intern,\nChennai, India',
+                                                                  'Research Intern.\nChennai, India.',
                                                                   style:
                                                                       TextStyle(
                                                                     fontFamily:
@@ -4053,12 +4059,15 @@ class Scene extends StatelessWidget {
                                         ),
                                       ),
                                     ],
+                                    
                                     options: CarouselOptions(
                                       viewportFraction: 1,
                                       autoPlay: true,
-                                      autoPlayInterval: const Duration(seconds: 1),
-                                      initialPage: 0,
-                                    )),
+                                      autoPlayInterval:
+                                          const Duration(seconds: 7),
+                                    ),
+                                    ),
+                                    
                               ),
                             ),
                           ),
