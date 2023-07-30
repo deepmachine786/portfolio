@@ -285,7 +285,9 @@ class Scene extends StatelessWidget {
                   EdgeInsets.fromLTRB(2 * fem, 90 * fem, 2 * fem, 71.5 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
-                color: Color(0xffffffff),
+                // color: Color(0xfffffefa),
+
+                color: Color(0xfffffefa),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -298,7 +300,9 @@ class Scene extends StatelessWidget {
                         40 * fem, 40 * fem, 50 * fem, 3 * fem),
                     width: double.infinity,
                     decoration: const BoxDecoration(
-                      color: Color(0xffffffff),
+                      // color: Color(0xfffffefa),
+
+                      color: Color(0xfffffefa),
                     ),
                     child: Center(
                       child: Text(
@@ -322,7 +326,7 @@ class Scene extends StatelessWidget {
                     width: double.infinity,
                     height: 140 * fem,
                     decoration: const BoxDecoration(
-                      color: Color(0xffffffff),
+                      color: Color(0xfffffefa),
                     ),
                     child: Center(
                       child: Text(
@@ -348,7 +352,7 @@ class Scene extends StatelessWidget {
                           57 * fem, 70 * fem, 66 * fem, 2 * fem),
                       width: double.infinity,
                       decoration: const BoxDecoration(
-                        color: Color(0xffffffff),
+                        color: Color(0xfffffefa),
                       ),
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -378,7 +382,7 @@ class Scene extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(24 * fem),
                                 border:
                                     Border.all(color: const Color(0xff000000)),
-                                // color: Color(0xffffffff),
+                                // color: Color(0xfffffefa),
                               ),
                               padding: const EdgeInsets.all(10.0),
                               child: Center(
@@ -1283,7 +1287,7 @@ class Scene extends StatelessWidget {
                               10 * fem, 30 * fem, 10 * fem, 0 * fem),
                           width: double.infinity,
                           decoration: const BoxDecoration(
-                            color: Color(0xffffffff),
+                            color: Color(0xfffffefa),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -1331,7 +1335,7 @@ class Scene extends StatelessWidget {
                                     100 * fem, 20 * fem, 100 * fem, 0 * fem),
                                 width: double.infinity,
                                 decoration: const BoxDecoration(
-                                  color: Color(0xffffffff),
+                                  color: Color(0xfffffefa),
                                 ),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -1410,7 +1414,7 @@ class Scene extends StatelessWidget {
                                           },
                                           child: Center(
                                             child: Text(
-                                              'Learn more',
+                                              'View more',
                                               style: TextStyle(
                                                 fontFamily: 'Product Sans',
                                                 fontSize: 15 * ffem,
@@ -1447,7 +1451,7 @@ class Scene extends StatelessWidget {
               height: 746 * fem,
               decoration: const BoxDecoration(
                 // color: Color.fromARGB(255, 212, 28, 28),
-                color: Color(0xffffffff),
+                color: Color(0xfffffefa),
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -1459,7 +1463,8 @@ class Scene extends StatelessWidget {
                     width: 570 * fem,
                     height: 600 * fem,
                     decoration: const BoxDecoration(
-                      color: Color(0xffffffff),
+                      color: Color(0xfffffefa),
+
                       // color: Color.fromARGB(255, 212, 201, 45)
                     ),
                     child: Stack(
@@ -1692,7 +1697,7 @@ class Scene extends StatelessWidget {
                     height: 600 * fem,
                     decoration: const BoxDecoration(
                       // color: Color.fromARGB(255, 34, 211, 49),
-                      color: Color(0xffffffff),
+                      color: Color(0xfffffefa),
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -1818,7 +1823,7 @@ class Scene extends StatelessWidget {
                       width: 1430 * fem,
                       height: 5700 * fem,
                       decoration: const BoxDecoration(
-                        color: Color(0xffffffff),
+                        color: Color(0xfffffefa),
                       ),
                       child: Stack(
                         children: [
@@ -1833,7 +1838,7 @@ class Scene extends StatelessWidget {
                               width: 1440 * fem,
                               height: 650 * fem,
                               decoration: const BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color(0xfffffefa),
                               ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -1849,7 +1854,7 @@ class Scene extends StatelessWidget {
                                     width: 508 * fem,
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // rectangle17amv (183:12)
@@ -1876,7 +1881,7 @@ class Scene extends StatelessWidget {
                                     width: 578 * fem,
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // frame14cic (167:19)
@@ -1885,7 +1890,7 @@ class Scene extends StatelessWidget {
                                       width: 478 * fem,
                                       height: 750 * fem,
                                       decoration: const BoxDecoration(
-                                        color: Color(0xffffffff),
+                                        color: Color(0xfffffefa),
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
@@ -2017,7 +2022,7 @@ class Scene extends StatelessWidget {
                               width: 1440 * fem,
                               height: 590 * fem,
                               decoration: const BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color(0xfffffefa),
                               ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -2031,7 +2036,7 @@ class Scene extends StatelessWidget {
                                     width: 570 * fem,
                                     height: 510 * fem,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // frame14PPv (183:8)
@@ -2040,7 +2045,7 @@ class Scene extends StatelessWidget {
                                       width: double.infinity,
                                       height: 200 * fem,
                                       decoration: const BoxDecoration(
-                                        color: Color(0xffffffff),
+                                        color: Color(0xfffffefa),
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
@@ -2162,7 +2167,7 @@ class Scene extends StatelessWidget {
                                         120 * fem, 50 * fem, 140 * fem),
                                     height: 736 * fem,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Center(
                                       // rectangle17zRe (183:6)
@@ -2196,7 +2201,7 @@ class Scene extends StatelessWidget {
                               width: 1440 * fem,
                               height: 600 * fem,
                               decoration: const BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color(0xfffffefa),
                               ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -2212,7 +2217,7 @@ class Scene extends StatelessWidget {
                                     width: 508 * fem,
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // rectangle17amv (183:12)
@@ -2239,7 +2244,7 @@ class Scene extends StatelessWidget {
                                     width: 578 * fem,
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // frame14cic (167:19)
@@ -2248,7 +2253,7 @@ class Scene extends StatelessWidget {
                                       width: 478 * fem,
                                       height: 750 * fem,
                                       decoration: const BoxDecoration(
-                                        color: Color(0xffffffff),
+                                        color: Color(0xfffffefa),
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
@@ -2378,7 +2383,7 @@ class Scene extends StatelessWidget {
                               width: 1440 * fem,
                               height: 600 * fem,
                               decoration: const BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color(0xfffffefa),
                               ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -2392,7 +2397,7 @@ class Scene extends StatelessWidget {
                                     width: 570 * fem,
                                     height: 510 * fem,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // frame14PPv (183:8)
@@ -2401,7 +2406,7 @@ class Scene extends StatelessWidget {
                                       width: double.infinity,
                                       height: 200 * fem,
                                       decoration: const BoxDecoration(
-                                        color: Color(0xffffffff),
+                                        color: Color(0xfffffefa),
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
@@ -2523,7 +2528,7 @@ class Scene extends StatelessWidget {
                                         120 * fem, 50 * fem, 140 * fem),
                                     height: 736 * fem,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Center(
                                       // rectangle17zRe (183:6)
@@ -2555,7 +2560,7 @@ class Scene extends StatelessWidget {
                               width: 1440 * fem,
                               height: 711 * fem,
                               decoration: const BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color(0xfffffefa),
                               ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -2568,7 +2573,7 @@ class Scene extends StatelessWidget {
                                         100 * fem, 80 * fem, 0 * fem, 80 * fem),
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Center(
                                       // firstimageJqe (162:8)
@@ -2595,7 +2600,7 @@ class Scene extends StatelessWidget {
                                     width: 530 * fem,
                                     height: double.infinity,
                                     decoration: const BoxDecoration(
-                                      color: Color(0xffffffff),
+                                      color: Color(0xfffffefa),
                                     ),
                                     child: Container(
                                       // frame1395a (162:10)
@@ -2604,7 +2609,7 @@ class Scene extends StatelessWidget {
                                       width: 510 * fem,
                                       height: 800 * fem,
                                       decoration: const BoxDecoration(
-                                        color: Color(0xffffffff),
+                                        color: Color(0xfffffefa),
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
@@ -2726,7 +2731,7 @@ class Scene extends StatelessWidget {
                               width: 1035 * fem,
                               height: 66 * fem,
                               decoration: const BoxDecoration(
-                                color: Color(0xffffffff),
+                                color: Color(0xfffffefa),
                               ),
                               child: Center(
                                 child: Center(
@@ -2780,14 +2785,14 @@ class Scene extends StatelessWidget {
                       width: 1446 * fem,
                       height: 1030 * fem,
                       decoration: const BoxDecoration(
-                        color: Color(0xffffffff),
+                        color: Color(0xfffffefa),
                       ),
                       child: Container(
                         // divkHe (137:6)
                         width: 1440 * fem,
                         height: 900 * fem,
                         decoration: const BoxDecoration(
-                          color: Color(0xffffffff),
+                          color: Color(0xfffffefa),
                         ),
                         child: Stack(
                           children: [
@@ -3495,7 +3500,7 @@ class Scene extends StatelessWidget {
 
                   // this is sliding chat bit zapplication and after the image slider in the slider inthe gogle docs ...
                   Container(
-                    height: 450 * fem,
+                    height: 500 * fem,
                     margin: EdgeInsets.fromLTRB(0 * fem, 4110 * fem, 0, 0),
 
                     // here you use the image large slider ...
@@ -3673,16 +3678,38 @@ class Scene extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20 * fem),
                                           ),
-                                          child: Center(
-                                            child: Text(
-                                              'Learn more',
-                                              style: TextStyle(
-                                                fontFamily: 'Product Sans',
-                                                fontSize: 14 * ffem,
-                                                fontWeight: FontWeight.w500,
-                                                height:
-                                                    2.5714285714 * ffem / fem,
-                                                color: const Color(0xffffffff),
+                                          child: InkWell(
+                                            onTap: () => {
+                                              // launch(""),
+                                              showDialog(
+                                                barrierColor:
+                                                    const Color.fromARGB(
+                                                        179, 255, 255, 255),
+                                                context: context,
+                                                builder: (context) =>
+                                                    AlertDialog(
+                                                  // Customize your AlertDialog here
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20 * fem),
+                                                  ),
+                                                ),
+                                              ),
+                                              // this section will use for alert ...
+                                            },
+                                            child: Center(
+                                              child: Text(
+                                                'Learn more',
+                                                style: TextStyle(
+                                                  fontFamily: 'Product Sans',
+                                                  fontSize: 14 * ffem,
+                                                  fontWeight: FontWeight.w500,
+                                                  height:
+                                                      2.5714285714 * ffem / fem,
+                                                  color:
+                                                      const Color(0xffffffff),
+                                                ),
                                               ),
                                             ),
                                           ),
@@ -3702,7 +3729,7 @@ class Scene extends StatelessWidget {
                   // here use for Experience ...
                   Container(
                     height: 680 * fem,
-                    margin: EdgeInsets.fromLTRB(0 * fem, 4680 * fem, 0, 0),
+                    margin: EdgeInsets.fromLTRB(0 * fem, 4730 * fem, 0, 0),
                     // decoration: BoxDecoration(
                     //   border: Border.all(color: Colors.black),
                     // ),
@@ -3757,95 +3784,119 @@ class Scene extends StatelessWidget {
                                 ),
                                 // here i use Slider ....
                                 child: CarouselSlider(
-                                    items: [
-                                      Container(
-                                        child: Row(
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.center,
-                                          children: [
-                                            Container(
-                                              decoration: BoxDecoration(
-                                                shape: BoxShape
-                                                    .circle, // Use BoxShape.circle for a circular container
-                                                color: Colors.white,
-                                                border: Border.all(
-                                                    color: Colors.white),
-                                              ),
-                                              // t0dqutifvmhrrd94lws5arscfvjue8 (1:334)
-                                              margin: EdgeInsets.fromLTRB(
-                                                  50 * fem,
-                                                  0 * fem,
-                                                  60 * fem,
-                                                  130 * fem),
-                                              width: 266.91 * fem,
-                                              height: 280.91 * fem,
-                                              child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          100 * fem),
-                                                  child: Image.asset(
-                                                      "assets/page-1/images/CodeClause_images.png")),
+                                  items: [
+                                    Container(
+                                      child: Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape
+                                                  .circle, // Use BoxShape.circle for a circular container
+                                              color: Colors.white,
+                                              border: Border.all(
+                                                  color: Colors.white),
                                             ),
-                                            SizedBox(
-                                              // divtextwrapperfaH (1:308)
-                                              width: 505 * fem,
-                                              height: double.infinity,
-                                              child: Column(
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.center,
-                                                children: [
-                                                  Container(
-                                                    // whatexcitesmemostaboutmyroleis (1:310)
-                                                    constraints: BoxConstraints(
-                                                      maxWidth: 505 * fem,
-                                                    ),
-                                                    child: Text(
-                                                      '“As a software engineer intern, I\'m thrilled by the diverse projects, amazing team, and real-world impact we achieve.”',
-                                                      style: TextStyle(
-                                                        fontFamily:
-                                                            'Product Sans',
-                                                        fontSize: 32 * ffem,
-                                                        fontWeight:
-                                                            FontWeight.w300,
-                                                        height:
-                                                            1.25 * ffem / fem,
-                                                        letterSpacing:
-                                                            -0.5 * fem,
-                                                        color: const Color(
-                                                            0xff202124),
-                                                      ),
+                                            // t0dqutifvmhrrd94lws5arscfvjue8 (1:334)
+                                            margin: EdgeInsets.fromLTRB(
+                                                50 * fem,
+                                                0 * fem,
+                                                60 * fem,
+                                                130 * fem),
+                                            width: 266.91 * fem,
+                                            height: 280.91 * fem,
+                                            child: ClipRRect(
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        100 * fem),
+                                                child: Image.asset(
+                                                    "assets/page-1/images/CodeClause_images.png")),
+                                          ),
+                                          SizedBox(
+                                            // divtextwrapperfaH (1:308)
+                                            width: 505 * fem,
+                                            height: double.infinity,
+                                            child: Column(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                  // whatexcitesmemostaboutmyroleis (1:310)
+                                                  constraints: BoxConstraints(
+                                                    maxWidth: 505 * fem,
+                                                  ),
+                                                  child: Text(
+                                                    '“As a software engineer intern, I\'m thrilled by the diverse projects, amazing team, and real-world impact we achieve.”',
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          'Product Sans',
+                                                      fontSize: 32 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                      height: 1.25 * ffem / fem,
+                                                      letterSpacing: -0.5 * fem,
+                                                      color: const Color(
+                                                          0xff202124),
                                                     ),
                                                   ),
-                                                  Container(
-                                                    // autogroupfcrpoyK (GFH1ij99VzAi64TVaafCRP)
-                                                    padding:
-                                                        EdgeInsets.fromLTRB(
-                                                            0 * fem,
-                                                            35 * fem,
-                                                            0 * fem,
-                                                            0 * fem),
-                                                    width: double.infinity,
-                                                    child: Column(
-                                                      crossAxisAlignment:
-                                                          CrossAxisAlignment
-                                                              .start,
-                                                      children: [
-                                                        Container(
-                                                          // divauthorwrapperKAy (1:311)
-                                                          margin: EdgeInsets
-                                                              .fromLTRB(
-                                                                  6 * fem,
-                                                                  0 * fem,
-                                                                  0 * fem,
-                                                                  40 * fem),
-                                                          child: Column(
-                                                            crossAxisAlignment:
-                                                                CrossAxisAlignment
-                                                                    .start,
-                                                            children: [
-                                                              Text(
-                                                                // leratoseopelazH7 (1:313)
-                                                                'CodeClause',
+                                                ),
+                                                Container(
+                                                  // autogroupfcrpoyK (GFH1ij99VzAi64TVaafCRP)
+                                                  padding: EdgeInsets.fromLTRB(
+                                                      0 * fem,
+                                                      35 * fem,
+                                                      0 * fem,
+                                                      0 * fem),
+                                                  width: double.infinity,
+                                                  child: Column(
+                                                    crossAxisAlignment:
+                                                        CrossAxisAlignment
+                                                            .start,
+                                                    children: [
+                                                      Container(
+                                                        // divauthorwrapperKAy (1:311)
+                                                        margin:
+                                                            EdgeInsets.fromLTRB(
+                                                                6 * fem,
+                                                                0 * fem,
+                                                                0 * fem,
+                                                                40 * fem),
+                                                        child: Column(
+                                                          crossAxisAlignment:
+                                                              CrossAxisAlignment
+                                                                  .start,
+                                                          children: [
+                                                            Text(
+                                                              // leratoseopelazH7 (1:313)
+                                                              'CodeClause',
+                                                              style: TextStyle(
+                                                                fontFamily:
+                                                                    'Product Sans',
+                                                                fontSize:
+                                                                    16 * ffem,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w300,
+                                                                height: 1.75 *
+                                                                    ffem /
+                                                                    fem,
+                                                                letterSpacing:
+                                                                    0.150000006 *
+                                                                        fem,
+                                                                color: const Color(
+                                                                    0xff5f6368),
+                                                              ),
+                                                            ),
+                                                            Container(
+                                                              // associateproductmarketingmanag (1:315)
+                                                              constraints:
+                                                                  BoxConstraints(
+                                                                maxWidth:
+                                                                    408 * fem,
+                                                              ),
+                                                              child: Text(
+                                                                'Software Engineer Intern.\nPune, India.',
                                                                 style:
                                                                     TextStyle(
                                                                   fontFamily:
@@ -3865,138 +3916,133 @@ class Scene extends StatelessWidget {
                                                                       0xff5f6368),
                                                                 ),
                                                               ),
-                                                              Container(
-                                                                // associateproductmarketingmanag (1:315)
-                                                                constraints:
-                                                                    BoxConstraints(
-                                                                  maxWidth:
-                                                                      408 * fem,
-                                                                ),
-                                                                child: Text(
-                                                                  'Software Engineer Intern.\nPune, India.',
-                                                                  style:
-                                                                      TextStyle(
-                                                                    fontFamily:
-                                                                        'Product Sans',
-                                                                    fontSize:
-                                                                        16 *
-                                                                            ffem,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .w300,
-                                                                    height: 1.75 *
-                                                                        ffem /
-                                                                        fem,
-                                                                    letterSpacing:
-                                                                        0.150000006 *
-                                                                            fem,
-                                                                    color: const Color(
-                                                                        0xff5f6368),
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ],
-                                                          ),
+                                                            ),
+                                                          ],
                                                         ),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      Container(
-                                        child: Row(
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.center,
-                                          children: [
-                                            Container(
-                                              decoration: BoxDecoration(
-                                                shape: BoxShape
-                                                    .circle, // Use BoxShape.circle for a circular container
-                                                color: Colors.white,
-                                                border: Border.all(
-                                                    color: Colors.white),
-                                              ),
-                                              // t0dqutifvmhrrd94lws5arscfvjue8 (1:334)
-                                              margin: EdgeInsets.fromLTRB(
-                                                  50 * fem,
-                                                  0 * fem,
-                                                  60 * fem,
-                                                  130 * fem),
-                                              padding: EdgeInsets.fromLTRB(
-                                                  0, 0, 5 * fem, 0),
-                                              width: 266.91 * fem,
-                                              height: 280.91 * fem,
-                                              child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          100 * fem),
-                                                  child: Image.asset(
-                                                      "assets/page-1/images/Bavch_Edutech_images.png")),
-                                            ),
-                                            SizedBox(
-                                              // divtextwrapperfaH (1:308)
-                                              width: 505 * fem,
-                                              height: double.infinity,
-                                              child: Column(
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.center,
-                                                children: [
-                                                  Container(
-                                                    // whatexcitesmemostaboutmyroleis (1:310)
-                                                    constraints: BoxConstraints(
-                                                      maxWidth: 505 * fem,
-                                                    ),
-                                                    child: Text(
-                                                      '“As a research intern, I\'m thrilled by the limitless projects, collaborative brilliance of my colleagues, and the tangible impact of our research.”',
-                                                      style: TextStyle(
-                                                        fontFamily:
-                                                            'Product Sans',
-                                                        fontSize: 32 * ffem,
-                                                        fontWeight:
-                                                            FontWeight.w300,
-                                                        height:
-                                                            1.25 * ffem / fem,
-                                                        letterSpacing:
-                                                            -0.5 * fem,
-                                                        color: const Color(
-                                                            0xff202124),
                                                       ),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Container(
+                                      child: Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape
+                                                  .circle, // Use BoxShape.circle for a circular container
+                                              color: Colors.white,
+                                              border: Border.all(
+                                                  color: Colors.white),
+                                            ),
+                                            // t0dqutifvmhrrd94lws5arscfvjue8 (1:334)
+                                            margin: EdgeInsets.fromLTRB(
+                                                50 * fem,
+                                                0 * fem,
+                                                60 * fem,
+                                                130 * fem),
+                                            padding: EdgeInsets.fromLTRB(
+                                                0, 0, 5 * fem, 0),
+                                            width: 266.91 * fem,
+                                            height: 280.91 * fem,
+                                            child: ClipRRect(
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        100 * fem),
+                                                child: Image.asset(
+                                                    "assets/page-1/images/Bavch_Edutech_images.png")),
+                                          ),
+                                          SizedBox(
+                                            // divtextwrapperfaH (1:308)
+                                            width: 505 * fem,
+                                            height: double.infinity,
+                                            child: Column(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                  // whatexcitesmemostaboutmyroleis (1:310)
+                                                  constraints: BoxConstraints(
+                                                    maxWidth: 505 * fem,
+                                                  ),
+                                                  child: Text(
+                                                    '“As a research intern, I\'m thrilled by the limitless projects, collaborative brilliance of my colleagues, and the tangible impact of our research.”',
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          'Product Sans',
+                                                      fontSize: 32 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                      height: 1.25 * ffem / fem,
+                                                      letterSpacing: -0.5 * fem,
+                                                      color: const Color(
+                                                          0xff202124),
                                                     ),
                                                   ),
-                                                  Container(
-                                                    // autogroupfcrpoyK (GFH1ij99VzAi64TVaafCRP)
-                                                    padding:
-                                                        EdgeInsets.fromLTRB(
-                                                            0 * fem,
-                                                            35 * fem,
-                                                            0 * fem,
-                                                            0 * fem),
-                                                    width: double.infinity,
-                                                    child: Column(
-                                                      crossAxisAlignment:
-                                                          CrossAxisAlignment
-                                                              .start,
-                                                      children: [
-                                                        Container(
-                                                          // divauthorwrapperKAy (1:311)
-                                                          margin: EdgeInsets
-                                                              .fromLTRB(
-                                                                  6 * fem,
-                                                                  0 * fem,
-                                                                  0 * fem,
-                                                                  40 * fem),
-                                                          child: Column(
-                                                            crossAxisAlignment:
-                                                                CrossAxisAlignment
-                                                                    .start,
-                                                            children: [
-                                                              Text(
-                                                                // leratoseopelazH7 (1:313)
-                                                                'Bavch Edutech',
+                                                ),
+                                                Container(
+                                                  // autogroupfcrpoyK (GFH1ij99VzAi64TVaafCRP)
+                                                  padding: EdgeInsets.fromLTRB(
+                                                      0 * fem,
+                                                      35 * fem,
+                                                      0 * fem,
+                                                      0 * fem),
+                                                  width: double.infinity,
+                                                  child: Column(
+                                                    crossAxisAlignment:
+                                                        CrossAxisAlignment
+                                                            .start,
+                                                    children: [
+                                                      Container(
+                                                        // divauthorwrapperKAy (1:311)
+                                                        margin:
+                                                            EdgeInsets.fromLTRB(
+                                                                6 * fem,
+                                                                0 * fem,
+                                                                0 * fem,
+                                                                40 * fem),
+                                                        child: Column(
+                                                          crossAxisAlignment:
+                                                              CrossAxisAlignment
+                                                                  .start,
+                                                          children: [
+                                                            Text(
+                                                              // leratoseopelazH7 (1:313)
+                                                              'Bavch Edutech',
+                                                              style: TextStyle(
+                                                                fontFamily:
+                                                                    'Product Sans',
+                                                                fontSize:
+                                                                    16 * ffem,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w300,
+                                                                height: 1.75 *
+                                                                    ffem /
+                                                                    fem,
+                                                                letterSpacing:
+                                                                    0.150000006 *
+                                                                        fem,
+                                                                color: const Color(
+                                                                    0xff5f6368),
+                                                              ),
+                                                            ),
+                                                            Container(
+                                                              // associateproductmarketingmanag (1:315)
+                                                              constraints:
+                                                                  BoxConstraints(
+                                                                maxWidth:
+                                                                    408 * fem,
+                                                              ),
+                                                              child: Text(
+                                                                'Research Intern.\nChennai, India.',
                                                                 style:
                                                                     TextStyle(
                                                                   fontFamily:
@@ -4016,58 +4062,27 @@ class Scene extends StatelessWidget {
                                                                       0xff5f6368),
                                                                 ),
                                                               ),
-                                                              Container(
-                                                                // associateproductmarketingmanag (1:315)
-                                                                constraints:
-                                                                    BoxConstraints(
-                                                                  maxWidth:
-                                                                      408 * fem,
-                                                                ),
-                                                                child: Text(
-                                                                  'Research Intern.\nChennai, India.',
-                                                                  style:
-                                                                      TextStyle(
-                                                                    fontFamily:
-                                                                        'Product Sans',
-                                                                    fontSize:
-                                                                        16 *
-                                                                            ffem,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .w300,
-                                                                    height: 1.75 *
-                                                                        ffem /
-                                                                        fem,
-                                                                    letterSpacing:
-                                                                        0.150000006 *
-                                                                            fem,
-                                                                    color: const Color(
-                                                                        0xff5f6368),
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ],
-                                                          ),
+                                                            ),
+                                                          ],
                                                         ),
-                                                      ],
-                                                    ),
+                                                      ),
+                                                    ],
                                                   ),
-                                                ],
-                                              ),
+                                                ),
+                                              ],
                                             ),
-                                          ],
-                                        ),
+                                          ),
+                                        ],
                                       ),
-                                    ],
-                                    
-                                    options: CarouselOptions(
-                                      viewportFraction: 1,
-                                      autoPlay: true,
-                                      autoPlayInterval:
-                                          const Duration(seconds: 7),
                                     ),
-                                    ),
-                                    
+                                  ],
+                                  options: CarouselOptions(
+                                    viewportFraction: 1,
+                                    autoPlay: true,
+                                    autoPlayInterval:
+                                        const Duration(seconds: 7),
+                                  ),
+                                ),
                               ),
                             ),
                           ),
