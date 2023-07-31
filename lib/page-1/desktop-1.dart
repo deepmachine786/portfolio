@@ -1324,7 +1324,8 @@ class Scene extends StatelessWidget {
                                         BorderRadius.circular(41 * fem),
                                     child: Image.asset(
                                       'assets/page-1/images/new_resume_pic.jpeg',
-                                      fit: BoxFit.cover,
+                                      fit: BoxFit.fill,
+                                      // here is used for the image of the resime and later we used in the code and the chang ethe something in sthe alertdialog box in the class
                                     ),
                                   ),
                                 ),
@@ -3489,7 +3490,7 @@ class Scene extends StatelessWidget {
                               viewportFraction: 0.38,
                               autoPlay: true,
 
-                              autoPlayInterval: const Duration(seconds: 7),
+                              autoPlayInterval: const Duration(seconds: 5),
                             ),
                           ),
                           //
@@ -3774,7 +3775,7 @@ class Scene extends StatelessWidget {
                               child: Container(
                                 // divslidewrapperkph (1:307)
                                 padding: EdgeInsets.fromLTRB(
-                                    80 * fem, 130 * fem, 50.09 * fem, 80 * fem),
+                                    80 * fem, 130 * fem, 50.09 * fem, 70 * fem),
                                 width: double.infinity,
                                 height: double.infinity,
                                 decoration: BoxDecoration(
@@ -3896,7 +3897,7 @@ class Scene extends StatelessWidget {
                                                                     408 * fem,
                                                               ),
                                                               child: Text(
-                                                                'Software Engineer Intern.\nPune, India.',
+                                                                'Software Engineer Intern.\nPune, India.\n',
                                                                 style:
                                                                     TextStyle(
                                                                   fontFamily:
@@ -3917,6 +3918,75 @@ class Scene extends StatelessWidget {
                                                                 ),
                                                               ),
                                                             ),
+                                                            // SizedBox(
+                                                            //   height: 10 * fem,
+                                                            // ),
+                                                            Container(
+                                                              // findouthowdevicesworkbettertog (126:12)
+                                                              width: 120 * fem,
+                                                              height: 44 * fem,
+                                                              margin: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      0,
+                                                                      0 * fem,
+                                                                      0,
+                                                                      0),
+                                                              padding: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      1 * fem,
+                                                                      0 * fem,
+                                                                      0 * fem,
+                                                                      2 * fem),
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: const Color(
+                                                                    0xff174EA6),
+                                                                border: Border.all(
+                                                                    color: const Color(
+                                                                        0xff1A73E8)),
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(30 *
+                                                                            fem),
+                                                              ),
+                                                              child: Center(
+                                                                // Here We Suggets to use FloatActionButton is best ... Remove from row..
+
+                                                                child: InkWell(
+                                                                  // onHover: Colors.blue,
+                                                                  onTap: () => {
+                                                                    launch(
+                                                                        "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=drive_link"),
+                                                                  },
+                                                                  child: Center(
+                                                                    child: Text(
+                                                                      'View site',
+                                                                      style:
+                                                                          TextStyle(
+                                                                        fontFamily:
+                                                                            'Product Sans',
+                                                                        fontSize:
+                                                                            15 *
+                                                                                ffem,
+                                                                        fontWeight:
+                                                                            FontWeight.w500,
+                                                                        height: 1.6 *
+                                                                            ffem /
+                                                                            fem,
+                                                                        letterSpacing:
+                                                                            -0.25 *
+                                                                                fem,
+                                                                        color: const Color.fromARGB(
+                                                                            255,
+                                                                            255,
+                                                                            255,
+                                                                            255),
+                                                                      ),
+                                                                    ),
+                                                                  ),
+                                                                ),
+                                                              ),
+                                                            ),
                                                           ],
                                                         ),
                                                       ),
@@ -3929,6 +3999,8 @@ class Scene extends StatelessWidget {
                                         ],
                                       ),
                                     ),
+
+                                    // this is first container and after heis line next container will started in the ,......
                                     Container(
                                       child: Row(
                                         crossAxisAlignment:
@@ -3991,7 +4063,7 @@ class Scene extends StatelessWidget {
                                                   // autogroupfcrpoyK (GFH1ij99VzAi64TVaafCRP)
                                                   padding: EdgeInsets.fromLTRB(
                                                       0 * fem,
-                                                      35 * fem,
+                                                      30 * fem,
                                                       0 * fem,
                                                       0 * fem),
                                                   width: double.infinity,
@@ -4060,6 +4132,76 @@ class Scene extends StatelessWidget {
                                                                           fem,
                                                                   color: const Color(
                                                                       0xff5f6368),
+                                                                ),
+                                                              ),
+                                                            ),
+                                                            SizedBox(
+                                                              height: 30*fem,
+                                                            ),
+                                                            // here we use button of the secind slider of image and test with style ......
+                                                            Container(
+                                                              // findouthowdevicesworkbettertog (126:12)
+                                                              width: 120 * fem,
+                                                              height: 44 * fem,
+                                                              margin: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      0,
+                                                                      0 * fem,
+                                                                      0,
+                                                                      0),
+                                                              padding: EdgeInsets
+                                                                  .fromLTRB(
+                                                                      1 * fem,
+                                                                      0 * fem,
+                                                                      0 * fem,
+                                                                      2 * fem),
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: const Color(
+                                                                    0xff174EA6),
+                                                                border: Border.all(
+                                                                    color: const Color(
+                                                                        0xff1A73E8)),
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(30 *
+                                                                            fem),
+                                                              ),
+                                                              child: Center(
+                                                                
+
+                                                                child: InkWell(
+                                                                  // onHover: Colors.blue,
+                                                                  onTap: () => {
+                                                                    launch(
+                                                                        "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=drive_link"),
+                                                                  },
+                                                                  child: Center(
+                                                                    child: Text(
+                                                                      'View more',
+                                                                      style:
+                                                                          TextStyle(
+                                                                        fontFamily:
+                                                                            'Product Sans',
+                                                                        fontSize:
+                                                                            15 *
+                                                                                ffem,
+                                                                        fontWeight:
+                                                                            FontWeight.w500,
+                                                                        height: 1.6 *
+                                                                            ffem /
+                                                                            fem,
+                                                                        letterSpacing:
+                                                                            -0.25 *
+                                                                                fem,
+                                                                        color: const Color.fromARGB(
+                                                                            255,
+                                                                            255,
+                                                                            255,
+                                                                            255),
+                                                                      ),
+                                                                    ),
+                                                                  ),
                                                                 ),
                                                               ),
                                                             ),
