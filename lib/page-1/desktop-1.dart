@@ -887,7 +887,7 @@ class Scene extends StatelessWidget {
                                                                                       height: 19 * fem,
                                                                                       child: Center(
                                                                                         child: Text(
-                                                                                          'Jul 2021 - Jul 2024',
+                                                                                          'Jun 2021 - Jun 2024',
                                                                                           style: TextStyle(
                                                                                             fontFamily: 'Product Sans',
                                                                                             fontSize: 13 * ffem,
@@ -1054,7 +1054,7 @@ class Scene extends StatelessWidget {
                                                                                       height: 19 * fem,
                                                                                       child: Center(
                                                                                         child: Text(
-                                                                                          'Jul 2017 - Jul 2020',
+                                                                                          'Jun 2017 - Jun 2020',
                                                                                           style: TextStyle(
                                                                                             fontFamily: 'Product Sans',
                                                                                             fontSize: 13 * ffem,
@@ -1323,8 +1323,8 @@ class Scene extends StatelessWidget {
                                     borderRadius:
                                         BorderRadius.circular(41 * fem),
                                     child: Image.asset(
-                                      'assets/page-1/images/new_resume_pic.jpeg',
-                                      fit: BoxFit.fill,
+                                      'assets/page-1/images/rectangle-2.png',
+                                      fit: BoxFit.contain,
                                       // here is used for the image of the resime and later we used in the code and the chang ethe something in sthe alertdialog box in the class
                                     ),
                                   ),
@@ -1411,7 +1411,7 @@ class Scene extends StatelessWidget {
                                           // onHover: Colors.blue,
                                           onTap: () => {
                                             launch(
-                                                "https://drive.google.com/file/d/1yY6IdrZDDSRsVQc10F3gTrWm_9tBOOGr/view?usp=drive_link"),
+                                                "https://drive.google.com/file/d/1wMUGLQFS5L5vSEfsnbzykZGNKyO-h15J/view?usp=drive_link"),
                                           },
                                           child: Center(
                                             child: Text(
@@ -3759,6 +3759,22 @@ class Scene extends StatelessWidget {
                               ),
                             ),
                           ),
+                          Center(
+                            child: Text(
+                              'My career journey as a Software Engineer spans a year of professional experience',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontFamily: 'Product Sans',
+                                fontSize: 20 * ffem,
+                                fontWeight: FontWeight.w400,
+                                height: 1.3333333333 * ffem / fem,
+                                color: const Color(0xff202124),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 20*fem
+                          ),
                           SizedBox(
                             // divgluecarouselviewportuZB (1:305)
                             width: double.infinity,
@@ -3956,11 +3972,11 @@ class Scene extends StatelessWidget {
                                                                   // onHover: Colors.blue,
                                                                   onTap: () => {
                                                                     launch(
-                                                                        "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=drive_link"),
+                                                                        "https://internship.codeclause.com/"),
                                                                   },
                                                                   child: Center(
                                                                     child: Text(
-                                                                      'View site',
+                                                                      'View more',
                                                                       style:
                                                                           TextStyle(
                                                                         fontFamily:
@@ -3976,7 +3992,8 @@ class Scene extends StatelessWidget {
                                                                         letterSpacing:
                                                                             -0.25 *
                                                                                 fem,
-                                                                        color: const Color.fromARGB(
+                                                                        color: const Color
+                                                                            .fromARGB(
                                                                             255,
                                                                             255,
                                                                             255,
@@ -4172,7 +4189,7 @@ class Scene extends StatelessWidget {
                                                                   // onHover: Colors.blue,
                                                                   onTap: () => {
                                                                     launch(
-                                                                        "https://drive.google.com/file/d/18C40yW3cYgPpCE0k815FVAh2VteSqv9_/view?usp=drive_link"),
+                                                                        "https://www.expertia.ai/orlydns"),
                                                                   },
                                                                   child: Center(
                                                                     child: Text(
@@ -4192,7 +4209,8 @@ class Scene extends StatelessWidget {
                                                                         letterSpacing:
                                                                             -0.25 *
                                                                                 fem,
-                                                                        color: const Color.fromARGB(
+                                                                        color: const Color
+                                                                            .fromARGB(
                                                                             255,
                                                                             255,
                                                                             255,
